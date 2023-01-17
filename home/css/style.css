@@ -1,10 +1,18 @@
 /* HOMEPAGE */
 .home.banner {
-    background-image: url('/home/img/');
+    background-image: url('/home/img/banner.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     height: 90vh;
+}
+
+.banner .wrapper {
+    gap: 20px;
+}
+
+.banner .btn:hover {
+    color: var(--white);
 }
 
 .banner .ghost-btn {
@@ -44,7 +52,7 @@
 
 .section.beachhead .filter {
     display: flex;
-    gap: 60px;
+    gap: 40px;
 }
 
 .section.beachhead .filter a {
@@ -65,17 +73,28 @@
     transition: var(--transition);
 }
 
-.section.blue {
-    background-color: var(--blue);
-    color: var(--white);
+.section.beachhead .wrapper {
+    gap: 60px;
+    align-items: center;
+    margin-top: 40px;
 }
 
-.section.grey {
-    background-color: var(--lightGrey);
+.section.beachhead .wrapper .item {
+    text-align: left;
+    gap: 20px;
 }
 
-.section.full-height {
-    height: 80vh;
+.section.beachhead .wrapper .item .large {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.section.beachhead .wrapper .item .image {
+    border-radius: 30px;
+}
+
+.section.beachhead .wrapper .item .client-logo {
+    max-width: 200px;
 }
 
 .section.content-holder .wrapper {
@@ -86,7 +105,6 @@
     margin: 0 auto;
 }
 
-
 .wrapper.contact-section {
     display: flex;
     flex-flow: row wrap;
@@ -94,4 +112,10 @@
     align-items: center;
 
     width: 100%;
+}
+
+.home.section .headline {
+    color: var(--white);
+    font-size: 76px;
+    max-width: 65%;
 }

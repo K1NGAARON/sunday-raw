@@ -74,6 +74,17 @@ body {
   flex-direction: column;
 }
 
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.wrapper .item {
+  flex: 1 0 350px;
+  display: flex;
+  flex-direction: column;
+}
+
 
 /* FONTS */
 h1,
@@ -105,6 +116,7 @@ p {
 a {
   color: var(--black);
   transform: var(--transition);
+  text-decoration: none;
 }
 
 a:hover {
@@ -135,6 +147,10 @@ select:focus-visible {
 
 .black {
   color: var(--black);
+}
+
+.active {
+  color: var(--primary);
 }
 
 /* BUTTONS */
@@ -180,6 +196,19 @@ select:focus-visible {
 
 .btn.ghost-btn:hover {
 
+}
+
+.section.blue {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.section.grey {
+  background-color: var(--lightGrey);
+}
+
+.section.full-height {
+  height: 80vh;
 }
 
 
