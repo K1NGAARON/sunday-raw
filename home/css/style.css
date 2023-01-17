@@ -1,0 +1,97 @@
+/* HOMEPAGE */
+.home.banner {
+    background-image: url('/home/img/');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 90vh;
+}
+
+.banner .ghost-btn {
+    color: var(--white);
+    border-color: var(--white);
+}
+
+.section .row .usp {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    margin-top: 40px;
+}
+
+.section .row .usp a {
+    font-size: 30px;
+    transition: var(--transition);
+}
+
+.section .row .usp a.active {
+    font-weight: 600;
+    color: var(--primary);
+    transition: var(--transition);
+}
+
+.section.usp img {
+    border-radius: 26px;
+    margin-bottom: 60px;
+}
+
+.section.logos .globally {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: var(--darkGrey);
+}
+
+.section.beachhead .filter {
+    display: flex;
+    gap: 60px;
+}
+
+.section.beachhead .filter a {
+    color: var(--primary);
+    border: 3px solid var(--primary);
+    border-radius: 26px;
+    padding: 10px 30px;
+    transition: var(--transition);
+}
+
+.section.beachhead .filter a:hover {
+    cursor: pointer;
+}
+
+.section.beachhead .filter .active {
+    color: var(--white);
+    background-color: var(--primary);
+    transition: var(--transition);
+}
+
+.section.blue {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.section.grey {
+    background-color: var(--lightGrey);
+}
+
+.section.full-height {
+    height: 80vh;
+}
+
+.section.content-holder .wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 40px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+
+.wrapper.contact-section {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 60px;
+    align-items: center;
+
+    width: 100%;
+}
