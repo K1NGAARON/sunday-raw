@@ -52,6 +52,10 @@
     margin-left: auto;
 }
 
+.nav-item.btn:hover {
+    color: var(--white);
+}
+
 .nav-item.btn,
 .nav-item.home {
     padding-top: 12px;
