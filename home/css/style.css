@@ -119,3 +119,75 @@
     font-size: 76px;
     max-width: 65%;
 }
+
+
+/* Customer collections */
+
+
+/* Highlighted content */
+.section.highlighted-content .wrapper {
+    gap: 60px;
+    margin-top: 40px;
+}
+
+.section.highlighted-content .wrapper .item {
+    border-radius: 30px;
+    box-shadow: 0px 3px 6px #00000029;
+    gap: 20px;
+}
+
+.section.highlighted-content .wrapper .item {
+    text-align: left;
+}
+
+.section.highlighted-content .wrapper .item p,
+.section.highlighted-content .wrapper .item h5 {
+    padding: 0 20px;
+}
+
+.section.highlighted-content .wrapper .item h5 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.section.highlighted-content .wrapper .item .btn {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Deliverect case */
+
+
+
+
+/* Products */
+.section.products .row {
+    padding: 0;
+}
+
+.section.products .wrapper {
+    gap: 0;
+}
+
+.section.products .wrapper .item {
+    flex: 1 0 25%;
+    height: 100%;
+    position: relative;
+}
+
+
+.section.products .wrapper .item .content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section.products .wrapper .item .content h5 {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 600;
+}
