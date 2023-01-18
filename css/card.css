@@ -1,0 +1,44 @@
+.wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    flex: 1 0 350px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-bottom-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+    box-shadow: var(--boxShadow);
+}
+
+.card img {
+    border-top-right-radius: 26px;
+    border-top-left-radius: 26px;
+}
+
+.card h5 {
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.card .btn {
+    color: var(--black);
+    background-color: var(--white);
+    border: 1px solid var(--black);
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.card .btn:hover {
+    color: var(--white);
+    background-color: var(--black);
+}
+
+.card .logo,
+.card h5,
+.card p {
+    padding: 0 20px;
+}
