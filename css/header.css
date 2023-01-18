@@ -1,11 +1,13 @@
 .header {
     width: 100%;
     max-width: none;
-    height: unset;
+    min-height: unset;
+    position: absolute;
+    background-color: transparent;
 }
 
 .header .row {
-    margin: 20px auto;
+    margin: 5px auto;
     padding: 10px 80px;
     justify-content: flex-start;
 }
@@ -16,13 +18,13 @@
 
 .navigation {
     display: flex;
-    gap: 60px;
+    gap: 70px;
 }
 
 .navigation .nav-item {
     text-decoration: none;
-    color: var(--black);
-    font-size: 18px;
+    color: var(--white);
+    font-size: 16px;
 }
 
 .nav-item {
@@ -40,7 +42,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: var(--primary);
+    background-color: var(--white);
     transform: scaleX(0);
     transition: transform 0.3s ease;
 }
@@ -51,6 +53,10 @@
 
 .nav-item.btn {
     margin-left: auto;
+    font-size: 14px;
+    color: var(--black);
+    background-color: var(--white);
+    border: none;
 }
 
 .nav-item.btn:hover {

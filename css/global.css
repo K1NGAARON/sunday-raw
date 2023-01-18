@@ -33,7 +33,7 @@ body {
 
 /* FOUNDATION */
 .section.banner{
-  height: 90vh;
+  min-height: 100vh;
 }
 
 .section {
@@ -41,7 +41,7 @@ body {
   flex-direction: column;
   justify-content: center;
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .section .row {
@@ -246,6 +246,14 @@ select:focus-visible {
 }
 
 /* CONTACT FORM */
+.section.contact h2 {
+  font-size: 76px;
+}
+
+.section.contact p {
+  font-size: 22px;
+}
+
 .contact-form {
   width: 70%;
   margin: 0 auto;
@@ -255,6 +263,10 @@ select:focus-visible {
 .contact-form form {
   margin: 0;
   padding: 0;
+}
+
+.contact-form textarea {
+  height: 150px;
 }
 
 .contact-form input,
@@ -275,7 +287,14 @@ select:focus-visible {
 .contact-form.transparent textarea {
   border-color: var(--white);
   color: var(--white);
-  background-color: var(--white);
+  background-color: transparent;
+}
+
+.contact-form.transparent input::placeholder ,
+.contact-form.transparent select::placeholder ,
+.contact-form.transparent textarea::placeholder  {
+  color: var(--white);
+  opacity: 1;
 }
 
 .contact-form input:focus-visible,
@@ -298,13 +317,17 @@ select:focus-visible {
   font-size: 18px;
   font-weight: 700;
   text-decoration: none;
-  width: 100%;
+  width: fit-content;
   border-radius: 9px;
   padding: 10px 30px;
   margin: 8px auto 0 auto;
   color: var(--white);
   background-color: var(--primary);
   border: none;
+}
+
+.section .contact-form.transparent .hs-button:hover {
+  color: var(--white);
 }
 
 .contact-form.transparent .hs-button {
