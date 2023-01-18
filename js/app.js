@@ -10,3 +10,18 @@ $(document).scroll(function () {
         $(logo).attr("src","/branding/logo-white.svg");
     }
 });
+
+
+$(window).scroll(function() {
+    const scale = document.querySelector('#scale');
+    console.log(scale);
+
+    if (scale) {
+        let mass = Math.min(20, 1+0.005*$(this).scrollTop());
+        console.log(mass);
+
+        $('#scale').css('transform', 'scale(' + mass + ')');
+    }
+
+
+});

@@ -173,6 +173,7 @@ select:focus-visible {
 
 /* BUTTONS */
 .btn {
+  font-size: 14px;
   font-weight: 600;
   text-decoration: none;
   line-height: 1;
@@ -241,8 +242,12 @@ select:focus-visible {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--black);
-  opacity: 0.3;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(0,0,0,0) 70%);;
+}
+
+.section .overlay.vertical {
+  background: linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(0,0,0,0) 70%);
+  opacity: 0.7;
 }
 
 /* CONTACT FORM */
@@ -407,3 +412,13 @@ select:focus-visible {
 @media (max-width: 760px) {
 
 }
+/* 
+
+#scale {
+  width: 100vw; 
+  height: 100vh;
+  text-align: center;
+  position: fixed;
+  font-size: 5vw;
+  transform-origin: center top;
+} */
