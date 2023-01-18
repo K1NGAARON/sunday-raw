@@ -219,6 +219,11 @@ select:focus-visible {
   background-color: var(--lightGrey);
 }
 
+.section.purple {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
 .section.full-height {
   height: 80vh;
 }
