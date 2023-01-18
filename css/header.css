@@ -4,6 +4,24 @@
     min-height: unset;
     position: absolute;
     background-color: transparent;
+    z-index: 99;
+    transition: background-color 200ms linear;
+}
+
+.header.active {
+    position: fixed;
+    top: 0;
+    background-color: var(--white);
+    transition: background-color 200ms linear;
+}
+
+.header.active .nav-item {
+    color: var(--black);
+}
+
+.header.active .nav-item.btn {
+    background-color: var(--primary);
+    color: var(--white);
 }
 
 .header .row {
