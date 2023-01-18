@@ -60,7 +60,7 @@
 }
 
 .nav-item.btn:hover {
-    color: var(--white);
+    color: var(--black);
 }
 
 .nav-item.btn,
