@@ -184,6 +184,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    z-index: 15;
 }
 
 .section.products .wrapper .item .content h5 {

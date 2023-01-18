@@ -26,6 +26,10 @@ body {
   overflow-x: hidden;
 }
 
+.hidden {
+  display: none!important;
+}
+
 /* FOUNDATION */
 .section {
   display: flex;
@@ -72,11 +76,13 @@ body {
 
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 
 .wrapper {
   display: flex;
   flex-flow: row wrap;
+  width: 100%;
 }
 
 .wrapper .item {
@@ -137,6 +143,10 @@ select:focus-visible {
  outline: unset; 
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .center {
   text-align: center;
 }
@@ -174,6 +184,7 @@ select:focus-visible {
 }
 
 .btn.white-btn {
+  border-color: var(--white);
   background-color: var(--white);
   color: var(--black);
 }
@@ -211,15 +222,136 @@ select:focus-visible {
   height: 80vh;
 }
 
-
 .section .overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  background-color: var(--black);
+  opacity: 0.3;
 }
 
+/* CONTACT FORM */
+.contact-form {
+  width: 70%;
+  margin: 0 auto;
+  z-index: 15;
+}
+
+.contact-form form {
+  margin: 0;
+  padding: 0;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px 15px;
+  border-radius: 9px;
+  border: 1px solid var(--black);
+  font-size: 14px;
+  color: var(--black);
+  transition: var(--transition);
+}
+
+.contact-form.transparent input,
+.contact-form.transparent select,
+.contact-form.transparent textarea {
+  border-color: var(--white);
+  color: var(--white);
+  background-color: var(--white);
+}
+
+.contact-form input:focus-visible,
+.contact-form select:focus-visible,
+.contact-form textarea:focus-visible {
+  border: 3px solid var(--primary);
+  outline: none;
+  transition: var(--transition);
+}
+
+.contact-form label {
+  color: var(--black);
+  font-weight: 700;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.contact-form .hs-button {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  width: 100%;
+  border-radius: 9px;
+  padding: 10px 30px;
+  margin: 8px auto 0 auto;
+  color: var(--white);
+  background-color: var(--primary);
+  border: none;
+}
+
+.contact-form.transparent .hs-button {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.contact-form.transparent .legal-consent-container .hs-form-booleancheckbox-display>span p {
+  color: var(--white);
+}
+
+.contact-form .hs-button:hover {
+  border: none;
+  background-color: var(--black);
+  transition: var(--transition);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.contact-form .legal-consent-container .hs-form-booleancheckbox-display p {
+  font-size: 14px;
+}
+
+.contact-form.white .hs-button {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.legal-consent-container .hs-form-booleancheckbox-display>span p {
+  color: var(--black);
+}
+
+.contact-form ul {
+  list-style: none;
+}
+
+
+/* ERROR STYLING */
+.contact-form .hs-input.invalid {
+  border-color: red;
+}
+
+.contact-form .hs-error-msg,
+.contact-form .hs-error-msgs label {
+  color: red;
+}
+
+.contact-form .hs-error-msgs li:before,
+.contact-form .inputs-list li:before {
+  content: '';
+}
+
+/* CHECKBOX STYLING */
+.contact-form .hs-form-booleancheckbox {
+  display: flex;
+}
+
+.contact-form .hs-form-booleancheckbox input[type=checkbox] {
+  width: unset;
+}
 
 
 @media (max-width: 540px) {

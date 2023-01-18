@@ -1,0 +1,77 @@
+.section.banner.contact {
+    color: var(--white);
+    background-image: url('../img/banner.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.section.banner.contact .overlay {
+    opacity: 0.45;
+}
+
+.section.banner.contact h1 {
+    font-size: 76px;
+}
+
+.section.apply h3 {
+    font-size: 56px;
+    max-width: 50%;
+}
+
+#offices .wrapper {
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+#offices .wrapper .item:nth-child(1) {
+    text-align: right;
+    font-size: 36px;
+}
+
+#offices .wrapper .item:nth-child(3) {
+    gap: 20px;
+}
+
+#offices .wrapper .item img {
+    border-radius: 30px;
+}
+
+#offices .wrapper .item a.active {
+    font-weight: 600;
+    color: var(--primary);
+}
+
+#offices .wrapper .item .container {
+    display: flex;
+}
+
+#offices .wrapper .item .container a {
+    color: var(--primary);
+}
+
+#offices .wrapper .item .container.align-center {
+    align-items: center;
+    gap: 10px;
+}
+
+#offices .wrapper .item .container img {
+    width: fit-content;
+}
+
+#offices .wrapper .item .column {
+    flex-direction: column;
+}
+
+.section.apply {
+    color: var(--white);
+    background-image: url("../img/apply.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.section.apply .overlay {
+    background-image: url('/img/overlay.png');
+}
