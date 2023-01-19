@@ -1,5 +1,5 @@
 .banner {
-    background-image: url('../img/banner.jpeg');
+    background-image: url('../img/banner.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,6 +12,7 @@
 .banner .overlay {
     background: url('/img/overlay.png') center left no-repeat;
     opacity: 1;
+    background-size: cover;
 }
 
 .banner .row {
