@@ -12,6 +12,7 @@
 .banner .overlay {
     background: url('/img/overlay.png') center left no-repeat;
     opacity: 1;
+    background-size: cover;
 }
 
 .banner .row {
