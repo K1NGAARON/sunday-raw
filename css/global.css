@@ -10,6 +10,7 @@
   --transition: all .25s ease-in-out;
   --boxShadow: 0px 3px 6px #00000029;
   --overlay: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(0,0,0,0) 70%);
+  --overlayVertical: linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(0,0,0,0) 70%);
 }
 
 * {
