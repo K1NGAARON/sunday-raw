@@ -9,6 +9,7 @@
 
 #filter {
     background-color: var(--lightGrey);
+    min-height: unset;
 }
 
 #filter .wrapper {
@@ -35,4 +36,8 @@
 #filter .wrapper .item a {
     font-size: 18px;
     text-decoration: underline;
+}
+
+.section.content {
+    min-height: unset;
 }
