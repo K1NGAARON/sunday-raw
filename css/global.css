@@ -400,6 +400,126 @@ select:focus-visible {
 }
 
 
+/* FAQ */
+.faq h2 {
+  font-size: 56px;
+}
+
+.faq .row:nth-child(1) {
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  justify-content: flex-start;
+}
+
+.faq .row:nth-child(2) {
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+
+.faq .accordion-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+
+.faq .accordion-list .accordion-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 30px 20px;
+  border-radius: 12px;
+}
+
+.faq .accordion-list .accordion-item:hover {
+  cursor: pointer;
+}
+
+.faq .accordion-list .accordion-item .accordion-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--black);
+  padding-bottom: 15px;
+}
+
+.faq .accordion-list .accordion-item .accordion-head.active {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.faq .accordion-list .accordion-item .accordion-head h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--black);
+  opacity: 1;
+  transition: var(--transition);
+}
+
+.faq .accordion-list .accordion-item .accordion-head.active h5 {
+  color: var(--primary);
+  transition: var(--transition);
+}
+
+.faq .accordion-list .accordion-item .accordion-head .icon {
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  background-color: var(--black);
+  display: flex;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq .accordion-list .accordion-item .accordion-head .icon:hover {
+  cursor: pointer;
+}
+
+.faq .accordion-list .accordion-item .accordion-head .icon.active {
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(90deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+}
+
+.faq .accordion-list .accordion-item .accordion-body {
+  display: none;
+}
+
+.faq .accordion-list .accordion-item .accordion-body.active {
+  display: block;
+}
+
+.faq .accordion-list .accordion-item .accordion-body p {
+  font-size: 16px;
+  margin-top: 20px;
+  color: var(--black);
+  opacity: 0.5;
+}
+
+.faq a {
+  color: var(--black);
+}
+
+.faq ol {
+  margin-top: 20px;
+  padding-left: 40px;
+}
+
+.faq li {
+  color: var(--black);
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
+
 @media (max-width: 540px) {
   .section .row {
     flex-flow: column;
