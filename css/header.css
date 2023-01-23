@@ -198,8 +198,7 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    width: 100%;
-    max-width: 800px;
+    width: 50%;
     margin-top: 20px;
 }
 
@@ -218,7 +217,7 @@
 .footer .row.legal .wrapper .item a,
 .footer .row.legal .wrapper .item p {
     color: #9d9d9d;
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
     text-transform: uppercase;
 }
