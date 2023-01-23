@@ -33,5 +33,32 @@ function toggleUSP(e) {
     }
 };
 
+const beachheads = [
+    {
+        headline: '',
+        image: '',
+        logo: '',
+        body: '',
+        url: ''
+    }
+];
+
+function toggleBeachhead(e) {
+    let headlineHolder = document.querySelector('#headlineHolder');
+    let imageHolder = document.querySelector('#imageHolder');
+    let logoHolder = document.querySelector('#logoHolder');
+    let bodyHolder = document.querySelector('#bodyHolder');
+    let buttonHolder = document.querySelector('#caseBtn');
+    
+    $('.beachhead-btn').removeClass('active');
+    $(this).addClass('active');
+
+
+
+
+
+}
+
 
 $('.usp-toggle').click(toggleUSP);
+$('.beachhead-btn').click(toggleBeachhead);

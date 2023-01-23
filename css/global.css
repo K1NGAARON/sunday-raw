@@ -399,6 +399,18 @@ select:focus-visible {
   width: unset;
 }
 
+/* LOGOS */
+.logos .wrapper {
+  align-items: center;
+}
+
+.logos .wrapper .item {
+  flex: 1 0;
+}
+
+.logos .wrapper .item img {
+  max-width: 100px;
+}
 
 /* FAQ */
 .faq h2 {
