@@ -25,18 +25,18 @@
             <div class="navigation">
                 <a class="nav-item" href="">Products</a>
                 <a class="nav-item" href="">Distribution</a>
-                <a class="nav-item" href="">Customers</a>
+                <a class="nav-item" href="/cases/">Customers</a>
                 <a class="nav-item" href="">Content hub</a>
                 <a class="nav-item" href="">Pricing</a>
                 <a class="nav-item" href="">Company</a>
             </div>
 
-            <a class="btn nav-item" href="">Contact us</a>
+            <a class="btn nav-item" href="/contact/">Contact us</a>
         </div>
 
         <div class="topnav-content-sm">
             <div class="item">
-                <a href="#hero-section">
+                <a href="/">
                     <img class="logo" src="/branding/logo-white.svg" alt="Sunday logo">
                 </a>
             </div>
@@ -51,16 +51,15 @@
             <div class="small-menu-content">
                 <a class="nav-item" href="">Products</a>
                 <a class="nav-item" href="">Distribution</a>
-                <a class="nav-item" href="">Customers</a>
+                <a class="nav-item" href="/cases/">Customers</a>
                 <a class="nav-item" href="">Content hub</a>
                 <a class="nav-item" href="">Pricing</a>
                 <a class="nav-item" href="">Company</a>
-                <a class="nav-item" href="">Contact</a>
+                <a class="nav-item" href="/contact/">Contact</a>
             </div>
         </div>
     </div>
 </header>
-
 
 <div class="section banner home">
     <div class="row flex-col">
@@ -68,8 +67,8 @@
             Create sustainable branded clothing & ship worldwide.
         </h1>
         <div class="wrapper">
-            <a href="" class="btn">View products</a>
-            <a href="" class="btn ghost-btn">Discover platform</a>
+            <a href="/catalog/" class="btn">View products</a>
+            <a href="/platform/" class="btn ghost-btn">Discover platform</a>
         </div>
     </div>
 </div>
@@ -83,14 +82,14 @@
                 Sunday?
             </h2>
             <div class="usp">
-                <a class="active" id="unique-design" href="">Unique design</a>
-                <a id="ship-worldwide" href="">Ship worldwide</a>
-                <a id="worldclass-service" href="">Worldclass service</a>
+                <a class="usp-toggle active" id="unique-design">Unique design</a>
+                <a class="usp-toggle" id="ship-worldwide">Ship worldwide</a>
+                <a class="usp-toggle" id="worldclass-service">Worldclass service</a>
             </div>
         </div>
         <div class="col">
             <img id="usp-image" src="./home/img/banner.jpg" alt="">
-            <p>
+            <p id="usp-body">
                 We noticed that many of our customers love doing creative campaigns using awesome clothing,
                 but they hate the hassle. That's why we started working on a solution. The Sunday Wardrobe™
                 is our SaaS-solution, making it super easy for companies to warehouse, handle and ship
@@ -99,7 +98,6 @@
         </div>
     </div>
 </div>
-
 
 <div class="section logos">
     <div class="row flex-col center">
@@ -138,11 +136,11 @@
 
 <div class="section beachhead">
     <div class="row flex-col center">
-        <!-- <div id="scale">
+        <div id="scale">
             <h2 class="center">
                 We would love to help you with
             </h2>
-        </div> -->
+        </div>
         <div class="filter">
             <a href="" class="item active">Onboarding</a>
             <a href="" class="item">Fairs & events</a>
@@ -378,5 +376,6 @@
 
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <script src="/js/app.js"></script>
+    <script src="./home/js/script.js"></script>
 </body>
 </html>

@@ -33,6 +33,10 @@
     transition: var(--transition);
 }
 
+.usp-toggle:hover {
+    cursor: pointer;
+}
+
 .section .row .usp a.active {
     font-weight: 600;
     color: var(--primary);
@@ -42,6 +46,11 @@
 .section.usp img {
     border-radius: 26px;
     margin-bottom: 60px;
+}
+
+.logos.section,
+.logos.section .row {
+    min-height: unset;
 }
 
 .section.logos .globally {
