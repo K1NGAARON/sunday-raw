@@ -1,59 +1,71 @@
 const target = document.querySelector('.section.content > .row > .wrapper');
 const content = [
     {
-        client: 'videoland',
+        client: 'videoland HR',
         title: 'A promise of awesome, sustainable fashion to Videoland',
         body: 'As one of the largest consumer brands of RTL, Videoland’s priority is building brand ambassadors internally and externally.',
         logo: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-logo-black_lr.png',
         img: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-1024x683.jpg',
-        url: 'https://teamsunday.com/en/client-cases/a-promise-of-awesome-sustainable-fashion-to-videoland/'
+        url: 'https://teamsunday.com/en/client-cases/a-promise-of-awesome-sustainable-fashion-to-videoland/',
+        beachhead: 'HR',
+        companysize: '',
     },
     {
-        client: 'videoland',
+        client: 'videoland Sales',
         title: 'A promise of awesome, sustainable fashion to Videoland',
         body: 'As one of the largest consumer brands of RTL, Videoland’s priority is building brand ambassadors internally and externally.',
         logo: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-logo-black_lr.png',
         img: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-1024x683.jpg',
-        url: 'https://teamsunday.com/en/client-cases/a-promise-of-awesome-sustainable-fashion-to-videoland/'
+        url: 'https://teamsunday.com/en/client-cases/a-promise-of-awesome-sustainable-fashion-to-videoland/',
+        beachhead: 'Sales',
+        companysize: '',
     },
     {
-        client: 'videoland',
+        client: 'videoland Marketing',
         title: 'A promise of awesome, sustainable fashion to Videoland',
         body: 'As one of the largest consumer brands of RTL, Videoland’s priority is building brand ambassadors internally and externally.',
         logo: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-logo-black_lr.png',
         img: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-1024x683.jpg',
-        url: 'https://teamsunday.com/en/client-cases/a-promise-of-awesome-sustainable-fashion-to-videoland/'
+        url: 'https://teamsunday.com/en/client-cases/a-promise-of-awesome-sustainable-fashion-to-videoland/',
+        beachhead: 'Marketing',
+        companysize: '',
     },
     {
-        client: 'videoland',
+        client: 'videoland Marketing',
         title: 'A promise of awesome, sustainable fashion to Videoland',
         body: 'As one of the largest consumer brands of RTL, Videoland’s priority is building brand ambassadors internally and externally.',
         logo: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-logo-black_lr.png',
         img: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-1024x683.jpg',
-        url: 'https://teamsunday.com/en/client-cases/a-promise-of-awesome-sustainable-fashion-to-videoland/'
+        url: 'https://teamsunday.com/en/client-cases/a-promise-of-awesome-sustainable-fashion-to-videoland/',
+        beachhead: 'Marketing',
+        companysize: '',
     },
     {
-        client: 'videoland',
+        client: 'videoland HR',
         title: 'A promise of awesome, sustainable fashion to Videoland',
         body: 'As one of the largest consumer brands of RTL, Videoland’s priority is building brand ambassadors internally and externally.',
         logo: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-logo-black_lr.png',
         img: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-1024x683.jpg',
-        url: 'https://teamsunday.com/en/client-cases/a-promise-of-awesome-sustainable-fashion-to-videoland/'
+        url: 'https://teamsunday.com/en/client-cases/a-promise-of-awesome-sustainable-fashion-to-videoland/',
+        beachhead: 'HR',
+        companysize: '',
     },
     {
-        client: 'videoland',
+        client: 'videoland Sales',
         title: 'A promise of awesome, sustainable fashion to Videoland',
         body: 'As one of the largest consumer brands of RTL, Videoland’s priority is building brand ambassadors internally and externally.',
         logo: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-logo-black_lr.png',
         img: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-1024x683.jpg',
-        url: 'https://teamsunday.com/en/client-cases/a-promise-of-awesome-sustainable-fashion-to-videoland/'
+        url: 'https://teamsunday.com/en/client-cases/a-promise-of-awesome-sustainable-fashion-to-videoland/',
+        beachhead: 'Sales',
+        companysize: '',
     }
 ];
 
 function createCards() {
     for (let i = 0; i < content.length; i++) {
         const template = `
-            <div class="card">
+            <div class="card ${content[i].beachhead.toLowerCase()}">
                 <img src="${content[i].img}" alt="${content[i].title}">
                 <img class="logo" src="${content[i].logo}" alt="${content[i].title}">
                 <h5>
