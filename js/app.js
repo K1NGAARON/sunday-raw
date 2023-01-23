@@ -65,12 +65,11 @@ const logosArray = [
 
 function shuffleArray(array) {
     array.sort(() => Math.random() - 0.5);
-}
-
-shuffleArray(logosArray);
-console.log(logosArray);
+};
 
 function createLogos() {
+    shuffleArray(logosArray);
+
     for (let i = 0; i < logosArray.length; i++) {
         const template = `
             <div class="item">
@@ -80,7 +79,6 @@ function createLogos() {
         logoTarget.insertAdjacentHTML("beforeend", template);
     };
 };
-
 
 $(document).ready(createLogos);
 
