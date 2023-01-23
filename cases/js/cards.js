@@ -1,17 +1,17 @@
 const target = document.querySelector('.section.content > .row > .wrapper');
 const content = [
     {
-        client: 'videoland HR',
-        title: 'A promise of awesome, sustainable fashion to Videoland',
-        body: 'As one of the largest consumer brands of RTL, Videoland’s priority is building brand ambassadors internally and externally.',
-        logo: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-logo-black_lr.png',
-        img: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-1024x683.jpg',
-        url: 'https://teamsunday.com/en/client-cases/a-promise-of-awesome-sustainable-fashion-to-videoland/',
+        client: 'Delaware',
+        title: 'High performance sportswear for delaware',
+        body: '            delaware is a global company that delivers advanced ICT solutions and services, guiding our customers through their business and digital transformations.',
+        logo: '/cases/delaware/img/.png',
+        img: '',
+        url: '/delaware/',
         beachhead: 'HR',
         companysize: '',
     },
     {
-        client: 'videoland Sales',
+        client: 'Honeypot',
         title: 'A promise of awesome, sustainable fashion to Videoland',
         body: 'As one of the largest consumer brands of RTL, Videoland’s priority is building brand ambassadors internally and externally.',
         logo: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-logo-black_lr.png',
@@ -21,7 +21,7 @@ const content = [
         companysize: '',
     },
     {
-        client: 'videoland Marketing',
+        client: 'Showpad',
         title: 'A promise of awesome, sustainable fashion to Videoland',
         body: 'As one of the largest consumer brands of RTL, Videoland’s priority is building brand ambassadors internally and externally.',
         logo: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-logo-black_lr.png',
@@ -31,7 +31,7 @@ const content = [
         companysize: '',
     },
     {
-        client: 'videoland Marketing',
+        client: 'ION',
         title: 'A promise of awesome, sustainable fashion to Videoland',
         body: 'As one of the largest consumer brands of RTL, Videoland’s priority is building brand ambassadors internally and externally.',
         logo: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-logo-black_lr.png',
@@ -41,23 +41,13 @@ const content = [
         companysize: '',
     },
     {
-        client: 'videoland HR',
+        client: 'Silverfin',
         title: 'A promise of awesome, sustainable fashion to Videoland',
         body: 'As one of the largest consumer brands of RTL, Videoland’s priority is building brand ambassadors internally and externally.',
         logo: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-logo-black_lr.png',
         img: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-1024x683.jpg',
         url: 'https://teamsunday.com/en/client-cases/a-promise-of-awesome-sustainable-fashion-to-videoland/',
         beachhead: 'HR',
-        companysize: '',
-    },
-    {
-        client: 'videoland Sales',
-        title: 'A promise of awesome, sustainable fashion to Videoland',
-        body: 'As one of the largest consumer brands of RTL, Videoland’s priority is building brand ambassadors internally and externally.',
-        logo: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-logo-black_lr.png',
-        img: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-1024x683.jpg',
-        url: 'https://teamsunday.com/en/client-cases/a-promise-of-awesome-sustainable-fashion-to-videoland/',
-        beachhead: 'Sales',
         companysize: '',
     }
 ];
