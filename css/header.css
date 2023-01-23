@@ -19,6 +19,10 @@
     color: var(--black);
 }
 
+.header.active .nav-item::before {
+    background-color: var(--black);
+}
+
 .header.active .nav-item.btn {
     background-color: var(--primary);
     color: var(--white);
