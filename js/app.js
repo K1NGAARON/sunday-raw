@@ -1,6 +1,6 @@
 $(document).scroll(function () {
     const header = $('.header');
-    const logo = $('.logo');
+    const logo = $('.header .logo');
 
     if ($(this).scrollTop() > header.height()) {
         $(logo).attr("src","/branding/logo-black.svg");
