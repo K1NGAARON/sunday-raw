@@ -76,3 +76,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.office:hover {
+    cursor: pointer;
+}
