@@ -406,10 +406,11 @@ select:focus-visible {
 
 .logos .wrapper .item {
   flex: 1 0;
+  align-items: center;
 }
 
 .logos .wrapper .item img {
-  max-width: 100px;
+  max-width: 125px;
 }
 
 /* FAQ */
