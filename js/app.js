@@ -68,16 +68,18 @@ function shuffleArray(array) {
 };
 
 function createLogos() {
-    shuffleArray(logosArray);
+    if (logoTarget) {
+        shuffleArray(logosArray);
 
-    for (let i = 0; i < logosArray.length; i++) {
-        const template = `
-            <div class="item">
-                <img src="${logosArray[i].img}" alt="${logosArray[i].client}">
-            </div>
-        `;
-        logoTarget.insertAdjacentHTML("beforeend", template);
-    };
+        for (let i = 0; i < logosArray.length; i++) {
+            const template = `
+                <div class="item">
+                    <img src="${logosArray[i].img}" alt="${logosArray[i].client}">
+                </div>
+            `;
+            logoTarget.insertAdjacentHTML("beforeend", template);
+        };
+    }
 };
 
 $(document).ready(createLogos);
