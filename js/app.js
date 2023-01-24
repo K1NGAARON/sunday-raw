@@ -57,10 +57,6 @@ const logosArray = [
         client: 'Zalando Logo',
         img: './img/logos/zalando-logo.svg',
     }
-    // {
-    //     client: '',
-    //     img: '',
-    // }
 ];
 
 function shuffleArray(array) {
