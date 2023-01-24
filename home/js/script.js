@@ -35,29 +35,41 @@ function toggleUSP(e) {
 
 const beachheads = [
     {
-        headline: '',
-        image: '',
-        logo: '',
-        body: '',
-        url: ''
+        headline: 'High performance sportswear for delaware',
+        image: '/cases/delaware/img/banner.jpg',
+        logo: '/cases/delaware/img/logo.png',
+        body: 'delaware is a global company that delivers advanced ICT solutions',
+        url: '/cases/delaware/'
     }
 ];
 
 function toggleBeachhead(e) {
     let headlineHolder = document.querySelector('#headlineHolder');
     let imageHolder = document.querySelector('#imageHolder');
-    let logoHolder = document.querySelector('#logoHolder');
+    let logoHolder = document.querySelector('#beachheadLogo');
     let bodyHolder = document.querySelector('#bodyHolder');
     let buttonHolder = document.querySelector('#caseBtn');
+
+    console.log(logoHolder);
     
     $('.beachhead-btn').removeClass('active');
     $(this).addClass('active');
 
+    let selectedContent = document.querySelector('.beachhead-btn.active').id;
+
+    console.log(selectedContent);
+
+    if (selectedContent === 'onboarding') {
+        $(headlineHolder).text(`${beachheads[0].headline}`);
+        $(imageHolder).attr('src', `${beachheads[0].image}`);
+        $(logoHolder).attr('src', `${beachheads[0].logo}`);
+        $(bodyHolder).text(`${beachheads[0].body}`);
+        $(buttonHolder).attr('href', `${beachheads[0].url}`);
+    };
 
 
 
-
-}
+};
 
 
 $('.usp-toggle').click(toggleUSP);
