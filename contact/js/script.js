@@ -1,50 +1,50 @@
 const offices = [
     {
-        country: '',
-        city: '',
+        country: 'Belgium',
+        city: 'Roeselare',
         flag: '',
-        location: '',
-        postal: '',
+        location: 'Hof Ter Weze 5',
+        postal: '8800 Roeselare',
         img: ''
     },
     {
-        country: '',
-        city: '',
+        country: 'Netherlands',
+        city: 'Amsterdam',
         flag: '',
-        location: '',
-        postal: '',
+        location: 'Joop Geesinkweg 641',
+        postal: '1114 AB Amsterdam',
         img: ''
     },
         {
-        country: '',
-        city: '',
+        country: 'Germany',
+        city: 'Berlin',
         flag: '',
-        location: '',
-        postal: '',
+        location: 'Lohmühlenstraße 65',
+        postal: '12435 Berlin',
         img: ''
     },
         {
-        country: '',
-        city: '',
+        country: 'Poland',
+        city: 'Łódź',
         flag: '',
-        location: '',
-        postal: '',
+        location: 'ul. Gdańska 126/128',
+        postal: '90-520 Łódź',
         img: ''
     },
         {
-        country: '',
-        city: '',
+        country: 'Ireland',
+        city: 'Dublin',
         flag: '',
-        location: '',
-        postal: '',
+        location: 'Custom House Quay',
+        postal: 'CHQ Dublin',
         img: ''
     },
         {
-        country: '',
-        city: '',
+        country: 'United Kingdom',
+        city: 'London',
         flag: '',
-        location: '',
-        postal: '',
+        location: 'BLCC Club Quarters, 8 Northumberland Avenue',
+        postal: 'London WC2N 5BY',
         img: ''
     },
         {
@@ -57,9 +57,11 @@ const offices = [
     }
 ];
 
-function showOffices(e) {
-    const activeOffice = document.querySelector('#offices .active');
+function filterOffice(e) {
+    
+    console.log(selectedFilter);
     
 
 
 };
+
