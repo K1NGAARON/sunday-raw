@@ -72,9 +72,7 @@
 }
 
 .section.apply .overlay {
-    background-image: url('/img/overlay.png');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: var(--overlay);
 }
 
 .office:hover {
