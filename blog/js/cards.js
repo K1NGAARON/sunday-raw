@@ -1,59 +1,61 @@
 const target = document.querySelector('.section.content > .row > .wrapper');
 const content = [
     {
-        client: 'videoland',
-        title: 'A promise of awesome, sustainable fashion to Videoland',
-        body: 'As one of the largest consumer brands of RTL, Videoland’s priority is building brand ambassadors internally and externally.',
-        logo: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-logo-black_lr.png',
-        img: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-1024x683.jpg',
-        url: 'https://teamsunday.com/en/client-cases/a-promise-of-awesome-sustainable-fashion-to-videoland/'
+        client: 'Delaware',
+        title: 'High performance sportswear for delaware',
+        body: 'delaware is a global company that delivers advanced ICT solutions and services, guiding our customers through their business and digital transformations.',
+        logo: '/cases/delaware/img/logo.png',
+        img: '/cases/delaware/img/banner.jpg',
+        url: '/cases/delaware/',
+        beachhead: 'HR',
+        companysize: '',
     },
     {
-        client: 'videoland',
-        title: 'A promise of awesome, sustainable fashion to Videoland',
-        body: 'As one of the largest consumer brands of RTL, Videoland’s priority is building brand ambassadors internally and externally.',
-        logo: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-logo-black_lr.png',
-        img: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-1024x683.jpg',
-        url: 'https://teamsunday.com/en/client-cases/a-promise-of-awesome-sustainable-fashion-to-videoland/'
+        client: 'Honeypot',
+        title: "Quality wearables pushing Honeypot's corporate gifting to a higher level",
+        body: 'The way Honeypot uses company fashion as a customer gift to improve their management strategy (converting talents into ambassadors).',
+        logo: '/cases/honeypot/img/logo.png',
+        img: '/cases/honeypot/img/banner.jpg',
+        url: '/cases/honeypot/',
+        beachhead: 'Sales',
+        companysize: '',
     },
     {
-        client: 'videoland',
-        title: 'A promise of awesome, sustainable fashion to Videoland',
-        body: 'As one of the largest consumer brands of RTL, Videoland’s priority is building brand ambassadors internally and externally.',
-        logo: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-logo-black_lr.png',
-        img: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-1024x683.jpg',
-        url: 'https://teamsunday.com/en/client-cases/a-promise-of-awesome-sustainable-fashion-to-videoland/'
+        client: 'Showpad',
+        title: 'A fit and flexible solution for Showpad',
+        body: "Showing off Showpad's custom made solution to create workplace health by deploying branded sportswear.",
+        logo: '/cases/showpad/img/logo.png',
+        img: '/cases/showpad/img/banner.jpeg',
+        url: '/cases/showpad/',
+        beachhead: 'HR',
+        companysize: '',
     },
     {
-        client: 'videoland',
-        title: 'A promise of awesome, sustainable fashion to Videoland',
-        body: 'As one of the largest consumer brands of RTL, Videoland’s priority is building brand ambassadors internally and externally.',
-        logo: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-logo-black_lr.png',
-        img: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-1024x683.jpg',
-        url: 'https://teamsunday.com/en/client-cases/a-promise-of-awesome-sustainable-fashion-to-videoland/'
+        client: 'ION',
+        title: "ION knows how to motivate a team: #actION please!",
+        body: "body incoming",
+        logo: '/cases/ion/img/logo.svg',
+        img: '/cases/ion/img/banner.jpeg',
+        url: '/cases/ion/',
+        beachhead: 'HR',
+        companysize: '',
     },
     {
-        client: 'videoland',
-        title: 'A promise of awesome, sustainable fashion to Videoland',
-        body: 'As one of the largest consumer brands of RTL, Videoland’s priority is building brand ambassadors internally and externally.',
-        logo: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-logo-black_lr.png',
-        img: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-1024x683.jpg',
-        url: 'https://teamsunday.com/en/client-cases/a-promise-of-awesome-sustainable-fashion-to-videoland/'
-    },
-    {
-        client: 'videoland',
-        title: 'A promise of awesome, sustainable fashion to Videoland',
-        body: 'As one of the largest consumer brands of RTL, Videoland’s priority is building brand ambassadors internally and externally.',
-        logo: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-logo-black_lr.png',
-        img: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-1024x683.jpg',
-        url: 'https://teamsunday.com/en/client-cases/a-promise-of-awesome-sustainable-fashion-to-videoland/'
+        client: 'Silverfin',
+        title: 'Learn how Silverfin increased performance and wellbeing for their employees',
+        body: 'tbaaaaaa',
+        logo: '/cases/silverfin/img/logo.png',
+        img: '/cases/silverfin/img/banner.jpeg',
+        url: '/cases/silverfin/',
+        beachhead: 'HR',
+        companysize: '',
     }
 ];
 
 function createCards() {
     for (let i = 0; i < content.length; i++) {
         const template = `
-            <div class="card">
+            <div class="card ${content[i].beachhead.toLowerCase()}">
                 <img src="${content[i].img}" alt="${content[i].title}">
                 <img class="logo" src="${content[i].logo}" alt="${content[i].title}">
                 <h5>
