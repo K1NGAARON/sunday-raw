@@ -52,18 +52,14 @@ const offices = [
 function filterOffice(e) {
     $('.office').removeClass('active');
     $(this).addClass('active');
-    console.log(this)
-
     let selectedOffice = document.querySelector('.office.active').id;
-
+    
     let imageHolder = document.querySelector('#officeIMGHolder');
     let flagHolder = document.querySelector('#flag');
     let countryHolder = document.querySelector('#country');
     let addressHolder = document.querySelector('#location');
     let postalHolder = document.querySelector('#postal');
-    
-    console.log(selectedOffice);
-    
+        
     if (selectedOffice === 'roeselare') {
         $(imageHolder).attr('src', `${offices[0].img}`);
         $(flagHolder).attr('src', `${offices[0].flag}`);
