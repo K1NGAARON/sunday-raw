@@ -5,7 +5,7 @@ const offices = [
         flag: '',
         location: 'Hof Ter Weze 5',
         postal: '8800 Roeselare',
-        img: '/img/overlay.png'
+        img: './img/offices/roeselare.jpg'
     },
     {
         country: 'Netherlands',
@@ -13,7 +13,7 @@ const offices = [
         flag: '',
         location: 'Joop Geesinkweg 641',
         postal: '1114 AB Amsterdam',
-        img: ''
+        img: './img/offices/amsterdam.jpg'
     },
     {
         country: 'Germany',
@@ -21,7 +21,7 @@ const offices = [
         flag: '',
         location: 'Lohmühlenstraße 65',
         postal: '12435 Berlin',
-        img: ''
+        img: './img/offices/berlin.jpg'
     },
     {
         country: 'Poland',
@@ -29,7 +29,7 @@ const offices = [
         flag: '',
         location: 'ul. Gdańska 126/128',
         postal: '90-520 Łódź',
-        img: ''
+        img: './img/offices/lodz.jpg'
     },
     {
         country: 'Ireland',
@@ -37,7 +37,7 @@ const offices = [
         flag: '',
         location: 'Custom House Quay',
         postal: 'CHQ Dublin',
-        img: ''
+        img: './img/offices/dublin.jpg'
     },
     {
         country: 'United Kingdom',
@@ -45,7 +45,7 @@ const offices = [
         flag: '',
         location: 'BLCC Club Quarters, 8 Northumberland Avenue',
         postal: 'London WC2N 5BY',
-        img: ''
+        img: './img/offices/london.jpg'
     }
 ];
 
