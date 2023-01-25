@@ -78,3 +78,30 @@
 .office:hover {
     cursor: pointer;
 }
+
+
+@media (max-width: 560px) {
+    #offices .wrapper .item:nth-child(1) {
+        text-align: left;
+    }
+
+    .section.apply h3 {
+        font-size: 36px;
+        max-width: 100%;
+    }
+
+    .faq h2 {
+        font-size: 36px;
+        margin-top: 20px;
+    }
+
+    .faq .accordion-list .accordion-item .accordion-head .icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .faq .accordion-list .accordion-item .accordion-head .icon img {
+        max-width: 20px;
+    }
+
+}

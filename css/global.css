@@ -548,16 +548,33 @@ select:focus-visible {
   }
 }
 
+
+@media (max-width: 560px) {
+  .section {
+    height: fit-content!important;
+    min-height: unset;
+  }
+
+  .section .row {
+    padding: 0 30px;
+    gap: 20px;
+  }
+
+  .section.banner h1 {
+    font-size: 52px!important;
+  }
+
+  .section.banner p {
+    font-size: 18px;
+  }
+
+  .section .contact-form {
+    margin: 0;
+  }
+
+
+}
+
 @media (max-width: 760px) {
 
 }
-/* 
-
-#scale {
-  width: 100vw; 
-  height: 100vh;
-  text-align: center;
-  position: fixed;
-  font-size: 5vw;
-  transform-origin: center top;
-} */

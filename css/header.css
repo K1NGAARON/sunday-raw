@@ -287,3 +287,13 @@
         content: none;
     }
 }
+
+@media (max-width: 560px) {
+    .header .row {
+        padding: 10px 30px;
+    }
+
+    .header .topnav-content-sm {
+        padding: 10px 30px;
+    }
+}
