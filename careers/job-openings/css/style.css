@@ -45,3 +45,9 @@
 #clear-all:hover {
     cursor: pointer;
 }
+
+@media (max-width: 560px) {
+    #filter .wrapper {
+        gap: 30px;
+    }
+}
