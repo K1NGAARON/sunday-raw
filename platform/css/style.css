@@ -83,3 +83,8 @@
 .section.testimonial img {
     border-radius: 26px;
 }
+
+.section.calculator,
+.section.calculator .row {
+    min-height: unset;
+}
