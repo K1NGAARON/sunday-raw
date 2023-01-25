@@ -6,4 +6,9 @@
     .section.banner {
         min-height: unset;
     }
+
+    .banner h1,
+    .banner p {
+        max-width: 100%;
+    }
 }
