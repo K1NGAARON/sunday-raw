@@ -10,6 +10,7 @@
 
 .banner .row {
     z-index: 20;
+    width: fit-content;
 }
 
 .banner {
@@ -18,6 +19,11 @@
 
 .banner h1 {
     font-size: 76px;
+    text-align: center;
+}
+
+.banner .btn {
+    margin-left: 0;
 }
 
 .wrapper.styles {
