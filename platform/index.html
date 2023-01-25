@@ -10,7 +10,9 @@
 
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/header.css">
+
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/calculator.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/branding/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/branding/favicon/favicon-32x32.png">
@@ -205,7 +207,80 @@
 
 <div class="section calculator">
     <div class="row">
+        <div id="calculator">
+            <div class="item">
+                <h3>
+                    Calculate your savings
+                </h3>
+                <form action="">
+                    <div class="form-item">
+                        <label for="myRange">How many packages per month?</label>
+                        <input type="range" min="15" max="250" value="15" class="slider" id="myRange">
+                        <div class="output-wrapper">
+                            <div class="monthly-wrapper">
+                                <div id="output">Adjust the slider with your estimated amount of</div>
+                                <div class="packages">Packages per month</div>
+                            </div>
+                            <div class="yearly-wrapper">
+                                <div id="outputYearly" class="hidden yearly"></div>
+                                <div class="hidden yearly year">Packages per year</div>
+                            </div>
+                        </div>
+                    </div>
         
+                    <div class="form-item checkbox">
+                        <label for="personal-note">Do you want to add a personal note?</label>
+                        <input type="checkbox" name="personal-note" id="personal-note">
+                    </div>
+        
+                    <div class="form-item checkbox">
+                        <label for="different-sizes">Do the items have different sizes?</label>
+                        <input type="checkbox" name="different-sizes" id="different-sizes">
+                    </div>
+                </form>
+            </div>
+        
+            <div class="item output">
+                <h3>
+                    Your yearly savings
+                </h3>
+                <div class="results">
+                    <div class="line-item">
+                        <div class="result">
+                            <p>
+                                Cost reduction:
+                            </p>
+                        </div>
+                        <div class="result">
+                            <span id="costHolder" class="cost"></span><span>%</span>
+                        </div>
+                    </div>
+        
+                    <div class="line-item">
+                        <div class="result">
+                            <p>
+                                Money saved:
+                            </p>
+                        </div>
+                        <div class="result">
+                            <span>€</span><span class="cost" id="moneySavedHolder"></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- ADD FORM HERE -->
+                <form id="formToMail">
+                    <div class="formContent">
+                        <input type="text" name="name" required placeholder="Fill in your first name">
+                        <input type="email" name="email" required placeholder="Fill in your best email">
+                        <button class="primary-btn" type="submit">Send to email</button>
+                    </div>
+                </form>
+        
+                <a class="primary-btn bottom" id="inbox">
+                    Send savings breakdown to inbox
+                </a>
+            </div>
+        </div>
     </div>
 </div>
 
