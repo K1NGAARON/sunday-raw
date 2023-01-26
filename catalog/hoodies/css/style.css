@@ -6,6 +6,15 @@
     margin-top: 40px;
 }
 
+.banner.section h1 {
+    font-size: 60px;
+}
+
+.banner.section .uppercase.grey {
+    color: var(--darkGrey);
+    text-transform: uppercase;
+}
+
 .banner.section .product-gallery {
     display: flex;
     flex-direction: row;
