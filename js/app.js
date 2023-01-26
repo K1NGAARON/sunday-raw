@@ -31,31 +31,31 @@ const logosArray = [
     },
     {
         client: 'AirBnb',
-        img: './img/logos/airbnb-logo.svg',
+        img: '/img/logos/airbnb-logo.svg',
     },
     {
         client: 'Deloitte Logo',
-        img: './img/logos/deloitte-logo.svg',
+        img: '/img/logos/deloitte-logo.svg',
     },
     {
         client: 'Google Logo',
-        img: './img/logos/google-logo.svg',
+        img: '/img/logos/google-logo.svg',
     },
     {
         client: 'Hubspot Logo',
-        img: './img/logos/hubspot-logo.svg',
+        img: '/img/logos/hubspot-logo.svg',
     },
     {
         client: 'Mastercard Logo',
-        img: './img/logos/mastercard-logo.svg',
+        img: '/img/logos/mastercard-logo.svg',
     },
     {
         client: 'TikTok Logo',
-        img: './img/logos/tiktok-logo.svg',
+        img: '/img/logos/tiktok-logo.svg',
     },
     {
         client: 'Zalando Logo',
-        img: './img/logos/zalando-logo.svg',
+        img: '/img/logos/zalando-logo.svg',
     }
 ];
 

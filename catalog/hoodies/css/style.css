@@ -1,0 +1,77 @@
+.header {
+    background-color: var(--black);
+}
+
+.logos.section,
+.logos.section .row {
+    min-height: unset;
+}
+
+.steps.section .wrapper {
+    align-items: center;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+.steps.section .item {
+    text-align: left;
+}
+
+.steps.section .item a {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.steps.section .item .step.active {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.steps.section .item a:hover {
+    cursor: pointer;
+}
+
+.steps.section .item img {
+    border-radius: 30px;
+}
+
+.steps.section .item h3 {
+    font-size: 32px;
+}
+
+.case.section {
+    background-image: url('../img/john-jane-case.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--white);
+}
+
+.case.section h3,
+.case.section p {
+    max-width: 50%;
+}
+
+.case.section h3 {
+    font-size: 58px;
+}
+
+.social-proof.section .card {
+    border-radius: 30px;
+}
+
+.social-proof.section .card .logo,
+.social-proof.section .card p {
+    padding: 30px;
+}
+
+.social-proof.section .card .logo {
+    max-width: 150px;
+}
+
+.social-proof.section .card .featured {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
