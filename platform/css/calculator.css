@@ -61,7 +61,6 @@
 #calculator .primary-btn {
     font-weight: 700;
     text-decoration: none;
-    /*width: fit-content;*/
     background-color: var(--primary);
     color: var(--white);
     border-radius: 9px;
@@ -188,8 +187,8 @@
 }
 
 #output {
-    /* margin-bottom: 20px; */
     color: var(--primary);
+    text-align: left;
     font-weight: 700;
 }
 
