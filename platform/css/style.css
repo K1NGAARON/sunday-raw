@@ -2,8 +2,8 @@
     font-size: 76px;
 }
 
-.section h1,
-.section p {
+.section.banner h1,
+.section.banner p {
     max-width: 60%;
 }
 
