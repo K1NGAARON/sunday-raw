@@ -18,6 +18,10 @@ const products = [
 //     $(this).addClass('active');
 // };
 
+function loadProducts(e) {
+    
+};
+
 function showProduct(e) {
     $('.product-image').removeClass('active');
     $(this).addClass('active');
@@ -34,5 +38,7 @@ function showProduct(e) {
 
     $(mainImage).attr('src', activeProductSRC);
 };
+
+$(document).ready(loadProducts);
 
 $('.product-image').click(showProduct);
