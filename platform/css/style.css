@@ -82,3 +82,28 @@
 .section.calculator .row {
     min-height: unset;
 }
+
+@media (max-width: 560px) {
+    .section.banner h1, 
+    .section.banner p {
+        max-width: none;
+    }
+
+    .section h2,
+    .section.usp .wrapper .item .large {
+        text-align: center;
+    }
+
+    .section.usp .filter {
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .section.usp .wrapper .item {
+        align-items: center;
+    }
+
+    #calculator {
+        max-width: none;
+    }
+}
