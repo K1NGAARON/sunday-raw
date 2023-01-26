@@ -279,7 +279,7 @@
     .header .small-menu-wrapper .small-menu-content {
         display: flex;
         flex-direction: column;
-        padding: 10px 80px;
+        padding: 10px 30px;
         background-color: var(--white);
     }
 
