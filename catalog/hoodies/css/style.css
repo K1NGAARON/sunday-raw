@@ -2,6 +2,47 @@
     background-color: var(--black);
 }
 
+.banner.section {
+    margin-top: 40px;
+}
+
+.wrapper.buttons {
+    gap: 20px;
+    align-items: center;
+}
+
+.wrapper.buttons .btn {
+    color: var(--white);
+}
+
+.wrapper.buttons .secondary {
+    background-color: transparent;
+    color: var(--black);
+    border: none;
+    border-bottom: 1px solid var(--darkGrey);
+    border-radius: 0;
+    padding: 12px 5px;
+}
+
+.wrapper.buttons .secondary {
+    display: flex;
+    align-items: flex-end;
+    padding: 0;
+    padding-bottom: 5px;
+}
+
+.wrapper.buttons .secondary:hover {
+    cursor: pointer;
+}
+
+.faq .accordion-list .accordion-item {
+    padding: 10px 0;
+}
+
+.faq .accordion-list .accordion-item .accordion-body p {
+    margin-top: 0;
+}
+
 .logos.section,
 .logos.section .row {
     min-height: unset;
