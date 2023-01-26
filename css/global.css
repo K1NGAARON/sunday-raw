@@ -297,13 +297,13 @@ select:focus-visible {
 .contact-form.transparent textarea {
   border-color: var(--white);
   color: var(--white);
-  background-color: transparent;
+  background-color: var(--white);
 }
 
 .contact-form.transparent input::placeholder ,
 .contact-form.transparent select::placeholder ,
 .contact-form.transparent textarea::placeholder  {
-  color: var(--white);
+  color: var(--black);
   opacity: 1;
 }
 

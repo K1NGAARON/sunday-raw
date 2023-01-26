@@ -79,4 +79,3 @@ function createLogos() {
 };
 
 $(document).ready(createLogos);
-
