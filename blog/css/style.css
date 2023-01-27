@@ -45,3 +45,7 @@
 #clear-all:hover {
     cursor: pointer;
 }
+
+.section.content .row .wrapper .card {
+    flex: 1 0 20%;
+}
