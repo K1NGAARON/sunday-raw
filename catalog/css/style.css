@@ -34,6 +34,10 @@
     flex: 1 0 80%;
 }
 
+.banner.section .product-gallery .wrapper.side img:hover {
+    cursor: pointer;
+}
+
 .banner.section .product-gallery .wrapper.main img {
     flex: 1;
 }
