@@ -1,5 +1,18 @@
 .header {
-    background-color: var(--black);
+    /* background-color: var(--black); */
+}
+
+.header .navigation .nav-item {
+    color: var(--black);
+}
+
+.header .btn {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.heade .btn:hover {
+    color: var(--white);
 }
 
 .banner.section {

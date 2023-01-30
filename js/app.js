@@ -2,12 +2,18 @@ $(document).scroll(function () {
     const header = $('.header');
     const logo = $('.header .logo');
 
-    if ($(this).scrollTop() > header.height()) {
-        $(logo).attr("src","/branding/logo-black.svg");
-        header.addClass('active');
+    const exclude = $('header.product-header');
+
+    if (exclude) {
+
     } else {
-        $(logo).attr("src","/branding/logo-white.svg");
-        header.removeClass('active');
+        if ($(this).scrollTop() > header.height()) {
+            $(logo).attr("src","/branding/logo-black.svg");
+            header.addClass('active');
+        } else {
+            $(logo).attr("src","/branding/logo-white.svg");
+            header.removeClass('active');
+        }
     }
 });
 
