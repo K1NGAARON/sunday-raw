@@ -1,17 +1,17 @@
 const usp = [
     {
         usp: 'unique-design',
-        body: "We noticed that many of our customers love doing creative campaigns using awesome clothing, but they hate the hassle. That's why we started working on a solution. The Sunday Wardrobe™ is our SaaS-solution, making it super easy for companies to warehouse, handle and ship clothing to key stakeholders.",
+        body: "Our custom designs are unique in the market: We always start from the customer's brand guidelines (logo, Pantone colors, brand vision, …). Then we help think about the objective of the clothing and who will wear it. That way, the design team can work out an appropriate custom design in a much more focused way. The team also constantly follows the latest fashion trends, which ensures that we can develop contemporary and modern concepts that will be worn with pride.",
         img: '',
     },
     {
         usp: 'ship-worldwide',
-        body: "Some body text for worldwide shipping",
+        body: "SWe noticed that many of our customers love doing creative campaigns using awesome clothing, but they hate the hassle. That’s why we started working on a solution. Sunday Wardrobe™ is our SaaS-solution, making it super easy for companies to warehouse, handle and ship clothing to key stakeholders.",
         img: '',
     },
     {
         usp: 'worldclass-service',
-        body: "Our very nice CSM team",
+        body: "Personal contact, guidance throughout the process and clear communication is what Sunday guarantees. We think along with the client and help advise on the right product, finishing options and how best to use the clothing to achieve maximum ROI.",
         img: '',
     }
 ];
@@ -35,11 +35,32 @@ function toggleUSP(e) {
 
 const beachheads = [
     {
-        headline: 'High performance sportswear for delaware',
+        headline: '',
         image: '/cases/delaware/img/banner.jpg',
         logo: '/cases/delaware/img/logo.png',
         body: 'delaware is a global company that delivers advanced ICT solutions',
         url: '/cases/delaware/'
+    },
+    {
+        headline: "How to Increase ambassador marketing by organising a sports event?",
+        image: '/cases/delaware/',
+        logo: '',
+        body: '',
+        url: '',
+    },
+    {
+        headline: "Thanking employees for their efforts and building an employee recognition policy.",
+        image: '/cases/ion/img/banner.jpeg',
+        logo: '/cases/ion/img/logo.svg',
+        body: '',
+        url: '/cases/ion/',
+    },
+    {
+        headline: "Showing off Showpad’s custom made solution to create workplace health by deploying branded sportswear.",
+        image: '',
+        logo: '',
+        body: '',
+        url: '',
     }
 ];
 
