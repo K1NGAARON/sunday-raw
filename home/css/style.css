@@ -96,7 +96,7 @@
 }
 
 .section.beachhead .wrapper .item .large {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
 }
 
@@ -316,7 +316,7 @@
 
     .section.beachhead .wrapper .item .large {
         text-align: center;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .section.products .wrapper .item {

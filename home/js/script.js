@@ -37,7 +37,7 @@ const beachheads = [
     {
         headline: 'With 10 new hires every week, and so 10 new possible ambassadors, they were in need of a proper onboarding.',
         image: '/cases/deliverect/img/banner.jpg',
-        logo: '/cases/deliverect/logo.png',
+        logo: '/cases/deliverect/img/logo.png',
         body: 'Deliverect, the ‘Adyen of food delivery services’ grew 750% in the last year. A boost that also sent the number of employees skyrocketing.',
         url: '/cases/deliverect/'
     },
@@ -86,10 +86,25 @@ function toggleBeachhead(e) {
         $(logoHolder).attr('src', `${beachheads[0].logo}`);
         $(bodyHolder).text(`${beachheads[0].body}`);
         $(buttonHolder).attr('href', `${beachheads[0].url}`);
+    } else if (selectedContent === 'fairs') {
+        $(headlineHolder).text(`${beachheads[1].headline}`);
+        $(imageHolder).attr('src', `${beachheads[1].image}`);
+        $(logoHolder).attr('src', `${beachheads[1].logo}`);
+        $(bodyHolder).text(`${beachheads[1].body}`);
+        $(buttonHolder).attr('href', `${beachheads[1].url}`);
+    } else if (selectedContent === 'retention') {
+        $(headlineHolder).text(`${beachheads[2].headline}`);
+        $(imageHolder).attr('src', `${beachheads[2].image}`);
+        $(logoHolder).attr('src', `${beachheads[2].logo}`);
+        $(bodyHolder).text(`${beachheads[2].body}`);
+        $(buttonHolder).attr('href', `${beachheads[2].url}`);
+    } else if (selectedContent === 'awareness') {
+        $(headlineHolder).text(`${beachheads[3].headline}`);
+        $(imageHolder).attr('src', `${beachheads[3].image}`);
+        $(logoHolder).attr('src', `${beachheads[3].logo}`);
+        $(bodyHolder).text(`${beachheads[3].body}`);
+        $(buttonHolder).attr('href', `${beachheads[3].url}`);
     };
-
-
-
 };
 
 
