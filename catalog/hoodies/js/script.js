@@ -24,7 +24,7 @@ function changeSteps(e) {
     } else if (activeStep === 'target-audience') {
         
     } else if (activeStep === 'project-goal') {
-        
+
     }
 };
 
