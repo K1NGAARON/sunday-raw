@@ -16,7 +16,6 @@ $("#menu-toggle").click(function() {
 });
 
 function closeAccordion(e) {
-    console.log('click')
     $('.accordion-head').removeClass('active');
     $('.accordion-body').removeClass('active');
     $('.accordion-head').children('.icon').removeClass('active');
