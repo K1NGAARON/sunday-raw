@@ -1,0 +1,26 @@
+.section {
+    color: var(--white);
+}
+
+.section h1 {
+    font-size: 76px;
+}
+
+.section h1,
+.section p {
+    max-width: 65%;
+}
+
+.section h2 {
+    color: var(--black);
+}
+
+.section .large {
+    font-size: 36px;
+    color: var(--black);
+}
+
+.section .large .focus {
+    color: var(--primary);
+    font-weight: 600;
+}
