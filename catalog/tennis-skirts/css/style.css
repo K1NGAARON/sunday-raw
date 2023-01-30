@@ -1,0 +1,7 @@
+.header {
+    background-color: var(--black);
+}
+
+.case.section {
+    background-image: url('../img/john-jane-case.jpeg');
+}
