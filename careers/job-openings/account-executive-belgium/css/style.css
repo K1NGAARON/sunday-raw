@@ -1,0 +1,14 @@
+.banner {
+    background-image: url('../img/banner.jpg');
+}
+
+.section.job,
+.section.job .row {
+    min-height: unset;
+}
+
+.section.job .row {
+    max-width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
