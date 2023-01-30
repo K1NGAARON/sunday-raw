@@ -1,20 +1,3 @@
-.header {
-    /* background-color: var(--black); */
-}
-
-.header .navigation .nav-item {
-    color: var(--black);
-}
-
-.header .btn {
-    background-color: var(--primary);
-    color: var(--white);
-}
-
-.heade .btn:hover {
-    color: var(--white);
-}
-
 .banner.section {
     margin-top: 40px;
 }

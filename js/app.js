@@ -3,17 +3,12 @@ $(document).scroll(function () {
     const logo = $('.header .logo');
 
     const exclude = $('header.product-header');
-
-    if (exclude) {
-
+    if ($(this).scrollTop() > header.height()) {
+        $(logo).attr("src","/branding/logo-black.svg");
+        header.addClass('active');
     } else {
-        if ($(this).scrollTop() > header.height()) {
-            $(logo).attr("src","/branding/logo-black.svg");
-            header.addClass('active');
-        } else {
-            $(logo).attr("src","/branding/logo-white.svg");
-            header.removeClass('active');
-        }
+        $(logo).attr("src","/branding/logo-white.svg");
+        header.removeClass('active');
     }
 });
 

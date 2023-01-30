@@ -1,22 +1,3 @@
-const products = [
-    {
-        img: '',
-    },
-    {
-        img: '',
-    },
-    {
-        img: '',
-    },
-    {
-        img: '',
-    },
-]
-
-function loadProducts(e) {
-    
-};
-
 function showProduct(e) {
     $('.product-image').removeClass('active');
     $(this).addClass('active');
@@ -24,16 +5,28 @@ function showProduct(e) {
     let activeProduct = document.querySelector('.product-image.active');
     let activeProductSRC = activeProduct.src;
 
-
-    console.log(activeProduct);
-    console.log(activeProductSRC);
-
     let mainImage = document.querySelector('#main-image');
     console.log(mainImage);
 
     $(mainImage).attr('src', activeProductSRC);
 };
 
+function changeSteps(e) {
+    let activeStep = e.target.id;
+
+    $('.step').removeClass('active');
+    $(this).addClass('active');
+
+    if (activeStep === 'company-branding') {
+        
+    } else if (activeStep === 'market-trends') {
+
+    } else if (activeStep === 'target-audience') {
+        
+    } else if (activeStep === 'project-goal') {
+        
+    }
+};
 
 const stepsContent = [
     {
@@ -58,5 +51,5 @@ const stepsContent = [
     },
 ];
 
-
+$('.step').click(changeSteps);
 $('.product-image').click(showProduct);
