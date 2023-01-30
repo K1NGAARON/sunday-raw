@@ -3,6 +3,7 @@
   --black: #000000;
   --white: #ffffff;
   --primary: #702dbd;
+  --orange: #ff671f;
   --blue: #62B5E5;
   --lightGrey: #fafafa;
   --darkGrey: #888888;
@@ -231,6 +232,11 @@ select:focus-visible {
 
 .section.grey {
   background-color: var(--lightGrey);
+}
+
+.section.orange {
+  background-color: var(--orange);
+  color: var(--white);
 }
 
 .section.purple {

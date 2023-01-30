@@ -1,0 +1,30 @@
+.section h1 {
+    font-size: 54px;
+}
+
+.section.logos,
+.section.logos .row {
+    min-height: unset;
+}
+
+.section.grey .wrapper {
+    margin-top: 20px;
+}
+
+.section.grey .wrapper .item {
+    flex: 1 0;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: var(--boxShadow);
+    background-color: var(--white);
+}
+
+.section.grey .wrapper .item h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.section.collections,
+.section.collections .row {
+    min-height: unset;
+}
