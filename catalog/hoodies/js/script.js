@@ -12,19 +12,28 @@ function showProduct(e) {
 };
 
 function changeSteps(e) {
+    let stepsBody = document.querySelector('#stepsBody');
+    let stepsIMG = document.querySelector('#stepsIMG');
+
+console.log("func")
+
     let activeStep = e.target.id;
 
     $('.step').removeClass('active');
     $(this).addClass('active');
 
     if (activeStep === 'company-branding') {
-        
+        $(stepsBody).text(`${stepsContent[0].body}`)
+        $(stepsIMG).attr('src', `${stepsContent[0].img}`);
     } else if (activeStep === 'market-trends') {
-
+        $(stepsBody).text(`${stepsContent[1].body}`)
+        $(stepsIMG).attr('src', `${stepsContent[1].img}`);
     } else if (activeStep === 'target-audience') {
-        
+        $(stepsBody).text(`${stepsContent[2].body}`)
+        $(stepsIMG).attr('src', `${stepsContent[2].img}`);
     } else if (activeStep === 'project-goal') {
-
+        $(stepsBody).text(`${stepsContent[3].body}`)
+        $(stepsIMG).attr('src', `${stepsContent[3].img}`);
     }
 };
 
