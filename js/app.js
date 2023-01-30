@@ -1,3 +1,5 @@
+import './dist/splide.js';
+
 $(document).scroll(function () {
     const header = $('.header');
     const logo = $('.header .logo');
