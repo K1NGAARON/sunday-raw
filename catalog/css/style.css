@@ -165,3 +165,17 @@
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
 }
+
+.section.decoration .wrapper .item img:nth-child(2) {
+    display: none;
+}
+
+.section.decoration .wrapper .item:hover img:nth-child(1) {
+    display: none;
+    transition: var(--transition);
+}
+
+.section.decoration .wrapper .item:hover img:nth-child(2) {
+    display: block;
+    transition: var(--transition);
+}
