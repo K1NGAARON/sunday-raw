@@ -35,32 +35,32 @@ function toggleUSP(e) {
 
 const beachheads = [
     {
-        headline: '',
-        image: '/cases/delaware/img/banner.jpg',
-        logo: '/cases/delaware/img/logo.png',
-        body: 'delaware is a global company that delivers advanced ICT solutions',
-        url: '/cases/delaware/'
+        headline: 'With 10 new hires every week, and so 10 new possible ambassadors, they were in need of a proper onboarding.',
+        image: '/cases/deliverect/img/banner.jpg',
+        logo: '/cases/deliverect/logo.png',
+        body: 'Deliverect, the ‘Adyen of food delivery services’ grew 750% in the last year. A boost that also sent the number of employees skyrocketing.',
+        url: '/cases/deliverect/'
     },
     {
         headline: "How to Increase ambassador marketing by organising a sports event?",
-        image: '/cases/delaware/',
-        logo: '',
-        body: '',
-        url: '',
+        image: '/cases/stadsbader/img/banner.jpg',
+        logo: '/cases/stadsbader/img/logo.png',
+        body: 'By rewarding the participants with unique branded apparel, we motivated real ambassadors who in their place activate silent ambassadors.',
+        url: '/cases/stadsbader/',
     },
     {
         headline: "Thanking employees for their efforts and building an employee recognition policy.",
         image: '/cases/ion/img/banner.jpeg',
         logo: '/cases/ion/img/logo.svg',
-        body: '',
+        body: 'ION knows how to motivate a team: #actION please!',
         url: '/cases/ion/',
     },
     {
-        headline: "Showing off Showpad’s custom made solution to create workplace health by deploying branded sportswear.",
-        image: '',
-        logo: '',
-        body: '',
-        url: '',
+        headline: "Learn more about workplace health",
+        image: '/cases/showpad/img/banner.jpeg',
+        logo: '/cases/showpad/img/logo.png',
+        body: 'Showing off Showpad’s custom made solution to create workplace health by deploying branded sportswear.',
+        url: '/cases/showpad/',
     }
 ];
 

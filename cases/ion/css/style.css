@@ -1,3 +1,9 @@
 .banner.section {
     background-image: url('../img/banner.jpg');
+}.banner.section {
+    background-image: url('../img/banner.jpeg');
+}
+
+.section .wrapper {
+    align-items: center;
 }
