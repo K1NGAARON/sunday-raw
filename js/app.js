@@ -1,4 +1,4 @@
-import './dist/splide.js';
+import {Splide} from '@splidejs/splide';
 
 $(document).scroll(function () {
     const header = $('.header');
@@ -6,15 +6,15 @@ $(document).scroll(function () {
 
     const exclude = $('header.product-header');
     if ($(this).scrollTop() > header.height()) {
-        $(logo).attr("src","/branding/logo-black.svg");
+        $(logo).attr("src", "/branding/logo-black.svg");
         header.addClass('active');
     } else {
-        $(logo).attr("src","/branding/logo-white.svg");
+        $(logo).attr("src", "/branding/logo-white.svg");
         header.removeClass('active');
     }
 });
 
-$("#menu-toggle").click(function() {
+$("#menu-toggle").click(function () {
     $(".small-menu-wrapper").toggle("active");
 });
 
@@ -24,7 +24,7 @@ function closeAccordion(e) {
     $('.accordion-head').children('.icon').removeClass('active');
 };
 
-$('.accordion-item').click(function() {
+$('.accordion-item').click(function () {
     closeAccordion();
 
     $(this).children('.accordion-head').toggleClass('active');
@@ -72,21 +72,48 @@ const logosArray = [
 
 function shuffleArray(array) {
     array.sort(() => Math.random() - 0.5);
-};
+}
 
 function createLogos() {
+    console.log('logoTarget', logoTarget.innerHTML);
     if (logoTarget) {
         shuffleArray(logosArray);
+        const splideTrackElement = document.createElement('div');
+        splideTrackElement.classList.add('splide__track');
 
+        const listElement = document.createElement('div');
+        listElement.classList.add('splide__list');
         for (let i = 0; i < logosArray.length; i++) {
-            const template = `
-                <div class="item">
-                    <img src="${logosArray[i].img}" alt="${logosArray[i].client}">
-                </div>
-            `;
-            logoTarget.insertAdjacentHTML("beforeend", template);
-        };
+            const template = document.createElement('div');
+            template.classList.add('item', 'splide__slide');
+
+            const logoElement = document.createElement('img');
+            logoElement.src = logosArray[i].img;
+            logoElement.alt = logosArray[i].client;
+            template.appendChild(logoElement);
+
+            listElement.appendChild(template);
+            // logoTarget.insertAdjacentHTML("beforeend", template);
+        }
+
+        splideTrackElement.appendChild(listElement);
+        logoTarget.appendChild(splideTrackElement);
+
+        const splide = new Splide('#logoHolder', {
+            arrows: false,
+            drag: 'free',
+            gap: '50px',
+            height: '100px',
+            pagination: false,
+            type: 'loop',
+            autoScroll: {
+                speed: 1,
+            },
+        });
+        console.log('logoTarget html', logoTarget.innerHTML);
+        console.log('logoTarget', logoTarget);
+        splide.mount();
     }
-};
+}
 
 $(document).ready(createLogos);
