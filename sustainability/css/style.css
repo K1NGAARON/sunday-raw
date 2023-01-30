@@ -48,6 +48,7 @@
 }
 
 .section.idea .wrapper .item img {
+    max-width: 175px;
     border-radius: 50%;
 }
 

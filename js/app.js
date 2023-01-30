@@ -15,7 +15,16 @@ $("#menu-toggle").click(function() {
     $(".small-menu-wrapper").toggle("active");
 });
 
+function closeAccordion(e) {
+    console.log('click')
+    $('.accordion-head').removeClass('active');
+    $('.accordion-body').removeClass('active');
+    $('.accordion-head').children('.icon').removeClass('active');
+};
+
 $('.accordion-item').click(function() {
+    closeAccordion();
+
     $(this).children('.accordion-head').toggleClass('active');
     $(this).children('.accordion-head').siblings('.accordion-body').toggleClass('active');
     $(this).children('.accordion-head').children('.icon').toggleClass('active');
