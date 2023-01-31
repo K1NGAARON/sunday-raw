@@ -273,7 +273,7 @@
     margin: 3px 0;
 }
 
-.header .navigation .dropdown-holder .dropdown.active {
+.header .navigation .dropdown-holder.active .dropdown {
     display: flex;
     flex-direction: column;
 }
