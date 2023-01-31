@@ -1,4 +1,5 @@
 import {Splide} from '@splidejs/splide';
+import {AutoScroll} from "@splidejs/splide-extension-auto-scroll";
 
 $(document).scroll(function () {
     const header = $('.header');
@@ -67,7 +68,39 @@ const logosArray = [
     {
         client: 'Zalando Logo',
         img: '/img/logos/zalando-logo.svg',
-    }
+    },
+    {
+        client: 'Adyen',
+        img: '/img/logos/adyen-logo.svg',
+    },
+    {
+        client: 'AirBnb',
+        img: '/img/logos/airbnb-logo.svg',
+    },
+    {
+        client: 'Deloitte Logo',
+        img: '/img/logos/deloitte-logo.svg',
+    },
+    {
+        client: 'Google Logo',
+        img: '/img/logos/google-logo.svg',
+    },
+    {
+        client: 'Hubspot Logo',
+        img: '/img/logos/hubspot-logo.svg',
+    },
+    {
+        client: 'Mastercard Logo',
+        img: '/img/logos/mastercard-logo.svg',
+    },
+    {
+        client: 'TikTok Logo',
+        img: '/img/logos/tiktok-logo.svg',
+    },
+    {
+        client: 'Zalando Logo',
+        img: '/img/logos/zalando-logo.svg',
+    },
 ];
 
 function shuffleArray(array) {
@@ -75,7 +108,6 @@ function shuffleArray(array) {
 }
 
 function createLogos() {
-    console.log('logoTarget', logoTarget.innerHTML);
     if (logoTarget) {
         shuffleArray(logosArray);
         const splideTrackElement = document.createElement('div');
@@ -102,17 +134,16 @@ function createLogos() {
         const splide = new Splide('#logoHolder', {
             arrows: false,
             drag: 'free',
-            gap: '50px',
+            gap: '180px',
             height: '100px',
+            loop: true,
             pagination: false,
             type: 'loop',
             autoScroll: {
                 speed: 1,
             },
         });
-        console.log('logoTarget html', logoTarget.innerHTML);
-        console.log('logoTarget', logoTarget);
-        splide.mount();
+        splide.mount({ AutoScroll });
     }
 }
 

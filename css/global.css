@@ -406,15 +406,22 @@ select:focus-visible {
   width: unset;
 }
 
-/* LOGOS */
-.logos .wrapper {
-  /*align-items: center;*/
-  /*display: flex;*/
-  /*gap: 50px;*/
-}
+/* SLIDER */
 .splide__list {
   display:flex;
   align-items: center;
+}
+.splide__slide {
+  align-items: center;
+  display: inline-flex;
+  min-width:200px;
+}
+.splide__sr {
+  display: none !important;
+}
+
+/* LOGOS */
+.logos .wrapper {
 }
 
 .logos .wrapper .item {
