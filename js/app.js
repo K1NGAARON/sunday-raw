@@ -1,19 +1,22 @@
 import {Splide} from '@splidejs/splide';
 import {AutoScroll} from "@splidejs/splide-extension-auto-scroll";
 
-$(document).scroll(function () {
+function stickyMenu(e) {
     const header = $('.header');
     const logo = $('.header .logo');
 
-    const exclude = $('header.product-header');
+    const exclude = $('.product-header');
+
     if ($(this).scrollTop() > header.height()) {
         $(logo).attr("src", "/branding/logo-black.svg");
         header.addClass('active');
     } else {
         $(logo).attr("src", "/branding/logo-white.svg");
         header.removeClass('active');
-    }
-});
+    };
+}
+
+$(document).scroll(stickyMenu);
 
 $("#menu-toggle").click(function () {
     $(".small-menu-wrapper").toggle("active");
@@ -105,7 +108,7 @@ const logosArray = [
 
 function shuffleArray(array) {
     array.sort(() => Math.random() - 0.5);
-}
+};
 
 function createLogos() {
     if (logoTarget) {

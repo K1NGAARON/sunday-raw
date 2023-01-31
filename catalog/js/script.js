@@ -119,6 +119,10 @@ const socialProofContent = [
     }
 ];
 
+function shuffleArray(array) {
+    array.sort(() => Math.random() - 0.5);
+};
+
 function createSocialProof() {
     if (socialProofTarget) {
         shuffleArray(socialProofContent);

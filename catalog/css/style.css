@@ -1,3 +1,20 @@
+.navigation .nav-item {
+    color: var(--black);
+}
+
+.nav-item.btn {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.nav-item.btn:hover {
+    color: var(--white);
+}
+
+.nav-item::before {
+    background-color: var(--black);
+}
+
 .banner.section {
     margin-top: 40px;
 }
