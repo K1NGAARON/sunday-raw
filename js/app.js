@@ -7,13 +7,23 @@ function stickyMenu(e) {
 
     const exclude = $('.product-header');
 
-    if ($(this).scrollTop() > header.height()) {
-        $(logo).attr("src", "/branding/logo-black.svg");
-        header.addClass('active');
+    if (exclude) {
+        if ($(this).scrollTop() > header.height()) {
+            $(logo).attr("src", "/branding/logo-black.svg");
+            header.addClass('active');
+        } else {
+            $(logo).attr("src", "/branding/logo-black.svg");
+            header.removeClass('active');
+        };
     } else {
-        $(logo).attr("src", "/branding/logo-white.svg");
-        header.removeClass('active');
-    };
+        if ($(this).scrollTop() > header.height()) {
+            $(logo).attr("src", "/branding/logo-black.svg");
+            header.addClass('active');
+        } else {
+            $(logo).attr("src", "/branding/logo-white.svg");
+            header.removeClass('active');
+        };
+    }
 };
 
 $(document).scroll(stickyMenu);
