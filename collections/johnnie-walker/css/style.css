@@ -1,0 +1,23 @@
+.banner {
+    background-image: url('../img/banner.jpeg');
+}
+
+.section.pantone .wrapper .item:nth-child(1) .color {
+    background-color: #e0ab3b;
+}
+
+.section.pantone .wrapper .item:nth-child(2) .color {
+    background-color: #d62a2e;
+}
+
+.section.pantone .wrapper .item:nth-child(3) .color {
+    background-color: #0957c3;
+}
+
+.section.pantone .wrapper .item:nth-child(4) .color {
+    background-color: #7fade2;
+}
+
+.section.pantone .wrapper .item:nth-child(5) .color {
+    background-color: #ee817f;
+}
