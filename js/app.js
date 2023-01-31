@@ -169,7 +169,7 @@ function createLogos() {
             pagination: false,
             type: 'loop',
             autoScroll: {
-                speed: 1,
+                speed: 0.2,
             },
         });
         splide.mount({ AutoScroll });
