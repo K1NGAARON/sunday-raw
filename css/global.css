@@ -222,8 +222,12 @@ select:focus-visible {
   border-color: var(--white);
 }
 
-.btn.ghost-btn:hover {
+.btn.white-btn:hover {
+  color: var(--black);
+}
 
+.btn.ghost-btn:hover {
+  color: var(--black);
 }
 
 .section.blue {

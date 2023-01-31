@@ -240,6 +240,11 @@
     text-transform: uppercase;
 }
 
+.footer.section .row .col:nth-child(2),
+.footer.section .row .col:nth-child(3) {
+    display: none;
+}
+
 .header.product-header .topnav-content-sm .item i {
     color: var(--black);
 }
