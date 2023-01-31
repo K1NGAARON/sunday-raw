@@ -36,9 +36,9 @@ $("#menu-toggle").click(function() {
 
 
 function toggleMenuDropdown(e) {
-    $('.dropdown-btn').parent().removeClass('active');
+    $('.dropdown-btn').removeClass('active');
 
-    $(this).parent().toggleClass('active');
+    $(this).toggleClass('active');
 };
 
 $('.dropdown-btn').click(toggleMenuDropdown);
