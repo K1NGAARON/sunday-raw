@@ -2,7 +2,7 @@ const offices = [
     {
         country: 'Belgium',
         city: 'Roeselare',
-        flag: '',
+        flag: './img/flag/be-flag.png',
         location: 'Hof Ter Weze 5',
         postal: '8800 Roeselare',
         img: './img/offices/roeselare.jpg'
@@ -10,7 +10,7 @@ const offices = [
     {
         country: 'Netherlands',
         city: 'Amsterdam',
-        flag: '',
+        flag: './img/flag/nl-flag.png',
         location: 'Joop Geesinkweg 641',
         postal: '1114 AB Amsterdam',
         img: './img/offices/amsterdam.jpg'
@@ -18,7 +18,7 @@ const offices = [
     {
         country: 'Germany',
         city: 'Berlin',
-        flag: '',
+        flag: './img/flag/de-flag.png',
         location: 'Lohmühlenstraße 65',
         postal: '12435 Berlin',
         img: './img/offices/berlin.jpg'
@@ -26,7 +26,7 @@ const offices = [
     {
         country: 'Poland',
         city: 'Łódź',
-        flag: '',
+        flag: './img/flag/pl-flag.png',
         location: 'ul. Gdańska 126/128',
         postal: '90-520 Łódź',
         img: './img/offices/lodz.jpg'
@@ -34,7 +34,7 @@ const offices = [
     {
         country: 'Ireland',
         city: 'Dublin',
-        flag: '',
+        flag: './img/flag/ie-flag.png',
         location: 'Custom House Quay',
         postal: 'CHQ Dublin',
         img: './img/offices/dublin.jpg'
@@ -42,7 +42,7 @@ const offices = [
     {
         country: 'United Kingdom',
         city: 'London',
-        flag: '',
+        flag: './img/flag/uk-flag.png',
         location: 'BLCC Club Quarters, 8 Northumberland Avenue',
         postal: 'London WC2N 5BY',
         img: './img/offices/london.jpg'
