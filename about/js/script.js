@@ -1,5 +1,7 @@
 function readMore(e) {
-
+    $('#fullBody').toggleClass('active');
+    $('#introBody').toggleClass('active');
+    $('#read-more').hide();
 };
 
 const services = [
@@ -69,3 +71,4 @@ function showService(e) {
 };
 
 $('.service-btn').click(showService);
+$('#read-more').click(readMore);

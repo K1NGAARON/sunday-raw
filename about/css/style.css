@@ -9,12 +9,16 @@
 .section.history {
     background-image: url('../img/history.png');
     background-position: top right;
-    background-size: cover;
+    background-size: contain;
 }
 
 .section.history,
 .section.history .row {
     min-height: 50vh;
+}
+
+.section.history p {
+    width: 50%;
 }
 
 .section.mission {
@@ -80,4 +84,22 @@
     gap: 60px;
     text-align: left;
     margin-top: 40px;
+}
+
+#introBody.active {
+    display: block;
+    color: var(--black);
+}
+
+#introBody {
+    display: none;
+}
+
+#fullBody {
+    display: none;
+}
+
+#fullBody.active {
+    display: block;
+    color: var(--black);
 }
