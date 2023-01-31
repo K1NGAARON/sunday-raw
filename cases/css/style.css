@@ -45,3 +45,14 @@
 #clear-all:hover {
     cursor: pointer;
 }
+
+@media (max-width: 560px) {
+    .section.blue h1, 
+    .section.blue p {
+        max-width: 100%;
+    }
+
+    #filter .wrapper {
+        max-width: 100%;
+    }
+}

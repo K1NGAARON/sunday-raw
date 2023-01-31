@@ -47,3 +47,9 @@
 .card p {
     padding: 0 20px;
 }
+
+@media (max-width: 560px) {
+    .card {
+        flex: 1 0 100%;
+    }
+}

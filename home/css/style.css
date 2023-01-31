@@ -289,6 +289,11 @@
 
 
 @media (max-width: 560px) {
+    .home.section,
+    .home.section .row {
+        min-height: unset;
+    }
+
     .home.section .headline {
         max-width: none;
     }
@@ -299,6 +304,10 @@
 
     .section .row .usp {
         margin-top: 0;
+    }
+
+    .section.beachhead .filter {
+        gap: 10px;
     }
 
     .logos .wrapper {
@@ -330,5 +339,9 @@
     .section.case h2 {
         max-width: 100%;
         font-size: 36px;
+    }
+
+    .home.section .headline {
+        font-size: 42px!important;
     }
 }
