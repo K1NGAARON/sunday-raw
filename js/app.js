@@ -36,12 +36,13 @@ $("#menu-toggle").click(function() {
 
 
 function toggleMenuDropdown(e) {
-    $('.dropdown-btn').parent().removeClass('active');
-
     if ($(this).parent().hasClass("active")) {
+        console.log('has class')
         $(this).parent().removeClass('active');
     } else {
+        $('.dropdown-btn').parent().removeClass('active');
         $(this).parent().addClass('active');
+        console.log("doesnt have class")
     }
 };
 
