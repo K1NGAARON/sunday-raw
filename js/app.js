@@ -6,23 +6,23 @@ function stickyMenu(e) {
     const logo = $('.header .logo');
 
     const exclude = $('.product-header');
+    console.log(exclude);
 
-    if (exclude) {
+    if (!exclude) {
         console.log('exclude')
         if ($(this).scrollTop() > header.height()) {
             $(logo).attr("src", "/branding/logo-black.svg");
             header.addClass('active');
         } else {
-            $(logo).attr("src", "/branding/logo-black.svg");
+            $(logo).attr("src", "/branding/logo-white.svg");
             header.removeClass('active');
         };
     } else {
-        console.log('no exclude')
         if ($(this).scrollTop() > header.height()) {
             $(logo).attr("src", "/branding/logo-black.svg");
             header.addClass('active');
         } else {
-            $(logo).attr("src", "/branding/logo-white.svg");
+            $(logo).attr("src", "/branding/logo-black.svg");
             header.removeClass('active');
         };
     }
