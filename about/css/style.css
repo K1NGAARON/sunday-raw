@@ -1,5 +1,31 @@
 .section.banner {
     color: var(--white);
+    background-image: url('../img/banner.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section.history {
+    background-image: url('../img/history.png');
+    background-position: top right;
+    background-size: cover;
+}
+
+.section.history,
+.section.history .row {
+    min-height: 50vh;
+}
+
+.section.mission {
+    background-image: url('../img/mission.jpg');
+    background-position: top right;
+    background-size: contain;
+}
+
+.section.mission,
+.section.mission .row {
+    min-height: 50vh;
 }
 
 .section h1 {
