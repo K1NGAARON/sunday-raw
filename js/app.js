@@ -8,6 +8,7 @@ function stickyMenu(e) {
     const exclude = $('.product-header');
 
     if (exclude) {
+        console.log('exclude')
         if ($(this).scrollTop() > header.height()) {
             $(logo).attr("src", "/branding/logo-black.svg");
             header.addClass('active');
@@ -16,6 +17,7 @@ function stickyMenu(e) {
             header.removeClass('active');
         };
     } else {
+        console.log('no exclude')
         if ($(this).scrollTop() > header.height()) {
             $(logo).attr("src", "/branding/logo-black.svg");
             header.addClass('active');
