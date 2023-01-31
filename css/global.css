@@ -205,6 +205,7 @@ select:focus-visible {
 }
 
 .btn:hover {
+  color: var(--white);
   cursor: pointer;
   transform: scale(1.05);
   transition: var(--transition);

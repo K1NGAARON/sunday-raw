@@ -15,6 +15,11 @@
     background-color: var(--black);
 }
 
+.section.catalog.banner {
+    margin-top: 0;
+    padding-top: 40px;
+}
+
 .banner.section {
     margin-top: 40px;
 }
@@ -218,6 +223,97 @@
 .section,
 .section .row {
     min-height: 60vh;
+}
+
+.section .uppercase {
+    font-size: 30px;
+    color: var(--darkGrey);
+    text-transform: uppercase;
+}
+
+.items .wrapper .item {
+    position: relative;
+}
+
+.items .wrapper .item,
+.items .wrapper .item img {
+    border-radius: 30px;
+}
+
+.items .wrapper .item .container {
+    color: var(--white);
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    text-align: right;
+}
+
+.items .wrapper .item.top .container {
+    top: 20px;
+}
+
+.items .wrapper .item .container h5 {
+    font-weight: 600;
+    font-size: 54px;
+    margin-bottom: 10px;
+}
+
+.items .wrapper .item .container a {
+    color: var(--white);
+    font-size: 18px;
+    transition: var(--transition);
+}
+
+.items .wrapper .item .container a:hover {
+    text-decoration: underline;
+    transition: var(--transition);
+}
+
+.section.highlights {
+    position: relative;
+}
+
+.section.highlights .container {
+    position: absolute;
+}
+
+.section.highlights .container h3 {
+    color: var(--white);
+    font-weight: 600;
+    font-size: 76px;
+    margin-bottom: 10px;
+}
+
+.section.highlights .container a {
+    color: var(--white);
+    font-size: 20px;
+    transition: var(--transition);
+}
+
+.section.highlights .container a:hover {
+    text-decoration: underline;
+    transition: var(--transition);
+}
+
+.section.sustainability {
+    background-image: url('/sustainability/img/banner.jpg');
+    color: var(--white);
+}
+
+.section.sustainability .row .col:nth-child(1) {
+    flex: 2 0;
+}
+
+.section.sustainability .row .col:nth-child(2) {
+    flex: 1 0;
+}
+
+.section.sustainability .btn:hover {
+    color: var(--white);
+}
+
+.contact-form {
+    margin: 0;
 }
 
 @media (max-width: 560px) {
