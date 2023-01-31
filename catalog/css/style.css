@@ -183,4 +183,16 @@
     .case.section p {
         max-width: 100%;
     }
+
+    .section h2 {
+        font-size: 50px;
+    }
+
+    .steps.section .item a {
+        font-size: 26px;
+    }
+
+    .case.section h3 {
+        font-size: 42px;
+    }
 }
