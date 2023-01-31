@@ -68,7 +68,39 @@ const logosArray = [
     {
         client: 'Zalando Logo',
         img: '/img/logos/zalando-logo.svg',
-    }
+    },
+    {
+        client: 'Adyen',
+        img: '/img/logos/adyen-logo.svg',
+    },
+    {
+        client: 'AirBnb',
+        img: '/img/logos/airbnb-logo.svg',
+    },
+    {
+        client: 'Deloitte Logo',
+        img: '/img/logos/deloitte-logo.svg',
+    },
+    {
+        client: 'Google Logo',
+        img: '/img/logos/google-logo.svg',
+    },
+    {
+        client: 'Hubspot Logo',
+        img: '/img/logos/hubspot-logo.svg',
+    },
+    {
+        client: 'Mastercard Logo',
+        img: '/img/logos/mastercard-logo.svg',
+    },
+    {
+        client: 'TikTok Logo',
+        img: '/img/logos/tiktok-logo.svg',
+    },
+    {
+        client: 'Zalando Logo',
+        img: '/img/logos/zalando-logo.svg',
+    },
 ];
 
 function shuffleArray(array) {

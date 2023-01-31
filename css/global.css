@@ -410,6 +410,9 @@ select:focus-visible {
   display: inline-flex;
   min-width:200px;
 }
+.splide__sr {
+  display: none !important;
+}
 
 /* LOGOS */
 .logos .wrapper {
