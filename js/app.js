@@ -34,6 +34,17 @@ $("#menu-toggle").click(function() {
     $(".small-menu-wrapper").toggle("active");
 });
 
+
+function toggleMenuDropdown(e) {
+    $('.dropdown-btn').parent().toggleClass('active');
+    $('.dropdown-btn').siblings().toggleClass('active');
+
+    $(this).parent().toggleClass('active');
+    $(this).siblings().toggleclass('active');
+};
+
+$('.dropdown-btn').click(toggleMenuDropdown);
+
 function closeAccordion(e) {
     $('.accordion-head').removeClass('active');
     $('.accordion-body').removeClass('active');
