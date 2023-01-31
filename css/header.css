@@ -263,7 +263,7 @@
 
 .header .navigation .dropdown-holder .dropdown {
     position: absolute;
-    width: 100%;
+    width: fit-content;
     display: none;
     padding: 5px;
     background-color: var(--white);
@@ -276,6 +276,7 @@
 .header .navigation .dropdown-holder.active .dropdown {
     display: flex;
     flex-direction: column;
+    font-size: 14px;
 }
 
 
