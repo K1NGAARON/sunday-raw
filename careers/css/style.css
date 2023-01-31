@@ -1,0 +1,79 @@
+.section.gallery,
+.section.gallery .row {
+    min-height: unset;
+}
+
+.section.cta,
+.section.cta .row {
+    min-height: unset;
+}
+
+.section.gallery .row {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.section.gallery .wrapper {
+    flex-flow: row wrap;
+    gap: 0;
+}
+
+.section.gallery .wrapper .item {
+    flex: 1 0;
+}
+
+.mission-vision p {
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+}
+
+.mission-vision .focus {
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.section.application img {
+    max-width: 65%;
+    margin-top: 20px;
+}
+
+.section .uppercase {
+    color: var(--darkGrey);
+}
+
+.section .large {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.section.values,
+.section.values .row {
+    min-height: unset;
+}
+
+.section.values .row ul {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    list-style: none;
+}
+
+.section.values .row ul li {
+    flex: 1 0 40%;
+    font-size: 18px;
+}
+
+.section.values .row ul li:hover {
+    cursor: pointer;
+}
+
+.section.culture img {
+    border-radius: 30px;
+}
+
+.active {
+    font-weight: 600;
+    color: var(--black);
+}

@@ -408,6 +408,12 @@ select:focus-visible {
 
 /* LOGOS */
 .logos .wrapper {
+  /*align-items: center;*/
+  /*display: flex;*/
+  /*gap: 50px;*/
+}
+.splide__list {
+  display:flex;
   align-items: center;
 }
 

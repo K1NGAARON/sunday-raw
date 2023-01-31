@@ -162,3 +162,18 @@
     display: block;
     transition: var(--transition);
 }
+
+.catalog .row {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.catalog .row .col {
+    flex: 1 0 20%;
+    flex-grow: 0;
+}
+
+.catalog ul li {
+    list-style: none;
+    margin: 5px auto;
+}
