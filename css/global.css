@@ -591,7 +591,9 @@ select:focus-visible {
     width: 100%;
   }
 
-
+  .wrapper .item {
+    flex: 1 0 100%;
+  }
 }
 
 @media (max-width: 760px) {

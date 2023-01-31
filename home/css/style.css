@@ -320,7 +320,7 @@
     }
 
     .section.products .wrapper .item {
-        flex: 1 0 50%;
+        flex: 1 0 100%;
     }
 
     .section.products .wrapper .item .content h5 {
