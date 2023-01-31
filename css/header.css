@@ -239,6 +239,10 @@
     text-transform: uppercase;
 }
 
+.header.product-header .topnav-content-sm .item i {
+    color: var(--black);
+}
+
 
 
 @media (max-width: 1355px) {
