@@ -195,6 +195,31 @@
     margin: 5px auto;
 }
 
+.section.case {
+    display: none;
+}
+
+.section.social-proof {
+    display: none;
+}
+
+.section.logos .row {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.section.header,
+.section.header .row,
+.section.footer,
+.section.footer .row {
+    min-height: unset;
+}
+
+.section,
+.section .row {
+    min-height: 60vh;
+}
+
 @media (max-width: 560px) {
     .case.section h3, 
     .case.section p {

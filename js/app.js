@@ -14,11 +14,11 @@ function stickyMenu(e) {
         $(logo).attr("src", "/branding/logo-white.svg");
         header.removeClass('active');
     };
-}
+};
 
 $(document).scroll(stickyMenu);
 
-$("#menu-toggle").click(function () {
+$("#menu-toggle").click(function() {
     $(".small-menu-wrapper").toggle("active");
 });
 
