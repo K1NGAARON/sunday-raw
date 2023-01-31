@@ -89,6 +89,10 @@
         max-width: none;
     }
 
+    .section.blue h1 {
+        font-size: 38px!important;
+    }
+
     .section h2,
     .section.usp .wrapper .item .large {
         text-align: center;
@@ -97,13 +101,14 @@
     .section.usp .filter {
         flex-flow: row wrap;
         justify-content: center;
+        gap: 10px;
+    }
+
+    .section.testimonial .author {
+        font-size: 20px;
     }
 
     .section.usp .wrapper .item {
         align-items: center;
-    }
-
-    #calculator {
-        max-width: none;
     }
 }

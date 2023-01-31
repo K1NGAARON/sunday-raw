@@ -281,3 +281,21 @@
 #calculator .hidden {
     display: none;
 }
+
+@media (max-width: 560px) {
+    #calculator {
+        max-width: 100%;
+    }
+
+    #calculator form .form-item.checkbox {
+        text-align: left;
+    }
+
+    #calculator .output-wrapper {
+        font-size: 12px;
+    }
+
+    #calculator h3 {
+        font-size: 20px;
+    }
+}
