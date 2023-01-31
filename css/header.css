@@ -300,4 +300,39 @@
     .header .topnav-content-sm {
         padding: 10px 30px;
     }
+
+    .footer .row {
+        flex-flow: row wrap;
+        gap: 10px;
+    }
+
+    .footer .row .col {
+        flex: 1 0 40%;
+    }
+
+    .footer .row .company-info,
+    .footer .row a {
+        font-size: 12px;
+    }
+
+    .footer .row .socials {
+        gap: 10px;
+    }
+
+    .footer .row .btn {
+        display: none;
+    }
+
+    .footer .row.legal .wrapper {
+        width: 100%;
+    }
+
+    .footer .row.menu .col:nth-child(2),
+    .footer .row.menu .col:nth-child(3) {
+        display: none;
+    }
+
+    .footer .row .socials a {
+        font-size: 16px;
+    }
 }
