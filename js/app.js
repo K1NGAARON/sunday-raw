@@ -5,7 +5,7 @@ function stickyMenu(e) {
     const header = $('.header');
     const logo = $('.header .logo');
 
-    const exclude = $('.product-header');
+    const exclude = document.querySelector('.product-header');
     console.log(exclude);
 
     if (!exclude) {
