@@ -105,6 +105,10 @@ body {
   flex-direction: column;
 }
 
+.wrapper .item .btn {
+  margin-top: auto;
+}
+
 
 /* FONTS */
 h1,
