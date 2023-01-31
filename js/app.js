@@ -1,4 +1,5 @@
 import {Splide} from '@splidejs/splide';
+import {AutoScroll} from "@splidejs/splide-extension-auto-scroll";
 
 $(document).scroll(function () {
     const header = $('.header');
@@ -75,7 +76,6 @@ function shuffleArray(array) {
 }
 
 function createLogos() {
-    console.log('logoTarget', logoTarget.innerHTML);
     if (logoTarget) {
         shuffleArray(logosArray);
         const splideTrackElement = document.createElement('div');
@@ -102,17 +102,16 @@ function createLogos() {
         const splide = new Splide('#logoHolder', {
             arrows: false,
             drag: 'free',
-            gap: '50px',
+            gap: '180px',
             height: '100px',
+            loop: true,
             pagination: false,
             type: 'loop',
             autoScroll: {
                 speed: 1,
             },
         });
-        console.log('logoTarget html', logoTarget.innerHTML);
-        console.log('logoTarget', logoTarget);
-        splide.mount();
+        splide.mount({ AutoScroll });
     }
 }
 
