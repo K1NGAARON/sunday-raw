@@ -5,7 +5,7 @@ const content = [
         img: './img/usp/save.png',
     },
     {
-        title: "It's way more efficient",
+        title: "It saves time",
         body: "The days of going through the entire order-hassle for each initiative your team wants to take, are finally over. You have your catalog at hand, always ready to go!",
         img: './img/usp/save-time.png',
     },
