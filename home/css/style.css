@@ -10,6 +10,7 @@
 
 .section.case {
     position: relative;
+    height: fit-content;
 }
 
 .section.case .row {
@@ -275,7 +276,6 @@
     background-image: url('../img/deliverect-case.jpg');
     background-position: center center;
     background-repeat: no-repeat;
-    height: 90vh;
 }
 
 .section.case h2 {
@@ -283,8 +283,6 @@
     max-width: 75%;
     font-size: 56px;
 }
-
-
 
 /* Products */
 .section.products .row {
@@ -300,7 +298,6 @@
     height: 100%;
     position: relative;
 }
-
 
 .section.products .wrapper .item .content {
     position: absolute;
@@ -322,7 +319,6 @@
 .section.products .wrapper .item .content .btn {
     padding: 5px 10px;
 }
-
 
 @media (max-width: 560px) {
     .home.section,
