@@ -50,15 +50,15 @@ function toggleUSP(e) {
 
 const beachheads = [
     {
-        headline: 'With 10 new hires every week, and so 10 new possible ambassadors, they were in need of a proper onboarding.',
-        image: '/cases/deliverect/img/banner.jpg',
+        headline: 'With 10 new hires every week, they were in need of a proper onboarding.',
+        image: '/cases/deliverect/img/banner-2.jpg',
         logo: '/cases/deliverect/img/logo.png',
         body: 'Deliverect, the ‘Adyen of food delivery services’ grew 750% in the last year. A boost that also sent the number of employees skyrocketing.',
         url: '/cases/deliverect/'
     },
     {
         headline: "How to Increase ambassador marketing by organising a sports event?",
-        image: '/cases/stadsbader/img/banner.jpg',
+        image: '/cases/stadsbader/img/banner-2.jpg',
         logo: '/cases/stadsbader/img/logo.png',
         body: 'By rewarding the participants with unique branded apparel, we motivated real ambassadors who in their place activate silent ambassadors.',
         url: '/cases/stadsbader/',
