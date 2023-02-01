@@ -337,7 +337,7 @@ select:focus-visible {
 .contact-form.transparent select,
 .contact-form.transparent textarea {
   border-color: var(--white);
-  color: var(--white);
+  color: var(--black);
   background-color: var(--white);
 }
 
