@@ -312,9 +312,22 @@
     color: var(--white);
 }
 
-.contact-form {
+.lookbook .contact-form {
     margin: 0;
 }
+
+.section.sustainability {
+    position: relative;
+}
+
+.section.sustainability .row {
+    z-index: 9;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+
 
 @media (max-width: 560px) {
     .case.section h3, 
