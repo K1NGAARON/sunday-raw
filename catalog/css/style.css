@@ -377,6 +377,7 @@
 
 .section .contact-wrapper a {
     color: var(--white);
+    transition: var(--transition);
 }
 
 .section .contact-wrapper a i {
@@ -385,6 +386,8 @@
 
 .section .contact-wrapper a:hover {
     color: var(--white);
+    text-decoration: underline;
+    transition: var(--transition);
 }
 
 
