@@ -78,6 +78,10 @@
     margin-bottom: 60px;
 }
 
+.logos.section {
+    margin-top: 40px;
+}
+
 .logos.section,
 .logos.section .row {
     min-height: unset;
@@ -236,6 +240,7 @@
     font-size: 30px;
     margin-bottom: 10px;
     text-align: left;
+    font-weight: 300;
 }
 
 .collections .item .container {

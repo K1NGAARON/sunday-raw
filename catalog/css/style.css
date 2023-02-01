@@ -112,6 +112,10 @@
     min-height: unset;
 }
 
+.steps.section img {
+    margin-top: 60px;
+}
+
 .steps.section .wrapper {
     align-items: center;
     gap: 60px;
