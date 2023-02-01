@@ -198,15 +198,15 @@
 }
 
 .collections .item:nth-child(2):hover .overlay {
-    background-color: #2F6DCE;
+    background-color: #ff7b36;
 }
 
 .collections .item:nth-child(3):hover .overlay {
-    background-color: #2F6DCE;
+    background-color: #ffe149;
 }
 
 .collections .item:nth-child(4):hover .overlay {
-    background-color: #2F6DCE;
+    background-color: #ea5298;
 }
 
 .collections .item .container {
