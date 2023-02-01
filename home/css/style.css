@@ -189,9 +189,24 @@
 }
 
 .collections .item:hover .overlay {
-    background-color: #2F6DCE;
     mix-blend-mode: multiply;
     transition: var(--transition);
+}
+
+.collections .item:nth-child(1):hover .overlay {
+    background-color: #2F6DCE;
+}
+
+.collections .item:nth-child(2):hover .overlay {
+    background-color: #2F6DCE;
+}
+
+.collections .item:nth-child(3):hover .overlay {
+    background-color: #2F6DCE;
+}
+
+.collections .item:nth-child(4):hover .overlay {
+    background-color: #2F6DCE;
 }
 
 .collections .item .container {
@@ -208,29 +223,28 @@
 
     color: var(--white);
     opacity: 0.3;
-    /* transition: var(--transition); */
     z-index: 9;
 }
 
 .collections .item .container h5 {
     font-weight: 600;
     font-size: 68px;
+    text-align: left;
 }
 
 .collections .item .container p {
     font-size: 30px;
     margin-bottom: 10px;
+    text-align: left;
 }
 
 .collections .item .container {
     opacity: 1;
-    /* transition: var(--transition); */
 }
 
 .collections .item:hover .container {
     display: flex;
     opacity: 1;
-    /* transition: var(--transition); */
 }
 
 .collections .item.small {

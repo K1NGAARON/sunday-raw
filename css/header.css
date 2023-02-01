@@ -93,8 +93,8 @@
 .nav-item.btn {
     margin-left: auto;
     font-size: 14px;
-    color: var(--black);
-    background-color: var(--white);
+    color: var(--white);
+    background-color: var(--primary);
     border: none;
 }
 
