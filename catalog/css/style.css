@@ -338,6 +338,28 @@
     transform: translate(-50%, -40%);
 }
 
+.section.contact ol {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.section.contact .wrapper {
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    width: fit-content;
+}
+
+.section.contact .wrapper .item {
+    flex: 1 0;
+}
+
+.section.contact .wrapper .item img {
+    border-radius: 50%;
+    max-width: 125px;
+}
+
 
 @media (max-width: 560px) {
     .case.section h3, 
