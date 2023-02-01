@@ -1,4 +1,8 @@
 /* HOMEPAGE */
+.section.usp h2 {
+    font-size: 100px;
+}
+
 .home.banner {
     background-image: url('/home/img/banner.jpg');
     background-repeat: no-repeat;
@@ -28,7 +32,7 @@
 .home.banner .row {
     z-index: 9;
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -40%);
 }
@@ -51,8 +55,12 @@
 }
 
 .section .row .usp a {
-    font-size: 30px;
+    font-size: 50px;
     transition: var(--transition);
+}
+
+#usp-body {
+    margin-top: 40px;
 }
 
 .usp-toggle:hover {
@@ -76,9 +84,10 @@
 }
 
 .section.logos .globally {
-    font-size: 40px;
+    font-size: 26px;
     text-transform: uppercase;
     color: var(--darkGrey);
+    letter-spacing: 10px;
 }
 
 .section.beachhead .filter {
@@ -149,7 +158,7 @@
 
 .home.section .headline {
     color: var(--white);
-    font-size: 76px;
+    font-size: 84px;
     max-width: 65%;
 }
 
@@ -157,6 +166,7 @@
 /* Customer collections */
 .collections {
     gap: 20px;
+    margin-top: 40px;
 }
 
 .collections .item {
@@ -165,8 +175,23 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    transition: var(--transition);
+    /* transition: var(--transition); */
     z-index: 5;
+}
+
+.collections .item {
+    position: relative;
+}
+
+.collections .item .overlay {
+    background: none;
+    transition: var(--transition);
+}
+
+.collections .item:hover .overlay {
+    background-color: #2F6DCE;
+    mix-blend-mode: multiply;
+    transition: var(--transition);
 }
 
 .collections .item .container {
@@ -176,37 +201,36 @@
     height: 100%;
 
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-start;
 
-    padding: 0 0 40px 20px;
+    padding: 40px;
 
     color: var(--white);
-    background: var(--overlayVertical);
     opacity: 0.3;
-    transition: var(--transition);
+    /* transition: var(--transition); */
     z-index: 9;
 }
 
 .collections .item .container h5 {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 68px;
 }
 
 .collections .item .container p {
-    font-size: 16px;
+    font-size: 30px;
     margin-bottom: 10px;
 }
 
 .collections .item .container {
     opacity: 1;
-    transition: var(--transition);
+    /* transition: var(--transition); */
 }
 
 .collections .item:hover .container {
     display: flex;
     opacity: 1;
-    transition: var(--transition);
+    /* transition: var(--transition); */
 }
 
 .collections .item.small {

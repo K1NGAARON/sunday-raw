@@ -10,7 +10,7 @@ const usp = [
     },
     {
         usp: 'ship-worldwide',
-        body: "SWe noticed that many of our customers love doing creative campaigns using awesome clothing, but they hate the hassle. That’s why we started working on a solution. Sunday Wardrobe™ is our SaaS-solution, making it super easy for companies to warehouse, handle and ship clothing to key stakeholders.",
+        body: "We noticed that many of our customers love doing creative campaigns using awesome clothing, but they hate the hassle. That’s why we started working on a solution. Sunday Wardrobe™ is our SaaS-solution, making it super easy for companies to warehouse, handle and ship clothing to key stakeholders.",
         video: `
             <div class="video-wrapper side" id="videoHolder">
                 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/758670317?h=7c50d91deb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Sunday Wardrobe&amp;trade;"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

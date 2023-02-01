@@ -79,6 +79,9 @@
     cursor: pointer;
 }
 
+#offices .wrapper .item .flag {
+    border-radius: 0;
+}
 
 @media (max-width: 560px) {
     #offices .wrapper .item:nth-child(1) {
