@@ -2,22 +2,34 @@ const usp = [
     {
         usp: 'unique-design',
         body: "Our custom designs are unique in the market: We always start from the customer's brand guidelines (logo, Pantone colors, brand vision, …). Then we help think about the objective of the clothing and who will wear it. That way, the design team can work out an appropriate custom design in a much more focused way. The team also constantly follows the latest fashion trends, which ensures that we can develop contemporary and modern concepts that will be worn with pride.",
-        img: '',
+        video: `
+            <div class="video-wrapper side" id="videoHolder">
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/778141540?h=181d56dff0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="From brand to fashion"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            </div>
+        `,
     },
     {
         usp: 'ship-worldwide',
         body: "SWe noticed that many of our customers love doing creative campaigns using awesome clothing, but they hate the hassle. That’s why we started working on a solution. Sunday Wardrobe™ is our SaaS-solution, making it super easy for companies to warehouse, handle and ship clothing to key stakeholders.",
-        img: '',
+        video: `
+            <div class="video-wrapper side" id="videoHolder">
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/758670317?h=7c50d91deb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Sunday Wardrobe&amp;trade;"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            </div>
+        `,
     },
     {
         usp: 'worldclass-service',
         body: "Personal contact, guidance throughout the process and clear communication is what Sunday guarantees. We think along with the client and help advise on the right product, finishing options and how best to use the clothing to achieve maximum ROI.",
-        img: '',
+        video: `
+            <div class="video-wrapper side" id="videoHolder">
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/794577698?h=db554bdd29&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="marieke.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            </div>
+        `,
     }
 ];
 
 function toggleUSP(e) {
-    let imageHolder = document.querySelector('#usp-image');
+    let video = document.querySelector('#videoHolder');
     let bodyHolder = document.querySelector('#usp-body');
     let activeUSP = e.target.id;
 
@@ -26,10 +38,13 @@ function toggleUSP(e) {
 
     if (activeUSP == 'unique-design') {
         bodyHolder.innerHTML = usp[0].body;
+        $(video).html(usp[0].video);
     } else if (activeUSP == 'ship-worldwide') {
         bodyHolder.innerHTML = usp[1].body;
+        $(video).html(usp[1].video);
     } else if (activeUSP == 'worldclass-service') {
         bodyHolder.innerHTML = usp[2].body;
+        $(video).html(usp[2].video);
     }
 };
 

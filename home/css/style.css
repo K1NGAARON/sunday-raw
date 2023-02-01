@@ -5,10 +5,19 @@
     background-position: center center;
     background-size: cover;
     height: 90vh;
+    position: relative;
 }
 
 .banner .wrapper {
     gap: 20px;
+}
+
+.home.banner .row {
+    z-index: 9;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
 }
 
 .banner .btn:hover {

@@ -181,6 +181,18 @@ select:focus-visible {
   color: var(--primary);
 }
 
+.video-wrapper video {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.video-wrapper.side,
+.video-wrapper.side video,
+.video-wrapper.side iframe {
+  border-radius: 30px;
+}
+
 /* BUTTONS */
 .btn {
   font-size: 14px;
