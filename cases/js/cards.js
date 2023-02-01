@@ -33,7 +33,7 @@ const content = [
     {
         client: 'ION',
         title: "ION knows how to motivate a team: #actION please!",
-        body: "body incoming",
+        body: "A bottle of champagne is always a nice gift but sometimes it could be a more original gift that people will enjoy for a long time to come.",
         logo: '/cases/ion/img/logo.svg',
         img: '/cases/ion/img/banner.jpeg',
         url: '/cases/ion/',
@@ -43,7 +43,7 @@ const content = [
     {
         client: 'Silverfin',
         title: 'Learn how Silverfin increased performance and wellbeing for their employees',
-        body: 'tbaaaaaa',
+        body: 'We, too, strongly believe that this approach contributes enormously to the productivity of employees.',
         logo: '/cases/silverfin/img/logo.png',
         img: '/cases/silverfin/img/banner.jpeg',
         url: '/cases/silverfin/',
