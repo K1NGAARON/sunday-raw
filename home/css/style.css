@@ -8,6 +8,18 @@
     position: relative;
 }
 
+.section.case {
+    position: relative;
+}
+
+.section.case .row {
+    z-index: 9;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+
 .banner .wrapper {
     gap: 20px;
 }
