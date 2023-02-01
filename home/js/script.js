@@ -65,14 +65,14 @@ const beachheads = [
     },
     {
         headline: "Thanking employees for their efforts and building an employee recognition policy.",
-        image: '/cases/ion/img/banner.jpeg',
+        image: '/cases/ion/img/ion.jpg',
         logo: '/cases/ion/img/logo.svg',
         body: 'ION knows how to motivate a team: #actION please!',
         url: '/cases/ion/',
     },
     {
         headline: "Learn more about workplace health",
-        image: '/cases/showpad/img/banner.jpeg',
+        image: '/cases/showpad/img/showpad.jpg',
         logo: '/cases/showpad/img/logo.png',
         body: 'Showing off Showpad’s custom made solution to create workplace health by deploying branded sportswear.',
         url: '/cases/showpad/',
