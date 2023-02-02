@@ -130,6 +130,66 @@ const logosArray = [
         client: 'Zalando Logo',
         img: '/img/logos/zalando-logo.svg',
     },
+    {
+        client: 'Croky Logo',
+        img: '/img/logos/croky.svg',
+    },
+    {
+        client: 'Delaware Logo',
+        img: '/img/logos/delaware.svg',
+    },
+    {
+        client: 'Duvel Logo',
+        img: '/img/logos/duvel.svg',
+    },
+    {
+        client: 'Getinge Logo',
+        img: '/img/logos/getinge.svg',
+    },
+    {
+        client: 'Gorillas Logo',
+        img: '/img/logos/gorillas.svg',
+    },
+    {
+        client: 'iO Logo',
+        img: '/img/logos/io.svg',
+    },
+    {
+        client: 'Johnnie Walker Logo',
+        img: '/img/logos/johhniewalker.svg',
+    },
+    {
+        client: 'Oaky Logo',
+        img: '/img/logos/oaky.svg',
+    },
+    {
+        client: 'Rituals Logo',
+        img: '/img/logos/rituals.svg',
+    },
+    {
+        client: 'Salesforce Logo',
+        img: '/img/logos/salesforce.svg',
+    },
+    {
+        client: 'Showpad Logo',
+        img: '/img/logos/showpad.svg',
+    },
+    {
+        client: 'Signpost Logo',
+        img: '/img/logos/signpost.svg',
+    },
+    {
+        client: 'SumUp Logo',
+        img: '/img/logos/sumup.svg',
+    },
+    {
+        client: 'Twillio Logo',
+        img: '/img/logos/twillio.svg',
+    },
+    {
+        client: 'Videoland Logo',
+        img: '/img/logos/videoland.svg',
+    },
 ];
 
 function shuffleArray(array) {
