@@ -281,7 +281,7 @@
 .header .navigation .dropdown-holder.active .dropdown {
     display: flex;
     flex-direction: column;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 

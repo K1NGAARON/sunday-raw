@@ -416,4 +416,12 @@
     .case.section h3 {
         font-size: 42px;
     }
+
+    .catalog .row {
+        flex-flow: row wrap;
+    }
+
+    .catalog .row .col {
+        flex: 1 0 40%;
+    }
 }
