@@ -103,3 +103,44 @@
     display: block;
     color: var(--black);
 }
+
+@media (max-width: 560px) {
+    .section.banner,
+    .section.banner .row {
+        min-height: unset;
+    }
+
+    .section h1, 
+    .section p {
+        max-width: 100%;
+    }
+
+    .section .large {
+        font-size: 26px;
+    }
+
+    .section.history {
+        background-image: unset;
+    }
+
+    .section.history h2 {
+        font-size: 36px;
+    }
+
+    .section.history p {
+        width: 100%;
+    }
+
+    .section .filter {
+        flex-flow: row wrap;
+    }
+
+    .section .filter a {
+        flex: 1 0 40%;
+    }
+
+    .section.mission, 
+    .section.mission .row {
+        min-height: unset;
+    }
+}
