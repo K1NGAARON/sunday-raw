@@ -424,4 +424,25 @@
     .catalog .row .col {
         flex: 1 0 40%;
     }
+
+    .section.sustainability {
+        min-height: unset;
+    }
+
+    .section.sustainability .row {
+        min-height: unset;
+        top: unset;
+        left: unset;
+        bottom: unset;
+        transform: unset;
+        padding: 30px;
+    }
+
+    .section.sustainability .row .col:nth-child(1) {
+        flex: 1 0;
+    }
+
+    .section.sustainability .row h2 {
+        font-size: 28px;
+    }
 }
