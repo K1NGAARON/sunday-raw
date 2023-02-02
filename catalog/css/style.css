@@ -209,6 +209,10 @@
     flex-grow: 0;
 }
 
+.catalog .row .col.img {
+    flex: 1 0 60%;
+}
+
 .catalog ul li {
     list-style: none;
     margin: 15px auto;
