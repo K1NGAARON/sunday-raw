@@ -455,7 +455,6 @@
     }
 
     .home.section .row .wrapper .btn {
-        /* flex: 1 0; */
         width: fit-content;
         font-size: 12px;
     }
