@@ -445,4 +445,12 @@
     .section.sustainability .row h2 {
         font-size: 28px;
     }
+
+    .section.decoration .wrapper.switch .item img:nth-child(1) {
+        display: none;
+    }
+
+    .section.decoration .wrapper.switch .item img:nth-child(2) {
+        display: block;
+    }
 }
