@@ -43,18 +43,50 @@
     <div class="section header">
         <div class="row">
             <a class="nav-item home" href="/">
-                <img class="logo" src="/branding/logo-white.svg" alt="">
+                <img class="logo" src="/branding/logo-white.svg" alt="Sunday Logo">
             </a>
             <div class="navigation">
-                <a class="nav-item" href="">Products</a>
-                <a class="nav-item" href="">Distribution</a>
-                <a class="nav-item" href="">Customers</a>
-                <a class="nav-item" href="">Content hub</a>
-                <a class="nav-item" href="">Pricing</a>
-                <a class="nav-item" href="">Company</a>
+                <a class="nav-item" href="/catalog/">Products</a>
+                <a class="nav-item" href="/platform/">Distribution</a>
+                <a class="nav-item" href="/cases/">Customers</a>
+                <a class="nav-item" href="/blog/">Content Hub</a>
+                
+                <div class="dropdown-holder">
+                    <a class="nav-item dropdown-btn" id="company">Company<i class="fa-solid fa-chevron-down"></i></a>
+                    <div class="dropdown">
+                        <a href="/about/">About Sunday</a>
+                        <a href="/careers/job-openings/">Careers</a>
+                        <a href="/sustainability/">Sustainability</a>
+                        <a href="/partners/">Become a partner</a>
+                    </div>
+                </div>
             </div>
 
-            <a class="btn nav-item" href="">Contact us</a>
+            <a class="btn nav-item" href="/contact/">Contact us</a>
+        </div>
+
+        <div class="topnav-content-sm">
+            <div class="item">
+                <a href="/">
+                    <img class="logo" src="/branding/logo-white.svg" alt="Sunday logo">
+                </a>
+            </div>
+            <div class="item">
+                <a href="javascript:void(0);" class="icon" id="menu-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="small-menu-wrapper">
+            <div class="small-menu-content">
+                <a class="nav-item" href="/catalog/">Products</a>
+                <a class="nav-item" href="/platform/">Distribution</a>
+                <a class="nav-item" href="/cases/">Customers</a>
+                <a class="nav-item" href="/blog/" id="content">Content hub</a>
+                <a class="nav-item" href="/about/" id="company">Company</a>
+                <a class="nav-item" href="/contact/">Contact</a>
+            </div>
         </div>
     </div>
 </header>
