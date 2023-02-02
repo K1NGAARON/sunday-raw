@@ -78,10 +78,10 @@ const beachheads = [
         url: '/cases/showpad/',
     },
     {
-        headline: "",
+        headline: "Find out why Televic opted for business shirts fully adapted to their corporate branding.",
         image: "/cases/televic/img/banner-home.jpg",
         logo: "/cases/televic/img/logo.png",
-        body: "",
+        body: "With other companies trying to impress future talents with a pen, Televic really wants to stand out from the crowd with their company fashion.",
         url: "/cases/televic/"
     }
 ];
@@ -92,8 +92,6 @@ function toggleBeachhead(e) {
     let logoHolder = document.querySelector('#beachheadLogo');
     let bodyHolder = document.querySelector('#bodyHolder');
     let buttonHolder = document.querySelector('#caseBtn');
-
-    console.log(logoHolder);
     
     $('.beachhead-btn').removeClass('active');
     $(this).addClass('active');
@@ -108,7 +106,7 @@ function toggleBeachhead(e) {
         $(logoHolder).attr('src', `${beachheads[0].logo}`);
         $(bodyHolder).text(`${beachheads[0].body}`);
         $(buttonHolder).attr('href', `${beachheads[0].url}`);
-    } else if (selectedContent === 'fairs') {
+    } else if (selectedContent === 'employer-branding') {
         $(headlineHolder).text(`${beachheads[1].headline}`);
         $(imageHolder).attr('src', `${beachheads[1].image}`);
         $(logoHolder).attr('src', `${beachheads[1].logo}`);
@@ -126,7 +124,7 @@ function toggleBeachhead(e) {
         $(logoHolder).attr('src', `${beachheads[3].logo}`);
         $(bodyHolder).text(`${beachheads[3].body}`);
         $(buttonHolder).attr('href', `${beachheads[3].url}`);
-    } else if (selectedContent === '') {
+    } else if (selectedContent === 'fairs') {
         $(headlineHolder).text(`${beachheads[4].headline}`);
         $(imageHolder).attr('src', `${beachheads[4].image}`);
         $(logoHolder).attr('src', `${beachheads[4].logo}`);
