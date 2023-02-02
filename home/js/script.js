@@ -76,6 +76,13 @@ const beachheads = [
         logo: '/cases/showpad/img/logo.png',
         body: 'Showing off Showpad’s custom made solution to create workplace health by deploying branded sportswear.',
         url: '/cases/showpad/',
+    },
+    {
+        headline: "",
+        image: "/cases/televic/img/banner-home.jpg",
+        logo: "/cases/televic/img/logo.png",
+        body: "",
+        url: "/cases/televic/"
     }
 ];
 
@@ -119,6 +126,12 @@ function toggleBeachhead(e) {
         $(logoHolder).attr('src', `${beachheads[3].logo}`);
         $(bodyHolder).text(`${beachheads[3].body}`);
         $(buttonHolder).attr('href', `${beachheads[3].url}`);
+    } else if (selectedContent === '') {
+        $(headlineHolder).text(`${beachheads[4].headline}`);
+        $(imageHolder).attr('src', `${beachheads[4].image}`);
+        $(logoHolder).attr('src', `${beachheads[4].logo}`);
+        $(bodyHolder).text(`${beachheads[4].body}`);
+        $(buttonHolder).attr('href', `${beachheads[4].url}`);
     };
 };
 

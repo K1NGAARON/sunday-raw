@@ -49,7 +49,17 @@ const content = [
         url: '/cases/silverfin/',
         beachhead: 'HR',
         companysize: '',
-    }
+    },
+    {
+        client: "Televic",
+        title: "Stylish business shirts for Televic’s expert team",
+        body: "",
+        logo: "/cases/televic/img/logo.png",
+        img: "/cases/televic/img/televic.jpg",
+        url: "/cases/televic/",
+        beachhead: "",
+        companysize: ""
+    },
 ];
 
 function createCards() {
