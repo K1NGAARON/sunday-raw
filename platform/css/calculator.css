@@ -285,6 +285,7 @@
 @media (max-width: 560px) {
     #calculator {
         max-width: 100%;
+        flex-direction: column;
     }
 
     #calculator form .form-item.checkbox {

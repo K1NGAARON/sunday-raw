@@ -96,6 +96,27 @@
 }
 
 @media (max-width: 560px) {
+    .section.banner,
+    .section.banner .row {
+        min-height: unset;
+    }
+
+    .section.banner .row {
+        transform: unset;
+        bottom: unset;
+        left: unset;
+        top: unset;
+        position: unset;
+    }
+
+    .section.banner .background-wrapper {
+        display: none;
+    }
+
+    .section.usp h2 {
+        font-size: 38px;
+    }
+
     .section.banner h1, 
     .section.banner p {
         max-width: none;
