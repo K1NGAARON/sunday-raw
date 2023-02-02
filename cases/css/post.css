@@ -83,6 +83,9 @@
     font-size: 22px;
     color: var(--primary);
 }
+.section.related-content {
+    display: none;
+}
 
 .section.related-content .row {
     align-items: center;
