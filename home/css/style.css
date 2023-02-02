@@ -388,6 +388,14 @@
 }
 
 @media (max-width: 560px) {
+    .home.section {
+        padding: 30px 0;
+    }
+
+    .section.logos .globally {
+        font-size: 16px;
+    }
+
     .home.section,
     .home.section .row {
         min-height: unset;
@@ -398,7 +406,37 @@
     }
 
     .section h2 {
-        font-size: 44px;
+        font-size: 36px;
+    }
+
+    .section.usp h2 {
+        font-size: 46px;
+    }
+
+    .section .row .usp a {
+        font-size: 24px;
+    }
+
+    .collections .item,
+    .collections .item.large,
+    .collections .item.small,
+    .collections .item.medium {
+        flex: 1 0 100%;
+    }
+
+    .collections .item .container {
+        display: flex;
+        opacity: 1;
+    }
+
+    .section.case .row {
+        top: unset;
+        left: unset;
+        transform: unset;
+    }
+
+    .section.case h2 {
+        font-size: 24px;
     }
 
     .section .row .usp {
@@ -437,10 +475,30 @@
 
     .section.case h2 {
         max-width: 100%;
-        font-size: 36px;
     }
 
     .home.section .headline {
-        font-size: 42px!important;
+        font-size: 36px!important;
+    }
+
+    .collections .item .overlay {
+        mix-blend-mode: multiply;
+        transition: var(--transition);
+    }
+
+    .collections .item:nth-child(1) .overlay {
+        background-color: #2F6DCE;
+    }
+    
+    .collections .item:nth-child(2) .overlay {
+        background-color: #ff7b36;
+    }
+    
+    .collections .item:nth-child(3) .overlay {
+        background-color: #ffe149;
+    }
+    
+    .collections .item:nth-child(4) .overlay {
+        background-color: #ea5298;
     }
 }
