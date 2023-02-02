@@ -446,6 +446,10 @@
         opacity: 1;
     }
 
+    .section.logos .row {
+        margin: 20px auto;
+    }
+
     .section.case .row {
         top: unset;
         left: unset;
