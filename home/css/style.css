@@ -392,6 +392,10 @@
         padding: 30px 0;
     }
 
+    .home.banner .row {
+        top: 20%;
+    }
+
     .section.logos .globally {
         font-size: 16px;
     }
