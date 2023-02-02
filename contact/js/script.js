@@ -21,7 +21,7 @@ const offices = [
         flag: './img/flag/de-flag.png',
         location: 'Lohmühlenstraße 65',
         postal: '12435 Berlin',
-        img: './img/offices/berlin.jpg'
+        img: './img/offices/berlin-office.jpg'
     },
     {
         country: 'Poland',
