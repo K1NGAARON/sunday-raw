@@ -71,7 +71,7 @@ const beachheads = [
         url: '/cases/ion/',
     },
     {
-        headline: "Learn more about workplace health",
+        headline: "Boost workplace health by organising sports challenges between the teams worldwide",
         image: '/cases/showpad/img/showpad.jpg',
         logo: '/cases/showpad/img/logo.png',
         body: 'Showing off Showpad’s custom made solution to create workplace health by deploying branded sportswear.',
