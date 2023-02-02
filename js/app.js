@@ -124,7 +124,7 @@ const logosArray = [
     },
     {
         client: 'Johnnie Walker Logo',
-        img: '/img/logos/johhniewalker.svg',
+        img: '/img/logos/johnniewalker.svg',
     },
     {
         client: 'Oaky Logo',
