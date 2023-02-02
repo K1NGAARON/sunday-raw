@@ -407,6 +407,10 @@
 }
 
 
+#sampleBtn {
+    display: none!important;
+}
+
 @media (max-width: 560px) {
     .section.catalog.banner {
         margin-top: 0;
