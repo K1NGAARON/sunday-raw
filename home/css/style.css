@@ -446,6 +446,16 @@
         opacity: 1;
     }
 
+    .home.section .row.flex-col {
+        padding: 0 10px;
+    }
+
+    .home.section .row .wrapper .btn {
+        /* flex: 1 0; */
+        width: fit-content;
+        font-size: 12px;
+    }
+
     .section.logos .row {
         margin: 20px auto;
     }
