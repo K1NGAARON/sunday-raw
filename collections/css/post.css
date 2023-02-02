@@ -2,6 +2,10 @@
     height: unset;
 }
 
+.banner.full-height .ghost-btn.btn {
+    display: none;
+}
+
 .banner .overlay {
     background: var(--overlay);
     opacity: 1;
