@@ -422,6 +422,23 @@
     .collections .item.small,
     .collections .item.medium {
         flex: 1 0 100%;
+        width: 100%;
+    }
+
+    .collections .item .container h5 {
+        font-size: 38px;
+    }
+
+    .collections .item .container p {
+        font-size: 22px;
+    }
+
+    .section.products h2 {
+        padding: 0 30px;
+    }
+
+    .section.case .logo {
+        display: none;
     }
 
     .collections .item .container {
@@ -436,7 +453,7 @@
     }
 
     .section.case h2 {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .section .row .usp {
