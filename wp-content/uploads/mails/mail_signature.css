@@ -1,0 +1,114 @@
+@import "https://fonts.googleapis.com/css?family=Poppins&display=swap";
+
+:root {
+    --sunday-black: #000;
+    --sunday-grey: #333;
+    --sunday-light-grey: #f5f5f5;
+    --sunday-purple: #712dbe;
+    --sunday-white: #fff;
+}
+
+body {
+    background-color:var(--sunday-white);
+    color:var(--sunday-grey);
+    font-family: Poppins,helvetica,Arial,sans-serif;
+}
+
+select,
+input[type="text"]{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 30px;
+    padding: 0 20px;
+    width: 100%;
+}
+.btn {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    align-items: center;
+    appearance: none;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: var(--sunday-white);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-size: .875rem;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    max-width: 400px;
+    padding: 13px 23px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: uppercase;
+    transition: .2s ease-in-out;
+    vertical-align: middle;
+    white-space: normal;
+    width: calc(calc(100% - 4px) / 2);
+}
+.btn-primary {
+    background-color: var(--sunday-black);
+    border: 1px solid var(--sunday-black);
+}
+.btn-primary:hover {
+    background-color: var(--sunday-purple);
+    border: 1px solid var(--sunday-purple);
+    color: var(--sunday-white);
+}
+.btn-primary.disabled,
+.btn-primary.disabled:hover,
+.btn-primary:disabled,
+.btn-primary:disabled:hover {
+    background-color: var(--sunday-light-grey);
+    border-color: var(--sunday-light-grey);
+    color: var(--sunday-black);
+}
+option.no-value {
+    color:#999;
+    font-weight:300;
+}
+.signature-container {
+    margin-left:auto;
+    margin-right:auto;
+    max-width:500px;
+}
+.form-control {
+    margin-bottom:10px;
+    width: 100%;
+}
+#generated-signature {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+#generated-signatures {
+    display: inline-block;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%);
+}
+.new-contact-details {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+.include_profile_pic_container {
+    display:none;
+}
+.mt-20 {
+    margin-top:20px;
+}
+.signature-cell {
+    padding:20px;
+}
+.flex-center {
+    display:flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,136 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Create email signatures on the fly</title>
+        <link href="mail_signature.css" rel="stylesheet">
+        <meta name="description" content="Every employee can generate his or hers own signature and adjust when needed.">
+    </head>
+    <body>
+        <main class="signature-container">
+            <section>
+                <div class="form-control">
+                    <label for="person_select">Select an existing person &hellip;</label>
+                    <select name="person" id="person_select">
+                        <option selected>Select an existing person</option>
+                        <option class="no-value">---- Belgium ----</option>
+                        <option value="aaron.gerard">Aaron Gerard</option>
+                        <option value="alex.van.nieuwenhuyse">Alex Van Nieuwenhuyse</option>
+                        <option value="ana.bighiu">Ana Bighiu</option>
+                        <option value="anna.baffour">Anna Baffour</option>
+                        <option value="annelien.decaestecker">Annelien Decaestecker</option>
+                        <option value="awet.tesfay">Awet Tesfay</option>
+                        <option value="bartel.samyn">Bartel Samyn</option>
+                        <option value="basiel.sinnesael">Basiel Sinnesael</option>
+                        <option value="birgit.raes">Birgit Raes</option>
+                        <option value="charlotte.degrande">Charlotte Degrande</option>
+                        <option value="charlotte.vens">Charlotte Vens</option>
+                        <option value="chiara.detavernier">Chiara Detavernier</option>
+                        <option value="clara.van.nieuwenhuyze">Clara Van Nieuwenhuyze</option>
+                        <option value="dorothee.hespeel">Dorothée Hespeel</option>
+                        <option value="elisa.vandendorpe">Elisa Vandendorpe</option>
+                        <option value="emma.van.waes">Emma Van Waes</option>
+                        <option value="fabienne.vermeersch">Fabienne Vermeersch</option>
+                        <option value="iris.devos">Iris Devos</option>
+                        <option value="jeroen.mullie">Jeroen Mullie</option>
+                        <option value="louis.vandommele">Louis Vandommele</option>
+                        <option value="lukas.breughe">Lukas Breughe</option>
+                        <option value="marieke.afschrift">Marieke Afschrift</option>
+                        <option value="mazelli.detavernier">Mazelli Detavernier</option>
+                        <option value="morgane.lemiengre">Morgane Lemiengre</option>
+                        <option value="neil.couhysder">Neil Couhysder</option>
+                        <option value="nicola.neve">Nicola Neve</option>
+                        <option value="niels.vandecasteele">Niels Vandecasteele</option>
+                        <option value="nils.wittevrongel">Nils Wittevrongel</option>
+                        <option value="sam.bertrand">Sam Bertrand</option>
+                        <option value="sebastiaan.maesen">Sebastiaan Maesen</option>
+                        <option value="sofie.snauwaert">Sofie Snauwaert</option>
+                        <option value="steven.callens">Steven Callens</option>
+                        <option value="thomas.termote">Thomas Termote</option>
+                        <option value="timon.dedeyster">Timon Dedeyster</option>
+                        <option value="vanessa.hostens">Vanessa Hostens</option>
+                        <option class="no-value">---- Germany ----</option>
+                        <option value="amael.ramand">Amaël Ramand</option>
+                        <option value="daan.dragt">Daan Dragt</option>
+                        <option value="eduardo.martinez">Eduardo Martinez Mugica</option>
+                        <option value="jenifer.graessler">Jenifer Graessler</option>
+                        <option value="joeri.bredenhoff">Joeri Bredenhoff</option>
+                        <option value="laura.kraft">Laura Kraft</option>
+                        <option class="no-value">---- Ireland ----</option>
+                        <option value="gori.afolahan">Gori Afolahan</option>
+                        <option value="kevin.hartnett">Kevin Hartnett</option>
+                        <option value="shay.curley">Shay Curley</option>
+                        <option value="tara.mcgonagle">Tara McGonagle</option>
+                        <option value="william.grealy">William Grealy</option>
+                        <option class="no-value">---- Poland ----</option>
+                        <option value="anna.kucharska">Anna Kucharska</option>
+                        <option value="daniel.wojcikowski">Daniel Wojcikowski</option>
+                        <option value="ewelina.jastrzebska">Ewelina Jastrzębska</option>
+                        <option value="iwona.borysiewicz">Iwona Borysiewicz</option>
+                        <option value="joanna.ostachnowicz">Joanna Ostachnowicz</option>
+                        <option value="justyna.chmielak">Justyna Chmielak</option>
+                        <option value="magdalena.grzybek">Magdalena Grzybek</option>
+                        <option value="marcin.grzybek">Marcin Grzybek</option>
+                        <option value="monika.mazowiecka">Monika Mazowiecka</option>
+                        <option value="oksana.nijaradze">Oksana Nijaradze</option>
+                        <option class="no-value">---- The Netherlands ----</option>
+                        <option value="carlin.klein">Carlin Klein</option>
+                        <option value="eva.deveer">Eva Deveer</option>
+                        <option value="ezra.hoefsmit">Ezra Hoefsmit</option>
+                        <option value="max.pierik">Max Pierik</option>
+                        <option value="midas.streekstra">Midas Streekstra</option>
+                        <option value="tom.bouwman">Tom Bouwman</option>
+                        <option class="no-value">---- United Kingdom ----</option>
+                        <option value="bram.beal">Bram Beal</option>
+                        <option value="matthew.smith">Matthew Smith</option>
+                    </select>
+                </div>
+            </section>
+            <section class="new-contact-details">
+                <p>&hellip; or fill in his or her details.</p>
+                <div class="form-control">
+                    <input type="text" name="name" placeholder="Firstname Lastname">
+                </div>
+                <div class="form-control">
+                    <input type="text" name="email" placeholder="firstname.lastname@teamsunday.com">
+                </div>
+                <div class="form-control">
+                    <input type="text" name="function" placeholder="Project Manager">
+                </div>
+                <div class="form-control">
+                    <input type="text" name="telephone" placeholder="(Leave empty when office telephone number applies)">
+                    <input type="hidden" name="parsed_telephone">
+                </div>
+                <div class="form-control">
+                    <select name="department">
+                        <option value="ME_BE" selected>Sunday Group BV</option>
+                        <option value="ME_NL">Sunday Nederland BV</option>
+                        <option value="ME_PL_LODZ">Sunday Polska Sp. z o.o (Łódź).</option>
+                        <option value="ME_DE">Sunday Germany</option>
+                        <option value="ME_IE">Sunday Ireland</option>
+                        <option value="ME_UK">Sunday United Kingdom</option>
+                    </select>
+                </div>
+            </section>
+<!--            <div class="form-control include_profile_pic_container mt-20">-->
+<!--                <input type="hidden" name="picture_link">-->
+<!--                <label>-->
+<!--                    <input type="checkbox" name="include_profile_pic"> Include a picture?-->
+<!--                </label>-->
+<!--            </div>-->
+            <div class="form-control mt-20 flex-center">
+                <button id="generate-signature-button" class="btn btn-primary" disabled>Generate signature</button>
+                <button id="generate-all-signatures-button" class="btn btn-primary" disabled>Generate all</button>
+                <br />
+                <button id="copy-signature-button" class="btn btn-primary" disabled>Copy to clipboard (Gmail)</button>
+                <button id="copy-html-button" class="btn btn-primary" disabled>Copy HTML to clipboard (Hubspot)</button>
+            </div>
+            <section id="generated-signature">
+                <em>Select an employee or click on the button above to generate a signature.</em>
+            </section>
+        </main>
+        <section id="generated-signatures"></section>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="mail_signature.js?v=20230203"></script>
+<!--        <script src="mail_signature.js?v=--><?php //echo md5_file('mail_signature.js'); ?><!--"></script>-->
+    </body>
+</html>
