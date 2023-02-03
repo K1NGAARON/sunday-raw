@@ -406,6 +406,55 @@
     transition: var(--transition);
 }
 
+/* MODAL */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+  
+/* Modal Content/Box */
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px solid #888;
+    width: 50%;
+}
+  
+/* The Close Button */
+.modal-content .close {
+    color: #aaa;
+    font-size: 40px;
+    font-weight: 600;
+    align-self: flex-end;
+    transition: var(--transition);
+}
+
+.modal h5 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+  
+.close:hover,
+.close:focus {
+    color: var(--black);
+    text-decoration: none;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
 
 #sampleBtn {
     display: none!important;
@@ -469,4 +518,12 @@
     .section.decoration .wrapper.switch .item img:nth-child(2) {
         display: block;
     }
+
+    .modal {
+        padding: 0 30px;
+    }
+
+    .modal-content {
+        width: 100%;
+    }    
 }
