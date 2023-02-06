@@ -825,6 +825,11 @@ function generateHtml(employee, add_picture = false) {
     const logo_link = 'https://teamsunday.com/wp-content/uploads/mails/sunday_logo_signature.jpg';
 
     let html = `<br />
+            <a style="margin-bottom:20px;padding-left:20px;" href="https://teamsunday.com/" target="_blank">
+                Check out our new website!
+            </a>
+            <br />
+            <br />
             <table cellpadding="0" cellspacing="0" border="0" style="font-size: 13px; background: none; border: 0; margin: 0; padding: 0;">
                 <tbody>`;
 
@@ -841,6 +846,7 @@ function generateHtml(employee, add_picture = false) {
     //                     </td>
     //                 </tr>`;
     // }
+
 
     html += `       <tr>
                         <td valign="center" align="center" width="200">
