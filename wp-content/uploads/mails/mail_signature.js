@@ -292,7 +292,7 @@ const employees = {
     // },
     'laura.kraft': {
         name: 'Laura Kraft',
-        job_function: 'Business Development Manager',
+        job_function: 'Account Manager',
         email_sunday: 'laura.kraft@teamsunday.com',
         department: 'ME_DE'
     },
