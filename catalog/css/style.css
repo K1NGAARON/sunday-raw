@@ -460,10 +460,25 @@
     width: 100%;
 }
 
-/* 
-#sampleBtn {
-    display: none!important;
-} */
+.catalog ul li {
+    margin: 15px 0;
+}
+
+.catalog li {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.catalog li img {
+    max-width: 20px;
+    display: flex;
+}
+
+.catalog li a {
+    display: flex;
+}
 
 @media (max-width: 560px) {
     .section.catalog.banner {
@@ -531,4 +546,8 @@
     .modal-content {
         width: 100%;
     }    
+}
+
+.catalog-wrapper {
+    display: flex;
 }

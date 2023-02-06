@@ -99,7 +99,7 @@
 }
 
 .nav-item.btn:hover {
-    color: var(--black);
+    color: var(--white);
 }
 
 .nav-item.btn,
