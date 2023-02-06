@@ -106,10 +106,10 @@ const logosArray = [
         client: 'Delaware Logo',
         img: '/img/logos/delaware.svg',
     },
-    {
-        client: 'Duvel Logo',
-        img: '/img/logos/duvel.svg',
-    },
+    // {
+    //     client: 'Duvel Logo',
+    //     img: '/img/logos/duvel.svg',
+    // },
     {
         client: 'Getinge Logo',
         img: '/img/logos/getinge.svg',
@@ -150,10 +150,10 @@ const logosArray = [
         client: 'SumUp Logo',
         img: '/img/logos/sumup.svg',
     },
-    {
-        client: 'Twillio Logo',
-        img: '/img/logos/twillio.svg',
-    },
+    // {
+    //     client: 'Twillio Logo',
+    //     img: '/img/logos/twillio-logo.svg',
+    // },
     {
         client: 'Videoland Logo',
         img: '/img/logos/videoland.svg',

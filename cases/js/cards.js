@@ -53,7 +53,7 @@ const content = [
     {
         client: "Televic",
         title: "Stylish business shirts for Televic’s expert team",
-        body: "",
+        body: "Smart, personalised clothing for the entire sales team. This ensured being recognisable and visible as a team.",
         logo: "/cases/televic/img/logo.png",
         img: "/cases/televic/img/televic.jpg",
         url: "/cases/televic/",
@@ -66,16 +66,18 @@ function createCards() {
     for (let i = 0; i < content.length; i++) {
         const template = `
             <div class="card ${content[i].beachhead.toLowerCase()}">
-                <img src="${content[i].img}" alt="${content[i].title}">
-                <img class="logo" src="${content[i].logo}" alt="${content[i].title}">
-                <h5>
-                    ${content[i].title}
-                </h5>
-                <p>
-                    ${content[i].body}
-                </p>
-                <a class="btn" href="${content[i].url}">
-                    Read the case
+                <a href="${content[i].url}">
+                    <img src="${content[i].img}" alt="${content[i].title}">
+                    <img class="logo" src="${content[i].logo}" alt="${content[i].title}">
+                    <h5>
+                        ${content[i].title}
+                    </h5>
+                    <p>
+                        ${content[i].body}
+                    </p>
+                    <a class="btn" href="${content[i].url}">
+                        Read the case
+                    </a>
                 </a>
             </div>
         `;
