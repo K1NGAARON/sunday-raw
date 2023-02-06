@@ -52,6 +52,11 @@
     flex: 1 0 45%;
 }
 
+.section.idea,
+.section.idea .row {
+    min-height: unset;
+}
+
 .section.idea .wrapper {
     align-items: center;
 }
