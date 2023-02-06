@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 90vh;
+    height: fit-content;
     position: relative;
 }
 
@@ -332,6 +332,7 @@
 
 .section.case .logo {
     width: 200px;
+    max-width: unset;
 }
 
 .section.case h2 {

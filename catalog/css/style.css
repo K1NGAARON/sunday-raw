@@ -37,12 +37,13 @@
     line-height: 1;
 }
 
-.banner.section .uppercase.grey {
+.section .uppercase {
+    color: var(--darkGrey);
     font-size: 18px;
     line-height: 1;
     letter-spacing: 5px;
-    color: var(--black);
     text-transform: uppercase;
+    letter-spacing: 10px;
 }
 
 .banner.section .product-gallery {
@@ -349,9 +350,6 @@
 .section.sustainability .row {
     z-index: 9;
     position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -40%);
 }
 
 .section.contact ol {
@@ -404,6 +402,38 @@
     color: var(--white);
     text-decoration: underline;
     transition: var(--transition);
+}
+
+.section.items .item {
+    overflow: hidden;
+    width: 100%;
+    height: 600px;
+    margin: 0;
+}
+
+.section .scale {
+    overflow: hidden;
+    width: 100%;
+    height: 600px;
+    margin: 0;
+}
+
+.section .scale img {
+    transition: var(--transition);
+}
+
+.section .scale:hover img {
+    transition: var(--transition);
+    transform: scale(1.15);
+}
+
+.section.items .item img {
+    transition: var(--transition);
+}
+
+.section.items .item:hover img {
+    transition: var(--transition);
+    transform: scale(1.15);
 }
 
 /* MODAL */

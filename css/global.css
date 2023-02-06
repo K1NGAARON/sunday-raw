@@ -467,6 +467,15 @@ select:focus-visible {
   max-width: 125px;
 }
 
+.logos img {
+  transition: var(--transition);
+}
+
+.logos img:hover {
+  transition: var(--transition);
+  transform: scale(1.05);
+}
+
 /* FAQ */
 .faq h2 {
   font-size: 56px;
