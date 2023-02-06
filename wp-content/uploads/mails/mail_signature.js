@@ -11,8 +11,7 @@ const employees = {
     'aaron.gerard': {
         name: 'Aaron Gerard',
         job_function: 'Growth Hacker',
-        email: 'aaron.gerard@merchandise-essentials.com',
-        email_sunday: 'aaron@teamsunday.com',
+        email_sunday: 'aaron.gerard@teamsunday.com',
         department: 'ME_BE',
         telephone: '+32 (0) 474 06 32 40',
         parsed_telephone: '0032474063240'
@@ -52,14 +51,13 @@ const employees = {
     'ana.bighiu': {
         name: 'Ana Bighiu',
         job_function: 'Sales Development Representative',
-        email_sunday: 'ana@teamsunday.com',
+        email_sunday: 'ana.bighiu@teamsunday.com',
         department: 'ME_BE',
     },
     'anna.baffour': {
         name: 'Anna Baffour',
         job_function: 'Sales Development Coordinator',
-        email: 'anna.baffour@merchandise-essentials.com',
-        email_sunday: 'anna.b@teamsunday.com',
+        email_sunday: 'anna.baffour@teamsunday.com',
         department: 'ME_BE',
         telephone: '+32 (0) 471 91 68 30',
         parsed_telephone: '0032471916830'
@@ -67,14 +65,12 @@ const employees = {
     'anna.kucharska': {
         name: 'Anna Kucharska',
         job_function: 'Graphic Designer',
-        email: 'anna.kucharska@merchandise-essentials.com',
-        email_sunday: 'anna@teamsunday.com',
+        email_sunday: 'anna.kucharska@teamsunday.com',
         department: 'ME_PL_LODZ',
     },
     'annelien.decaestecker': {
         name: 'Annelien Decaestecker',
         job_function: 'Head of HR',
-        // email : 'agata.stepien@merchandise-essentials.com',
         email_sunday: 'annelien.decaestecker@teamsunday.com',
         department: 'ME_BE',
         // telephone : '+48 (0) 512 86 35 63',
@@ -83,17 +79,15 @@ const employees = {
     'awet.tesfay': {
         name: 'Awet Tesfay',
         job_function: 'Developer',
-        email: 'awet.tesfay@merchandise-essentials.com',
-        email_sunday: 'awet@teamsunday.com',
+        email_sunday: 'awet.tesfay@teamsunday.com',
         department: 'ME_BE',
         telephone: '+32 (0) 467 63 38 79',
         parsed_telephone: '0032467633879'
     },
     'bartel.samyn': {
         name: 'Bartel Samyn',
-        job_function: 'Senior Developer',
-        email: 'bartel.samyn@merchandise-essentials.com',
-        email_sunday: 'bartel@teamsunday.com',
+        job_function: 'Lead IT Developer',
+        email_sunday: 'bartel.samyn@teamsunday.com',
         department: 'ME_BE',
         telephone: '+32 (0) 495 81 11 53',
         parsed_telephone: '0032495811153'
@@ -101,21 +95,19 @@ const employees = {
     'basiel.sinnesael': {
         name: 'Basiel Sinnesael',
         job_function: 'Project Manager',
-        email: 'basiel.sinnesael@merchandise-essentials.com',
         email_sunday: 'basiel@teamsunday.com',
         department: 'ME_BE',
         telephone: '+32 (0) 471 10 55 84',
         parsed_telephone: '0032471105584'
     },
-    'birgit.raes': {
-        name: 'Birgit Raes',
-        job_function: 'Sales Enablement Manager',
-        email: 'birgit.raes@merchandise-essentials.com',
-        email_sunday: 'birgit@teamsunday.com',
-        department: 'ME_BE',
-        telephone: '+32 (0) 493 60 53 23',
-        parsed_telephone: '0032493605323'
-    },
+    // 'birgit.raes': {
+    //     name: 'Birgit Raes',
+    //     job_function: 'Sales Enablement Manager',
+    //     email_sunday: 'birgit.raes@teamsunday.com',
+    //     department: 'ME_BE',
+    //     telephone: '+32 (0) 493 60 53 23',
+    //     parsed_telephone: '0032493605323'
+    // },
     'bram.beal': {
         name: 'Bram Beal',
         job_function: 'Account Executive',
@@ -141,8 +133,7 @@ const employees = {
     'charlotte.vens': {
         name: 'Charlotte Vens',
         job_function: 'Sales Development Representative',
-        email: 'charlotte.vens@merchandise-essentials.com',
-        email_sunday: 'charlotte@teamsunday.com',
+        email_sunday: 'charlotte.vens@teamsunday.com',
         department: 'ME_BE',
         telephone: '+32 (0) 471 85 03 90',
         parsed_telephone: '0032471850390'
@@ -150,8 +141,7 @@ const employees = {
     'chiara.detavernier': {
         name: 'Chiara Detavernier',
         job_function: 'Receptionist',
-        email: 'chiara.detavernier@merchandise-essentials.com',
-        email_sunday: 'chiara@teamsunday.com',
+        email_sunday: 'chiara.detavernier@teamsunday.com',
         department: 'ME_BE',
     },
     'clara.van.nieuwenhuyze': {
@@ -163,8 +153,7 @@ const employees = {
     'daniel.wojcikowski': {
         name: 'Daniel Wojcikowski',
         job_function: 'Production Development Manager',
-        email: 'daniel.wojcikowski@merchandise-essentials.com',
-        email_sunday: 'daniel@teamsunday.com',
+        email_sunday: 'daniel.wojcikowski@teamsunday.com',
         department: 'ME_PL_LODZ',
         telephone: '+48 (0) 512 82 53 25',
         parsed_telephone: '0048512825325',
@@ -180,7 +169,7 @@ const employees = {
     'dorothee.hespeel': {
         name: 'Dorothée Hespeel',
         job_function: 'Marketing Project Manager',
-        email_sunday: 'dorothee@teamsunday.com',
+        email_sunday: 'dorothee.hespeel@teamsunday.com',
         department: 'ME_BE',
         telephone: '+32 (0) 474 80 62 93',
         parsed_telephone: '0032474806293'
@@ -206,8 +195,7 @@ const employees = {
     'eva.deveer': {
         name: 'Eva Deveer',
         job_function: 'Merchandise Strategist',
-        email: 'eva.deveer@merchandise-essentials.com',
-        email_sunday: 'eva@teamsunday.com',
+        email_sunday: 'eva.deveer@teamsunday.com',
         department: 'ME_NL',
         telephone: '+31 (0) 642 60 02 52',
         parsed_telephone: '0031642600252'
@@ -215,8 +203,7 @@ const employees = {
     'ewelina.jastrzebska': {
         name: 'Ewelina Jastrzębska',
         job_function: 'Graphic Designer',
-        email: 'ewelina.jastrzebska@merchandise-essentials.com',
-        email_sunday: 'ewelina.j@teamsunday.com',
+        email_sunday: 'ewelina.jastrzebska@teamsunday.com',
         department: 'ME_PL_LODZ'
     },
     'ezra.hoefsmit': {
@@ -228,9 +215,14 @@ const employees = {
     'fabienne.vermeersch': {
         name: 'Fabienne Vermeersch',
         job_function: 'F&A Officer',
-        email: 'fabienne.vermeersch@merchandise-essentials.com',
-        email_sunday: 'fabienne@teamsunday.com',
+        email_sunday: 'fabienne.vermeersch@teamsunday.com',
         department: 'ME_BE'
+    },
+    'goerkem.ercan': {
+        name: 'Görkem Ercan',
+        job_function: 'Account Executive',
+        email_sunday: 'goerkem.ercan@teamsunday.com',
+        department: 'ME_DE'
     },
     'gori.afolahan': {
         name: 'Gori Afolahan',
@@ -240,9 +232,8 @@ const employees = {
     },
     'iris.devos': {
         name: 'Iris Devos',
-        job_function: 'Merchandise Specialist',
-        email: 'iris.devos@merchandise-essentials.com',
-        email_sunday: 'iris@teamsunday.com',
+        job_function: 'Customer Success Manager',
+        email_sunday: 'iris.devos@teamsunday.com',
         department: 'ME_BE',
         telephone: '+32 (0) 478 77 15 70',
         parsed_telephone: '0032478771570'
@@ -250,8 +241,7 @@ const employees = {
     'iwona.borysiewicz': {
         name: 'Iwona Borysiewicz',
         job_function: 'Operations Specialist',
-        email: 'iwona.borysiewicz@merchandise-essentials.com',
-        email_sunday: 'iwona@teamsunday.com',
+        email_sunday: 'iwona.borysiewicz@teamsunday.com',
         department: 'ME_PL_LODZ',
         telephone: '+48 (0) 512 79 20 92',
         parsed_telephone: '0048512792092'
@@ -273,8 +263,7 @@ const employees = {
     'joanna.ostachnowicz': {
         name: 'Joanna Ostachnowicz',
         job_function: 'Production Manager',
-        email: 'joanna.ostachnowicz@merchandise-essentials.com',
-        email_sunday: 'joanna@teamsunday.com',
+        email_sunday: 'joanna.ostachnowicz@teamsunday.com',
         department: 'ME_PL_LODZ',
         telephone: '+48 (0) 512 75 28 52',
         parsed_telephone: '0048512752852'
@@ -288,8 +277,7 @@ const employees = {
     'justyna.chmielak': {
         name: 'Justyna Chmielak',
         job_function: 'Operations Specialist',
-        email: 'justyna.chmielak@merchandise-essentials.com',
-        email_sunday: 'justyna.ch@teamsunday.com',
+        email_sunday: 'justyna.chmielak@teamsunday.com',
         department: 'ME_PL_LODZ',
         telephone: '+48 (0) 512 75 86 58',
         parsed_telephone: '0048512758658'
@@ -297,7 +285,6 @@ const employees = {
     // 'karel-jan.vercruysse': {
     //     name: 'Karel-Jan Vercruysse',
     //     job_function: 'Commercial Manager',
-    //     email: 'karel-jan.vercruysse@merchandise-essentials.com',
     //     email_sunday: 'kj@teamsunday.com',
     //     department: 'ME_BE',
     //     telephone: '+32 (0) 472 96 51 32',
@@ -306,7 +293,7 @@ const employees = {
     'laura.kraft': {
         name: 'Laura Kraft',
         job_function: 'Business Development Manager',
-        email_sunday: 'laura@teamsunday.com',
+        email_sunday: 'laura.kraft@teamsunday.com',
         department: 'ME_DE'
     },
     'kevin.hartnett': {
@@ -318,8 +305,7 @@ const employees = {
     'louis.vandommele': {
         name: 'Louis Vandommele',
         job_function: 'Country Manager IE',
-        email: 'louis.vandommele@merchandise-essentials.com',
-        email_sunday: 'louis@teamsunday.com',
+        email_sunday: 'louis.vandommele@teamsunday.com',
         department: 'ME_IE',
         telephone: '+32 (0) 495 19 84 45',
         parsed_telephone: '0032495198445'
@@ -327,8 +313,7 @@ const employees = {
     'lukas.breughe': {
         name: 'Lukas Breughe',
         job_function: 'R&D Specialist',
-        email: 'lukas.breughe@merchandise-essentials.com',
-        email_sunday: 'lukas@teamsunday.com',
+        email_sunday: 'lukas.breughe@teamsunday.com',
         department: 'ME_BE',
         telephone: '+32 (0) 472 07 23 10',
         parsed_telephone: '0032472072310'
@@ -336,8 +321,7 @@ const employees = {
     'magdalena.grzybek': {
         name: 'Magdalena Grzybek',
         job_function: 'Senior Accountant PL',
-        email: 'magdalena.grzybek@merchandise-essentials.com',
-        email_sunday: 'magda@teamsunday.com',
+        email_sunday: 'magdalena.grzybek@teamsunday.com',
         department: 'ME_PL_LODZ',
         telephone: '+48 (0) 512 40 92 09',
         parsed_telephone: '0048512409209'
@@ -381,8 +365,7 @@ const employees = {
     'midas.streekstra': {
         name: 'Midas Streekstra',
         job_function: 'Country Manager NL',
-        email: 'midas.streekstra@merchandise-essentials.com',
-        email_sunday: 'midas@teamsunday.com',
+        email_sunday: 'midas.streekstra@teamsunday.com',
         department: 'ME_NL',
         telephone: '+31 (0) 6 486 21 784',
         parsed_telephone: '0031648621784'
@@ -390,8 +373,7 @@ const employees = {
     'monika.mazowiecka': {
         name: 'Monika Mazowiecka',
         job_function: 'F&A Officer',
-        email: 'monika.mazowiecka@merchandise-essentials.com',
-        email_sunday: 'monika@teamsunday.com',
+        email_sunday: 'monika.mazowiecka@teamsunday.com',
         department: 'ME_PL_LODZ',
         telephone: '+48 (0) 512 85 89 58',
         parsed_telephone: '0048512858958'
@@ -399,8 +381,7 @@ const employees = {
     'morgane.lemiengre': {
         name: 'Morgane Lemiengre',
         job_function: 'Content Creator',
-        email: 'morgane.lemiengre@merchandise-essentials.com',
-        email_sunday: 'morgane@teamsunday.com',
+        email_sunday: 'morgane.lemiengre@teamsunday.com',
         department: 'ME_BE',
         telephone: '+32 (0) 484 59 50 53',
         parsed_telephone: '0032484595053'
@@ -414,8 +395,7 @@ const employees = {
     'nicola.neve': {
         name: 'Nicola Neve',
         job_function: 'Project Manager',
-        email: 'nicola.neve@merchandise-essentials.com',
-        email_sunday: 'nicola@teamsunday.com',
+        email_sunday: 'nicola.neve@teamsunday.com',
         department: 'ME_BE',
         telephone: '+32 (0) 495 57 15 14',
         parsed_telephone: '0032495571514'
@@ -423,8 +403,7 @@ const employees = {
     'niels.vandecasteele': {
         name: 'Niels Vandecasteele',
         job_function: 'Founder / CEO',
-        email: 'niels.vandecasteele@merchandise-essentials.com',
-        email_sunday: 'niels@teamsunday.com',
+        email_sunday: 'niels.vandecasteele@teamsunday.com',
         department: 'ME_BE',
         telephone: '+32 (0) 496 70 25 43',
         parsed_telephone: '0032496702543'
@@ -432,8 +411,7 @@ const employees = {
     'nils.wittevrongel': {
         name: 'Nils Wittevrongel',
         job_function: 'Art Director',
-        email: 'nils.wittevrongel@merchandise-essentials.com',
-        email_sunday: 'nils@teamsunday.com',
+        email_sunday: 'nils.wittevrongel@teamsunday.com',
         department: 'ME_BE',
         telephone: '+32 (0) 498 52 92 84',
         parsed_telephone: '0032498529284'
@@ -480,12 +458,12 @@ const employees = {
         telephone: '+32 (0) 472 82 78 05',
         parsed_telephone: '0032472827805'
     },
-    'tara.mcgonagle': {
-        name: 'Tara McGonagle',
-        job_function: 'Sales Development Representative',
-        email_sunday: 'tara.mcgonagle@teamsunday.com',
-        department: 'ME_IE',
-    },
+    // 'tara.mcgonagle': {
+    //     name: 'Tara McGonagle',
+    //     job_function: 'Sales Development Representative',
+    //     email_sunday: 'tara.mcgonagle@teamsunday.com',
+    //     department: 'ME_IE',
+    // },
     'thomas.termote': {
         name: 'Thomas Termote',
         job_function: 'Sales Development Representative',
@@ -502,18 +480,18 @@ const employees = {
         telephone: '+32 (0) 491 61 26 81',
         parsed_telephone: '0032491612681'
     },
-    'tom.bouwman': {
-        name: 'Tom Bouwman',
-        job_function: 'Sales Development Representative',
-        email_sunday: 'tom.bouwman@teamsunday.com',
-        department: 'ME_NL',
-    },
-    'vanessa.hostens': {
-        name: 'Vanessa Hostens',
-        job_function: 'Supply Chain Manager',
-        email_sunday: 'vanessa@teamsunday.com',
-        department: 'ME_BE',
-    },
+    // 'tom.bouwman': {
+    //     name: 'Tom Bouwman',
+    //     job_function: 'Sales Development Representative',
+    //     email_sunday: 'tom.bouwman@teamsunday.com',
+    //     department: 'ME_NL',
+    // },
+    // 'vanessa.hostens': {
+    //     name: 'Vanessa Hostens',
+    //     job_function: 'Supply Chain Manager',
+    //     email_sunday: 'vanessa@teamsunday.com',
+    //     department: 'ME_BE',
+    // },
     'william.grealy': {
         name: 'William Grealy',
         job_function: 'Account Executive',
