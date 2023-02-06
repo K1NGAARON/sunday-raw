@@ -48,6 +48,10 @@
     padding: 0 20px;
 }
 
+.card a:hover {
+    color: var(--black);
+}
+
 @media (max-width: 560px) {
     .card {
         flex: 1 0 100%;
