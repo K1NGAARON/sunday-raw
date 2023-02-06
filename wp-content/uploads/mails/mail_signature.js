@@ -218,6 +218,12 @@ const employees = {
         email_sunday: 'fabienne.vermeersch@teamsunday.com',
         department: 'ME_BE'
     },
+    'goerkem.ercan': {
+        name: 'Görkem Ercan',
+        job_function: 'Account Executive',
+        email_sunday: 'goerkem.ercan@teamsunday.com',
+        department: 'ME_DE'
+    },
     'gori.afolahan': {
         name: 'Gori Afolahan',
         job_function: 'Account Executive',
