@@ -1,16 +1,23 @@
 .wrapper {
     display: flex;
     gap: 40px;
+    justify-content: center;
 }
 
 .card {
-    flex: 1 0 350px;
+    flex: 0 1 350px;
 
     display: flex;
     flex-direction: column;
     gap: 20px;
     border-radius: 26px;
     box-shadow: var(--boxShadow);
+    transition: var(--transition);
+}
+
+.card:hover {
+    transition: var(--transition);
+    transform: scale(1.02);
 }
 
 .card img {
@@ -46,6 +53,12 @@
 .card h5,
 .card p {
     padding: 0 20px;
+}
+
+.card a {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .card a:hover {
