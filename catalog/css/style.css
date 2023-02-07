@@ -513,6 +513,33 @@
 @media (max-width: 560px) {
     .section.catalog.banner {
         margin-top: 0;
+        min-height: fit-content;
+        height: fit-content;
+    }
+    
+    .section.catalog.banner .row {
+        min-height: fit-content;
+        height: fit-content;
+    }
+
+    .section .scale {
+        height: unset;
+    }
+
+    .section {
+        min-height: fit-content;
+    }
+
+    .section.items .item {
+        height: unset;
+    }
+
+    .section .row {
+        min-height: fit-content;
+    }
+
+    .section.highlights .container h3 {
+        font-size: 22px;
     }
 
     .case.section h3, 
@@ -575,7 +602,9 @@
 
     .modal-content {
         width: 100%;
-    }    
+    }
+
+
 }
 
 .catalog-wrapper {
