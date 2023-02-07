@@ -1,3 +1,17 @@
+.section.blue .row {
+    z-index: 9;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+
+.section.blue,
+.section.blue .row {
+    height: fit-content;
+    min-height: fit-content;
+}
+
 .section.blue h1 {
     font-size: 76px;
 }
