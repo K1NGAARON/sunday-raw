@@ -407,14 +407,14 @@
 .section.items .item {
     overflow: hidden;
     width: 100%;
-    height: 600px;
+    height: 800px;
     margin: 0;
 }
 
 .section .scale {
     overflow: hidden;
     width: 100%;
-    height: 600px;
+    height: 800px;
     margin: 0;
 }
 
