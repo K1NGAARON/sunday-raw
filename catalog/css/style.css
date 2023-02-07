@@ -76,6 +76,7 @@
 .wrapper.buttons {
     gap: 20px;
     align-items: center;
+    justify-content: flex-start;
 }
 
 .wrapper.buttons .btn {
