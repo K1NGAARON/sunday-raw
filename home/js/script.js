@@ -53,7 +53,7 @@ const beachheads = [
         headline: 'With 10 new hires every week, they were in need of a proper onboarding.',
         image: '/cases/deliverect/img/banner-2.jpg',
         logo: '/cases/deliverect/img/logo.png',
-        body: 'Deliverect, the ‘Adyen of food delivery services’ grew 750% in the last year. A boost that also sent the number of employees skyrocketing.',
+        body: 'Deliverect, the all-in-one solution for restaurants to grow their online presence, grew 750% in the last year.',
         url: '/cases/deliverect/'
     },
     {
