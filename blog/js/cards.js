@@ -55,7 +55,14 @@ const content = [
         img: '/blog/why-is-onboarding-important/img/banner.png',
         url: '/blog/why-is-onboarding-important/',
         beachhead: 'hr',
-    }
+    },
+    {
+        title: "4 Strategies to Boost your Employee Retention",
+        body: "Employee retention is a critical issue for organizations, as high turnover can be costly and disruptive.",
+        img: "/blog/boost-employee-retention/img/banner.jpg",
+        url: "/blog/boost-employee-retention/",
+        beachhead: 'hr',
+    },
 ];
 
 function createCards() {
