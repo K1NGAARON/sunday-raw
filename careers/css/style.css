@@ -6,6 +6,7 @@
 
 .section.banner h1 {
     font-size: 76px;
+    max-width: 50%;
 }
 
 .section.banner,
@@ -165,6 +166,7 @@
 @media (max-width: 560px) {
     .section.banner h1 {
         font-size: 36px;
+        max-width: 100%;
     }
 
     .section.culture p {
