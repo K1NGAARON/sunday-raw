@@ -46,6 +46,16 @@
     gap: 10px;
 }
 
+.wrapper.styles .container .item a {
+    transition: var(--transition); 
+}
+
+.wrapper.styles .container .item a:hover {
+    color: var(--white);
+    background-color: var(--primary);
+    transition: var(--transition);
+}
+
 .wrapper.styles .container .item:nth-child(1) {
     flex: 1 0 10%;
 }
