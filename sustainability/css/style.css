@@ -93,3 +93,22 @@
     font-size: 18px;
     text-transform: uppercase;
 }
+
+.section .width {
+    max-width: 70%;
+}
+
+.faq ul {
+    list-style: unset;
+    padding-left: 20px;
+}
+
+.faq ul li {
+    text-align: left;
+}
+
+@media (max-width: 560px) {
+    .section .width {
+        max-width: 100%;
+    }
+}
