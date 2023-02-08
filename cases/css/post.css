@@ -31,7 +31,7 @@
 
 .banner h1,
 .banner p {
-    max-width: 60%;
+    max-width: 65%;
 }
 
 .section .uppercase {
@@ -51,6 +51,7 @@
 
 .banner .wrapper.labels {
     gap: 20px;
+    justify-content: flex-start;
 }
 
 .banner .label {
