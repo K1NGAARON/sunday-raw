@@ -57,15 +57,25 @@ const content = [
         logo: "/cases/televic/img/logo.png",
         img: "/cases/televic/img/televic.jpg",
         url: "/cases/televic/",
-        beachhead: "",
+        beachhead: "Sales",
         companysize: ""
     },
+    {
+        client: "Deliverect",
+        title: "How Deliverect skyrockets their company culture globally, using the Sunday Wardrobe™",
+        body: "Deliverect, the all-in-one solution for restaurants to grow their online presence, grew 750% in the last year.",
+        logo: '/cases/deliverect/img/logo.png',
+        img: '/cases/deliverect/img/banner.jpg',
+        url: '/cases/deliverect/',
+        beadchhead: 'HR',
+        companysize: ''
+    }
 ];
 
 function createCards() {
     for (let i = 0; i < content.length; i++) {
         const template = `
-            <div class="card ${content[i].beachhead.toLowerCase()}">
+            <div class="card ${content[i].beachhead}">
                 <a href="${content[i].url}">
                     <img src="${content[i].img}" alt="${content[i].title}">
                     <img class="logo" src="${content[i].logo}" alt="${content[i].title}">
