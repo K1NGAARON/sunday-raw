@@ -293,8 +293,12 @@
 }
 
 .items .wrapper .item .container a:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
     transition: var(--transition);
+}
+
+.items .wrapper .item .container .nav-item::before {
+    background-color: var(--white);
 }
 
 .section.highlights {
