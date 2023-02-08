@@ -1,6 +1,16 @@
 const target = document.querySelector('.section.content > .row > .wrapper');
 const content = [
     {
+        client: "Deliverect",
+        title: "How Deliverect skyrockets their company culture globally, using the Sunday Wardrobe™",
+        body: "Deliverect, the all-in-one solution for restaurants to grow their online presence, grew 750% in the last year.",
+        logo: '/cases/deliverect/img/logo.png',
+        img: '/cases/deliverect/img/banner.jpg',
+        url: '/cases/deliverect/',
+        beadchhead: 'hr',
+        companysize: ''
+    },
+    {
         client: 'Delaware',
         title: 'High performance sportswear for delaware',
         body: 'delaware is a global company that delivers advanced ICT solutions and services, guiding our customers through their business and digital transformations.',
@@ -60,16 +70,6 @@ const content = [
         beachhead: "sales",
         companysize: ""
     },
-    {
-        client: "Deliverect",
-        title: "How Deliverect skyrockets their company culture globally, using the Sunday Wardrobe™",
-        body: "Deliverect, the all-in-one solution for restaurants to grow their online presence, grew 750% in the last year.",
-        logo: '/cases/deliverect/img/logo.png',
-        img: '/cases/deliverect/img/banner.jpg',
-        url: '/cases/deliverect/',
-        beadchhead: 'hr',
-        companysize: ''
-    }
 ];
 
 function createCards() {
