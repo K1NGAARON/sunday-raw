@@ -35,6 +35,7 @@
     border: 1px solid var(--white);
     color: var(--white);
     border-radius: 30px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 

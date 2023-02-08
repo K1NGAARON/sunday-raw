@@ -17,6 +17,10 @@
     z-index: 20;
 }
 
+.banner .row .btn {
+    z-index: 9;
+}
+
 .banner {
     color: var(--white);
 }
@@ -41,6 +45,7 @@
     border: 1px solid var(--white);
     color: var(--white);
     border-radius: 30px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
