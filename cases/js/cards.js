@@ -7,7 +7,7 @@ const content = [
         logo: '/cases/delaware/img/logo.png',
         img: '/cases/delaware/img/banner.jpg',
         url: '/cases/delaware/',
-        beachhead: 'HR',
+        beachhead: 'hr',
         companysize: '',
     },
     {
@@ -17,7 +17,7 @@ const content = [
         logo: '/cases/honeypot/img/logo.png',
         img: '/cases/honeypot/img/banner.jpg',
         url: '/cases/honeypot/',
-        beachhead: 'Sales',
+        beachhead: 'sales',
         companysize: '',
     },
     {
@@ -27,7 +27,7 @@ const content = [
         logo: '/cases/showpad/img/logo.png',
         img: '/cases/showpad/img/banner.jpeg',
         url: '/cases/showpad/',
-        beachhead: 'HR',
+        beachhead: 'hr',
         companysize: '',
     },
     {
@@ -37,7 +37,7 @@ const content = [
         logo: '/cases/ion/img/logo.svg',
         img: '/cases/ion/img/banner.jpeg',
         url: '/cases/ion/',
-        beachhead: 'HR',
+        beachhead: 'hr',
         companysize: '',
     },
     {
@@ -47,7 +47,7 @@ const content = [
         logo: '/cases/silverfin/img/logo.png',
         img: '/cases/silverfin/img/banner.jpeg',
         url: '/cases/silverfin/',
-        beachhead: 'HR',
+        beachhead: 'hr',
         companysize: '',
     },
     {
@@ -57,7 +57,7 @@ const content = [
         logo: "/cases/televic/img/logo.png",
         img: "/cases/televic/img/televic.jpg",
         url: "/cases/televic/",
-        beachhead: "Sales",
+        beachhead: "sales",
         companysize: ""
     },
     {
@@ -67,7 +67,7 @@ const content = [
         logo: '/cases/deliverect/img/logo.png',
         img: '/cases/deliverect/img/banner.jpg',
         url: '/cases/deliverect/',
-        beadchhead: 'HR',
+        beadchhead: 'hr',
         companysize: ''
     }
 ];
