@@ -546,7 +546,6 @@ select:focus-visible {
 .faq .accordion-list .accordion-item .accordion-head .icon {
   transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
-  /* background-color: var(--black); */
   display: flex;
   width: 36px;
   height: 36px;
@@ -562,6 +561,10 @@ select:focus-visible {
 .faq .accordion-list .accordion-item .accordion-head .icon.active {
   transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(90deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
+}
+
+.faq .accordion-list .accordion-item .accordion-head .icon .fa-minus {
+  transform: rotate(90deg);
 }
 
 .faq .accordion-list .accordion-item .accordion-body {

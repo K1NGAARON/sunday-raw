@@ -6,10 +6,8 @@ function stickyMenu(e) {
     const logo = $('.header .logo');
 
     const exclude = document.querySelector('.product-header');
-    console.log(exclude);
 
     if (!exclude) {
-        console.log('exclude')
         if ($(this).scrollTop() > header.height()) {
             $(logo).attr("src", "/branding/logo-black.svg");
             header.addClass('active');
@@ -37,12 +35,10 @@ $("#menu-toggle").click(function() {
 
 function toggleMenuDropdown(e) {
     if ($(this).parent().hasClass("active")) {
-        console.log('has class')
         $(this).parent().removeClass('active');
     } else {
         $('.dropdown-btn').parent().removeClass('active');
         $(this).parent().addClass('active');
-        console.log("doesnt have class")
     }
 };
 
@@ -52,6 +48,9 @@ function closeAccordion(e) {
     $('.accordion-head').removeClass('active');
     $('.accordion-body').removeClass('active');
     $('.accordion-head').children('.icon').removeClass('active');
+    $('.accordion-head').children('.icon').children('i').removeClass('fa-minus');
+    $('.accordion-head').children('.icon').children('i').addClass('fa-plus');
+
 };
 
 $('.accordion-item').click(function () {
@@ -60,6 +59,9 @@ $('.accordion-item').click(function () {
     $(this).children('.accordion-head').toggleClass('active');
     $(this).children('.accordion-head').siblings('.accordion-body').toggleClass('active');
     $(this).children('.accordion-head').children('.icon').toggleClass('active');
+
+    $(this).children('.accordion-head').children('.icon').children('i').removeClass('fa-plus');
+    $(this).children('.accordion-head').children('.icon').children('i').addClass('fa-minus');
 });
 
 
@@ -106,10 +108,6 @@ const logosArray = [
         client: 'Delaware Logo',
         img: '/img/logos/delaware.svg',
     },
-    // {
-    //     client: 'Duvel Logo',
-    //     img: '/img/logos/duvel.svg',
-    // },
     {
         client: 'Getinge Logo',
         img: '/img/logos/getinge.svg',
@@ -150,10 +148,6 @@ const logosArray = [
         client: 'SumUp Logo',
         img: '/img/logos/sumup.svg',
     },
-    // {
-    //     client: 'Twillio Logo',
-    //     img: '/img/logos/twillio-logo.svg',
-    // },
     {
         client: 'Videoland Logo',
         img: '/img/logos/videoland.svg',
