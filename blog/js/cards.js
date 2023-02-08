@@ -68,7 +68,7 @@ const content = [
 function createCards() {
     for (let i = 0; i < content.length; i++) {
         const template = `
-            <div class="card ${content[i].beachhead.toLowerCase()}">
+            <div class="card ${content[i].beachhead}">
                 <a href="${content[i].url}">
                     <img src="${content[i].img}" alt="${content[i].title}">
                     <h5>
