@@ -38,6 +38,6 @@
     margin-bottom: 60px;
 }
 
-.section.collections {
-    
+.section.collections .card {
+    flex: 0 1 25%;
 }
