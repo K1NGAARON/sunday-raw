@@ -253,6 +253,24 @@
     min-height: 60vh;
 }
 
+
+.items .wrapper .item {
+    width: 100%;
+   overflow: hidden;   
+   transition: var(--transition);
+}
+
+.items .wrapper .item img,
+.items .wrapper .item .overlay {
+    transition: var(--transition);
+}
+
+.items .wrapper .item:hover img,
+.items .wrapper .item:hover .overlay {
+    transition: var(--transition);
+    transform: scale(1.15);
+}
+
 .section .uppercase {
     font-size: 30px;
     color: var(--darkGrey);
@@ -293,7 +311,6 @@
 }
 
 .items .wrapper .item .container a:hover {
-    /* text-decoration: underline; */
     transition: var(--transition);
 }
 
@@ -412,7 +429,6 @@
 .section.items .item {
     overflow: hidden;
     width: 100%;
-    height: 800px;
     margin: 0;
     justify-content: flex-end;
 }
@@ -433,16 +449,6 @@
 .section .scale:hover img {
     transition: var(--transition);
     transform: scale(1.15);
-}
-
-.section.items .item img {
-    transition: var(--transition);
-}
-
-.section.items .item:hover img {
-    width: 95%;
-    transition: var(--transition);
-    transform: scale(1.05);
 }
 
 /* MODAL */
