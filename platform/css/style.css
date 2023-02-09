@@ -2,6 +2,12 @@
     position: relative;
 }
 
+.section.full-height.banner,
+.section.full-height.banner .row {
+    height: fit-content;
+    min-height: fit-content;
+}
+
 .section.banner .row {
     z-index: 9;
     position: absolute;
@@ -93,6 +99,31 @@
 .section.calculator,
 .section.calculator .row {
     min-height: unset;
+}
+
+.section.final,
+.section.final .row {
+    min-height: unset;
+}
+
+.section.final {
+    background-color: var(--lightGrey);
+}
+
+.section.final .row .wrapper {
+    gap: 60px;
+}
+
+.section.final .row .item {
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: var(--boxShadow);
+}
+
+.section.final .row h3 {
+    font-size: 28px;
 }
 
 @media (max-width: 560px) {
