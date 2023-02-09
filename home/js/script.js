@@ -57,10 +57,10 @@ const beachheads = [
         url: '/cases/deliverect/'
     },
     {
-        headline: "How to Increase ambassador marketing by organising a sports event?",
+        headline: "Personalised sports shirts as a tool in the war for talent",
         image: '/cases/stadsbader/img/banner-2.jpg',
         logo: '/cases/stadsbader/img/logo.png',
-        body: 'By rewarding the participants with unique branded apparel, we motivated real ambassadors who in their place activate silent ambassadors.',
+        body: "How to find the perfect new employees? Organise an event and let your current employees be the best ambassadors.",
         url: '/cases/stadsbader/',
     },
     {
