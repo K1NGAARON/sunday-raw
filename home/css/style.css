@@ -407,8 +407,6 @@
     transform: scale(1.15);
 }
 
-
-
 @media (max-width: 560px) {
     .home.section {
         padding: 30px 0;
