@@ -71,11 +71,11 @@ const beachheads = [
         url: '/cases/ion/',
     },
     {
-        headline: "Boost workplace health by organising sports challenges between the teams worldwide",
-        image: '/cases/showpad/img/showpad.jpg',
-        logo: '/cases/showpad/img/logo.png',
-        body: 'Showing off Showpad’s custom made solution to create workplace health by deploying branded sportswear.',
-        url: '/cases/showpad/',
+        headline: "Make your brand stand out by letting your employees be your best brand ambassadors.",
+        image: '/cases/imens/img/banner2.jpg',
+        logo: '/cases/imens/img/logo.png',
+        body: 'Personalized wearables create visibility but it also boosts the team feeling.',
+        url: '/cases/imens/',
     },
     {
         headline: "Find out why Televic opted for business shirts fully adapted to their corporate branding.",
