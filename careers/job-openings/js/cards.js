@@ -1,20 +1,20 @@
 const target = document.querySelector('.section.content > .row > .wrapper');
 
 const content = [
-    {
-        title: 'Content Creator met copywriting skills',
-        body: 'Je mixt creativiteit, mode, B2B marketing, sustainability tot een cocktail die klanten doet watertanden.',
-        img: '',
-        country: 'belgium',
-        city: 'roeselare',
-        flag: '',
-        url: '/careers/job-openings/content-creator/',
-        order: '',
-    },
+    // {
+    //     title: 'Content Creator met copywriting skills',
+    //     body: 'Je mixt creativiteit, mode, B2B marketing, sustainability tot een cocktail die klanten doet watertanden.',
+    //     img: '/careers/job-openings/img/',
+    //     country: 'belgium',
+    //     city: 'roeselare',
+    //     flag: '',
+    //     url: '/careers/job-openings/content-creator/',
+    //     order: '',
+    // },
     {
         title: 'Account Executive Belgium',
         body: 'Our business grows with you. Close some interesting deals with us!',
-        img: '',
+        img: '/careers/job-openings/img/image1.jpg',
         country: 'belgium',
         city: 'roeselare',
         flag: '',
@@ -24,7 +24,7 @@ const content = [
     {
         title: 'Account Executive Netherlands',
         body: 'Our business grows with you. Close some interesting deals with us!',
-        img: '',
+        img: '/careers/job-openings/img/image2.jpg',
         country: 'netherlands',
         city: 'amsterdam',
         flag: '',
@@ -34,7 +34,7 @@ const content = [
     {
         title: 'Account Executive Germany',
         body: 'Our business grows with you. Close some interesting deals with us!',
-        img: '',
+        img: '/careers/job-openings/img/image3.jpg',
         country: 'germany',
         city: 'berlin',
         flag: '',
@@ -44,7 +44,7 @@ const content = [
     {
         title: 'Sales Development Representative Belgium',
         body: 'Our business starts with you. Hunt for promising leads with us!',
-        img: '',
+        img: '/careers/job-openings/img/image4.jpg',
         country: 'belgium',
         city: 'roeselare',
         flag: '',
@@ -54,7 +54,7 @@ const content = [
     {
         title: 'Sales Development Representative Netherlands',
         body: 'Our business starts with you. Hunt for promising leads with us!',
-        img: '',
+        img: '/careers/job-openings/img/image5.jpg',
         country: 'netherlands',
         city: 'amsterdam',
         flag: '',
@@ -64,7 +64,7 @@ const content = [
     {
         title: 'Sales Development Representative Germany',
         body: 'Our business starts with you. Hunt for promising leads with us!',
-        img: '',
+        img: '/careers/job-openings/img/image6.jpg',
         country: 'germany',
         city: 'berlin',
         flag: '',
@@ -74,7 +74,7 @@ const content = [
     {
         title: 'Account Executive Ireland',
         body: 'Our business grows with you. Close some interesting deals with us!',
-        img: '',
+        img: '/careers/job-openings/img/image7.jpg',
         country: 'ireland',
         city: 'dublin',
         flag: '',
@@ -84,7 +84,7 @@ const content = [
     {
         title: 'Sales Development Representative Ireland',
         body: 'Our business starts with you. Hunt for promising leads with us!',
-        img: '',
+        img: '/careers/job-openings/img/image1.jpg',
         country: 'ireland',
         city: 'dublin',
         flag: '',
@@ -107,10 +107,13 @@ function createCards() {
     for (let i = 0; i < content.length; i++) {
         const template = `
             <div class="card ${content[i].country}">
-                
+                <img src="${content[i].img}">
                 <h5>
                     ${content[i].title}
                 </h5>
+                <p class="location">
+                    ${content[i].city}
+                </p>
                 <p>
                     ${content[i].body}
                 </p>
