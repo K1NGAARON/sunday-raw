@@ -96,6 +96,11 @@
 
 
 @media (max-width: 560px) {
+    .section.banner,
+    .section.banner .row {
+        min-height: fit-content;
+    }
+
     .section.collections .card {
         flex: 1 0 100%;
     }
@@ -103,4 +108,29 @@
     .section.collections .card:nth-child(3n) h5 {
         font-size: 24px;
     }
+
+    .section.collections .card:nth-child(3n) {
+        flex: 1 0 100%;
+    }
+
+    .section.collections .card h5 {
+        text-align: center;
+    }
+
+    .section.collections .card .container {
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        left: 0;
+        right: 0!important;
+        top: 0;
+        bottom: 0!important;
+        margin: auto;
+    }
+
+    .section.collections .card .overlay {
+        background: var(--black);
+        opacity: 0.5;
+    }
+
 }
