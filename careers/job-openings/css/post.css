@@ -8,26 +8,21 @@
     height: unset;
 }
 
-.banner .overlay {
-    background: url('/img/overlay.png') center left no-repeat;
-    opacity: 1;
-}
-
 .banner .row {
     z-index: 20;
 }
 
-.banner {
+.full-height {
     color: var(--white);
 }
 
-.banner h1 {
-    font-size: 60px;
+.full-height h1 {
+    font-size: 76px;
 }
 
-.banner h1,
-.banner p {
-    max-width: 60%;
+.full-height h1,
+.full-height p {
+    max-width: 50%;
 }
 
 .section .uppercase {
@@ -35,7 +30,7 @@
     font-size: 20px;
 }
 
-.section.banner .btn {
+.section.full-height .btn {
     background-color: transparent;
     padding: 5px 15px;
     border: 1px solid var(--white);
@@ -44,11 +39,11 @@
     margin-bottom: 20px;
 }
 
-.banner .wrapper.labels {
+.full-height .wrapper.labels {
     gap: 20px;
 }
 
-.banner .label {
+.full-height .label {
     padding: 5px 15px;
     border: 1px solid var(--white);
     border-radius: 30px;
@@ -73,10 +68,24 @@
     padding: 40px;
 }
 
-.section h2 {
+.section .purple {
+    color: var(--primary);
     font-weight: 600;
-    font-size: 30px;
-    margin-bottom: 16px;
+    font-size: 46px;
+    margin-bottom: 10pxx;
+}
+
+.section .bold {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.section ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 30px;
+    margin-bottom: 80px;
 }
 
 .section .wrapper .item .purple {
@@ -88,13 +97,31 @@
     align-items: center;
 }
 
+.section .upper {
+    text-transform: uppercase;
+    color: var(--white);
+    font-size: 36px;
+}
+
+.section h3 {
+    font-size: 36px;
+}
+
+.contact.section .row .contact-form span {
+    color: var(--white);
+}
+
 @media (max-width: 560px) {
-    .section.banner {
+    .section.full-height {
         min-height: unset;
     }
 
-    .banner h1,
-    .banner p {
+    .full-height h1,
+    .full-height p {
         max-width: 100%;
+    }
+
+    .section ul {
+        margin-bottom: 40px;
     }
 }
