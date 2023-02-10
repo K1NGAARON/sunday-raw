@@ -277,6 +277,10 @@
     background-color: var(--white);
 }
 
+.header .navigation .dropdown-holder.active .nav-item::before {
+    transform: scaleX(1);
+}
+
 .header .navigation .dropdown-holder .dropdown a {
     margin: 3px 0;
 }
