@@ -70,6 +70,16 @@ const content = [
         beachhead: "sales",
         companysize: ""
     },
+    {
+        client: "Stadsbader",
+        title: "Stadsbader’s Biennial Challenge builds ambassadors",
+        body: "Stadsbader’s striking way of building a powerful tribe of ambassadors.",
+        logo: '/cases/stadsbader/img/logo.png',
+        img: '/cases/stadsbader/img/banner.jpg',
+        url: '/cases/stadsbader/',
+        beachhead: 'marketing',
+        companysize: '',
+    },
 ];
 
 function createCards() {
