@@ -80,6 +80,26 @@ const content = [
         beachhead: 'marketing',
         companysize: '',
     },
+    {
+        client: 'Imens',
+        title: "Creating long term brand awareness for I-mens by implementing company fashion",
+        body: "I-mens is a brand new healthcare organization. So getting their brand into the world is the first thing to do.",
+        logo: '/cases/imens/img/logo.png',
+        img: '/cases/imens/img/banner.jpg',
+        url: '/cases/imens/',
+        beachhead: 'marketing',
+        companysize: '',
+    },
+    // {
+    //     client: 'Imens',
+    //     title: "",
+    //     body: "",
+    //     logo: '',
+    //     img: '',
+    //     url: '',
+    //     beachhead: 'marketing',
+    //     companysize: '',
+    // },
 ];
 
 function createCards() {
