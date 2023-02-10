@@ -1,3 +1,13 @@
+.section.culture,
+.section.culture .row {
+    min-height: unset;
+}
+
+.section.testimonial,
+.section.testimonial .row {
+    min-height: unset;
+}
+
 .section.culture p {
     color: var(--primary);
     max-width: 60%;
@@ -70,6 +80,10 @@
     margin-top: 20px;
 }
 
+.section.application .row .col {
+    align-items: center;
+}
+
 .section .uppercase {
     color: var(--darkGrey);
 }
@@ -112,6 +126,8 @@
 
 .section.values .filter {
     display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
     gap: 40px;
     margin-top: 40px;
 }
@@ -147,8 +163,9 @@
 }
 
 .section.values .wrapper .item .large {
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 600;
+    text-align: left;
 }
 
 .section.values .wrapper .item .image {
@@ -161,6 +178,7 @@
 
 .section.values .wrapper .item #bodyHolder {
     text-align: left;
+    line-height: 2;
 }
 
 @media (max-width: 560px) {
