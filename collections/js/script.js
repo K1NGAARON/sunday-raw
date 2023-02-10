@@ -57,18 +57,16 @@ function createCards() {
     for (let i = 0; i < content.length; i++) {
         const template = `
             <div class="card">
-                <a href="${content[i].url}">
-                    <img src="${content[i].img}" alt="${content[i].title}">
+                <img src="${content[i].img}" alt="${content[i].title}">
+                <div class="container">
                     <h5>
                         ${content[i].title}
                     </h5>
-                    <p>
-                        ${content[i].body}
-                    </p>
                     <a class="btn" href="${content[i].url}">
                         Discover collection
                     </a>
-                </a>
+                </div>
+                <div class="overlay vertical"></div>
             </div>
         `;
         collectionTarget.insertAdjacentHTML("beforeend", template);

@@ -38,12 +38,69 @@
     margin-bottom: 60px;
 }
 
-.section.collections .card {
-    flex: 0 1 25%;
+.section.collections .wrapper {
+    gap: 20px;
 }
+
+.section.collections .card {
+    flex: 0 1 calc(50% - 20px);
+    position: relative;
+    transition: var(--transition);
+}
+
+.section.collections .card:hover {
+    transition: var(--transition);
+}
+
+.section.collections .card:nth-child(3n) {
+    flex: 0 1 calc(100% - 20px);
+}
+
+.section.collections .card:nth-child(3n) .container {
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    left: 0;
+    right: 0!important;
+    top: 0;
+    bottom: 0!important;
+    margin: auto;
+}
+
+.section.collections .card .container {
+    display: none;
+    transition: var(--transition);
+    z-index: 10;
+}
+
+.section.collections .card:hover .container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    transition: var(--transition);
+}
+
+.section.collections .card h5 {
+    font-size: 24px;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
+.section.collections .card:nth-child(3n) h5 {
+    font-size: 56px;
+}
+
+
 
 @media (max-width: 560px) {
     .section.collections .card {
         flex: 1 0 100%;
+    }
+
+    .section.collections .card:nth-child(3n) h5 {
+        font-size: 24px;
     }
 }
