@@ -126,6 +126,41 @@
     font-size: 28px;
 }
 
+.features .faq ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 30px;
+    list-style: unset;
+}
+
+.faq .accordion-list .accordion-item .accordion-head {
+    gap: 10px;
+}
+
+.faq .accordion-list .accordion-item:nth-child(1) .accordion-head::before {
+    content: url('../img/icons/wardrobe.svg');
+    width: 25px;
+}
+
+.faq .accordion-list .accordion-item:nth-child(2) .accordion-head::before {
+    content: url('../img/icons/warehouse.svg');
+    width: 25px;
+}
+
+.faq .accordion-list .accordion-item:nth-child(3) .accordion-head::before {
+    content: url('../img/icons/shipping.svg');
+    width: 25px;
+}
+
+.faq .accordion-list .accordion-item .accordion-head {
+    justify-content: flex-start;
+}
+
+.faq .accordion-list .accordion-item .accordion-head .icon {
+    margin-left: auto;
+}
+
 @media (max-width: 560px) {
     .section.banner,
     .section.banner .row {
