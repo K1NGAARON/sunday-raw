@@ -195,6 +195,10 @@
     border-bottom-left-radius: 30px;
 }
 
+.section.decoration .wrapper .item {
+    flex: 0 1 30%;
+}
+
 .section.decoration .wrapper.switch .item img:nth-child(2) {
     display: none;
 }
