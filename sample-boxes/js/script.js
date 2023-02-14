@@ -35,4 +35,25 @@ function createCards(e) {
     }
 };
 
-$(document).ready(createCards);
+// $(document).ready(createCards);
+
+
+// Get the modal
+let modal = document.querySelector(".modal");
+let modalBtn = document.querySelector(".fairs");
+let span = document.querySelector(".close");
+
+// When the user clicks on the button, open the modal
+modalBtn.addEventListener('click', function() {
+    modal.style.display = "block";
+});
+
+span.addEventListener('click', function(e) {
+    modal.style.display = "none";
+});
+
+window.addEventListener('click', function(e) {
+    if (e.target == modal) {
+        modal.style.display = "none";
+      }
+});
