@@ -39,18 +39,36 @@ function createCards(e) {
 
 
 // Get the modal
-let modal = document.querySelector(".modal");
-let modalBtn = document.querySelector(".fairs");
+let modal = document.querySelectorAll('.modal');
+
+let modalFairs = document.querySelector(".modal.fairs");
+let modalFairsBtn = document.querySelector(".fairs");
+
+let modalWorkplace = document.querySelector(".modal.workplace");
+let modalWorkplaceBtn = document.querySelector(".workplace");
+
 let span = document.querySelector(".close");
 
 // When the user clicks on the button, open the modal
-modalBtn.addEventListener('click', function() {
-    modal.style.display = "block";
+modalFairsBtn.addEventListener('click', function() {
+    modalFairs.style.display = "block";
 });
 
-span.addEventListener('click', function(e) {
-    modal.style.display = "none";
+window.addEventListener('click', function(e) {
+    if (e.target == modalFairs) {
+        modalFairs.style.display = "none";
+      }
 });
+
+
+// When the user clicks on the button, open the modal
+modalWorkplaceBtn.addEventListener('click', function() {
+    modalWorkplace.style.display = "block";
+});
+
+$('.close').click(function() {
+    $('.modal').hide();
+})
 
 window.addEventListener('click', function(e) {
     if (e.target == modal) {
