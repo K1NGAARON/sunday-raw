@@ -1,0 +1,77 @@
+.navigation .nav-item {
+    color: var(--black);
+}
+
+.nav-item.btn {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.nav-item.btn:hover {
+    color: var(--white);
+}
+
+.nav-item::before {
+    background-color: var(--black);
+}
+
+.section h1 {
+    font-size: 76px;
+}
+
+.section .wrapper {
+    margin-top: 40px;
+    width: 60%;
+}
+
+.section .wrapper .card {
+    flex: 0 1 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.card h5 {
+    color: var(--primary);
+}
+
+.card .btn-wrapper {
+    display: flex;
+}
+
+.card .btn-wrapper .btn {
+    flex: 1 0 100%;
+
+    margin: unset;
+    margin-bottom: 30px;
+
+    background-color: var(--primary);
+    color: var(--white);
+    border-color: var(--primary);
+}
+
+
+.card .btn-wrapper .btn.inside {
+    color: var(--black);
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--black);
+    border-radius: 0;
+
+    display: none;
+}
+
+.card h5,
+.card p {
+    padding: 0 30px;
+}
+
+
+@media (max-width: 560px) {
+    .section h1 {
+        font-size: 36px;
+    }
+}
