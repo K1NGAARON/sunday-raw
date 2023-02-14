@@ -1,0 +1,19 @@
+.logos.section,
+.logos.section .row {
+    min-height: unset;
+}
+
+.section h1 {
+    font-size: 76px;
+}
+
+.section .contact-form {
+    margin-left: 0;
+}
+
+
+@media (max-width: 560px) {
+    .section h1 {
+        font-size: 36px;
+    }
+}
