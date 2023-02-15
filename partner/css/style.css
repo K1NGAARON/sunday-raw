@@ -41,3 +41,18 @@
     color: var(--white);
     width: 25%;
 }
+
+@media (max-width: 560px) {
+    .section.full,
+    .section.full .row {
+        min-height: 100vh;
+    }
+
+    .section.full .background-video {
+        display: none;
+    }
+
+    .section.full .contact-form {
+        max-width: 75%;
+    }
+}
