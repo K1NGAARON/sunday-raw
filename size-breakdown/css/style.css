@@ -1,0 +1,124 @@
+.section.banner,
+.section.banner .row {
+    min-height: 60vh;
+}
+
+.section h1 {
+    font-size: 76px;
+}
+
+.section.banner h1,
+.section.banner p {
+    max-width: 45%;
+}
+
+.section.recommend .container {
+    display: flex;
+    flex-flow: row wrap;
+    width: fit-content;
+}
+
+.section .container p {
+    flex: 0 1 30%;
+}
+
+
+/* CALCULATOR */
+.calculator {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: var(--boxShadow);
+}
+
+.calculator .wrapper .gender-toggle {
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    border-radius: 30px;
+    background-color: var(--darkGrey2);
+}
+
+.calculator .wrapper .gender-toggle a {
+    flex: 1 0;
+    font-weight: 600;
+    text-align: center;
+    color: var(--black);
+    padding: 15px 30px;
+    border-radius: 30px;
+    transition: var(--transition);
+}
+
+.calculator .wrapper .gender-toggle a:hover {
+    cursor: pointer;
+}
+
+.calculator .wrapper .gender-toggle .active {
+    color: var(--white);
+    background-color: var(--primary);
+    transition: var(--transition);
+}
+
+.calculator .wrapper.input {
+    gap: 20px;
+}
+
+.calculator .wrapper.input .bold,
+.calculator .wrapper.input .input-field {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.calculator .wrapper.input .input-field {
+    width: 25%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid var(--primary);
+}
+
+.calculator .wrapper.input .input-field:focus-visible {
+    outline: none;
+}
+
+.calculator .wrapper.output {
+    gap: 40px;
+}
+
+.calculator .wrapper.output p,
+.calculator .wrapper.output span {
+    font-weight: 600;
+}
+
+.calculator .wrapper.output .item {
+    flex: 1 0 40%;
+    flex-direction: row;
+}
+
+.calculator .wrapper.output .item p,
+.calculator .wrapper.output .item .output {
+    flex: 1 0;
+}
+
+.calculator .wrapper.output .item .output {
+    border-bottom: 2px solid var(--black);
+}
+
+
+
+
+
+
+
+@media (max-width: 560px) {
+    .section h1 {
+        font-size: 36px;
+    }
+
+    .section.banner h1,
+    .section.banner p {
+        max-width: 100%;
+    }
+}
