@@ -31,6 +31,10 @@
     font-weight: 600;
 }
 
+.section.contact p {
+    font-size: unset;
+}
+
 
 /* CALCULATOR */
 .calculator {
