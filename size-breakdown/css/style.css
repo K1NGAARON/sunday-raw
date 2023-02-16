@@ -44,6 +44,8 @@
     width: 100%;
     padding: 30px;
     border-radius: 30px;
+    color: var(--black);
+    background-color: var(--white);
     box-shadow: var(--boxShadow);
 }
 
