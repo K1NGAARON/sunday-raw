@@ -7,6 +7,13 @@ function calculateSizes(e) {
     let activeGender = $('.gender-toggle .toggle.active').attr('id');
     let totalPieces = document.querySelector('#input-field').value;
 
+    if (totalPieces < 100) {
+        $('.error').show();
+        return;
+    } else {
+        $('.error').hide();
+    }
+
     const sizeBreakdown = [
         {
             size: 'XS',

@@ -22,6 +22,15 @@
     flex: 0 1 30%;
 }
 
+.error {
+    display: none;
+}
+
+.error p {
+    color: red;
+    font-weight: 600;
+}
+
 
 /* CALCULATOR */
 .calculator {
