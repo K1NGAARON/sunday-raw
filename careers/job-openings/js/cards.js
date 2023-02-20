@@ -81,16 +81,6 @@ const content = [
         url: '/careers/job-openings/sales-development-rep-ireland/',
         order: '',
     },
-    // {
-    //     title: '',
-    //     body: '',
-    //     img: '',
-    //     country: '',
-    //     city: '',
-    //     flag: '',
-    //     url: '',
-    //     order: '',
-    // }
 ];
 
 function createCards() {

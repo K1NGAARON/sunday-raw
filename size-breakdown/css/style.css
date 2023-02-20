@@ -12,9 +12,10 @@
     color: var(--white);
 }
 
-.section.banner h1,
-.section.banner p {
+.section.sizer h1,
+.section.sizer p {
     max-width: 55%;
+    color: var(--white);
 }
 
 .section.recommend .container {
