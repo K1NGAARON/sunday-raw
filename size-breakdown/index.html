@@ -81,7 +81,7 @@
             </div>
         </div>
 
-<div class="small-menu-wrapper">
+        <div class="small-menu-wrapper">
             <div class="small-menu-content">
                 <a class="nav-item" href="/catalog/">Products</a>
                 <a class="nav-item" href="/platform/">Distribution</a>
@@ -110,100 +110,99 @@
     </div>
 </header>
 
-<div class="section purple grey">
+<div class="section sizer">
+    <div class="row flex-col">
+        <h1>
+            Size breakdown calculator
+        </h1>
+        <a href="#size-calculator" class="btn">
+            Calculate sizes
+        </a>
+    </div>
+    <div class="overlay"></div>
+</div>
+
+
+<div class="section">
     <div class="row">
-        <div class="col">
-            <h1>
-                Size breakdown calculator
-            </h1>
-            <p>
-                Let’s face it: “What sizes should we get?” is one of the most common questions we get from our customers.
-                <br>
-                We made a handy calculator you can use for choosing the exact size breakdown for your group order. Regardless, if there are any questions or doubts our experts are still here to assist you.
-            </p>
-            <p>
-                This calculator applies our recommended ratio of unisex sizes to determine how many of each size you need to order, based on your total number of items. It even rounds up and down for you. Just enter your total number of wearables.
-            </p>
-        </div>
-        <div class="col">
-            <div class="calculator">
-                <div class="wrapper toggle">
-                    <div class="gender-toggle">
-                        <a class="toggle active" id="unisex">Unisex</a>
-                        <a class="toggle" id="female">Female</a>
-                        <a class="toggle" id="male">Male</a>
-                    </div>
+        <div class="calculator" id="size-calculator">
+            <div class="wrapper toggle">
+                <div class="gender-toggle">
+                    <a class="toggle active" id="unisex">Unisex</a>
+                    <a class="toggle" id="female">Female</a>
+                    <a class="toggle" id="male">Male</a>
                 </div>
-                <div class="wrapper input">
-                    <p class="bold">
-                        I need
-                    </p>
-                    <input type="number" id="input-field" value="" class="input-field" autocomplete="off">
-                    <p class="bold">
-                        Pieces
-                    </p>
-                </div>
-                <div class="error">
+            </div>
+            <div class="wrapper input">
+                <p class="bold">
+                    I need
+                </p>
+                <input type="number" id="input-field" value="" class="input-field" autocomplete="off">
+                <p class="bold">
+                    Pieces
+                </p>
+            </div>
+            <div class="error">
+                <p>
+                    The minimum quantity is 100 pieces.
+                </p>
+            </div>
+            <div class="wrapper output">
+                <div class="item xs">
                     <p>
-                        The minimum quantity is 100 pieces.
+                        Extra Small:
                     </p>
+                    <span class="output" id="xs">
+                        
+                    </span>
                 </div>
-                <div class="wrapper output">
-                    <div class="item xs">
-                        <p>
-                            Extra Small:
-                        </p>
-                        <span class="output" id="xs">
-                            
-                        </span>
-                    </div>
-                    <div class="item l">
-                        <p>
-                            Large:
-                        </p>
-                        <span class="output" id="l">
-                            
-                        </span>
-                    </div>
-                    <div class="item s">
-                        <p>
-                            Small:
-                        </p>
-                        <span class="output" id="s">
-                            
-                        </span>
-                    </div>
-                    <div class="item xl">
-                        <p>
-                            Extra Large:
-                        </p>
-                        <span class="output" id="xl">
-                            
-                        </span>
-                    </div>
-                    <div class="item m">
-                        <p>
-                            Medium:
-                        </p>
-                        <span class="output" id="m">
-                            
-                        </span>
-                    </div>
-                    <div class="item 2xl">
-                        <p>
-                            Double XL:
-                        </p>
-                        <span class="output" id="2xl">
-                            
-                        </span>
-                    </div>
+                <div class="item l">
+                    <p>
+                        Large:
+                    </p>
+                    <span class="output" id="l">
+                        
+                    </span>
+                </div>
+                <div class="item s">
+                    <p>
+                        Small:
+                    </p>
+                    <span class="output" id="s">
+                        
+                    </span>
+                </div>
+                <div class="item xl">
+                    <p>
+                        Extra Large:
+                    </p>
+                    <span class="output" id="xl">
+                        
+                    </span>
+                </div>
+                <div class="item m">
+                    <p>
+                        Medium:
+                    </p>
+                    <span class="output" id="m">
+                        
+                    </span>
+                </div>
+                <div class="item 2xl">
+                    <p>
+                        Double XL:
+                    </p>
+                    <span class="output" id="2xl">
+                        
+                    </span>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="section recommend">
+
+<!-- <div class="section recommend">
     <div class="row">
         <div class="col">
             <img src="/size-breakdown/img/chart.png" alt="Size breakdown">
@@ -227,7 +226,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <div class="section contact purple" id="contact">
     <div class="row">
