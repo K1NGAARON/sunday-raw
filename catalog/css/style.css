@@ -647,4 +647,27 @@
     .lookbook.section .row img {
         display: none;
     }
+
+    .section.product .uppercase {
+        font-size: 14px;
+        letter-spacing: 5px;
+    }
+
+    .section.decoration .row {
+        gap: 40px;
+    }
+
+    .section.decoration h2 {
+        font-size: 34px;
+    }
+
+    .section.decoration .wrapper {
+        gap: 0;
+    }
+
+    .section.decoration .wrapper .item {
+        flex: 1 0 40%;
+    }
+
+    
 }
