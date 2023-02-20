@@ -80,12 +80,25 @@
     font-weight: 600;
 }
 
+.section .container {
+    width: 100%;
+    margin: 20px auto;
+}
+
 .section ul {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     padding-left: 30px;
-    margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+.section ul {
+    list-style: none;
+}
+
+.section li::before {
+    content: '-';
 }
 
 .section .wrapper .item .purple {
