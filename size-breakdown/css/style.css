@@ -128,19 +128,13 @@
     border-bottom: 2px solid var(--black);
 }
 
-
-
-
-
-
-
 @media (max-width: 560px) {
     .section h1 {
         font-size: 36px;
     }
 
-    .section.banner h1,
-    .section.banner p {
+    .section.sizer h1,
+    .section.sizer p {
         max-width: 100%;
     }
 }
