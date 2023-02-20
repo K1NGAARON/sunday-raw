@@ -210,4 +210,8 @@
     .section.usp .wrapper .item {
         align-items: center;
     }
+
+    .features .row {
+        gap: 60px;
+    }
 }

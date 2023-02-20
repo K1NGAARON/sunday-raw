@@ -559,4 +559,16 @@
     .collections .item:nth-child(4) .overlay {
         background-color: #ea5298;
     }
+
+    .section.beachhead .wrapper .item .client-logo {
+        margin: 0 auto;
+    }
+
+    .section.beachhead .wrapper .item:nth-child(3) {
+        align-items: center;
+    }
+
+    .section.beachhead .wrapper .item:nth-child(3) p {
+        text-align: center;
+    }    
 }

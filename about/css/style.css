@@ -6,6 +6,11 @@
     background-size: cover;
 }
 
+.section.banner .overlay {
+    background: var(--black);
+    opacity: 0.7;
+}
+
 .section.history {
     background-image: url('../img/history.png');
     background-position: top right;
@@ -142,5 +147,9 @@
     .section.mission, 
     .section.mission .row {
         min-height: unset;
+    }
+
+    .section.mission {
+        background: none;
     }
 }
