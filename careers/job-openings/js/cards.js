@@ -1,16 +1,6 @@
 const target = document.querySelector('.section.content > .row > .wrapper');
 
 const content = [
-    // {
-    //     title: 'Content Creator met copywriting skills',
-    //     body: 'Je mixt creativiteit, mode, B2B marketing, sustainability tot een cocktail die klanten doet watertanden.',
-    //     img: '/careers/job-openings/img/',
-    //     country: 'belgium',
-    //     city: 'roeselare',
-    //     flag: '',
-    //     url: '/careers/job-openings/content-creator/',
-    //     order: '',
-    // },
     {
         title: 'Account Executive Belgium',
         body: 'Our business grows with you. Close some interesting deals with us!',
