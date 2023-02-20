@@ -70,4 +70,14 @@
     #filter .wrapper {
         max-width: 100%;
     }
+
+    .section.blue p {
+        font-size: 14px;
+    }
+
+    .section.blue .row {
+        top: unset;
+        left: unset;
+        transform: unset;
+    }
 }

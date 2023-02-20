@@ -111,4 +111,44 @@
     .section .width {
         max-width: 100%;
     }
+
+    .section.banner,
+    .section.banner .row {
+        min-height: fit-content;
+    }
+
+    .banner.section h1, 
+    .banner.section p {
+        max-width: 100%;
+    }
+
+    .banner.section h1 {
+        font-size: 36px;
+    }
+
+    .banner.section p {
+        font-size: 14px;
+    }
+
+    .section.banner .row {
+        top: unset;
+        left: unset;
+        transform: unset;
+    }
+
+    .idea.section .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section.idea .wrapper .item .testimonial {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .section.idea .wrapper .item .author {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 20px;
+    }
 }
