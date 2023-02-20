@@ -365,6 +365,19 @@
     color: var(--white);
 }
 
+.lookbook.section .row {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.lookbook.section .row img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 60%;
+    height: auto;
+}
+
 .lookbook .contact-form {
     margin: 0;
 }
@@ -529,6 +542,10 @@
     display: flex;
 }
 
+.catalog-wrapper {
+    display: flex;
+}
+
 @media (max-width: 560px) {
     .section.catalog.banner {
         margin-top: 0;
@@ -623,9 +640,11 @@
         width: 100%;
     }
 
-
-}
-
-.catalog-wrapper {
-    display: flex;
+    .lookbook.section .row {
+        margin-bottom: 60px;
+    }
+    
+    .lookbook.section .row img {
+        display: none;
+    }
 }
