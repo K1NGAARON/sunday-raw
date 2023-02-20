@@ -190,4 +190,8 @@
     .section.culture p {
         font-size: 14px;
     }
+
+    .section.gallery .row .wrapper .item {
+        flex: 1 0 40%;
+    }
 }
