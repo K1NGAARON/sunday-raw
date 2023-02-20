@@ -42,7 +42,7 @@ const content = [
         order: '',
     },
     {
-        title: 'Sales Development Representative Belgium',
+        title: 'SDR Belgium',
         body: 'Our business starts with you. Hunt for promising leads with us!',
         img: '/careers/job-openings/img/image4.jpg',
         country: 'belgium',
@@ -52,7 +52,7 @@ const content = [
         order: '',
     },
     {
-        title: 'Sales Development Representative Netherlands',
+        title: 'SDR Netherlands',
         body: 'Our business starts with you. Hunt for promising leads with us!',
         img: '/careers/job-openings/img/image5.jpg',
         country: 'netherlands',
@@ -62,7 +62,7 @@ const content = [
         order: '',
     },
     {
-        title: 'Sales Development Representative Germany',
+        title: 'SDR Germany',
         body: 'Our business starts with you. Hunt for promising leads with us!',
         img: '/careers/job-openings/img/image6.jpg',
         country: 'germany',
@@ -82,7 +82,7 @@ const content = [
         order: '',
     },
     {
-        title: 'Sales Development Representative Ireland',
+        title: 'SDR Ireland',
         body: 'Our business starts with you. Hunt for promising leads with us!',
         img: '/careers/job-openings/img/image1.jpg',
         country: 'ireland',

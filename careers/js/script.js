@@ -26,10 +26,6 @@ const values = [
     },
 ];
 
-function resetValues(e) {
-    
-}
-
 function toggleValues(e) {
     let activeValue = e.target.id;
 
