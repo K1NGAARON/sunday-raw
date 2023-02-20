@@ -8,8 +8,16 @@
     height: unset;
 }
 
-.banner .overlay {
-    background: url('/img/overlay.png') center left no-repeat;
+.video-wrapper {
+    width: 100%;
+}
+
+.container.video {
+    width: 100%;
+}
+
+.banner.section .overlay {
+    background: var(--overlay);
     opacity: 1;
 }
 

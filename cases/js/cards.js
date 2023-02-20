@@ -90,16 +90,16 @@ const content = [
         beachhead: 'marketing',
         companysize: '',
     },
-    // {
-    //     client: 'Imens',
-    //     title: "",
-    //     body: "",
-    //     logo: '',
-    //     img: '',
-    //     url: '',
-    //     beachhead: 'marketing',
-    //     companysize: '',
-    // },
+    {
+        client: 'NY Pizza',
+        title: "Influencer campaign with sweaters boosts NY Pizza’s followers",
+        body: "Fast food chain New York Pizza decided to set up a campaign with their branded Christmas sweaters as centerpieces.",
+        logo: '/cases/ny-pizza/img/logo.png',
+        img: '/cases/ny-pizza/img/banner.jpg',
+        url: '/cases/ny-pizza/',
+        beachhead: 'marketing',
+        companysize: '',
+    },
 ];
 
 function createCards() {
