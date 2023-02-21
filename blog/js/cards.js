@@ -1,6 +1,13 @@
 const target = document.querySelector('.section.content > .row > .wrapper');
 const content = [
     {
+        title: "How To Prevent Quiet Quitting",
+        body: "During the last year, a new expression has impacted the corporate world: Quiet Quitting.",
+        img: "/blog/how-to-prevent-quiet-quitting/img/banner.jpg",
+        url: "/blog/how-to-prevent-quiet-quitting/",
+        beachhead: "hr"
+    },
+    {
         title: '5 practical tips on How to put together the Best Swag Bag for your next event',
         body: "Who doesn't love gifts? Stay top of mind with your prospects, customers and even possible new hires at your next",
         img: '/blog/best-swag-bag/img/banner.jpg',

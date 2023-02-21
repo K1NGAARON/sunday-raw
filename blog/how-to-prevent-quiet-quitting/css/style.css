@@ -1,0 +1,25 @@
+.banner {
+    background-image: url('../img/banner.jpg');
+}
+
+.banner.section .overlay {
+    background: var(--overlay);
+    opacity: 0.9;
+}
+
+.container ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 30px;
+    margin: 20px 0 40px 0;
+}
+
+.container a {
+    color: var(--primary);
+}
+
+.container a:hover {
+    text-decoration: underline;
+    transition: var(--transition);
+}
