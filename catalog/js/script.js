@@ -148,19 +148,19 @@ let modalBtn = document.getElementById("sampleBtn");
 let span = document.getElementById("closeModal");
 
 // When the user clicks on the button, open the modal
-modalBtn.addEventListener('click', function() {
+$(modalBtn).click(() => {
     modal.style.display = "block";
-});
+})
 
-span.addEventListener('click', function(e) {
+$(span).click((e) => {
     modal.style.display = "none";
-});
+})
 
-window.addEventListener('click', function(e) {
+$(window).click((e) => {
     if (e.target == modal) {
         modal.style.display = "none";
       }
-});
+})
 
 $(document).ready(createSocialProof);
 $('.step').click(changeSteps);
