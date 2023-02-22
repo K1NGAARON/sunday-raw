@@ -1,3 +1,9 @@
+.banner.section ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .navigation .nav-item {
     color: var(--black);
 }
