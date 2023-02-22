@@ -25,13 +25,13 @@
     margin-top: 100px;
     padding-top: 40px;
     height: fit-content;
-    min-height: 100vh;
+    min-height: unset;
     position: relative;
 }
 
 .section.catalog.banner .row {
-    min-height: 100vh;
-    height: 100vh;
+    min-height: unset;
+    height: unset;
 }
 
 .banner.section {
