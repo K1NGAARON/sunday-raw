@@ -4,6 +4,14 @@
     gap: 10px;
 }
 
+.section.catalog.banner ul {
+    gap: unset;
+}
+
+.section.catalog.banner ul li {
+    margin: 5px 0;
+}
+
 .navigation .nav-item {
     color: var(--black);
 }
