@@ -6,7 +6,6 @@ function showProduct(e) {
     let activeProductSRC = activeProduct.src;
 
     let mainImage = document.querySelector('#main-image');
-    console.log(mainImage);
 
     $(mainImage).attr('src', activeProductSRC);
 };
