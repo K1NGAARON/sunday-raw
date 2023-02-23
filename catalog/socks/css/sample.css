@@ -17,3 +17,7 @@
 .section.logos .row {
     margin-bottom: 60px;
 }
+
+.banner.section ul {
+    padding-left: 30px;
+}
