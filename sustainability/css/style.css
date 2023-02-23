@@ -29,6 +29,63 @@
     margin-top: 40px;
 }
 
+.section .wrapper.switch .item img:nth-child(2) {
+    display: none;
+}
+
+.section .wrapper.switch .item:hover img:nth-child(1) {
+    display: none;
+    transition: var(--transition);
+}
+
+.section .wrapper.switch .item:hover img:nth-child(2) {
+    display: block;
+    transition: var(--transition);
+}
+
+.section .wrapper.switch .item .box {
+    display: none;
+}
+
+.section .wrapper.switch .item {
+    position: relative;
+}
+
+.section .wrapper.switch .item .overlay {
+    background: none;
+}
+
+.section .wrapper.switch .item:hover .overlay {
+    background: var(--black);
+    opacity: 0.7;
+}
+
+.section .wrapper.switch .item .box {
+    z-index: 99;
+}
+
+.section .wrapper.switch .item .box h5 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.section .wrapper.switch .item .box h5,
+.section .wrapper.switch .item .box p {
+    color: var(--white);
+}
+
+.section .wrapper.switch .item:hover .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
 .section .wrapper {
     align-items: center;
 }
