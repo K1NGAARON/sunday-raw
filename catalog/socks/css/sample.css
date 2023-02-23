@@ -1,0 +1,19 @@
+.contact-form {
+    margin: 0;
+}
+
+.banner.section {
+    margin-top: 0;
+}
+
+.banner.section .row {
+    padding-top: 60px;
+}
+
+.contact-form textarea {
+    height: unset;
+}
+
+.section.logos .row {
+    margin-bottom: 60px;
+}
