@@ -173,20 +173,7 @@
 }
 
 .case.section {
-    background-image: url('../img/john-jane-case.jpeg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: var(--white);
-}
-
-.case.section h3,
-.case.section p {
-    max-width: 50%;
-}
-
-.case.section h3 {
-    font-size: 58px;
+    display: none;
 }
 
 .social-proof.section .card {
