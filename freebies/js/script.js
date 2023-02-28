@@ -8,7 +8,7 @@ const freebies = [
     {
         title: "Download our lookbook",
         body: "We see ourselves as architects of our clients' fashion collections. We help them design on-brand and on-trend amazing clothing items that really fit their culture.",
-        img: '/freebies/lookbook/img/lookbook.png',
+        img: '/freebies/lookbook/img/new-lookbook.png',
         url: '/freebies/lookbook/'
     },
 ];
