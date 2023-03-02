@@ -653,6 +653,20 @@ select:focus-visible {
   .wrapper .item {
     flex: 1 0 100%;
   }
+
+  .logos .row {
+    margin-bottom: 0;
+  }
+
+  #logoHolder .splide__list {
+    justify-content: center;
+  }
+
+  #logoHolder .splide__slide {
+    min-width: 100px!important;
+    height: auto!important;
+    margin-right: 100px!important;
+  }
 }
 
 @media (max-width: 760px) {
