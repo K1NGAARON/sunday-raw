@@ -1,0 +1,73 @@
+.banner.section {
+    background-image: url("/catalog/sportswear-sample/img/banner.jpg");
+    margin-top: 0;
+}
+
+.section.banner .overlay {
+    background: var(--black);
+    opacity: 0.6;
+}
+
+.case.section {
+    background-image: url("/catalog/sportswear-sample/img/delaware.jpg");
+    display: flex;
+}
+
+.case.section p {
+    width: 60%;
+}
+
+.contact.section {
+    background-image: url("/catalog/sportswear-sample/img/contact.jpg");
+}
+
+.section {
+    font-size: 50px;
+    color: var(--white);
+}
+
+.banner.section h1 {
+    font-size: 50px;
+}
+
+.section p {
+    font-size: 20px;
+}
+
+.navigation .nav-item {
+    color: var(--white);
+}
+
+.gallery.section .wrapper .item.small {
+    flex: 1 0 40%!important;
+}
+
+.gallery.section .wrapper .item.large {
+    flex: 1 0 100%;
+}
+
+.about.section h2 {
+    color: var(--black);
+}
+
+.about.section .purple {
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 24px;
+    width: 60%;
+}
+
+.banner.section .contact-form {
+
+}
+
+
+@media (max-width: 560px) {
+    .about.section .purple {
+        width: 100%;
+    }
+
+    .case.section p {
+        width: 100%;
+    }
+}
