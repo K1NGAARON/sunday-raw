@@ -1,3 +1,43 @@
+.banner.section {
+    position: relative;
+    height: fit-content;
+    min-height: fit-content;
+}
+
+.banner.section .row {
+    position: absolute;
+    height: fit-content;
+    min-height: fit-content;
+}
+
+.banner.section h1,
+.banner.section p {
+    color: var(--white);
+}
+
+.usp.section,
+.usp.section .row,
+.section.grey,
+.section.grey .row {
+    min-height: fit-content;
+}
+
+.faq.section,
+.faq.section .row {
+    min-height: 70vh;
+}
+
+.section.lookbook {
+    position: relative;
+}
+
+.section.lookbook img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+}
+
 .section h1 {
     font-size: 54px;
 }
@@ -74,6 +114,45 @@
     margin-left: 0;
 }
 
+.faq.section {
+    position: relative;
+}
+
+.section .faq-img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+}
+
+.section .row .usp {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    margin-top: 40px;
+}
+
+.section .row .usp a {
+    font-size: 50px;
+    transition: var(--transition);
+}
+
+#usp-body {
+    margin-top: 40px;
+    line-height: 2;
+}
+
+.usp-toggle:hover {
+    cursor: pointer;
+}
+
+.section .row .usp a.active {
+    font-weight: 600;
+    color: var(--primary);
+    transition: var(--transition);
+}
+
 @media (max-width: 560px) {
     .section.products .wrapper .item {
         flex: 1 0 50%;
@@ -81,5 +160,28 @@
 
     .section.products .wrapper .item .content h5 {
         text-align: left;
+    }
+
+    .section .faq-img {
+        display: none;
+    }
+
+    .banner.section {
+        background-color: var(--orange);
+    }
+
+    .banner.section,
+    .banner.section .row {
+        min-height: 70vh;
+        height: 70vh;
+    }
+
+    .banner.section h1,
+    .banner.section p {
+        color: var(--white);
+    }
+
+    .banner.section .background-video {
+        display: none;
     }
 }
