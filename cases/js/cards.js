@@ -110,6 +110,16 @@ const content = [
         beachhead: 'marketing',
         companysize: '',
     },
+    {
+        client: 'Johnnie Walker',
+        title: "Celebrating a milestone with a made-to-measure fashion collection",
+        body: "To celebrate 200 years of iconic Scotch whisky, Sunday created an even more iconic fashion collection.",
+        logo: '/cases/johnnie-walker/img/logo.png',
+        img: '/cases/johnnie-walker/img/banner.jpg',
+        url: '/cases/johnnie-walker/',
+        beachhead: 'marketing',
+        companysize: '',
+    },
 ];
 
 function createCards() {
