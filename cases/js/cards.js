@@ -100,6 +100,16 @@ const content = [
         beachhead: 'marketing',
         companysize: '',
     },
+    {
+        client: 'AkzoNobel',
+        title: "Akzonobel’s solution for dealer management challenges",
+        body: "As a manufacturer, AkzoNobel works together with a lot of dealers who sell their products.",
+        logo: '/cases/trimetal/img/logo.png',
+        img: '/cases/trimetal/img/banner.jpg',
+        url: '/cases/trimetal/',
+        beachhead: 'marketing',
+        companysize: '',
+    },
 ];
 
 function createCards() {
