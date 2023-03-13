@@ -1,6 +1,6 @@
 .section.banner {
     color: var(--white);
-    background-image: url('../img/banner.jpg');
+    background-image: url('/about/img/banner.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,7 +12,7 @@
 }
 
 .section.history {
-    background-image: url('../img/history.png');
+    background-image: url('/about/img/history.png');
     background-position: top right;
     background-size: contain;
 }
@@ -27,7 +27,7 @@
 }
 
 .section.mission {
-    background-image: url('../img/mission.jpg');
+    background-image: url('/about/img/mission.jpg');
     background-position: top right;
     background-size: contain;
 }
