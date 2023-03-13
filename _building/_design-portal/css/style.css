@@ -36,7 +36,8 @@
 }
 
 .section.full .contact-form .btn {
-    color: var(--white);
+    color: var(--black);
+    background-color: var(--white);
     width: 25%;
 }
 
