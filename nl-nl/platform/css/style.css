@@ -139,17 +139,17 @@
 }
 
 .faq .accordion-list .accordion-item:nth-child(1) .accordion-head::before {
-    content: url('../img/icons/wardrobe.svg');
+    content: url('/platform/img/icons/wardrobe.svg');
     width: 25px;
 }
 
 .faq .accordion-list .accordion-item:nth-child(2) .accordion-head::before {
-    content: url('../img/icons/warehouse.svg');
+    content: url('/platform/img/icons/warehouse.svg');
     width: 25px;
 }
 
 .faq .accordion-list .accordion-item:nth-child(3) .accordion-head::before {
-    content: url('../img/icons/shipping.svg');
+    content: url('/platform/img/icons/shipping.svg');
     width: 25px;
 }
 
