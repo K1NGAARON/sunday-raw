@@ -1,5 +1,6 @@
 .main h1 {
     color: var(--black);
+    font-size: 44px;
 }
 
 .section,
