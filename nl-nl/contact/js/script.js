@@ -2,50 +2,50 @@ const offices = [
     {
         country: 'België',
         city: 'Roeselare',
-        flag: './img/flag/be-flag.png',
+        flag: '/contact/img/flag/be-flag.png',
         location: 'Hof Ter Weze 5',
         postal: '8800 Roeselare',
-        img: './img/offices/roeselare.jpg'
+        img: '/contact/img/offices/roeselare.jpg'
     },
     {
         country: 'Nederland',
         city: 'Amsterdam',
-        flag: './img/flag/nl-flag.png',
+        flag: '/contact/img/flag/nl-flag.png',
         location: 'Joop Geesinkweg 641',
         postal: '1114 AB Amsterdam',
-        img: './img/offices/amsterdam.jpg'
+        img: '/contact/img/offices/amsterdam.jpg'
     },
     {
         country: 'Duitsland',
         city: 'Berlijn',
-        flag: './img/flag/de-flag.png',
+        flag: '/contact/img/flag/de-flag.png',
         location: 'Lohmühlenstraße 65',
         postal: '12435 Berlin',
-        img: './img/offices/berlin-office.jpg'
+        img: '/contact/img/offices/berlin-office.jpg'
     },
     {
         country: 'Polen',
         city: 'Łódź',
-        flag: './img/flag/pl-flag.png',
+        flag: '/contact/img/flag/pl-flag.png',
         location: 'ul. Gdańska 126/128',
         postal: '90-520 Łódź',
-        img: './img/offices/lodz.jpg'
+        img: '/contact/img/offices/lodz.jpg'
     },
     {
         country: 'Ierland',
         city: 'Dublin',
-        flag: './img/flag/ie-flag.png',
+        flag: '/contact/img/flag/ie-flag.png',
         location: 'Custom House Quay',
         postal: 'CHQ Dublin',
-        img: './img/offices/dublin.jpg'
+        img: '/contact/img/offices/dublin.jpg'
     },
     {
         country: 'Verenigd Koninkrijk',
         city: 'Londen',
-        flag: './img/flag/uk-flag.png',
+        flag: '/contact/img/flag/uk-flag.png',
         location: 'BLCC Club Quarters, 8 Northumberland Avenue',
         postal: 'London WC2N 5BY',
-        img: './img/offices/london.jpg'
+        img: '/contact/img/offices/london.jpg'
     }
 ];
 

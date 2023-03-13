@@ -1,6 +1,6 @@
 .section.banner.contact {
     color: var(--white);
-    background-image: url('../img/banner.jpg');
+    background-image: url('/contact/img/banner.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     height: 80vh;
@@ -66,7 +66,7 @@
 
 .section.apply {
     color: var(--white);
-    background-image: url("../img/apply.jpg");
+    background-image: url("/contact/img/apply.jpg");
     background-position: center center;
     background-repeat: no-repeat;
 }
