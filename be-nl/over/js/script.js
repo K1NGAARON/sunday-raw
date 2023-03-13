@@ -8,17 +8,17 @@ const services = [
     {
         title: 'Ontwerp',
         body: "Ons ontwerpteam begint hun visie vanaf een rol stof, net zoals de echte modemerken dat doen. Dit betekent dat we echt unieke items voor uw merk kunnen creëren. We nemen geen genoegen met generieke blanco truien en t-shirts met een gedrukt logo. Maar we zijn er trots op dat we kledingstukken ontwerpen die de unieke essentie van uw merk vastleggen, waardoor het iets wordt dat uw fans graag zullen dragen.",
-        img: './img/design.png'
+        img: '/about/img/design.png'
     },
     {
         title: 'Productie',
         body: "Elk product dat we ontwerpen, produceren we zorgvuldig volgens de hoogste normen op het gebied van kwaliteit en duurzaamheid. We hebben speciale productiecentra in Polen en Turkije, zodat we nauw samenwerken met alle geselecteerde partners. Onze interne R&D afdeling geeft u de mogelijkheid om volledig op maat gemaakte mode-items vanaf nul te creëren.",
-        img: './img/production.png'
+        img: '/about/img/production.png'
     },
     {
         title: 'Wereldwijde verzending',
         body: "Een van de belangrijkste uitdagingen voor onze klanten is de logistiek van de goederen. De industriestandaard is vaak dat zodra de producten gemaakt zijn, de taak van de leverancier erop zit. Wij zijn het daar niet mee eens. Daarom hebben we ons Wardrobe™-platform gebouwd. Een virtuele kleerkast die een overzicht houdt van uw merch inclusief real time voorraadniveaus en die helpt merchandise wereldwijd te verzenden in een paar klikken.",
-        img: './img/shipping.png'
+        img: '/about/img/shipping.png'
     },
     {
         title: 'Service',
@@ -37,7 +37,7 @@ const services = [
                 </li>
             </ul>
         `,
-        img: './img/service.png'
+        img: '/about/img/service.png'
     },
 ];
 
