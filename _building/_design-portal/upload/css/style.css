@@ -31,6 +31,10 @@
     padding: 15px;
 }
 
+.main input:hover {
+    cursor: pointer;
+}
+
 .main input,
 .main select,
 .main textarea {
