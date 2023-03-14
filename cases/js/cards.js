@@ -60,16 +60,6 @@ const content = [
         beachhead: "sales",
         companysize: ""
     },
-    // {
-    //     client: "Deliverect",
-    //     title: "How Deliverect skyrockets their company culture globally, using the Sunday Wardrobe™",
-    //     body: "Deliverect, the all-in-one solution for restaurants to grow their online presence, grew 750% in the last year.",
-    //     logo: '/cases/deliverect/img/logo.png',
-    //     img: '/cases/deliverect/img/banner.jpg',
-    //     url: '/cases/deliverect/',
-    //     beadchhead: 'hr',
-    //     companysize: ''
-    // },
     {
         client: "Stadsbader",
         title: "Stadsbader’s Biennial Challenge builds ambassadors",
@@ -101,8 +91,18 @@ const content = [
         companysize: '',
     },
     {
+        client: "Deliverect",
+        title: "How Deliverect protects their company culture when scaling rapidly after raising $150M in funding.",
+        body: "Deliverect, the all-in-one solution for restaurants to grow their online presence, grew 750% in the last year.",
+        logo: '/cases/deliverect/img/logo.png',
+        img: '/cases/deliverect/img/banner.jpg',
+        url: '/cases/deliverect/',
+        beadchhead: 'hr',
+        companysize: ''
+    },
+    {
         client: 'AkzoNobel',
-        title: "Akzonobel’s solution for dealer management challenges",
+        title: "The ways Trimetal increased sales and turned their end customers in ambassadors through dealer management",
         body: "As a manufacturer, AkzoNobel works together with a lot of dealers who sell their products.",
         logo: '/cases/trimetal/img/logo.png',
         img: '/cases/trimetal/img/banner.jpg',
@@ -112,7 +112,7 @@ const content = [
     },
     {
         client: 'Johnnie Walker',
-        title: "Celebrating a milestone with a made-to-measure fashion collection",
+        title: "How Johnnie Walker celebrated its 200 year old iconic whisky with a made-to-measure fashion collection",
         body: "To celebrate 200 years of iconic Scotch whisky, Sunday created an even more iconic fashion collection.",
         logo: '/cases/johnnie-walker/img/logo.png',
         img: '/cases/johnnie-walker/img/banner.jpg',
