@@ -87,6 +87,15 @@
     padding: 40px;
 }
 
+.section .container ul,
+.section .container ol {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+    padding-left: 30px;
+}
+
 .section h2 {
     font-weight: 600;
     font-size: 30px;
