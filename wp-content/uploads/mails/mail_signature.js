@@ -802,11 +802,7 @@ function generateHtml(employee, add_picture = false) {
     const alt_image_logo = 'Sunday';
     const logo_link = 'https://teamsunday.com/wp-content/uploads/mails/sunday_logo_signature.jpg';
 
-    let html = `<br />
-            <a style="margin-bottom:20px;padding-left:20px;" href="https://teamsunday.com/" target="_blank">
-                Check out our new website!
-            </a>
-            <br />
+    let html = `
             <br />
             <table cellpadding="0" cellspacing="0" border="0" style="font-size: 13px; background: none; border: 0; margin: 0; padding: 0;">
                 <tbody>`;
@@ -827,8 +823,14 @@ function generateHtml(employee, add_picture = false) {
 
 
     html += `       <tr>
-                        <td valign="center" align="center" width="200">
-                            <img src="${logo_link}" width="180" alt="${alt_image_logo}">
+                        <td valign="center" align="left" width="300">
+                            <img src="${logo_link}" width="150" alt="${alt_image_logo}">
+                            <p style="font-family: Poppins, Helvetica, sans-serif; color: #000; font-size: 26px; font-weight: 600; margin: 0;">
+                                Meet us at our new HQ
+                            </p>
+                            <p style="font-family: Poppins, Helvetica, sans-serif; color: #000; font-size: 16px; text-transform: uppercase; margin: 0;">
+                                Krommebeekpark 21, Roeselare
+                            </p>
                         </td>
                         <td style="border-right:3px solid #000;padding-left:10px">
                             &nbsp;                           
@@ -846,6 +848,7 @@ function generateHtml(employee, add_picture = false) {
                                     <tr>
                                         <td colspan="2" style="${fontFamily} color: ${colorBlack}; font-size: 14px;padding-top:15px;">
                                             <a href="https://teamsunday.com" style="color:${colorBlack};text-decoration:none;">teamsunday.com</a>
+                                            
                                         </td>
                                     </tr>`;
     if (telephone) {
@@ -853,8 +856,38 @@ function generateHtml(employee, add_picture = false) {
                                         <td colspan="2" style="${fontFamily} color: ${colorBlack}; font-size: 14px;">
                                             Tel. ${telephone}
                                         </td>
+
                                     </tr>`;
     }
+
+    html += `
+                                    <tr>
+                                        <td colspan="2">
+                                            <div style="display: flex;justify-content: center;margin-bottom: 10px;margin-top: 10px;">
+                                                <!-- SOCIALS -->
+                                                <a style="margin: 0 5px;" target="_blank" href="https://www.linkedin.com/company/sundaydotcom/">
+                                                    <img style="width:100%;height:auto; max-width: 30px;" src="https://teamsunday.com/assets/icons/linkedin.svg" alt="LinkedIn">
+                                                </a>
+
+                                                <a style="margin: 0 5px;" target="_blank" href="https://www.facebook.com/MerchandiseEssentials">
+                                                    <img style="width:100%;height:auto; max-width: 30px;" src="https://teamsunday.com/assets/icons/facebook.svg" alt="Facebook">
+                                                </a>
+
+                                                <a style="margin: 0 5px;" target="_blank" href="https://www.instagram.com/teamsunday_com/">
+                                                    <img style="width:100%;height:auto; max-width: 30px;" src="https://teamsunday.com/assets/icons/instagram.svg" alt="Instagram">
+                                                </a>
+
+                                                <a style="margin: 0 5px;" target="_blank" href="https://www.pinterest.com/teamsunday1/">
+                                                    <img style="width:100%;height:auto; max-width: 30px;" src="https://teamsunday.com/assets/icons/pinterest.svg" alt="Pinterest">
+                                                </a>
+
+                                                <a style="margin: 0 5px;" target="_blank" href="https://vimeo.com/user184239142">
+                                                    <img style="width:100%;height:auto; max-width: 30px;" src="https://teamsunday.com/assets/icons/vimeo.svg" alt="Vimeo">
+                                                </a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                        `
 
     html += `                   </tbody>
                             </table>
