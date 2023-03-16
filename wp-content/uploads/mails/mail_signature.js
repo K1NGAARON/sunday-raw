@@ -40,14 +40,14 @@ const employees = {
     //     telephone: '+49 (0) 173 69 12 589',
     //     parsed_telephone: '00491736912589'
     // },
-    'amael.ramand': {
-        name: 'Amaël Ramand',
-        job_function: 'Sales Development Representative',
-        email_sunday: 'amael.ramand@teamsunday.com',
-        department: 'ME_DE',
-        // telephone : '',
-        // parsed_telephone: ''
-    },
+    // 'amael.ramand': {
+    //     name: 'Amaël Ramand',
+    //     job_function: 'Sales Development Representative',
+    //     email_sunday: 'amael.ramand@teamsunday.com',
+    //     department: 'ME_DE',
+    //     telephone : '',
+    //     parsed_telephone: ''
+    // },
     'ana.bighiu': {
         name: 'Ana Bighiu',
         job_function: 'Sales Development Representative',
@@ -362,14 +362,14 @@ const employees = {
         telephone: '+32 (0) 478 26 82 50',
         parsed_telephone: '0032478268250'
     },
-    'midas.streekstra': {
-        name: 'Midas Streekstra',
-        job_function: 'Country Manager NL',
-        email_sunday: 'midas.streekstra@teamsunday.com',
-        department: 'ME_NL',
-        telephone: '+31 (0) 6 486 21 784',
-        parsed_telephone: '0031648621784'
-    },
+    // 'midas.streekstra': {
+    //     name: 'Midas Streekstra',
+    //     job_function: 'Country Manager NL',
+    //     email_sunday: 'midas.streekstra@teamsunday.com',
+    //     department: 'ME_NL',
+    //     telephone: '+31 (0) 6 486 21 784',
+    //     parsed_telephone: '0031648621784'
+    // },
     'monika.mazowiecka': {
         name: 'Monika Mazowiecka',
         job_function: 'F&A Officer',
@@ -378,14 +378,14 @@ const employees = {
         telephone: '+48 (0) 512 85 89 58',
         parsed_telephone: '0048512858958'
     },
-    'morgane.lemiengre': {
-        name: 'Morgane Lemiengre',
-        job_function: 'Content Creator',
-        email_sunday: 'morgane.lemiengre@teamsunday.com',
-        department: 'ME_BE',
-        telephone: '+32 (0) 484 59 50 53',
-        parsed_telephone: '0032484595053'
-    },
+    // 'morgane.lemiengre': {
+    //     name: 'Morgane Lemiengre',
+    //     job_function: 'Content Creator',
+    //     email_sunday: 'morgane.lemiengre@teamsunday.com',
+    //     department: 'ME_BE',
+    //     telephone: '+32 (0) 484 59 50 53',
+    //     parsed_telephone: '0032484595053'
+    // },
     'neil.couhysder': {
         name: 'Neil Couhysder',
         job_function: 'Account Executive',
@@ -408,14 +408,14 @@ const employees = {
         telephone: '+32 (0) 496 70 25 43',
         parsed_telephone: '0032496702543'
     },
-    'nils.wittevrongel': {
-        name: 'Nils Wittevrongel',
-        job_function: 'Art Director',
-        email_sunday: 'nils.wittevrongel@teamsunday.com',
-        department: 'ME_BE',
-        telephone: '+32 (0) 498 52 92 84',
-        parsed_telephone: '0032498529284'
-    },
+    // 'nils.wittevrongel': {
+    //     name: 'Nils Wittevrongel',
+    //     job_function: 'Art Director',
+    //     email_sunday: 'nils.wittevrongel@teamsunday.com',
+    //     department: 'ME_BE',
+    //     telephone: '+32 (0) 498 52 92 84',
+    //     parsed_telephone: '0032498529284'
+    // },
     'oksana.nijaradze': {
         name: 'Oksana Nijaradze',
         job_function: 'Purchase Specialist',
@@ -802,6 +802,12 @@ function generateHtml(employee, add_picture = false) {
     const alt_image_logo = 'Sunday';
     const logo_link = 'https://teamsunday.com/wp-content/uploads/mails/sunday_logo_signature.jpg';
 
+    const linkedinIcon = 'https://teamsunday.com/assets/icons/linkedin.svg';
+    const facebookIcon = 'https://teamsunday.com/assets/icons/facebook.svg';
+    const instagramIcon = 'https://teamsunday.com/assets/icons/instagram.svg';
+    const vimeoIcon = 'https://teamsunday.com/assets/icons/vimeo.svg';
+    const pinterestIcon = 'https://teamsunday.com/assets/icons/pinterest.svg';
+
     let html = `
             <br />
             <table cellpadding="0" cellspacing="0" border="0" style="font-size: 13px; background: none; border: 0; margin: 0; padding: 0;">
@@ -863,26 +869,26 @@ function generateHtml(employee, add_picture = false) {
     html += `
                                     <tr>
                                         <td colspan="2">
-                                            <div style="display: flex;justify-content: center;margin-bottom: 10px;margin-top: 10px;">
+                                            <div style="display: flex;justify-content: flex-start;margin-bottom: 10px;margin-top: 10px;">
                                                 <!-- SOCIALS -->
                                                 <a style="margin: 0 5px;" target="_blank" href="https://www.linkedin.com/company/sundaydotcom/">
-                                                    <img style="width:100%;height:auto; max-width: 30px;" src="https://teamsunday.com/assets/icons/linkedin.svg" alt="LinkedIn">
+                                                    <img style="width:100%;height:auto; max-width: 30px;" src="${linkedinIcon}" alt="LinkedIn">
                                                 </a>
 
                                                 <a style="margin: 0 5px;" target="_blank" href="https://www.facebook.com/MerchandiseEssentials">
-                                                    <img style="width:100%;height:auto; max-width: 30px;" src="https://teamsunday.com/assets/icons/facebook.svg" alt="Facebook">
+                                                    <img style="width:100%;height:auto; max-width: 30px;" src="${facebookIcon}" alt="Facebook">
                                                 </a>
 
                                                 <a style="margin: 0 5px;" target="_blank" href="https://www.instagram.com/teamsunday_com/">
-                                                    <img style="width:100%;height:auto; max-width: 30px;" src="https://teamsunday.com/assets/icons/instagram.svg" alt="Instagram">
+                                                    <img style="width:100%;height:auto; max-width: 30px;" src="${instagramIcon}" alt="Instagram">
                                                 </a>
 
                                                 <a style="margin: 0 5px;" target="_blank" href="https://www.pinterest.com/teamsunday1/">
-                                                    <img style="width:100%;height:auto; max-width: 30px;" src="https://teamsunday.com/assets/icons/pinterest.svg" alt="Pinterest">
+                                                    <img style="width:100%;height:auto; max-width: 30px;" src="${pinterestIcon}" alt="Pinterest">
                                                 </a>
 
                                                 <a style="margin: 0 5px;" target="_blank" href="https://vimeo.com/user184239142">
-                                                    <img style="width:100%;height:auto; max-width: 30px;" src="https://teamsunday.com/assets/icons/vimeo.svg" alt="Vimeo">
+                                                    <img style="width:100%;height:auto; max-width: 30px;" src="${vimeoIcon}" alt="Vimeo">
                                                 </a>
                                             </div>
                                         </td>
