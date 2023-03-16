@@ -802,11 +802,11 @@ function generateHtml(employee, add_picture = false) {
     const alt_image_logo = 'Sunday';
     const logo_link = 'https://teamsunday.com/wp-content/uploads/mails/sunday_logo_signature.jpg';
 
-    const linkedinIcon = 'https://teamsunday.com/assets/icons/linkedin.svg';
-    const facebookIcon = 'https://teamsunday.com/assets/icons/facebook.svg';
-    const instagramIcon = 'https://teamsunday.com/assets/icons/instagram.svg';
-    const vimeoIcon = 'https://teamsunday.com/assets/icons/vimeo.svg';
-    const pinterestIcon = 'https://teamsunday.com/assets/icons/pinterest.svg';
+    const linkedinIcon = 'https://teamsunday.com/assets/icons/linkedin.png';
+    const facebookIcon = 'https://teamsunday.com/assets/icons/facebook.png';
+    const instagramIcon = 'https://teamsunday.com/assets/icons/instagram.png';
+    const vimeoIcon = 'https://teamsunday.com/assets/icons/vimeo.png';
+    const pinterestIcon = 'https://teamsunday.com/assets/icons/pinterest.png';
 
     let html = `
             <br />
