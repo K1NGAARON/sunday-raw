@@ -831,10 +831,10 @@ function generateHtml(employee, add_picture = false) {
     html += `       <tr>
                         <td valign="center" align="left" width="300">
                             <img src="${logo_link}" width="150" alt="${alt_image_logo}">
-                            <p style="font-family: Poppins, Helvetica, sans-serif; color: #000; font-size: 26px; font-weight: 600; margin: 0;">
+                            <p style="font-family: Poppins, Helvetica, sans-serif; color: #000; font-size: 20px; font-weight: 600; margin: 0;">
                                 Meet us at our new HQ
                             </p>
-                            <p style="font-family: Poppins, Helvetica, sans-serif; color: #000; font-size: 16px; text-transform: uppercase; margin: 0;">
+                            <p style="font-family: Poppins, Helvetica, sans-serif; color: #000; font-size: 12px; text-transform: uppercase; margin: 0;">
                                 Krommebeekpark 21, Roeselare
                             </p>
                         </td>
