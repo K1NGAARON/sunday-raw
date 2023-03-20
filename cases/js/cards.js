@@ -120,6 +120,16 @@ const content = [
         beachhead: 'marketing',
         companysize: '',
     },
+    {
+        client: 'IOT Venture',
+        title: "How IoT helped their employees feel connected with their new brand",
+        body: "When developing a new brand identity: how can you make your employees feel connected to your brand?",
+        logo: '/cases/iot-venture/img/logo.png',
+        img: '/cases/iot-venture/img/banner.jpg',
+        url: '/cases/iot-venture/',
+        beachhead: 'hr',
+        companysize: '',
+    },
 ];
 
 function createCards() {
