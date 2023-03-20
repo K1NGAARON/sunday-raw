@@ -703,7 +703,7 @@ function getDefaultDataFromDepartment(employee) {
             parsed_employee.parsed_telephone = parsed_employee.parsed_telephone.trim() === ''
                 ? '003251201198'
                 : parsed_employee.parsed_telephone;
-            parsed_employee.address = 'Hof ter Weze 5<br />Roeselare, Belgium';
+            parsed_employee.address = 'Krommebeekpark 21<br />Roeselare, Belgium';
             parsed_employee.address_link = 'https://maps.google.com/?q=Hof+ter+Weze+5,+8800+Roeselare,+België&amp;entry=gmail&amp;source=g';
             parsed_employee.website = 'teamsunday.com';
             parsed_employee.website_link = 'https://teamsunday.com/';

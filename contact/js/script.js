@@ -3,7 +3,7 @@ const offices = [
         country: 'Belgium',
         city: 'Roeselare',
         flag: './img/flag/be-flag.png',
-        location: 'Hof Ter Weze 5',
+        location: 'Krommebeekpark 21',
         postal: '8800 Roeselare',
         img: './img/offices/roeselare.jpg'
     },
