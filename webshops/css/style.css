@@ -1,0 +1,42 @@
+.banner {
+    background-image: url('../img/background.png');
+}
+
+.navigation .nav-item {
+    color: var(--black);
+}
+
+.nav-item.btn {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.nav-item.btn:hover {
+    color: var(--white);
+}
+
+.nav-item::before {
+    background-color: var(--black);
+}
+
+.banner h1 {
+    font-size: 76px;
+}
+
+.banner .btn-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.banner .btn-wrapper .ghost-btn {
+    border: 2px solid var(--primary);
+}
+
+.section .align-end {
+    align-self: flex-end;
+}
+
+.case.section .row h2,
+.case.section .row p {
+    width: 50%;
+}
