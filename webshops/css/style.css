@@ -32,6 +32,10 @@
     border: 2px solid var(--primary);
 }
 
+.banner .btn-wrapper .ghost-btn:hover {
+    color: var(--primary);
+}
+
 .section .align-end {
     align-self: flex-end;
 }
