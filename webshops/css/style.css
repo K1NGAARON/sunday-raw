@@ -40,3 +40,10 @@
 .case.section .row p {
     width: 50%;
 }
+
+@media (max-width: 560px) {
+    .case.section .row h2,
+    .case.section .row p {
+        width: 100%;
+    }
+}
