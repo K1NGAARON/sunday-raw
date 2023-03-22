@@ -40,9 +40,22 @@
     align-self: flex-end;
 }
 
+.case {
+    background-image: url('../img/lansweeper.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .case.section .row h2,
 .case.section .row p {
     width: 50%;
+    color: var(--white);
+}
+
+.case.section .btn {
+    color: var(--white);
+    border-color: var(--white);
 }
 
 @media (max-width: 560px) {
