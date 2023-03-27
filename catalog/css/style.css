@@ -575,6 +575,14 @@
         min-height: fit-content;
     }
 
+    .section.highlights .row {
+        position: relative;
+    }
+
+    .section.highlights .container {
+        bottom: 20px;
+    }
+
     .section.highlights .container h3 {
         font-size: 22px;
     }
