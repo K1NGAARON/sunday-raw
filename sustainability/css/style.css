@@ -4,15 +4,17 @@
     background-position: center center;
     background-repeat: no-repeat;
     height: fit-content;
+    min-height: fit-content;
     position: relative;
 }
 
 .section.banner .row {
     z-index: 9;
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
-    transform: translate(-50%, -40%);
+    transform: translate(-50%, -30%);
+    margin: 0 auto;
 }
 
 .banner.section h1 {

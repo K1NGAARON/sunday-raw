@@ -25,6 +25,10 @@
     max-width: 60%;
 }
 
+.section.banner .uppercase {
+    letter-spacing: 5px;
+}
+
 .section.banner .wrapper {
     gap: 20px;
 }
