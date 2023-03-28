@@ -1,0 +1,34 @@
+.success {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    width: 40%;
+    border-radius: 15px;
+    border: 2px solid var(--primary);
+    margin-top: 40px;
+    background-color: #DDDDDD;
+}
+
+.success input {
+    border: none;
+    outline: none;
+
+    flex: 1 0;
+    border-radius: 15px;
+}
+
+.success .share-url {
+    flex: 4 0;
+    background-color: transparent;
+}
+
+.success .btn {
+    color: var(--white);
+    transform: scale(1.05);
+}
+
+.success .share-url:focus-within {
+    border: none;
+    outline: none;
+}
