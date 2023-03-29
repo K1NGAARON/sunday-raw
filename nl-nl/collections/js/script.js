@@ -1,4 +1,5 @@
 const collectionTarget = document.querySelector('.collections .wrapper');
+console.log(collectionTarget);
 
 const content = [
     {
