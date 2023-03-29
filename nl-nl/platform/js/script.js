@@ -1,6 +1,6 @@
 const content = [
     {
-        title: "Het is kostenbesparendmoney",
+        title: "Het is kostenbesparend",
         body: "Door alle inspanningen met betrekking tot merchandise te bundelen in plaats van veel verschillende initiatieven te ondernemen, besparen onze klanten doorgaans tot 50% per jaar aan kosten.",
         img: '/platform/img/usp/save.png',
     },
