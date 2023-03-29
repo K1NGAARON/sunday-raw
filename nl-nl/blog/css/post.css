@@ -1,0 +1,95 @@
+.banner {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner.section.full-height {
+    height: unset;
+}
+
+.banner .overlay {
+    background: var(--overlay);
+}
+
+.banner .row {
+    z-index: 20;
+}
+
+.banner {
+    color: var(--white);
+}
+
+.banner h1 {
+    font-size: 60px;
+}
+
+.banner h1,
+.banner p {
+    max-width: 60%;
+}
+
+.section.banner .btn {
+    background-color: transparent;
+    padding: 5px 15px;
+    border: 1px solid var(--white);
+    color: var(--white);
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section .purple.large {
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 46px;
+}
+
+.section.content .row {
+    max-width: 960px;
+}
+
+.section.content .row.flex-col {
+    align-items: center;
+}
+
+.section .container {
+    background-color: #fafafa;
+    padding: 40px;
+}
+
+.section h2 {
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.section.related-content {
+    display: none;
+}
+
+.section.related-content .row {
+    align-items: center;
+}
+
+.section h3 {
+    font-size: 24px;
+    color: var(--darkGrey);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+@media (max-width: 560px) {
+    .section.banner {
+        min-height: unset;
+    }
+
+    .banner h1,
+    .banner p {
+        max-width: 100%;
+    }
+}
