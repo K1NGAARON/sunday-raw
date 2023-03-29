@@ -21,6 +21,13 @@
     opacity: 1;
 }
 
+.container .wrapper .testimonial {
+    color: var(--primary);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
 .banner .row {
     z-index: 20;
 }
