@@ -172,8 +172,8 @@
 
     .banner.section,
     .banner.section .row {
-        min-height: 70vh;
-        height: 70vh;
+        min-height: 100vh;
+        height: 100vh;
     }
 
     .banner.section h1,
