@@ -98,7 +98,7 @@ const logosArray = [
     },
     {
         client: 'Fruitmasters',
-        img: '/nl-nl/img/logos/fruitmasters-logo.svg',
+        img: '/nl-nl/img/logos/fruitmasters-logo.jpg',
     },
     {
         client: 'Getinge',
