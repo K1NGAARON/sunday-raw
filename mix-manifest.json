@@ -1,4 +1,6 @@
 {
     "/js/dist/splide.js": "/js/dist/splide.js",
-    "/js/dist/app.js": "/js/dist/app.js"
+    "/nl-nl/js/dist/splide.js": "/nl-nl/js/dist/splide.js",
+    "/js/dist/app.js": "/js/dist/app.js",
+    "/nl-nl/js/dist/app.js": "/nl-nl/js/dist/app.js"
 }
