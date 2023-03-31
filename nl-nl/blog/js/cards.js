@@ -21,13 +21,13 @@ const content = [
         url: "/nl-nl/blog/maak-je-event-duurzamer/",
         beachhead: 'hr',
     },
-    {
-        title: "",
-        body: "",
-        img: "",
-        url: "/nl-nl/blog/boost-employee-retention/",
-        beachhead: 'hr',
-    },
+    // {
+    //     title: "",
+    //     body: "",
+    //     img: "",
+    //     url: "/nl-nl/blog/boost-employee-retention/",
+    //     beachhead: 'hr',
+    // },
 ];
 
 function createCards() {
