@@ -262,6 +262,10 @@
     color: var(--white);
 }
 
+.header.active .dropdown-holder.white a {
+    color: var(--black);
+}
+
 .header .dropdown-holder.white .dropdown {
     width: fit-content;
 }
