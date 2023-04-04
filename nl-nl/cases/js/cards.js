@@ -30,16 +30,16 @@ const content = [
         beachhead: 'hr',
         companysize: '',
     },
-    // {
-    //     client: "",
-    //     title: "",
-    //     body: "",
-    //     logo: '/nl-nl/cases/iot-venture/img/logo.png',
-    //     img: '/nl-nl/cases/iot-venture/img/banner.jpg',
-    //     url: '/nl-nl/cases/iot-venture/',
-    //     beachhead: 'hr',
-    //     companysize: '',
-    // },
+    {
+        client: "Televic",
+        title: "Stijlvolle overhemden voor het expertteam van Televic",
+        body: "Hoe kunnen we ervoor zorgen dat we opvallen en aandacht krijgen op onze stand tijdens een beurs?",
+        logo: '/cases/televic/img/logo.png',
+        img: '/cases/televic/img/banner.jpg',
+        url: '/nl-nl/cases/televic/',
+        beachhead: 'hr',
+        companysize: '',
+    },
 ];
 
 function createCards() {
