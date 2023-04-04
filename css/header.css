@@ -258,6 +258,14 @@
     display: flex;
 }
 
+.header .dropdown-holder.white a {
+    color: var(--white);
+}
+
+.header .dropdown-holder.white .dropdown {
+    width: fit-content;
+}
+
 .header .dropdown-holder.active {
     display: inline-block;
 }
