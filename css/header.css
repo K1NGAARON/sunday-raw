@@ -372,6 +372,10 @@
         padding: 10px 30px;
     }
 
+    .header .dropdown-holder.white a {
+        color: var(--black);
+    }
+
     .header .topnav-content-sm {
         padding: 10px 30px;
     }
