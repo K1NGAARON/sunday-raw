@@ -20,6 +20,16 @@ const content = [
         beachhead: 'hr',
         companysize: '',
     },
+    {
+        client: "ION",
+        title: "ION weet hoe je een team moet motiveren: #actION please!",
+        body: "Hoe kunnen we onze medewerkers gaan bedanken voor hun inzet was een vraag die ze zich bij ION stelden.",
+        logo: '/nl-nl/cases/ion/img/logo.svg',
+        img: '/nl-nl/cases/ion/img/banner.jpeg',
+        url: '/nl-nl/cases/ion/',
+        beachhead: 'hr',
+        companysize: '',
+    },
     // {
     //     client: "",
     //     title: "",
