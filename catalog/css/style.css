@@ -613,7 +613,7 @@
     }
 
     .section.sustainability {
-        min-height: unset;
+        min-height: 30vh;
     }
 
     .section.sustainability .row {
