@@ -24,16 +24,13 @@ const services = [
         title: 'Service',
         body: `
             Onze klant staat centraal in ons bedrijf. We hebben dan ook als doel om het klanten zo makkelijk en aangenaam mogelijk te maken door:
-            <br>
+            <br><br>
             <ul>
                 <li>
                     Mooie textiel producten op maat te creëren die daadwerkelijk resultaat opleveren
                 </li>
                 <li>
                     Consequent te investeren in processen en software oplossingen die hun leven gemakkelijker maken (Wardrobe™, realistische 3D-ontwerpen, tool voor het verzamelen van maten op afstand, ...).
-                </li>
-                <li>
-
                 </li>
             </ul>
         `,
