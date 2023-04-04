@@ -50,39 +50,32 @@ function toggleUSP(e) {
 
 const beachheads = [
     {
-        headline: 'With 10 new hires every week, they were in need of a proper onboarding.',
+        headline: 'Met 10 nieuwe aanwervingen per week, en dus 10 nieuwe mogelijke ambassadeurs, was het bedrijf  toe aan een sterke onboarding.',
         image: '/cases/deliverect/img/banner-2.jpg',
         logo: '/cases/deliverect/img/logo.png',
-        body: 'Deliverect, the all-in-one solution for restaurants to grow their online presence, grew 750% in the last year.',
-        url: '/cases/deliverect/'
+        body: 'Door de onboarding kits van hun werknemers te beheren, hielp Sunday een authentieke bedrijfscultuur te creëren.',
+        url: '/nl-nl/cases/deliverect/'
     },
     {
-        headline: "Personalised sports shirts as a tool in the war for talent",
-        image: '/cases/stadsbader/img/banner-2.jpg',
-        logo: '/cases/stadsbader/img/logo.png',
-        body: "How to find the perfect new employees? Organise an event and let your current employees be the best ambassadors.",
-        url: '/cases/stadsbader/',
+        headline: "Televic",
+        image: '/cases/televic/img/banner-2.jpg',
+        logo: '/cases/televic/img/logo.png',
+        body: "",
+        url: '/nl-nl/cases/televic/',
     },
     {
-        headline: "Thanking employees for their efforts and building an employee recognition policy.",
+        headline: "Hoe werknemers bedanken voor hun inspanningen en een erkenningsbeleid uitbouwen.",
         image: '/cases/ion/img/ion.jpg',
         logo: '/cases/ion/img/logo.svg',
-        body: 'ION knows how to motivate a team: #actION please!',
-        url: '/cases/ion/',
+        body: 'ION weet hoe ze een team moeten motiveren #actION alsjeblieft!',
+        url: '/nl-nl/cases/ion/',
     },
     {
-        headline: "Make your brand stand out by letting your employees be your best brand ambassadors.",
-        image: '/cases/imens/img/banner2.jpg',
-        logo: '/cases/imens/img/logo.png',
-        body: 'Personalized wearables create visibility but it also boosts the team feeling.',
-        url: '/cases/imens/',
-    },
-    {
-        headline: "Find out why Televic opted for business shirts fully adapted to their corporate branding.",
-        image: "/cases/televic/img/banner-home.jpg",
-        logo: "/cases/televic/img/logo.png",
-        body: "With other companies trying to impress future talents with a pen, Televic really wants to stand out from the crowd with their company fashion.",
-        url: "/cases/televic/"
+        headline: "Bedrijfswaarden en -visie door werknemers laten uitdragen.",
+        image: '/nl-nl/cases/oaky/img/banner-2.jpg',
+        logo: '/nl-nl/cases/oaky/img/logo.svg',
+        body: 'Hoe merchandise wordt ingezet voor employer branding en nog 4 andere bedrijfsuitdagingen.',
+        url: '/nl-nl/cases/oaky/',
     }
 ];
 
