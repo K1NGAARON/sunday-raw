@@ -57,10 +57,10 @@ const beachheads = [
         url: '/nl-nl/cases/deliverect/'
     },
     {
-        headline: "Televic",
-        image: '/cases/televic/img/banner-2.jpg',
+        headline: "Ontdek waarom Televic koos voor business hemden volledig aangepast aan hun corporate branding.",
+        image: '/cases/televic/img/banner2.jpg',
         logo: '/cases/televic/img/logo.png',
-        body: "",
+        body: "Terwijl andere bedrijven toekomstig talent proberen te imponeren met een balpen, wil Televic zich echt onderscheiden met hun branded kleding.",
         url: '/nl-nl/cases/televic/',
     },
     {
