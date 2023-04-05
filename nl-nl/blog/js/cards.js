@@ -11,7 +11,7 @@ const content = [
         title: "Hoe houd je jouw werknemers gelukkig en gezond",
         body: "De werkvloer is de plek waar mensen het grootste deel van hun wakkere uren doorbrengen.",
         img: "/blog/make-employees-happy/img/banner.jpg",
-        url: "/nl-nl/gezonde-werknemers/",
+        url: "/nl-nl/blog/gezonde-werknemers/",
         beachhead: 'hr',
     },
     {

@@ -378,6 +378,11 @@ select:focus-visible {
   color: var(--white);
 }
 
+.legal-consent-container .hs-form-booleancheckbox-display>span {
+  color: var(--white);
+  margin-top: 8px;
+}
+
 .contact-form .hs-button:hover {
   border: none;
   background-color: var(--black);
