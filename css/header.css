@@ -249,6 +249,10 @@
     color: var(--black);
 }
 
+.header.product-header .dropdown-holder.white a {
+    color: var(--black);
+}
+
 .header i {
     margin-left: 5px;
 }
