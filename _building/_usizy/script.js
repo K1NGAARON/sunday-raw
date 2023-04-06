@@ -1,0 +1,1 @@
+<script src="https://static.usizy.es/js/platform.min.js"></script>
