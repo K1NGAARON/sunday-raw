@@ -58,6 +58,47 @@
     border-color: var(--white);
 }
 
+.icons.section,
+.icons.section .row {
+    min-height: fit-content;
+}
+
+.icons.section h5 {
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 26px;
+    margin: 20px 0 10px 0;
+}
+
+.icons.section .wrapper {
+    flex-flow: row wrap;
+    gap: 60px;
+}
+
+.icons.section .wrapper .item {
+    flex: 1 0 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons.section .item img {
+    width: 100%;
+    max-width: 75px;
+}
+
+.faq .accordion-list {
+    gap: 0;
+}
+
+.faq .accordion-list .accordion-item .accordion-head h5 {
+    font-size: 24px;
+}
+
+.faq .accordion-list .accordion-item {
+    padding: 20px;
+}
+
 @media (max-width: 560px) {
     .case.section .row h2,
     .case.section .row p {
