@@ -69,6 +69,34 @@ function calculateSizes(e) {
         sizeXL = $('#xl').text(Math.trunc((totalPieces * sizeBreakdown[4].breakdownFemale) / 100));
         size2XL = $('#2xl').text(Math.trunc((totalPieces * sizeBreakdown[5].breakdownFemale) / 100));
     }
+
+    if (activeGender === 'female') {
+        let xsFemale = Math.trunc((totalPieces * sizeBreakdown[0].breakdownFemale) / 100);
+        let sFemale = Math.trunc((totalPieces * sizeBreakdown[1].breakdownFemale) / 100);
+        let mFemale = Math.trunc((totalPieces * sizeBreakdown[2].breakdownFemale) / 100);
+        let lFemale = Math.trunc((totalPieces * sizeBreakdown[3].breakdownFemale) / 100);
+        let xlFemale = Math.trunc((totalPieces * sizeBreakdown[4].breakdownFemale) / 100);
+        let xxlFemale = Math.trunc((totalPieces * sizeBreakdown[5].breakdownFemale) / 100);
+
+        let totalFemale = xsFemale + sFemale + mFemale + lFemale + xlFemale + xxlFemale;
+        let differenceFemale = totalPieces - totalFemale;
+
+        sFemale = sFemale + differenceFemale;
+        sizeS = $('#s').text(Math.trunc((totalPieces * sizeBreakdown[1].breakdownFemale) / 100) + differenceFemale);
+    } else {
+        let xsMale = Math.trunc((totalPieces * sizeBreakdown[0].breakdownMale) / 100);
+        let sMale = Math.trunc((totalPieces * sizeBreakdown[1].breakdownMale) / 100);
+        let mMale = Math.trunc((totalPieces * sizeBreakdown[2].breakdownMale) / 100);
+        let lMale = Math.trunc((totalPieces * sizeBreakdown[3].breakdownMale) / 100);
+        let xlMale = Math.trunc((totalPieces * sizeBreakdown[4].breakdownMale) / 100);
+        let xxlMale = Math.trunc((totalPieces * sizeBreakdown[5].breakdownMale) / 100);
+
+        let totalMale = xsMale + sMale + mMale + lMale + xlMale + xxlMale;
+        let differenceMale = totalPieces - totalMale;
+
+        mMale = mMale + differenceMale;
+        sizeM = $('#m').text(Math.trunc((totalPieces * sizeBreakdown[2].breakdownMale) / 100) + differenceMale);
+    }
 }
 
 $('.gender-toggle .toggle').click(toggleGender);
