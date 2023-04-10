@@ -1,0 +1,97 @@
+.banner {
+    background-image: url('../img/banner.jpg');
+}
+
+.header {
+    background-color: var(--white);
+}
+
+.navigation .nav-item {
+    color: var(--black);
+}
+
+.nav-item.btn {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.nav-item.btn:hover {
+    color: var(--white);
+}
+
+.nav-item::before {
+    background-color: var(--black);
+}
+
+.banner h1 {
+    font-size: 76px;
+    color: var(--white);
+    width: 50%;
+}
+
+.banner ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 30px;
+}
+
+.banner li {
+    font-size: 22px;
+    color: var(--white);
+}
+
+.subheadline {
+    font-weight: 400;
+    letter-spacing: 10px;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.wrapper .item img {
+    border-radius: 26px;
+}
+
+.main .container {
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.wrapper {
+    flex: 1 0 70%;
+    gap: 40px;
+}
+
+.wrapper .item {
+    flex: 1 0 30%;
+}
+
+.side {
+    flex: 1 0 25%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--darkGrey2);
+    border-radius: 26px;
+    padding: 30px;
+}
+
+.item {
+    align-items: flex-start;
+}
+
+.item h5 {
+    font-weight: 600;
+    font-size: 36px;
+    margin: 20px 0 10px 0;
+}
+
+.side * {
+    text-align: left;
+}
+
+.side h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
