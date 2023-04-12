@@ -84,7 +84,7 @@
 }
 
 .section.banner .wrapper .btn:hover {
-    color: var(--white);
+    color: var(--black);
 }
 
 .section.banner .wrapper .btn.ghost-btn {
