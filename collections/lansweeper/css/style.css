@@ -1,21 +1,22 @@
 .banner {
-    background-image: url('../img/banner.jpeg');
+    background-image: url('../img/banner.jpg');
 }
 
 .section.pantone .wrapper .item:nth-child(1) .color {
-    background-color: #00c48a;
+    background-color: #FF8A00;
 }
 
 .section.pantone .wrapper .item:nth-child(2) .color {
-    background-color: #5bc1e7;
+    background-color: #26242f;
 }
 
 .section.pantone .wrapper .item:nth-child(3) .color {
-    background-color: #ef4d9a;
+    background-color: #5d5d64;
 }
 
 .section.pantone .wrapper .item:nth-child(4) .color {
-    background-color: #ffd800;
+    background-color: #ffffff;
+    border: 1px solid var(--black);
 }
 
 /* .section.pantone .wrapper .item:nth-child(5) .color {
