@@ -49,6 +49,12 @@ const content = [
         url: '/collections/uberall/',
         img: '/collections/uberall/img/banner.jpeg',
     },
+    {
+        title: "Making a great impact with this fast growing IT scale-up",
+        body: "In terms of design requirements, the Lansweeper team was very clear: they wanted a unisex collection where, above all, the design had to be very simple and wearable.",
+        url: '/collections/lansweeper/',
+        img: '/collections/lansweeper/img/banner.jpg'
+    }
 ];
 
 
