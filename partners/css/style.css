@@ -10,10 +10,58 @@
     min-height: fit-content;
 }
 
+.banner.section .btn-wrapper {
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.banner.section .overlay {
+    background: var(--overlay);
+}
+
 .banner.section h1,
 .banner.section p {
     color: var(--white);
+    width: 50%;
 }
+
+.section.offer .wrapper {
+    gap: 20px;
+}
+
+.section.offer .wrapper .item,
+.section.offer .wrapper .item img {
+    position: relative;
+    border-radius: 26px;
+}
+
+.section.offer .wrapper .item .container {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section.offer .wrapper .item .container.right {
+    left: unset;
+    right: 20px;
+    align-items: flex-end;
+}
+
+
+.section.offer .wrapper .item .container h5,
+.section.offer .wrapper .item .container p,
+.section.offer .wrapper .item .container a {
+    color: var(--white);
+}
+
+.section.offer .wrapper .item .container h5 {
+    font-size: 30px;
+    text-align: left;
+}
+
 
 .usp.section,
 .usp.section .row,
