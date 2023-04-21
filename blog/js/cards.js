@@ -1,6 +1,13 @@
 const target = document.querySelector('.section.content > .row > .wrapper');
 const content = [
     {
+        title: "Maximizing Success: How Beer Brands can use Brand Extension to their advantage",
+        body: "We probably all can think of an example: a beer company that uses its brand name to introduce a new product.",
+        img: '/blog/brand-extensions-beer-brands/img/banner.jpg',
+        url: '/blog/brand-extensions-beer-brands/',
+        beachhead: 'marketing'
+    },
+    {
         title: "How To Prevent Quiet Quitting",
         body: "During the last year, a new expression has impacted the corporate world: Quiet Quitting.",
         img: "/blog/how-to-prevent-quiet-quitting/img/banner.jpg",
