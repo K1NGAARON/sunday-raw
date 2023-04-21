@@ -4,6 +4,10 @@
     gap: 10px;
 }
 
+.banner.product .uppercase.grey {
+    font-size: 18px;
+}
+
 .section.catalog.banner ul {
     gap: unset;
 }
