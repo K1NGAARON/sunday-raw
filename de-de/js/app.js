@@ -69,128 +69,60 @@ $('.accordion-item').click(function () {
 const logoTarget = document.querySelector('#logoHolder');
 const logosArray = [
     {
-        client: 'Adyen',
-        img: '/nl-nl/img/logos/adyen-logo.svg',
+        client: 'AVR',
+        img: '/de-de/img/logos/avr-logo.svg',
     },
     {
-        client: 'Biller',
-        img: '/nl-nl/img/logos/biller-logo.svg',
+        client: 'BeQuiet',
+        img: '/de-de/img/logos/bequiet-logo.svg',
     },
     {
-        client: 'Bol.com',
-        img: '/nl-nl/img/logos/bol-logo.svg',
+        client: 'Croky',
+        img: '/de-de/img/logos/croky-logo.svg',
     },
     {
-        client: 'Booking.com',
-        img: '/nl-nl/img/logos/booking-logo.svg',
+        client: 'Honeypot',
+        img: '/de-de/img/logos/honeypot-logo.svg',
     },
     {
-        client: 'Bullhorn',
-        img: '/nl-nl/img/logos/bullhorn-logo.svg',
+        client: 'Laika',
+        img: '/de-de/img/logos/laika-logo.svg',
     },
     {
-        client: 'Equans',
-        img: '/nl-nl/img/logos/equans-logo.svg',
+        client: 'MBS',
+        img: '/de-de/img/logos/mbs-logo.svg',
     },
     {
-        client: 'Friss',
-        img: '/nl-nl/img/logos/friss-logo.svg',
+        client: '',
+        img: '/de-de/img/logos/',
     },
     {
-        client: 'Fruitmasters',
-        img: '/nl-nl/img/logos/fruitmasters-logo.jpg',
+        client: 'ML6',
+        img: '/de-de/img/logos/ml6.svg',
     },
     {
-        client: 'Getinge',
-        img: '/nl-nl/img/logos/getinge-logo.svg',
+        client: 'Moderna',
+        img: '/de-de/img/logos/moderna-logo.svg',
     },
     {
-        client: 'Goodhabitz',
-        img: '/nl-nl/img/logos/goodhabitz-logo.svg',
+        client: 'Oaky',
+        img: '/de-de/img/logos/oaky-logo.svg',
     },
     {
-        client: 'Hoyng',
-        img: '/nl-nl/img/logos/hoyng-logo.svg',
+        client: 'Stadsbader',
+        img: '/de-de/img/logos/stadsbader-logo.svg',
     },
     {
-        client: 'io',
-        img: '/nl-nl/img/logos/io-logo.svg',
+        client: 'Steenoven',
+        img: '/de-de/img/logos/steenoven-logo.svg',
     },
     {
-        client: 'Legerdesheils',
-        img: '/nl-nl/img/logos/legerdesheils-logo.svg',
+        client: 'VBH',
+        img: '/de-de/img/logos/vbh-logo.svg',
     },
     {
-        client: 'Lekkerboats',
-        img: '/nl-nl/img/logos/lekkerboats-logo.svg',
-    },
-    {
-        client: 'Moersleutel',
-        img: '/nl-nl/img/logos/moersleutel-logo.svg',
-    },
-    {
-        client: 'Newland',
-        img: '/nl-nl/img/logos/newland-logo.svg',
-    },
-    {
-        client: 'New York Pizza',
-        img: '/nl-nl/img/logos/newyorkpizza-logo.svg',
-    },
-    {
-        client: 'Nobel',
-        img: '/nl-nl/img/logos/nobel-logo.svg',
-    },
-    {
-        client: 'Northwave',
-        img: '/nl-nl/img/logos/northwave-logo.svg',
-    },
-    {
-        client: '/nl-nl/img/logos/oaky-logo.svg',
-        img: '/nl-nl/img/logos/oaky-logo.svg',
-    },
-    {
-        client: 'Recruitnow',
-        img: '/nl-nl/img/logos/recruitnow-logo.svg',
-    },
-    {
-        client: 'Remia',
-        img: '/nl-nl/img/logos/remia-logo.svg',
-    },
-    {
-        client: 'Rijksdienst',
-        img: '/nl-nl/img/logos/rijksdienst-logo.svg',
-    },
-    {
-        client: 'Rituals',
-        img: '/nl-nl/img/logos/rituals-logo.svg',
-    },
-    {
-        client: 'See Tickets',
-        img: '/nl-nl/img/logos/seetickets-logo.svg',
-    },
-    {
-        client: 'Top Desk',
-        img: '/nl-nl/img/logos/topdesk-logo.svg',
-    },
-    {
-        client: 'Trend',
-        img: '/nl-nl/img/logos/trend-logo.svg',
-    },
-    {
-        client: 'Videoland',
-        img: '/nl-nl/img/logos/videoland-logo.svg',
-    },
-    {
-        client: 'Visma',
-        img: '/nl-nl/img/logos/visma-logo.svg',
-    },
-    {
-        client: 'Wild',
-        img: '/nl-nl/img/logos/wild-logo.svg',
-    },
-    {
-        client: 'Young Capital',
-        img: '/nl-nl/img/logos/youngcapital-logo.svg',
+        client: 'Zolar',
+        img: '/de-de/img/logos/zolar-logo.svg',
     },
 ];
 
