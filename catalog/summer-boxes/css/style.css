@@ -2,7 +2,12 @@
     background-image: url('../img/banner.jpg');
 }
 
-.header {
+.banner.section .overlay {
+    background: var(--overlay);
+    opacity: 0.6;
+}
+
+/* .header {
     background-color: var(--white);
 }
 
@@ -21,7 +26,7 @@
 
 .nav-item::before {
     background-color: var(--black);
-}
+} */
 
 .banner h1 {
     font-size: 76px;
