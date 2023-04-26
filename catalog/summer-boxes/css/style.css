@@ -107,6 +107,21 @@
     font-size: 12px;
 }
 
+.side .estimate {
+    border: 1px dashed var(--primary);
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.estimate,
+.estimate span {
+    color: var(--primary);
+    font-size: 14px;
+    font-weight: 600;
+}
+
 .side {
     flex: 1 0 25%;
     display: flex;
