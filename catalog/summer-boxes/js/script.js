@@ -10,7 +10,7 @@ function toggleButton(e) {
 
 
 function addProducts() {
-    const form = document.querySelector('.contact-form form');
+    const form = document.querySelector('.side .contact-form form');
     const addToBoxBtns = document.querySelectorAll(".item .btn");
     const estimatedPriceElement = document.querySelector('.estimated-price');
     let estimatedPrice = 0;
