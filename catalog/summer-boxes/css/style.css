@@ -348,4 +348,8 @@
     .row-container .label {
         font-size: 12px;
     }
+
+    .wrapper .item .btn {
+        font-size: 12px;
+    }
 }
