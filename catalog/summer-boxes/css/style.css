@@ -122,6 +122,10 @@
     font-weight: 600;
 }
 
+.main .small {
+    width: 70%;
+}
+
 .side {
     flex: 1 0 25%;
     display: flex;
@@ -137,7 +141,7 @@
 
 .item h5 {
     font-weight: 600;
-    font-size: 36px;
+    font-size: 22px;
 }
 
 .side * {
