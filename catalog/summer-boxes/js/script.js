@@ -4,7 +4,7 @@ function toggleButton(e) {
     if ($(this).hasClass("active")) {
         $(this).text('Remove from box');
     } else {
-        $(this).text('Add to cart');
+        $(this).text('Add to box');
     }
 }
 

@@ -313,3 +313,39 @@
 .contact-form .legal-consent-container .hs-form-booleancheckbox-display > span {
     color: var(--black);
 }
+
+@media (max-width: 560px) {
+    .section.banner {
+        height: fit-content;
+        min-height: fit-content;
+    }
+
+    .section.banner h1, 
+    .section.blue h1 {
+        width: 100%;
+    }
+
+    .section h2 {
+        font-size: 22px;
+    }
+
+    .section .row .small {
+        width: 100%;
+    }
+
+    .main .container {
+        flex-direction: column;
+    }
+
+    .wrapper.items {
+        gap: 20px;
+    }
+
+    .item h5 {
+        font-size: 16px;
+    }
+
+    .row-container .label {
+        font-size: 12px;
+    }
+}
