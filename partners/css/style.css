@@ -201,6 +201,34 @@
     transition: var(--transition);
 }
 
+.nmbs {
+    background-color: #4763b6;
+    background-image: url('/partners/img/nmbs-banner.png');
+    background-position: center right;
+    background-size: contain;
+}
+
+.nmbs h2,
+.nmbs p {
+    color: var(--white);
+    width: 50%;
+}
+
+.nmbs .btn {
+    background-color: #fab829;
+    border-color: #fab829;
+}
+
+.icons .item {
+    justify-content: center;
+    align-items: center;
+}
+
+.icons img {
+    max-width: 75px;
+    margin-bottom: 20px;
+}
+
 @media (max-width: 560px) {
     .section.products .wrapper .item {
         flex: 1 0 50%;
