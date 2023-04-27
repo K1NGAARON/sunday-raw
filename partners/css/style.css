@@ -222,11 +222,77 @@
 .icons .item {
     justify-content: center;
     align-items: center;
+    background-color: #f3f3f3;
+    padding: 30px;
+    border-radius: 26px;
 }
 
 .icons img {
     max-width: 75px;
     margin-bottom: 20px;
+}
+
+.section.relative {
+    position: relative;
+}
+
+.section.relative .absolute {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    width: 10%;
+}
+
+.section.contact ol {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 20px;
+}
+
+.section.contact .wrapper {
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+    width: 60%;
+    margin-top: 20px;
+}
+
+.section.contact .wrapper .item {
+    flex: 1 0;
+    align-items: flex-start;
+}
+
+.section.contact .wrapper .item img {
+    border-radius: 50%;
+    max-width: 100px;
+}
+
+.section.contact .wrapper .item p {
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.section .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section .contact-wrapper a {
+    color: var(--white);
+    transition: var(--transition);
+}
+
+.section .contact-wrapper a i {
+    margin-right: 10px;
+}
+
+.section .contact-wrapper a:hover {
+    color: var(--white);
+    text-decoration: underline;
+    transition: var(--transition);
 }
 
 @media (max-width: 560px) {
@@ -258,6 +324,10 @@
     }
 
     .banner.section .background-video {
+        display: none;
+    }
+
+    .section.relative .absolute  {
         display: none;
     }
 }
