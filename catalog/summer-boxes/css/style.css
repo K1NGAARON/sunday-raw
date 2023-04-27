@@ -268,6 +268,58 @@
     list-style: none;
 }
 
+.section.contact ol {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 20px;
+}
+
+.section.contact .wrapper {
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+    width: 60%;
+    margin-top: 20px;
+}
+
+.section.contact .wrapper .item {
+    flex: 1 0;
+    align-items: flex-start;
+}
+
+.section.contact .wrapper .item img {
+    border-radius: 50%;
+    max-width: 100px;
+}
+
+.section.contact .wrapper .item p {
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.section .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section .contact-wrapper a {
+    color: var(--white);
+    transition: var(--transition);
+}
+
+.section .contact-wrapper a i {
+    margin-right: 10px;
+}
+
+.section .contact-wrapper a:hover {
+    color: var(--white);
+    text-decoration: underline;
+    transition: var(--transition);
+}
+
 
 /* ERROR STYLING */
 .contact-form .hs-input.invalid {
