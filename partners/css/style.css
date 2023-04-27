@@ -327,7 +327,40 @@
         display: none;
     }
 
+    .banner.section, 
+    .banner.section .row {
+        height: unset;
+        min-height: 40vh;
+    }
+
     .section.relative .absolute  {
         display: none;
+    }
+
+    .banner.section h1, 
+    .banner.section p,
+    .nmbs h2,
+    .nmbs p {
+        width: 100%;
+    }
+
+    .nmbs {
+        background-image: none;
+    }
+
+    .banner.section .overlay {
+        display: none;
+    }
+
+    .banner.section .row {
+        position: unset;
+    }
+
+    .section h2 {
+        font-size: 30px;
+    }
+
+    .section .row .usp a {
+        font-size: 24px;
     }
 }
