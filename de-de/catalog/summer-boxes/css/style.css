@@ -1,0 +1,407 @@
+.banner {
+    background-image: url('../img/banner.jpg');
+}
+
+.banner.section .overlay {
+    background: var(--overlay);
+    opacity: 0.6;
+}
+
+/* .header {
+    background-color: var(--white);
+}
+
+.navigation .nav-item {
+    color: var(--black);
+}
+
+.nav-item.btn {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.nav-item.btn:hover {
+    color: var(--white);
+}
+
+.nav-item::before {
+    background-color: var(--black);
+} */
+
+.banner h1 {
+    font-size: 76px;
+    color: var(--white);
+    width: 50%;
+}
+
+.banner ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 30px;
+}
+
+.banner li {
+    font-size: 22px;
+    color: var(--white);
+}
+
+.subheadline {
+    font-weight: 400;
+    letter-spacing: 10px;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.wrapper .item img {
+    border-radius: 26px;
+}
+
+.main .container {
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.row-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 10px 0;
+}
+
+.row-container.body {
+    justify-content: flex-start;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.row-container .label {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--black);
+    background-color: var(--darkGrey2);
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+.wrapper {
+    flex: 1 0 70%;
+    gap: 40px;
+}
+
+.wrapper .item {
+    flex: 1 0 30%;
+}
+
+.items .item .btn.active {
+    color: var(--black);
+    background-color: var(--darkGrey2);
+    border-color: var(--darkGrey2);
+}
+
+.side .disclaimer {
+    font-size: 12px;
+}
+
+.side .estimate {
+    border: 1px dashed var(--primary);
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.estimate,
+.estimate span {
+    color: var(--primary);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.main .small {
+    width: 70%;
+}
+
+.side {
+    flex: 1 0 25%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--darkGrey2);
+    border-radius: 26px;
+    padding: 30px;
+}
+
+.item {
+    align-items: flex-start;
+}
+
+.item h5 {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.side * {
+    text-align: left;
+}
+
+.side h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    width: 100%;
+    margin: 0 auto;
+    z-index: 15;
+}
+
+.contact-form form {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px 15px;
+    border-radius: 9px;
+    border: 1px solid var(--black);
+    font-size: 14px;
+    color: var(--black);
+    transition: var(--transition);
+}
+
+.contact-form.transparent input,
+.contact-form.transparent select,
+.contact-form.transparent textarea {
+    border-color: var(--white);
+    color: var(--black);
+    background-color: var(--white);
+}
+
+.contact-form.transparent input::placeholder ,
+.contact-form.transparent select::placeholder ,
+.contact-form.transparent textarea::placeholder  {
+    color: var(--black);
+    opacity: 1;
+}
+
+.contact-form input:focus-visible,
+.contact-form select:focus-visible,
+.contact-form textarea:focus-visible {
+    border: 3px solid var(--primary);
+    outline: none;
+    transition: var(--transition);
+}
+
+.contact-form label {
+    color: var(--black);
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.contact-form .hs-button {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    width: fit-content;
+    border-radius: 9px;
+    padding: 10px 30px;
+    margin: 8px auto 0 auto;
+    color: var(--white);
+    background-color: var(--primary);
+    border: none;
+}
+
+.section .contact-form.transparent .hs-button:hover {
+    color: var(--white);
+}
+
+.contact-form.transparent .hs-button {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.contact-form.transparent .legal-consent-container .hs-form-booleancheckbox-display>span p {
+    color: var(--white);
+}
+
+.legal-consent-container .hs-form-booleancheckbox-display>span {
+    color: var(--white);
+    margin-top: 8px;
+}
+
+.contact-form .hs-button:hover {
+    border: none;
+    background-color: var(--black);
+    transition: var(--transition);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.contact-form .legal-consent-container .hs-form-booleancheckbox-display p {
+    font-size: 14px;
+}
+
+.contact-form.white .hs-button {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.legal-consent-container .hs-form-booleancheckbox-display>span p {
+    color: var(--black);
+}
+
+.contact-form ul {
+    list-style: none;
+}
+
+.section.contact ol {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 20px;
+}
+
+.section.contact .wrapper {
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+    width: 60%;
+    margin-top: 20px;
+}
+
+.section.contact .wrapper .item {
+    flex: 1 0;
+    align-items: flex-start;
+}
+
+.section.contact .wrapper .item img {
+    border-radius: 50%;
+    max-width: 100px;
+}
+
+.section.contact .wrapper .item p {
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.section .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section .contact-wrapper a {
+    color: var(--white);
+    transition: var(--transition);
+}
+
+.section .contact-wrapper a i {
+    margin-right: 10px;
+}
+
+.section .contact-wrapper a:hover {
+    color: var(--white);
+    text-decoration: underline;
+    transition: var(--transition);
+}
+
+
+/* ERROR STYLING */
+.contact-form .hs-input.invalid {
+    border-color: red;
+}
+
+.contact-form .hs-error-msg,
+.contact-form .hs-error-msgs label {
+    color: red;
+}
+
+.contact-form .hs-error-msgs li:before,
+.contact-form .inputs-list li:before {
+    content: '';
+}
+
+/* CHECKBOX STYLING */
+.contact-form .hs-form-booleancheckbox {
+    display: flex;
+}
+
+.contact-form .hs-form-booleancheckbox input[type=checkbox] {
+    width: unset;
+}
+
+.hs-form-checkbox label {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.hs-form-checkbox label input {
+    flex: 0 1;
+}
+
+.hs-form-checkbox label span {
+    flex: 1 0;
+    font-size: 14px;
+}
+
+.contact-form .legal-consent-container .hs-form-booleancheckbox-display > span {
+    color: var(--black);
+}
+
+@media (max-width: 560px) {
+    .section.banner {
+        height: fit-content;
+        min-height: fit-content;
+    }
+
+    .section.banner h1, 
+    .section.blue h1 {
+        width: 100%;
+    }
+
+    .section h2 {
+        font-size: 22px;
+    }
+
+    .section .row .small {
+        width: 100%;
+    }
+
+    .main .container {
+        flex-direction: column;
+    }
+
+    .wrapper.items {
+        gap: 20px;
+    }
+
+    .item h5 {
+        font-size: 16px;
+    }
+
+    .row-container .label {
+        font-size: 12px;
+    }
+
+    .wrapper .item .btn {
+        font-size: 12px;
+    }
+}
