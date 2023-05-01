@@ -1,0 +1,303 @@
+.section.banner {
+    position: relative;
+}
+
+.section.full-height.banner,
+.section.full-height.banner .row,
+.interested,
+.interested .row,
+.testimonial,
+.testimonial .row {
+    height: fit-content;
+    min-height: fit-content;
+}
+
+.section.banner .row {
+    z-index: 9;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+
+.section h1 {
+    font-size: 56px;
+}
+
+.section.banner ul {
+    padding-left: 30px;
+}
+
+.section.banner h1,
+.section.banner p {
+    max-width: 65%;
+}
+
+.subheadline {
+    font-weight: 400;
+    letter-spacing: 10px;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.faq .accordion-list {
+    gap: 0;
+}
+
+.faq .accordion-list .accordion-item .accordion-head h5 {
+    font-size: 24px;
+}
+
+.faq .accordion-list .accordion-item {
+    padding: 20px;
+}
+
+.interested .wrapper {
+    gap: 60px;
+    margin-top: 40px;
+}
+
+.interested .wrapper .item img {
+    max-width: 75px;
+}
+
+.interested .wrapper .item h5 {
+    color: var(--primary);
+    font-size: 20px;
+    margin: 20px 0 10px 0;
+}
+
+.interested .wrapper .item {
+    flex: 1 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.section.banner .uppercase {
+    letter-spacing: 5px;
+}
+
+.section.banner .wrapper {
+    gap: 20px;
+}
+
+.section.banner .wrapper .btn:hover {
+    color: var(--black);
+}
+
+.section.banner .wrapper .btn.ghost-btn {
+    color: var(--white);
+    border-color: var(--white);
+}
+
+.section.usp .filter {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.section.usp .filter a {
+    font-size: 12px;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    border-radius: 26px;
+    padding: 5px 20px;
+    transition: var(--transition);
+}
+
+.section.usp .filter a:hover {
+    cursor: pointer;
+}
+
+.section.usp .filter .active {
+    color: var(--white);
+    background-color: var(--primary);
+    transition: var(--transition);
+}
+
+.section.usp .wrapper {
+    gap: 60px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.section.usp .wrapper .item {
+    text-align: left;
+    gap: 20px;
+}
+
+.section.usp .wrapper .item .large {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.section.usp .wrapper .item .image {
+    border-radius: 30px;
+}
+
+.section.usp .wrapper .item .client-logo {
+    max-width: 200px;
+}
+
+.section.testimonial .author {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.section.testimonial img {
+    border-radius: 26px;
+}
+
+.section.calculator,
+.section.calculator .row {
+    min-height: unset;
+}
+
+.section.final,
+.section.final .row {
+    min-height: unset;
+}
+
+.section.final {
+    background-color: var(--lightGrey);
+}
+
+.section.final .row .wrapper {
+    gap: 60px;
+}
+
+.section.final .row .item {
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: var(--boxShadow);
+}
+
+.section.final .row h3 {
+    font-size: 28px;
+}
+
+.features .faq ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 30px;
+    list-style: unset;
+}
+
+.faq .accordion-list .accordion-item .accordion-head {
+    gap: 10px;
+}
+
+.faq .accordion-list .accordion-item:nth-child(1) .accordion-head::before {
+    content: url('../img/icons/wardrobe.svg');
+    width: 25px;
+}
+
+.faq .accordion-list .accordion-item:nth-child(2) .accordion-head::before {
+    content: url('../img/icons/warehouse.svg');
+    width: 25px;
+}
+
+.faq .accordion-list .accordion-item:nth-child(3) .accordion-head::before {
+    content: url('../img/icons/shipping.svg');
+    width: 25px;
+}
+
+.faq .accordion-list .accordion-item .accordion-head {
+    justify-content: flex-start;
+}
+
+.faq .accordion-list .accordion-item .accordion-head .icon {
+    margin-left: auto;
+}
+
+.section.sustainability {
+    background-image: url('/sustainability/img/banner.jpg');
+    color: var(--white);
+}
+
+.section.sustainability .row .col:nth-child(1) {
+    flex: 2 0;
+}
+
+.section.sustainability .row .col:nth-child(2) {
+    flex: 1 0;
+}
+
+.section.sustainability .btn:hover {
+    color: var(--white);
+}
+
+.section.sustainability {
+    position: relative;
+    min-height: fit-content;
+}
+
+.section.sustainability h2,
+.section.sustainability p {
+    max-width: 50%;
+}
+
+.section.sustainability .row {
+    z-index: 9;
+    position: absolute;
+}
+
+@media (max-width: 560px) {
+    .section.banner,
+    .section.banner .row {
+        min-height: unset;
+    }
+
+    .section.banner .row {
+        transform: unset;
+        bottom: unset;
+        left: unset;
+        top: unset;
+        position: unset;
+    }
+
+    .section.banner .background-wrapper {
+        display: none;
+    }
+
+    .section.usp h2 {
+        font-size: 38px;
+    }
+
+    .section.banner h1, 
+    .section.banner p {
+        max-width: none;
+    }
+
+    .section.blue h1 {
+        font-size: 38px!important;
+    }
+
+    .section h2,
+    .section.usp .wrapper .item .large {
+        text-align: center;
+    }
+
+    .section.usp .filter {
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .section.testimonial .author {
+        font-size: 20px;
+    }
+
+    .section.usp .wrapper .item {
+        align-items: center;
+    }
+
+    .features .row {
+        gap: 60px;
+    }
+}
