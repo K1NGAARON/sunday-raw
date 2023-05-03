@@ -66,16 +66,16 @@ const beachheads = [
     {
         headline: "Kleine Geschenke erhalten die Motivation – und manchmal sagt ein paar Socken mehr als tausend Worte. Mit Sunday erobert ihr die Herzen und die Kleiderschränke eurer Talents.",
         image: '/cases/ion/img/ion.jpg',
-        logo: '/cases/ion/img/logo.svg',
+        logo: '',
         body: "",
-        url: '/nl-nl/cases/ion/',
+        url: '',
     },
     {
         headline: "Euer Unternehmen bietet im Rahmen des betrieblichen Gesundheitsmanagements Kurse an? Gibt es Lauf-Events oder Aktionen für Familien? Sunday stattet eure Mitarbeiter mit hochwertiger Sportswear aus.",
         image: '/nl-nl/cases/oaky/img/banner-2.jpg',
-        logo: '/nl-nl/cases/oaky/img/logo.svg',
+        logo: '',
         body: "",
-        url: '/nl-nl/cases/oaky/',
+        url: '',
     }
 ];
 
@@ -98,31 +98,36 @@ function toggleBeachhead(e) {
         $(imageHolder).attr('src', `${beachheads[0].image}`);
         $(logoHolder).attr('src', `${beachheads[0].logo}`);
         $(bodyHolder).text(`${beachheads[0].body}`);
+        $(buttonHolder).show();
         $(buttonHolder).attr('href', `${beachheads[0].url}`);
     } else if (selectedContent === 'employer-branding') {
         $(headlineHolder).text(`${beachheads[1].headline}`);
         $(imageHolder).attr('src', `${beachheads[1].image}`);
         $(logoHolder).attr('src', `${beachheads[1].logo}`);
         $(bodyHolder).text(`${beachheads[1].body}`);
+        $(buttonHolder).show();
         $(buttonHolder).attr('href', `${beachheads[1].url}`);
     } else if (selectedContent === 'retention') {
         $(headlineHolder).text(`${beachheads[2].headline}`);
         $(imageHolder).attr('src', `${beachheads[2].image}`);
         $(logoHolder).attr('src', `${beachheads[2].logo}`);
         $(bodyHolder).text(`${beachheads[2].body}`);
+        $(buttonHolder).hide();
         $(buttonHolder).attr('href', `${beachheads[2].url}`);
     } else if (selectedContent === 'awareness') {
         $(headlineHolder).text(`${beachheads[3].headline}`);
         $(imageHolder).attr('src', `${beachheads[3].image}`);
         $(logoHolder).attr('src', `${beachheads[3].logo}`);
         $(bodyHolder).text(`${beachheads[3].body}`);
-        $(buttonHolder).attr('href', `${beachheads[3].url}`);
+        // $(buttonHolder).attr('href', `${beachheads[3].url}`);
+        $(buttonHolder).hide();
     } else if (selectedContent === 'fairs') {
         $(headlineHolder).text(`${beachheads[4].headline}`);
         $(imageHolder).attr('src', `${beachheads[4].image}`);
         $(logoHolder).attr('src', `${beachheads[4].logo}`);
         $(bodyHolder).text(`${beachheads[4].body}`);
-        $(buttonHolder).attr('href', `${beachheads[4].url}`);
+        // $(buttonHolder).attr('href', `${beachheads[4].url}`);
+        $(buttonHolder).hide();
     };
 };
 
