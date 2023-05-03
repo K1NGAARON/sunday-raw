@@ -1,3 +1,7 @@
 .section.case {
     background-image: url('/nl-nl/home/img/thumbnail.png');
 }
+
+.home.section .headline {
+    font-size: 64px;
+}

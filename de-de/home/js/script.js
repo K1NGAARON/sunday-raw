@@ -1,7 +1,7 @@
 const usp = [
     {
         usp: 'unique-design',
-        body: "Onze op maat gemaakte designs zijn uniek in de markt: We beginnen altijd met de brand guidelines van de klant (logo, Pantone-kleuren en de visie worden meegenomen). Vervolgens denken we mee over de doeleinden van de kleding en wie het zal dragen. Op die manier kan het designteam veel gerichter een passend design uitwerken.Het team volgt ook constant de laatste modetrends, wat ervoor zorgt dat we hippe en hippe en unieke designs ontwerpen die met trots gedragen zullen worden.",
+        body: "Was uns bei Sunday inspiriert? Euer Corporate Branding. Pantone Farben und Logos, aber auch eure Vision und Kultur setzen den Rahmen für das Design eurer Corporate Fashion. Sunday liefert alles, was Textil ist: Ob edles Polo-Shirt mit filigraner Bestickung oder lässiges Base Cap, ob High-Tech-Trainingsshirt für den nächsten Marathon oder die funktionale Arbeitshose für die Kolleg:innen aus der Fertigung. Ab einer Menge von 100 Stückist alles möglich und in ca. 8–12 Wochen versandbereit.",
         video: `
             <div class="video-wrapper side" id="videoHolder">
                 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/778141540?h=181d56dff0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="From brand to fashion"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
@@ -10,7 +10,7 @@ const usp = [
     },
     {
         usp: 'ship-worldwide',
-        body: "We merkten dat veel van onze klanten graag creatieve campagnes uitwerken met geweldige kleding, maar ze hebben een hekel aan al de drukte dat dit met zich meebrengt. Om deze drukte niet langer een zorg te laten zijn, hebben we gewerkt aan een oplossing: de Sunday Wardrobe™. Sunday Wardrobe™ is onze SAAS-oplossing die het voor bedrijven super eenvoudig maakt om kleding op te stockeren, te verwerken en te verzenden.",
+        body: "Mit unserem digitalen Tool, der Sunday Wardrobe™, habt ihr eure Bestände immer im Blick. Die Software ermöglicht euch den weltweiten Versand von einzelnen Teilen oder ganzen Bundles, einfaches Nachbestellen und eine ganz entspannte Kommunikation mit eurem Ansprechpartner bei Sunday. Euer Lager ist also bei uns – somit spart ihr wertvolle Ressourcen wie Platz, Geld und Personalaufwand.",
         video: `
             <div class="video-wrapper side" id="videoHolder">
                 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/758670317?h=7c50d91deb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Sunday Wardrobe&amp;trade;"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
@@ -19,7 +19,7 @@ const usp = [
     },
     {
         usp: 'worldclass-service',
-        body: "Persoonlijk contact, begeleiding tijdens het hele proces en duidelijke communicatie is waar Sunday garant voor staat. Wij denken mee met de klant en helpen hem bij het kiezen van het perfecte product, de afwerkingsmogelijkheden en hoe de kleding het beste ingezet kan worden om een maximale ROI te behalen.",
+        body: "Als belgisches Unternehmen ist uns die persönliche Beziehung zu unseren Kunden extrem wichtig – wir glauben daran, dass die besten Ideen im Gespräch entstehen. Deshalb habt ihr im gesamten Prozess auch nur einen Ansprechpartner bei Sunday, der euch jederzeit berät und voll und ganz unsere Werte lebt: Leidenschaft, Humor und Verlässlichkeit. Ein bisschen so, wie man sich den perfekten Sonntag eben vorstellt.",
         video: `
             <div class="video-wrapper side" id="videoHolder">
                 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/794577698?h=db554bdd29&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="marieke.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
@@ -50,31 +50,31 @@ function toggleUSP(e) {
 
 const beachheads = [
     {
-        headline: 'Met 10 nieuwe aanwervingen per week, en dus 10 nieuwe mogelijke ambassadeurs, was het bedrijf  toe aan een sterke onboarding.',
+        headline: "Neue Menschen im Team wollen perfekt ausgestattet sein. Mit Sunday entwickelt ihr das perfekte Welcome-Package für künftige Mitarbeiter.",
         image: '/cases/deliverect/img/banner-2.jpg',
         logo: '/cases/deliverect/img/logo.png',
-        body: 'Door de onboarding kits van hun werknemers te beheren, hielp Sunday een authentieke bedrijfscultuur te creëren.',
+        body: "Durch das Management der Einführungspakete für ihre Mitarbeiter trug Sunday zur Schaffung einer authentischen Unternehmenskultur bei.",
         url: '/nl-nl/cases/deliverect/'
     },
     {
-        headline: "Ontdek waarom Televic koos voor business hemden volledig aangepast aan hun corporate branding.",
+        headline: "Ihr präsentiert euer Unternehmen live in der Öffentlichkeit? Zeigt mit euren Outfits und Give-Aways, wofür ihr steht und sorgt für einen hohen Wiedererkennungswert eurer Marke.",
         image: '/cases/televic/img/banner2.jpg',
         logo: '/cases/televic/img/logo.png',
-        body: "Terwijl andere bedrijven toekomstig talent proberen te imponeren met een balpen, wil Televic zich echt onderscheiden met hun branded kleding.",
+        body: "Während andere Unternehmen versuchen, künftige Talente mit einem Kugelschreiber zu beeindrucken, möchte Televic mit seiner Markenkleidung wirklich auffallen.",
         url: '/nl-nl/cases/televic/',
     },
     {
-        headline: "Hoe werknemers bedanken voor hun inspanningen en een erkenningsbeleid uitbouwen.",
+        headline: "Kleine Geschenke erhalten die Motivation – und manchmal sagt ein paar Socken mehr als tausend Worte. Mit Sunday erobert ihr die Herzen und die Kleiderschränke eurer Talents.",
         image: '/cases/ion/img/ion.jpg',
         logo: '/cases/ion/img/logo.svg',
-        body: 'ION weet hoe ze een team moeten motiveren #actION alsjeblieft!',
+        body: "",
         url: '/nl-nl/cases/ion/',
     },
     {
-        headline: "Bedrijfswaarden en -visie door werknemers laten uitdragen.",
+        headline: "Euer Unternehmen bietet im Rahmen des betrieblichen Gesundheitsmanagements Kurse an? Gibt es Lauf-Events oder Aktionen für Familien? Sunday stattet eure Mitarbeiter mit hochwertiger Sportswear aus.",
         image: '/nl-nl/cases/oaky/img/banner-2.jpg',
         logo: '/nl-nl/cases/oaky/img/logo.svg',
-        body: 'Hoe merchandise wordt ingezet voor employer branding en nog 4 andere bedrijfsuitdagingen.',
+        body: "",
         url: '/nl-nl/cases/oaky/',
     }
 ];
