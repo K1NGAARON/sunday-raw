@@ -93,10 +93,6 @@ const logosArray = [
         img: '/de-de/img/logos/mbs-logo.svg',
     },
     {
-        client: '',
-        img: '/de-de/img/logos/',
-    },
-    {
         client: 'ML6',
         img: '/de-de/img/logos/ml6.svg',
     },

@@ -25,6 +25,9 @@
 }
 
 .section.banner ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     padding-left: 30px;
 }
 
