@@ -69,56 +69,36 @@ $('.accordion-item').click(function () {
 const logoTarget = document.querySelector('#logoHolder');
 const logosArray = [
     {
-        client: 'AVR',
-        img: '/de-de/img/logos/avr-logo.svg',
+        client: 'Babbel',
+        img: '/de-de/img/logos/babbel-logo.svg',
     },
     {
-        client: 'BeQuiet',
-        img: '/de-de/img/logos/bequiet-logo.svg',
-    },
-    {
-        client: 'Croky',
-        img: '/de-de/img/logos/croky-logo.svg',
-    },
-    {
-        client: 'Honeypot',
-        img: '/de-de/img/logos/honeypot-logo.svg',
+        client: 'DFV',
+        img: '/de-de/img/logos/dfv-logo.svg',
     },
     {
         client: 'Laika',
         img: '/de-de/img/logos/laika-logo.svg',
     },
     {
-        client: 'MBS',
-        img: '/de-de/img/logos/mbs-logo.svg',
+        client: 'Neodyme',
+        img: '/de-de/img/logos/neodyme-logo.svg',
     },
     {
-        client: 'ML6',
-        img: '/de-de/img/logos/ml6.svg',
+        client: 'Neptune',
+        img: '/de-de/img/logos/neptune-logo.svg',
     },
     {
-        client: 'Moderna',
-        img: '/de-de/img/logos/moderna-logo.svg',
+        client: 'Taxfix',
+        img: '/de-de/img/logos/taxfix-logo.svg',
     },
     {
-        client: 'Oaky',
-        img: '/de-de/img/logos/oaky-logo.svg',
+        client: 'Uberall',
+        img: '/de-de/img/logos/uberall-logo.svg',
     },
     {
-        client: 'Stadsbader',
-        img: '/de-de/img/logos/stadsbader-logo.svg',
-    },
-    {
-        client: 'Steenoven',
-        img: '/de-de/img/logos/steenoven-logo.svg',
-    },
-    {
-        client: 'VBH',
-        img: '/de-de/img/logos/vbh-logo.svg',
-    },
-    {
-        client: 'Zolar',
-        img: '/de-de/img/logos/zolar-logo.svg',
+        client: 'Zalando',
+        img: '/de-de/img/logos/zalando-logo.svg',
     },
 ];
 
