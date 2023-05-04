@@ -1,0 +1,29 @@
+.section.full-height {
+    color: var(--white);
+    background-image: url('/careers/job-openings/img/banner.jpg');
+}
+
+.section.full-height h1 {
+    font-size: 76px;
+}
+
+.section.full-height h1,
+.section.full-height p {
+    max-width: 80%;
+}
+
+.section .wrapper .card {
+    flex: 0 1 500px;
+    gap: 10px;
+}
+
+.section .wrapper .card h5 {
+    color: var(--primary);
+}
+
+.section .wrapper .card .location {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: var(--darkGrey);
+    font-size: 20px;
+}

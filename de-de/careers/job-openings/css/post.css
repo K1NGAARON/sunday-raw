@@ -1,0 +1,151 @@
+.banner {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section.job .row {
+    max-width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section.job, 
+.section.job .row {
+    min-height: unset;
+}
+
+.banner.section.full-height {
+    height: unset;
+}
+
+.banner .row {
+    z-index: 20;
+}
+
+.full-height {
+    color: var(--white);
+}
+
+.full-height h1 {
+    font-size: 76px;
+}
+
+.full-height h1,
+.full-height p {
+    max-width: 50%;
+}
+
+.section .uppercase {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.section.full-height .btn {
+    background-color: transparent;
+    padding: 5px 15px;
+    border: 1px solid var(--white);
+    color: var(--white);
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.full-height .wrapper.labels {
+    gap: 20px;
+}
+
+.full-height .label {
+    padding: 5px 15px;
+    border: 1px solid var(--white);
+    border-radius: 30px;
+}
+
+.section .purple.large {
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 46px;
+}
+
+.section.content .row {
+    max-width: 960px;
+}
+
+.section.content .row.flex-col {
+    align-items: center;
+}
+
+.section .container {
+    background-color: #fafafa;
+    padding: 40px;
+}
+
+.section .purple {
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 46px;
+    margin-bottom: 10pxx;
+}
+
+.section .bold {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.section .container {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.section ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.section ul {
+    list-style: none;
+}
+
+.section li::before {
+    content: '-';
+}
+
+.section .wrapper .item .purple {
+    font-size: 22px;
+    color: var(--primary);
+}
+
+.section.related-content .row {
+    align-items: center;
+}
+
+.section .upper {
+    text-transform: uppercase;
+    color: var(--white);
+    font-size: 36px;
+}
+
+.section h3 {
+    font-size: 36px;
+}
+
+.contact.section .row .contact-form span {
+    color: var(--white);
+}
+
+@media (max-width: 560px) {
+    .section.full-height {
+        min-height: unset;
+    }
+
+    .full-height h1,
+    .full-height p {
+        max-width: 100%;
+    }
+
+    .section ul {
+        margin-bottom: 40px;
+    }
+}
