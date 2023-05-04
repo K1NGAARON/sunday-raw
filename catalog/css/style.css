@@ -413,12 +413,13 @@
 
 .section.contact .wrapper .item {
     flex: 1 0;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .section.contact .wrapper .item img {
     border-radius: 50%;
     max-width: 100px;
+    margin: 0 auto;
 }
 
 .section.contact .wrapper .item p {

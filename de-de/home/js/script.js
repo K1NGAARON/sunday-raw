@@ -66,15 +66,15 @@ const beachheads = [
     {
         headline: "Kleine Geschenke erhalten die Motivation – und manchmal sagt ein paar Socken mehr als tausend Worte. Mit Sunday erobert ihr die Herzen und die Kleiderschränke eurer Talents.",
         image: '/cases/ion/img/ion.jpg',
-        logo: '',
-        body: "",
-        url: '',
+        logo: '/cases/ion/img/logo.svg',
+        body: "ION knows how to motivate a team: #actION please!",
+        url: '/cases/ion/',
     },
     {
         headline: "Euer Unternehmen bietet im Rahmen des betrieblichen Gesundheitsmanagements Kurse an? Gibt es Lauf-Events oder Aktionen für Familien? Sunday stattet eure Mitarbeiter mit hochwertiger Sportswear aus.",
         image: '/nl-nl/cases/oaky/img/banner-2.jpg',
-        logo: '',
-        body: "",
+        logo: '/nl-nl/cases/oaky/img/logo.svg',
+        body: "Wie Oaky 5 Herausforderungen, einschließlich Employer Branding, mit Markenartikeln meisterte",
         url: '',
     }
 ];
