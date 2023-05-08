@@ -10,7 +10,7 @@ const usp = [
     },
     {
         usp: 'ship-worldwide',
-        body: "Mit unserem digitalen Tool, der Sunday Wardrobe™, habt ihr eure Bestände immer im Blick. Die Software ermöglicht euch den weltweiten Versand von einzelnen Teilen oder ganzen Bundles, einfaches Nachbestellen und eine ganz entspannte Kommunikation mit eurem Ansprechpartner bei Sunday. Euer Lager ist also bei uns – somit spart ihr wertvolle Ressourcen wie Platz, Geld und Personalaufwand.",
+        body: "Was uns bei Sunday inspiriert? Euer Corporate Branding. Pantone Farben und Logos, aber auch eure Vision und Kultur setzen den Rahmen für das Design eurer Corporate Fashion. Sunday liefert alles, was Textil ist: Ob edles Polo-Shirt mit filigraner Bestickung oder lässiges Base Cap, ob High-Tech-Trainingsshirt für den nächsten Marathon oder die funktionale Arbeitshose für die Kolleg:innen aus der Fertigung. Ab einer Menge von 100 Stück ist alles möglich und in ca. 8–12 Wochen versandbereit.",
         video: `
             <div class="video-wrapper side" id="videoHolder">
                 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/758670317?h=7c50d91deb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Sunday Wardrobe&amp;trade;"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
