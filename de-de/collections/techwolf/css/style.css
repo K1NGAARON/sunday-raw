@@ -3,14 +3,13 @@
 }
 
 .section.pantone .wrapper .item:nth-child(1) .color {
-    background-color: #fff;
-    border: 1px solid var(--black);
+    background-color: #d9d9e0;
 }
 
 .section.pantone .wrapper .item:nth-child(2) .color {
-    background-color: #000;
+    background-color: #97a8d2;
 }
-
+/* 
 .section.pantone .wrapper .item:nth-child(3) .color {
     background-color: #c7102e;
-}
+} */
