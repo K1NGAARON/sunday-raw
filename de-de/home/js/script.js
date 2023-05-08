@@ -50,10 +50,10 @@ function toggleUSP(e) {
 
 const beachheads = [
     {
-        headline: "Neue Menschen im Team wollen perfekt ausgestattet sein. Mit Sunday entwickelt ihr das perfekte Welcome-Package für künftige Mitarbeiter.",
+        headline: "Neue Menschen im Team wollen perfekt ausgestattet sein. Mit Sunday entwickelt ihr das perfekte Welcome-Package für künftige Mitarbeiter:innen.",
         image: '/cases/deliverect/img/banner-2.jpg',
         logo: '/cases/deliverect/img/logo.png',
-        body: "Durch das Management der Einführungspakete für ihre Mitarbeiter trug Sunday zur Schaffung einer authentischen Unternehmenskultur bei.",
+        body: "Jede:r neuer Mitarbeiter:in bei Deliverect erhält zur Begrüßung ein Bundle lässiger Company Wear – das schweißt zusammen.",
         url: '/nl-nl/cases/deliverect/'
     },
     {
