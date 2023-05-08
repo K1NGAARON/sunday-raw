@@ -60,14 +60,14 @@ const beachheads = [
         headline: "Ihr präsentiert euer Unternehmen live in der Öffentlichkeit? Zeigt mit euren Outfits und Give-Aways, wofür ihr steht und sorgt für einen hohen Wiedererkennungswert eurer Marke.",
         image: '/cases/televic/img/banner2.jpg',
         logo: '/cases/televic/img/logo.png',
-        body: "Während andere Unternehmen versuchen, künftige Talente mit einem Kugelschreiber zu beeindrucken, möchte Televic mit seiner Markenkleidung wirklich auffallen.",
+        body: "Televic bietet Messe-Besucher:innen Orientierung, da das gesamte Team im einheitlichen Look auftritt.",
         url: '/nl-nl/cases/televic/',
     },
     {
         headline: "Kleine Geschenke erhalten die Motivation – und manchmal sagt ein paar Socken mehr als tausend Worte. Mit Sunday erobert ihr die Herzen und die Kleiderschränke eurer Talents.",
         image: '/cases/ion/img/ion.jpg',
         logo: '/cases/ion/img/logo.svg',
-        body: "ION knows how to motivate a team: #actION please!",
+        body: "IT-Dienstleister ION zeigt seinen Mitarbeiter:innen, wie wichtig sie sind – mit lässiger Company Wear. Und #actION!",
         url: '/cases/ion/',
     },
     {
