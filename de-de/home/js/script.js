@@ -50,21 +50,21 @@ function toggleUSP(e) {
 
 const beachheads = [
     {
-        headline: "Neue Menschen im Team wollen perfekt ausgestattet sein. Mit Sunday entwickelt ihr das perfekte Welcome-Package für künftige Mitarbeiter:innen.",
+        headline: "Neue Menschen im Team wollen perfekt ausgestattet sein. Mit Sunday entwickelt ihr das perfekte Onboarding-Package.",
         image: '/cases/deliverect/img/banner-2.jpg',
         logo: '/cases/deliverect/img/logo.png',
-        body: "Jede:r neuer Mitarbeiter:in bei Deliverect erhält zur Begrüßung ein Bundle lässiger Company Wear – das schweißt zusammen.",
+        body: "Jede:r neuer Mitarbeiter:in bei Deliverect erhält zur Begrüßung ein Bundle lässiger Company Wear - das schweißt zusammen.",
         url: '/nl-nl/cases/deliverect/'
     },
     {
-        headline: "Ihr präsentiert euer Unternehmen live in der Öffentlichkeit? Zeigt mit euren Outfits und Give-Aways, wofür ihr steht und sorgt für einen hohen Wiedererkennungswert eurer Marke.",
+        headline: "Ihr präsentiert euer Unternehmen live in der Öffentlichkeit? Zeigt mit euren Outfits und Give-Aways, wofür ihr steht und macht eure Marke sichtbar.",
         image: '/cases/televic/img/banner2.jpg',
         logo: '/cases/televic/img/logo.png',
         body: "Televic bietet Messe-Besucher:innen Orientierung, da das gesamte Team im einheitlichen Look auftritt.",
         url: '/nl-nl/cases/televic/',
     },
     {
-        headline: "Kleine Geschenke erhalten die Motivation – und manchmal sagt ein paar Socken mehr als tausend Worte. Mit Sunday erobert ihr die Herzen und die Kleiderschränke eurer Talents.",
+        headline: "Kleine Geschenke erhalten die Motivation – mit Sunday erobert ihr die Herzen und die Kleiderschränke eurer Talents.",
         image: '/cases/ion/img/ion.jpg',
         logo: '/cases/ion/img/logo.svg',
         body: "IT-Dienstleister ION zeigt seinen Mitarbeiter:innen, wie wichtig sie sind – mit lässiger Company Wear. Und #actION!",
