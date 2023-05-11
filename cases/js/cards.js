@@ -135,7 +135,7 @@ const content = [
         title: "How Deliverect skyrockets their company culture globally, using the Sunday Wardrobe™",
         body: "Deliverect is growing at a fast pace by raising funding. As a result, there is an internal need to ensure that all employees continue to feel connected to the company and the mission.",
         logo: '/cases/deliverect/img/logo.png',
-        img: '/cases/deliverect/img/banner.jpg',
+        img: '/cases/deliverect-culture/img/banner.jpg',
         url: '/cases/deliverect-culture/',
         beachhead: 'hr',
         companysize: '',
