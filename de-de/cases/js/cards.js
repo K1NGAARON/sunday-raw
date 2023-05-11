@@ -3,7 +3,7 @@ const content = [
     {
         client: "Honeypot",
         title: "Honeypot begeistert tech-talents in ganz europa",
-        body: "Wie Honeypot Company Wear als Kundengeschenk einsetzt, um seine Managementstrategie in die Tat umzusetzen – und seine Mitarbeiter:innen damit erfolgreich zu Brand Ambassadors macht.",
+        body: "Honeypot nutzt Company Wear als Kund:innengeschenk, um als Europas führende Job-Plattform für Entwickler:innen einen bleibenden Eindruck zu hinterlassen.",
         logo: "/cases/honeypot/img/logo.png",
         img: "/cases/honeypot/img/banner.jpg",
         url: "/de-de/cases/honeypot/",
@@ -23,7 +23,7 @@ const content = [
     {
         client: "Zalando",
         title: "So bindet Zalando seine Talente",
-        body: "Zalando macht seine Praktikant:innen zu echten Markenbotschafter:innen - und verbessert somit nachhaltig seine Mitarbeiterwerbung.",
+        body: "Der Mode-Konzern Zalando ist immer auf der Suche nach neuen Talents. Mit Sunday machen sie Praktikant:innen zu echten Markenbotschafter:innen - und optimieren nachhaltig ihr Employer Branding.",
         logo: "/de-de/cases/zalando/img/logo.svg",
         img: "/de-de/cases/zalando/img/banner.jpg",
         url: "/de-de/cases/zalando/",
