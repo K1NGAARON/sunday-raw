@@ -1,7 +1,7 @@
 const usp = [
     {
         usp: 'unique-design',
-        body: "Sunday is a team of textile experts. We focus on wearables and accessories, starting from scratch. Because of our full custom offering and expertise, we go all the way in accomplishing high quality products to make your project a huge success.  We'll guide you from end to start and communicate transparently during the proces. Our products are the best offline tool to create brand ambassadors. Custom clothing can be implemented in employer branding campaigns, employee retention, onboarding, brand activations, fairs & events and many more.",
+        body: "Sunday is a team of textile experts. We focus on wearables and accessories, starting from scratch. Because of our full custom offering and expertise, we go all the way in accomplishing high quality products to make your project a huge success. We'll guide you from end to start and communicate transparently during the proces.",
         video: `
             <div class="video-wrapper side" id="videoHolder">
                 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/778141540?h=181d56dff0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="From brand to fashion"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
