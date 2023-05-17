@@ -1,34 +1,21 @@
-const possibleFilters = [
-    'HR',
-    'Sales',
-    'Marketing'
-];
-
-function showAll() {
-    $('.card').removeClass('hidden');
-};
-
-function hideAll() {
-    $('.card').addClass('hidden');
-};
-
 function filterContent(e) {
-    let selectedFilter = $(this).children("option:selected").val();
-    console.log(selectedFilter);
+    // Toggle Active Class on Filter
+    $('.filter-btn').removeClass('active');
+    $(this).addClass('active');
 
-    if (selectedFilter === 'hr') {
-        hideAll();
-        $('.card.hr').removeClass('hidden');
-    } else if (selectedFilter === 'sales') {
-        hideAll();
-        $('.card.sales').removeClass('hidden');
-    } else if (selectedFilter === 'marketing') {
-        hideAll();
-        $('.card.marketing').removeClass('hidden');
+    $('.content .card').fadeOut();
+
+    // Selected Tag
+    let activeFilter = $(this).attr('id');
+    console.log(activeFilter);
+
+    if (activeFilter === 'all') {
+        $('.content .card').fadeIn();
+    } else {
+        $('.' + activeFilter).fadeIn();
     }
 };
 
-
-
-$('#category').change(filterContent);
-$('#clear-all').click(showAll);
+$(document).ready(function() {
+    $('.filter-btn').click(filterContent);
+});
