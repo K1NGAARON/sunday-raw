@@ -12,11 +12,11 @@ const values = [
     {
         value: 'Growth',
         title: "Partnerschaft 2.0",
-        body: "Unsere Kund:innen haben mit Sunday einen verlässlichen und inspirierenden Partner an ihrer Seite. Saubere Prozesse, Pünktlichkeit und Flexibilität prägen die Zusammenarbeit. Die Grundlage dafür? Persönliche Gespräche und die Freude am Ergebnis. Auch euern Feedback ist für uns Gold, denn uns immer wieder herauszufordern macht uns innovativer, stärker, kreativer. ",
+        body: "Unsere Kund:innen haben mit Sunday einen verlässlichen und inspirierenden Partner an ihrer Seite. Saubere Prozesse, Pünktlichkeit und Flexibilität prägen die Zusammenarbeit. Die Grundlage dafür? Persönliche Gespräche und die Freude am Ergebnis. Auch das Feedback unserer Teams ist für uns Gold, denn uns immer wieder herauszufordern macht uns innovativer, stärker, kreativer.",
     },
     {
         value: 'Worldly',
-        title: "Wir managen das.",
+        title: "Fashion for future.",
         body: "Für uns als Lieferant zählt immer das große Ganze: Wir haben jederzeit alles im Blick – vom Kick-Off bis zur Auslieferung. Timelines, Budgets, kurzfristige Änderungswünsche: Sunday führt die Fäden zusammen und garantiert absolute Zufriedenheit bei allen Beteiligten.",
     },
     {
