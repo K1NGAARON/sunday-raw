@@ -1,0 +1,366 @@
+.banner.section {
+    position: relative;
+    height: fit-content;
+    min-height: fit-content;
+}
+
+.banner.section .row {
+    position: absolute;
+    height: fit-content;
+    min-height: fit-content;
+}
+
+.banner.section .btn-wrapper {
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.banner.section .overlay {
+    background: var(--overlay);
+}
+
+.banner.section h1,
+.banner.section p {
+    color: var(--white);
+    width: 50%;
+}
+
+.section.offer .wrapper {
+    gap: 20px;
+}
+
+.section.offer .wrapper .item,
+.section.offer .wrapper .item img {
+    position: relative;
+    border-radius: 26px;
+}
+
+.section.offer .wrapper .item .container {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section.offer .wrapper .item .container.right {
+    left: unset;
+    right: 20px;
+    align-items: flex-end;
+}
+
+
+.section.offer .wrapper .item .container h5,
+.section.offer .wrapper .item .container p,
+.section.offer .wrapper .item .container a {
+    color: var(--white);
+}
+
+.section.offer .wrapper .item .container h5 {
+    font-size: 30px;
+    text-align: left;
+}
+
+
+.usp.section,
+.usp.section .row,
+.section.grey,
+.section.grey .row {
+    min-height: fit-content;
+}
+
+.faq.section,
+.faq.section .row {
+    min-height: 70vh;
+}
+
+.section.lookbook {
+    position: relative;
+}
+
+.section.lookbook img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+}
+
+.section h1 {
+    font-size: 54px;
+}
+
+.section.logos,
+.section.logos .row {
+    min-height: unset;
+}
+
+.section.inspire,
+.section.inspire .row {
+    min-height: unset;
+}
+
+.section.grey .wrapper {
+    margin-top: 20px;
+}
+
+.section.grey .wrapper .item {
+    flex: 1 0;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: var(--boxShadow);
+    background-color: var(--white);
+}
+
+.section.grey .wrapper .item h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.section.collections,
+.section.collections .row {
+    min-height: unset;
+}
+
+.section.products .row {
+    padding: 0;
+}
+
+.section.products .wrapper {
+    gap: 0;
+}
+
+.section.products .wrapper .item {
+    flex: 1 0 25%;
+    height: 100%;
+    position: relative;
+}
+
+
+.section.products .wrapper .item .content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 15;
+}
+
+.section.products .wrapper .item .content h5 {
+    color: var(--white);
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.section.products .wrapper .item .content .btn {
+    padding: 5px 10px;
+}
+
+.section .contact-form {
+    margin-left: 0;
+}
+
+.faq.section {
+    position: relative;
+}
+
+.section .faq-img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+}
+
+.section .row .usp {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    margin-top: 40px;
+}
+
+.section .row .usp a {
+    font-size: 50px;
+    transition: var(--transition);
+}
+
+#usp-body {
+    margin-top: 40px;
+    line-height: 2;
+}
+
+.usp-toggle:hover {
+    cursor: pointer;
+}
+
+.section .row .usp a.active {
+    font-weight: 600;
+    color: var(--primary);
+    transition: var(--transition);
+}
+
+.nmbs {
+    background-color: #4763b6;
+    background-image: url('/partners/img/nmbs-banner.png');
+    background-position: center right;
+    background-size: contain;
+}
+
+.nmbs h2,
+.nmbs p {
+    color: var(--white);
+    width: 50%;
+}
+
+.nmbs .btn {
+    background-color: #fab829;
+    border-color: #fab829;
+}
+
+.icons .item {
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+    padding: 30px;
+    border-radius: 26px;
+}
+
+.icons img {
+    max-width: 75px;
+    margin-bottom: 20px;
+}
+
+.section.relative {
+    position: relative;
+}
+
+.section.relative .absolute {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    width: 10%;
+}
+
+.section.contact ol {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 20px;
+}
+
+.section.contact .wrapper {
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+    width: 60%;
+    margin-top: 20px;
+}
+
+.section.contact .wrapper .item {
+    flex: 1 0;
+    align-items: center;
+}
+
+.section.contact .wrapper .item img {
+    border-radius: 50%;
+    max-width: 100px;
+}
+
+.section.contact .wrapper .item p {
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.section .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section .contact-wrapper a {
+    color: var(--white);
+    transition: var(--transition);
+}
+
+.section .contact-wrapper a i {
+    margin-right: 10px;
+}
+
+.section .contact-wrapper a:hover {
+    color: var(--white);
+    text-decoration: underline;
+    transition: var(--transition);
+}
+
+@media (max-width: 560px) {
+    .section.products .wrapper .item {
+        flex: 1 0 50%;
+    }
+
+    .section.products .wrapper .item .content h5 {
+        text-align: left;
+    }
+
+    .section .faq-img {
+        display: none;
+    }
+
+    .banner.section {
+        background-color: var(--orange);
+    }
+
+    .banner.section,
+    .banner.section .row {
+        min-height: 100vh;
+        height: 100vh;
+    }
+
+    .banner.section h1,
+    .banner.section p {
+        color: var(--white);
+    }
+
+    .banner.section .background-video {
+        display: none;
+    }
+
+    .banner.section, 
+    .banner.section .row {
+        height: unset;
+        min-height: 40vh;
+    }
+
+    .section.relative .absolute  {
+        display: none;
+    }
+
+    .banner.section h1, 
+    .banner.section p,
+    .nmbs h2,
+    .nmbs p {
+        width: 100%;
+    }
+
+    .nmbs {
+        background-image: none;
+    }
+
+    .banner.section .overlay {
+        display: none;
+    }
+
+    .banner.section .row {
+        position: unset;
+    }
+
+    .section h2 {
+        font-size: 30px;
+    }
+
+    .section .row .usp a {
+        font-size: 24px;
+    }
+}
