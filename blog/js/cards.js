@@ -77,6 +77,48 @@ const content = [
         url: "/blog/boost-employee-retention/",
         beachhead: 'hr',
     },
+    {
+        title: "What Is a Merchandising Company and How Can It Help Your Business?",
+        body: "Merchandising companies work by sourcing products from manufacturers or wholesalers and then reselling them to consumers.",
+        img: "/blog/what-is-a-merchandising-company/img/banner.jpg",
+        url: "/blog/what-is-a-merchandising-company/",
+        beachhead: "sales",
+    },
+    {
+        title: "Engage and Motivate Your Employees with Branded Merchandise",
+        body: "Discover how to use branded merchandise such as hoodies, tote bags, onboarding boxes, and socks to engage and motivate your employees.",
+        img: "/blog/engage-and-motivate-employees/img/banner.jpg",
+        url: "/blog/engage-and-motivate-employees/",
+        beachhead: "hr",
+    },
+    {
+        title: "The Power of Branded Merchandise: Engaging and Motivating Your Team Members",
+        body: "Discover how branded merchandise can help engage and motivate your team members, leading to higher productivity, increased retention, improved morale, and enhanced innovation.",
+        img: "/blog/the-power-of-branded-merchandise/img/banner.jpg",
+        url: "/blog/the-power-of-branded-merchandise/",
+        beachhead: "hr",
+    },
+    {
+        title: "The Power of Merchandise: How to Motivate and Engage Employees",
+        body: "Discover how merchandise can be a powerful tool for improving employee motivation and engagement.",
+        img: "/blog/the-power-of-merch/img/banner.jpg",
+        url: "/blog/the-power-of-merch/",
+        beachhead: "hr",
+    },
+    {
+        title: "Keep Your Team Engaged: 6 Strategies to Boost Employee Motivation",
+        body: "Learn six effective strategies to keep all employees on your team engaged and motivated.",
+        img: "/blog/6-strategies-boost-motivation/img/banner.jpg",
+        url: "/blog/6-strategies-boost-motivation/",
+        beachhead: "",
+    },
+    // {
+    //     title: "",
+    //     body: "",
+    //     img: "",
+    //     url: "",
+    //     beachhead: "",
+    // },
 ];
 
 function createCards() {
