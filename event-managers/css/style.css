@@ -50,6 +50,19 @@
     align-items: flex-end;
 }
 
+.section .logos-wrapper {
+    align-items: center;
+    gap: 100px;
+}
+
+.section.logos,
+.section.logos .row {
+    min-height: unset;
+}
+
+.section.logos .row {
+    margin: 0 auto;
+}
 
 .section.offer .wrapper .item .container h5,
 .section.offer .wrapper .item .container p,
