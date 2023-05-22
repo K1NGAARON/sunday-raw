@@ -7,7 +7,6 @@ function filterContent(e) {
 
     // Selected Tag
     let activeFilter = $(this).attr('id');
-    console.log(activeFilter);
 
     if (activeFilter === 'all') {
         $('.content .card').fadeIn();

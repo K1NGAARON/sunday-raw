@@ -3,9 +3,9 @@ const content = [
         client: 'Delaware',
         title: 'High performance sportswear for delaware',
         body: 'delaware is a global company that delivers advanced ICT solutions and services, guiding our customers through their business and digital transformations.',
-        logo: '/cases/delaware/img/logo.png',
+        // logo: '/cases/delaware/img/logo.png',
         img: '/cases/delaware/img/banner.jpg',
-        url: '/cases/delaware/',
+        // url: '/cases/delaware/',
         beachhead: 'hr',
         companysize: '',
     },
@@ -150,22 +150,24 @@ function createCards(e) {
 
     if (target) {
         const cards = content.map(content => {
+            const wrapperLink = content.url ? `<a href="${content.url}">` : '';
+            const wrapperCloseTag = content.url ? '</a>' : '';
+            const readMoreButton = content.url ? `<a class="btn" href="${content.url}">Read the case</a>` : '';
+            const logoImage = content.logo ? `<img class="logo" src="${content.logo}" alt="${content.title}">` : '';
 
             return `
                 <div class="card ${content.beachhead} ">
-                    <a href="${content.url}">
+                    ${wrapperLink}
                         <img src="${content.img}" alt="${content.title}">
-                        <img class="logo" src="${content.logo}" alt="${content.title}">
+                        ${logoImage}
                         <h5>
                             ${content.title}
                         </h5>
                         <p>
                             ${content.body}
                         </p>
-                        <a class="btn" href="${content.url}">
-                            Read the case
-                        </a>
-                    </a>
+                        ${readMoreButton}
+                    ${wrapperCloseTag}
                 </div>
             `;
         }).join('');
