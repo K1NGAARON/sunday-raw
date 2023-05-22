@@ -1,4 +1,5 @@
 const target = document.querySelector('.section.content > .row > .wrapper');
+
 const content = [
     {
         client: 'Delaware',
