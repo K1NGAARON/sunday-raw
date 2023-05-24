@@ -56,7 +56,7 @@ const content = [
         logo: "/cases/televic/img/logo.png",
         img: "/cases/televic/img/televic.jpg",
         url: "/cases/televic/",
-        beachhead: "sales",
+        beachhead: "marketing",
         companysize: ""
     },
     {
@@ -106,7 +106,7 @@ const content = [
         logo: '/cases/trimetal/img/logo.png',
         img: '/cases/trimetal/img/banner.jpg',
         url: '/cases/trimetal/',
-        beachhead: 'marketing',
+        beachhead: 'sales',
         companysize: '',
     },
     {
