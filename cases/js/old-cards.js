@@ -1,3 +1,5 @@
+const target = document.querySelector('.section.content > .row > .wrapper');
+
 const content = [
     {
         client: 'Delaware',
@@ -56,7 +58,7 @@ const content = [
         logo: "/cases/televic/img/logo.png",
         img: "/cases/televic/img/televic.jpg",
         url: "/cases/televic/",
-        beachhead: "marketing",
+        beachhead: "sales",
         companysize: ""
     },
     {
@@ -106,7 +108,7 @@ const content = [
         logo: '/cases/trimetal/img/logo.png',
         img: '/cases/trimetal/img/banner.jpg',
         url: '/cases/trimetal/',
-        beachhead: 'sales',
+        beachhead: 'marketing',
         companysize: '',
     },
     {
@@ -139,71 +141,29 @@ const content = [
         beachhead: 'hr',
         companysize: '',
     },
-    {
-        client: "AVR",
-        title: "Nurturing a Thriving Work Culture: Employee Rewards that Enhance Company Spirit",
-        body: "AVR decided to give their team premium merchandise as a New Year’s gift to show appreciation for their hard work and dedication.",
-        logo: "/cases/avr/img/avr.svg",
-        img: "/cases/avr/img/banner.jpg",
-        url: "/cases/avr/" ,
-        beachhead: "video",
-        companysize: "",
-    },
-    {
-        client: "Techwolf",
-        title: "Solidarity, connectivity and a sense of community: this is what merch does for Techwolf",
-        body: "Using merchandise as a tool to boost team feeling can create a sense of unity and belonging among team members, fostering a shared identity and pride in being part of the group.",
-        logo: "/cases/techwolf/img/techwolf.svg",
-        img: "/cases/techwolf/img/banner.jpg",
-        url: "/cases/techwolf/" ,
-        beachhead: "video",
-        companysize: "",
-    },
-    {
-        client: "Teamleader",
-        title: "Unleash a Stellar Onboarding Experience: Welcome New Hires with Personalized Onboarding Boxes",
-        body: "At Teamleader they welcome new hires with a very cool onboarding box which makes employees feel welcomed and valued from the start.",
-        logo: "/cases/teamleader/img/teamleader.svg",
-        img: "/cases/teamleader/img/banner.jpg",
-        url: "/cases/teamleader/" ,
-        beachhead: "video",
-        companysize: "",
-    },
 ];
 
-// function sortPosts() {
-//     content.sort((a, b) => new Date(b.date) - new Date(a.date));
-// };
-
-function createCards(e) {
-    const target = document.querySelector('.section.content > .row > .wrapper');
-
-    if (target) {
-        const cards = content.map(content => {
-            const wrapperLink = content.url ? `<a href="${content.url}">` : '';
-            const wrapperCloseTag = content.url ? '</a>' : '';
-            const readMoreButton = content.url ? (content.beachhead === 'video' ? `<a class="btn" href="${content.url}">Watch the video</a>` : `<a class="btn" href="${content.url}">Read the case</a>`) : '';
-            const logoImage = content.logo ? `<img class="logo" src="${content.logo}" alt="${content.title}">` : '';
-
-            return `
-                <div class="card ${content.beachhead} ">
-                    ${wrapperLink}
-                        <img src="${content.img}" alt="${content.title}">
-                        ${logoImage}
-                        <h5>
-                            ${content.title}
-                        </h5>
-                        <p>
-                            ${content.body}
-                        </p>
-                        ${readMoreButton}
-                    ${wrapperCloseTag}
-                </div>
-            `;
-        }).join('');
-    
-        target.innerHTML = cards;
-    }
+function createCards() {
+    for (let i = 0; i < content.length; i++) {
+        const template = `
+            <div class="card ${content[i].beachhead}">
+                <a href="${content[i].url}">
+                    <img src="${content[i].img}" alt="${content[i].title}">
+                    <img class="logo" src="${content[i].logo}" alt="${content[i].title}">
+                    <h5>
+                        ${content[i].title}
+                    </h5>
+                    <p>
+                        ${content[i].body}
+                    </p>
+                    <a class="btn" href="${content[i].url}">
+                        Read the case
+                    </a>
+                </a>
+            </div>
+        `;
+        target.insertAdjacentHTML("afterbegin", template);
+    };
 };
 
 $(document).ready(createCards);
