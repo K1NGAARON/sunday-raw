@@ -49,7 +49,6 @@ body {
   flex-direction: column;
   justify-content: center;
   position: relative;
-  min-height: 100vh;
 
   background-size: cover;
   background-repeat: no-repeat;
