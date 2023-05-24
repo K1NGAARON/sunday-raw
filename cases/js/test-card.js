@@ -182,7 +182,7 @@ function createCards(e) {
         const cards = content.map(content => {
             const wrapperLink = content.url ? `<a href="${content.url}">` : '';
             const wrapperCloseTag = content.url ? '</a>' : '';
-            const readMoreButton = content.url ? `<a class="btn" href="${content.url}">Read the case</a>` : '';
+            const readMoreButton = content.url ? (content.beachhead === 'video' ? `<a class="btn" href="${content.url}">Watch the video</a>` : `<a class="btn" href="${content.url}">Read the case</a>`) : '';
             const logoImage = content.logo ? `<img class="logo" src="${content.logo}" alt="${content.title}">` : '';
 
             return `
