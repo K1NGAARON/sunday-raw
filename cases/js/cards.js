@@ -189,7 +189,7 @@ function createCards(e) {
                 <div class="card ${content.beachhead} ">
                     ${wrapperLink}
                         <img src="${content.img}" alt="${content.title}">
-                        ${logoImage}
+                            ${logoImage}
                         <h5>
                             ${content.title}
                         </h5>
