@@ -22,7 +22,7 @@
 .banner.section h1,
 .banner.section p {
     color: var(--white);
-    width: 50%;
+    width: 55%;
 }
 
 .section.offer .wrapper {
@@ -96,7 +96,7 @@
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 55%;
+    width: 50%;
 }
 
 .section h1 {
