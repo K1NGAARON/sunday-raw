@@ -226,7 +226,7 @@
 }
 
 .icons .item {
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     background-color: #f3f3f3;
     padding: 30px;
