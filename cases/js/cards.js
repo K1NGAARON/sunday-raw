@@ -178,6 +178,8 @@ const content = [
 function createCards(e) {
     const target = document.querySelector('.section.content > .row > .wrapper');
 
+    content.reverse();
+    
     if (target) {
         const cards = content.map(content => {
             const wrapperLink = content.url ? `<a href="${content.url}">` : '';
