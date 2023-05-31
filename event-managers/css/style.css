@@ -106,6 +106,15 @@
     margin-top: 40px;
 }
 
+.video-section h2 {
+    font-size: 40px;
+}
+
+.video-section.section .row .wrapper {
+    gap: 100px;
+    margin-top: 40px;
+}
+
 .section.grey .wrapper {
     margin-top: 20px;
 }
