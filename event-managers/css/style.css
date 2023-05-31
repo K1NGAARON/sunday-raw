@@ -121,10 +121,6 @@
 
 .section.grey .wrapper .item {
     flex: 1 0;
-    /* padding: 30px;
-    border-radius: 30px;
-    box-shadow: var(--boxShadow); 
-    background-color: var(--white); */
 }
 
 .section.grey .wrapper .item h3 {
