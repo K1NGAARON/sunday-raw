@@ -151,6 +151,9 @@
     position: relative;
 }
 
+.sustainability img.small {
+    max-width: 300px;
+}
 
 .section.products .wrapper .item .content {
     position: absolute;
