@@ -46,6 +46,10 @@
     display: none;
 }
 
+.header .small-menu-wrapper .dropdown-holder .dropdown a {
+    padding: 5px;
+}
+
 .header .small-menu-wrapper.active {
     display: flex;
 }
