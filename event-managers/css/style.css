@@ -310,6 +310,26 @@
 }
 
 @media (max-width: 560px) {
+    .logos .wrapper {
+        gap: 40px;
+    }
+
+    .video-section.section .row .wrapper {
+        gap: 20px;
+    }
+
+    .logos .wrapper .item {
+        flex: 0 1 25%;
+    }
+
+    .section.video-section .wrapper {
+        gap: 40px;
+    }
+
+    .section.video-section .wrapper .item {
+        flex: 1 0 100%;
+    }
+
     .section.products .wrapper .item {
         flex: 1 0 50%;
     }
@@ -322,14 +342,9 @@
         display: none;
     }
 
-    .banner.section {
-        background-color: var(--orange);
-    }
-
     .banner.section,
     .banner.section .row {
-        min-height: 100vh;
-        height: 100vh;
+        min-height: 80vh;
     }
 
     .banner.section h1,
@@ -337,17 +352,16 @@
         color: var(--white);
     }
 
-    .banner.section .background-video {
+    .section.relative .absolute  {
         display: none;
     }
 
-    .banner.section, 
-    .banner.section .row {
-        height: unset;
-        min-height: 40vh;
+    .banner.section {
+        background-color: var(--black);
     }
-
-    .section.relative .absolute  {
+    
+    .banner.section .background-video,
+    .banner.section .overlay {
         display: none;
     }
 
@@ -360,14 +374,6 @@
 
     .nmbs {
         background-image: none;
-    }
-
-    .banner.section .overlay {
-        display: none;
-    }
-
-    .banner.section .row {
-        position: unset;
     }
 
     .section h2 {
