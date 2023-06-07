@@ -14,9 +14,15 @@
 }
 
 .section.culture p {
-    color: var(--primary);
+    color: var(--black);
+    font-weight: 700;
     max-width: 60%;
     font-size: 22px;
+}
+
+.section.culture .bold {
+    color: var(--primary);
+    font-weight: 700;
 }
 
 .section.banner h1 {
