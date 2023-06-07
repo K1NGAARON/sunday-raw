@@ -1,4 +1,3 @@
-
 // Timeline component
 let timelineToggle = document.querySelectorAll(".steps-toggle");
 
