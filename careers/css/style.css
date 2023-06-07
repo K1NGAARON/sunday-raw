@@ -185,6 +185,74 @@
     line-height: 2;
 }
 
+.why-sunday-wrapper {
+    margin-top: 40px;
+}
+
+.why-sunday-wrapper .card {
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 26px;
+}
+
+.why-sunday-wrapper .card img {
+    border-radius: 26px;
+}
+
+.why-sunday-wrapper .card .card-content {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    position: absolute;
+    padding: 20px;
+}
+
+.why-sunday-wrapper .card .card-content h5 {
+    margin-bottom: 10px;
+}
+
+.why-sunday-wrapper .card .card-content h5,
+.why-sunday-wrapper .card .card-content p {
+    color: var(--white);
+    text-align: center;
+}
+
+.why-sunday-wrapper .card:hover .card-content {
+    display: flex;
+}
+
+.why-sunday-wrapper .card .overlay {
+    opacity: 0;
+    background-color: var(--black);
+    border-radius: 26px;
+}
+
+.why-sunday-wrapper .card:hover .overlay {
+    opacity: 0.6;
+}
+
+.what-wrapper {
+    margin-top: 40px;
+}
+
+.what-wrapper .card {
+    padding: 20px;
+}
+
+.what-wrapper .card img {
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.what-wrapper .card h5,
+.what-wrapper .card p {
+    text-align: center;
+}
+
 @media (max-width: 560px) {
     .section.banner h1 {
         font-size: 36px;

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-4 {
+        stroke: #702dbd;
+      }
+
+      .cls-1, .cls-4 {
+        stroke-width: 20px;
+      }
+
+      .cls-2 {
+        stroke-width: 25px;
+      }
+
+      .cls-2, .cls-4 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-3" x="178.03" y="234.88" width="780.93" height="780.93"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-3" x="178.03" y="234.88" width="780.93" height="780.93"/>
+    </clipPath>
+  </defs>
+  <g class="cls-6">
+    <g class="cls-5">
+      <path class="cls-2" d="m570.15,291.44h150.04s15.58-4.44,40.17,18.63c24.6,23.07,184.47,164.16,184.47,164.16l-98.38,116.24-66.41-48.8v-85.19,503.12h-209.89"/>
+      <path class="cls-2" d="m729.74,291.27s-17.61,96.88-157.35,96.88"/>
+      <path class="cls-2" d="m566.85,291.44h-150.04s-15.58-4.44-40.17,18.63c-24.6,23.07-184.47,164.16-184.47,164.16l98.38,116.24,66.41-48.8v-85.19,503.12h209.89"/>
+      <path class="cls-2" d="m409.5,291.27s17.61,96.88,157.35,96.88"/>
+      <line class="cls-2" x1="428.89" y1="331.36" x2="709.14" y2="331.36"/>
+    </g>
+  </g>
+  <path class="cls-1" d="m521.83,728.97s-105.42-180.07,90.35-214.41c104.8,157.75-90.35,214.41-90.35,214.41Z"/>
+  <polyline class="cls-4" points="499.01 777.81 521.83 728.97 556.76 643.54 581.62 582.74"/>
+  <polyline class="cls-4" points="596.55 633.5 554.97 647.92 530.86 601.65"/>
+  <path class="cls-4" d="m416.82,291.44s143.6-159.76,303.36,0"/>
+  <path class="cls-4" d="m568.5,220.43v-32.53s39.89,2.25,39.89-42.7-39.89-42.17-39.89-42.17c0,0-32.83-1.22-32.83,32.83"/>
+</svg>
