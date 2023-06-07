@@ -173,7 +173,11 @@
 
     .section.banner,
     .section.banner .row {
-        min-height: fit-content;
+        min-height: 60vh;
+    }
+
+    .banner.section .background-video {
+        display: none;
     }
 
     .banner.section h1, 
