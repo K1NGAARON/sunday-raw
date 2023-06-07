@@ -1,0 +1,26 @@
+.banner.section,
+.banner.section .row,
+.banner.section .overlay {
+    height: 100vh;
+}
+
+.banner.section .wrapper {
+    margin-top: 40px;
+    width: 60%;
+}
+
+.banner.section .wrapper .item {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner.section .wrapper .item h5 {
+    font-size: 20px;
+}
+
+.banner.section .wrapper .item img {
+    width: 200px;
+    border-radius: 50%;
+}
