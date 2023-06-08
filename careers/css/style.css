@@ -180,6 +180,48 @@
     line-height: 2;
 }
 
+.section .why-sunday-wrapper .card {
+    flex: 0 1 30%;
+    border-radius: 26px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .why-sunday-wrapper .card img {
+    border-radius: 26px;
+}
+
+.section .why-sunday-wrapper .card .overlay {
+    display: none;
+    background: var(--black);
+    border-radius: 26px;
+}
+
+.section .why-sunday-wrapper .card .card-content {
+    display: none;
+    color: var(--white);
+}
+
+.section .why-sunday-wrapper .card .card-content h5 {
+    margin-bottom: 10px;
+}
+
+.section .why-sunday-wrapper .card:hover .card-content {
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+    position: absolute;
+    z-index: 10;
+}
+
+.section .why-sunday-wrapper .card:hover .overlay {
+    display: block;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+
 @media (max-width: 560px) {
     .section.banner h1 {
         font-size: 36px;
