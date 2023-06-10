@@ -169,6 +169,16 @@ const content = [
         beachhead: "video",
         companysize: "",
     },
+    {
+        client: "Oaky",
+        title: "Oaky's fashion collection intended to enhance the value of belonging",
+        body: "Oaky implemented company fashion as part of their employer branding strategy, but managed to tackle even more challenges!",
+        logo: "/cases/oaky/img/logo.svg",
+        img: "/cases/oaky/img/banner.jpg",
+        url: "/cases/oaky/" ,
+        beachhead: "HR",
+        companysize: "",
+    },
 ];
 
 // function sortPosts() {
