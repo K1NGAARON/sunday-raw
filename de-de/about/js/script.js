@@ -6,24 +6,24 @@ function readMore(e) {
 
 const services = [
     {
-        title: 'Einzigartiges design',
-        body: "Wir arbeiten nicht anders als die großen Modemarke: Alles beginnt mit einer Inspiration, einer Skizze, einer Vision. Was schwebt euch vor, was möchtet ihr ausdrücken, was soll das Kleidungsstück aussagen? SUNDAY beginnt jedes Mal ganz von vorn, und das im besten Sinne – einen schlichten Pullover mit eurem Logo zu bedrucken kann jede:r. Einzigartige Kollektionen in euren Pantone-Farben gestaltet, innovativ gebranded und absolut ressourcenschonend gefertigt: So läuft das bei uns.",
+        title: 'Einzigartiges Design',
+        body: "Wir arbeiten nicht anders als die großen Modemarken: Alles beginnt mit einer Inspiration, einer Skizze, einer Vision. Was schwebt euch vor, was möchtet ihr ausdrücken, was soll das Kleidungsstück aussagen? SUNDAY beginnt jedes Mal ganz von vorn, und das im besten Sinne – einen schlichten Pullover mit eurem Logo zu bedrucken kann jede:r. Einzigartige Kollektionen in euren Pantone-Farben gestaltet, innovativ gebranded und absolut ressourcenschonend gefertigt: So läuft das bei uns.",
         img: '/about/img/design.png'
     },
     {
-        title: 'Faire produktion',
+        title: 'Faire Produktion',
         body: "Sunday will Impulsgeber sein: Denn zeitgemäße Textilproduktion lebt von kurzen Wegen, ökologischen Materialien und ressourcensparenden Fertigungstechniken. Faire Arbeitsbedingungen und eine zu 100% transparente Lieferkette sind für uns Standard – deshalb arbeiten wir mit geprüften Produktionsstätten in Polen und der Türkei. Jede:r unserer Geschäftspartner:innen ist mit Sorgfalt ausgewählt. Für euch bedeutet das: Beste Qualität und das gute Gefühl, in Sachen Corporate Fashion ein Zeichen für mehr Klimagerechtigkeit zu setzen.",
         img: '/about/img/production.png'
     },
     {
-        title: 'Weltweiter versand',
-        body: "Für viele Vertriebe in unserer Branche endet ihr Auftrag, sobald die Ware an den:die Kund:innen versendet worden ist – Sunday macht es bewusst anders. Denn wir wissen, wie aufwändig sich die Distribution unterschiedlichster Mengen an diverse Standorte eures Unternehmens gestaltet. Darum haben wir für euch die Sunday Wardrobe™ entwickelt: Eine Softwarelösung, mit der ihr in wenigen Klicks mitteilt, welche Mengen wir wohin versenden dürfen. Eure Bestände lagern bei uns, Nachbestellen ist die einfachste Sache der Welt. Klingt fantastisch, oder?",
+        title: 'Weltweiter Versand',
+        body: "Für viele Vertriebe in unserer Branche endet ihr Auftrag, sobald die Ware an die Kund:innen versendet worden ist – Sunday macht es bewusst anders. Denn wir wissen, wie aufwändig sich die Distribution unterschiedlichster Mengen an diverse Standorte eures Unternehmens gestaltet. Darum haben wir für euch die Sunday WardrobeTM entwickelt: Eine Softwarelösung, mit der ihr in wenigen Klicks mitteilt, welche Mengen wir wohin versenden dürfen. Eure Bestände lagern bei uns, Nachbestellen ist die einfachste Sache der Welt. Klingt fantastisch, oder?",
         img: '/about/img/shipping.png'
     },
     {
-        title: 'Maximale kund:innenorientierung',
+        title: 'Maximale Kund:innenorientierung',
         body: `
-        Sunday versteht sich als Partner, Berater, Macher: Unsere Ansprechpartner:innen nehmen euch an die Hand und gestalten für euch einen Customer Journey, die sich fast nach Urlaub anfühlt. 
+        Sunday versteht sich als Partner, Berater, Macher: Unsere Ansprechpartner:innen nehmen euch an die Hand und gestalten für euch einen Customer Journey, der sich fast nach Urlaub anfühlt.
             <br><br>
             <ul>
                 <li>

@@ -2,7 +2,7 @@ const target = document.querySelector('.section.content > .row > .wrapper');
 const content = [
     {
         client: "Honeypot",
-        title: "Honeypot begeistert tech-talents in ganz europa",
+        title: "Honeypot begeistert tech-talents in ganz Europa",
         body: "Honeypot nutzt Company Wear als Kund:innengeschenk, um als Europas führende Job-Plattform für Entwickler:innen einen bleibenden Eindruck zu hinterlassen.",
         logo: "/cases/honeypot/img/logo.png",
         img: "/cases/honeypot/img/banner.jpg",

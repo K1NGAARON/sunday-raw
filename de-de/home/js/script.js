@@ -1,7 +1,7 @@
 const usp = [
     {
         usp: 'unique-design',
-        body: "Was uns bei Sunday inspiriert? Euer Corporate Branding. Pantone Farben und Logos, aber auch eure Vision und Kultur setzen den Rahmen für das Design eurer Corporate Fashion. Sunday liefert alles, was Textil ist: Ob edles Polo-Shirt mit filigraner Bestickung oder lässiges Base Cap, ob High-Tech-Trainingsshirt für den nächsten Marathon oder die funktionale Arbeitshose für die Kolleg:innen aus der Fertigung. Ab einer Menge von 100 Stückist alles möglich und in ca. 8–12 Wochen versandbereit.",
+        body: "Ab einer Menge von 100 Stück ist alles möglich und in ca. 8 - 12 Wochen versandbereit.",
         video: `
             <div class="video-wrapper side" id="videoHolder">
                 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/778141540?h=181d56dff0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="From brand to fashion"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
@@ -53,11 +53,11 @@ const beachheads = [
         headline: "Neue Menschen im Team wollen perfekt ausgestattet sein. Mit Sunday entwickelt ihr das perfekte Onboarding-Package.",
         image: '/cases/deliverect/img/banner-2.jpg',
         logo: '/cases/deliverect/img/logo.png',
-        body: "Jede:r neuer Mitarbeiter:in bei Deliverect erhält zur Begrüßung ein Bundle lässiger Company Wear - das schweißt zusammen.",
+        body: "Jede:r neue:r Mitarbeitende bei Deliverect erhält zur Begrüßung ein Bundle lässiger Company Wear - das schweißt zusammen.",
         url: '/nl-nl/cases/deliverect/'
     },
     {
-        headline: "Ihr präsentiert euer Unternehmen live in der Öffentlichkeit? Zeigt mit euren Outfits und Give-Aways, wofür ihr steht und macht eure Marke sichtbar.",
+        headline: "Ihr präsentiert euer Unternehmen live in der Öffentlichkeit? Zeigt mit euren Outfits und Give-aways, wofür ihr steht und macht eure Marke sichtbar.",
         image: '/cases/televic/img/banner2.jpg',
         logo: '/cases/televic/img/logo.png',
         body: "Televic bietet Messe-Besucher:innen Orientierung, da das gesamte Team im einheitlichen Look auftritt.",
@@ -71,11 +71,11 @@ const beachheads = [
         url: '/cases/ion/',
     },
     {
-        headline: "Euer Unternehmen bietet im Rahmen des betrieblichen Gesundheitsmanagements Kurse an? Gibt es Lauf-Events oder Aktionen für Familien? Sunday stattet eure Mitarbeiter mit hochwertiger Sportswear aus.",
+        headline: "Euer Unternehmen bietet im Rahmen des betrieblichen Gesundheitsmanagements Kurse an? Gibt es Lauf-Events oder Aktionen für Familien? Sunday stattet eure Mitarbeiter:innen mit hochwertiger Sportswear aus.",
         image: '/nl-nl/cases/oaky/img/banner-2.jpg',
         logo: '/nl-nl/cases/oaky/img/logo.svg',
-        body: "Wie Oaky 5 Herausforderungen, einschließlich Employer Branding, mit Markenartikeln meisterte",
-        url: '',
+        body: "Wie Oaky 5 Herausforderungen, einschließlich Employer Branding, mit Markenartikeln meisterte!",
+        url: '/cases/oaky/',
     }
 ];
 
@@ -126,8 +126,8 @@ function toggleBeachhead(e) {
         $(imageHolder).attr('src', `${beachheads[4].image}`);
         $(logoHolder).attr('src', `${beachheads[4].logo}`);
         $(bodyHolder).text(`${beachheads[4].body}`);
-        // $(buttonHolder).attr('href', `${beachheads[4].url}`);
         $(buttonHolder).hide();
+        // $(buttonHolder).attr('href', `${beachheads[4].url}`);
     };
 };
 
