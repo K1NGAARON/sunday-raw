@@ -179,6 +179,26 @@ const content = [
         beachhead: "HR",
         companysize: "",
     },
+    {
+        client: "NBT",
+        title: "Unlocking Brand Potential: Boosting Awareness with Exquisite Branded Merchandise",
+        body: "The way Next Big Thing uses company fashion as a smart way to improve their brand awareness and make their team look and feel happy.",
+        logo: "/cases/nbt/img/logo.png",
+        img: "/cases/nbt/img/banner.jpg",
+        url: "/cases/nbt/",
+        beachhead: "Marketing",
+        companysize: "",
+    },
+    // {
+    //     client: "",
+    //     title: "",
+    //     body: "",
+    //     logo: "",
+    //     img: "",
+    //     url: "",
+    //     beachhead: "",
+    //     companysize: "",
+    // },
 ];
 
 // function sortPosts() {
