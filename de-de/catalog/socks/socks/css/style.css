@@ -1,0 +1,12 @@
+.banner.section h1 {
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.banner.section .uppercase {
+    font-size: 14px;
+}
+
+.banner.section .bold {
+    font-weight: 700;
+}
