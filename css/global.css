@@ -150,7 +150,7 @@ img {
 }
 
 select:focus-visible {
- outline: unset; 
+  outline: unset; 
 }
 
 .uppercase {
