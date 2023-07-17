@@ -1,0 +1,134 @@
+.section.banner {
+    background-image: url('../img/banner.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--white);
+}
+
+.section.banner .overlay {
+    background-color: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(0,0,0,0) 70%);
+    opacity: 0.7;
+}
+
+.section.banner h1 {
+    font-size: 96px;
+}
+
+.section.banner h1,
+.section.banner p {
+    max-width: 80%;
+}
+
+.section h2 {
+    font-size: 100px;
+}
+
+.section .subheadline {
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 36px;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.section #loadMore {
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.section.collections .wrapper {
+    gap: 20px;
+}
+
+.section.collections .card {
+    flex: 0 1 calc(50% - 20px);
+    position: relative;
+    transition: var(--transition);
+}
+
+.section.collections .card:hover {
+    transition: var(--transition);
+}
+
+.section.collections .card:nth-child(3n) {
+    flex: 0 1 calc(100% - 20px);
+}
+
+.section.collections .card:nth-child(3n) .container {
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    left: 0;
+    right: 0!important;
+    top: 0;
+    bottom: 0!important;
+    margin: auto;
+}
+
+.section.collections .card .container {
+    display: none;
+    transition: var(--transition);
+    z-index: 10;
+}
+
+.section.collections .card:hover .container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    transition: var(--transition);
+}
+
+.section.collections .card h5 {
+    font-size: 24px;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
+.section.collections .card:nth-child(3n) h5 {
+    font-size: 56px;
+}
+
+@media (max-width: 560px) {
+    .section.banner,
+    .section.banner .row {
+        min-height: fit-content;
+    }
+
+    .section.collections .card {
+        flex: 1 0 100%;
+    }
+
+    .section.collections .card:nth-child(3n) h5 {
+        font-size: 24px;
+    }
+
+    .section.collections .card:nth-child(3n) {
+        flex: 1 0 100%;
+    }
+
+    .section.collections .card h5 {
+        text-align: center;
+    }
+
+    .section.collections .card .container {
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        left: 0;
+        right: 0!important;
+        top: 0;
+        bottom: 0!important;
+        margin: auto;
+    }
+
+    .section.collections .card .overlay {
+        background: var(--black);
+        opacity: 0.5;
+    }
+
+}
