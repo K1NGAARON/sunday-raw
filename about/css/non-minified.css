@@ -1,0 +1,155 @@
+.section.banner {
+    color: var(--white);
+    background-image: url('../img/banner.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section.banner .overlay {
+    background: var(--black);
+    opacity: 0.7;
+}
+
+.section.history {
+    background-image: url('../img/history.png');
+    background-position: top right;
+    background-size: contain;
+}
+
+.section.history,
+.section.history .row {
+    min-height: 50vh;
+}
+
+.section.history p {
+    width: 50%;
+}
+
+.section.mission {
+    background-image: url('../img/mission.jpg');
+    background-position: top right;
+    background-size: contain;
+}
+
+.section.mission,
+.section.mission .row {
+    min-height: 50vh;
+}
+
+.section h1 {
+    font-size: 76px;
+}
+
+.section h1,
+.section p {
+    max-width: 65%;
+}
+
+.section .large {
+    font-size: 36px;
+}
+
+.section .large .focus {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.section.services,
+.section.services .row {
+    min-height: unset;
+}
+
+.section .filter {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.section .filter a {
+    font-size: 12px;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    border-radius: 26px;
+    padding: 5px 20px;
+    transition: var(--transition);
+}
+
+.section .filter a:hover {
+    cursor: pointer;
+}
+
+.section .filter .active {
+    color: var(--white);
+    background-color: var(--primary);
+    transition: var(--transition);
+}
+
+.section .wrapper {
+    gap: 60px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+#introBody.active {
+    display: block;
+    color: var(--black);
+}
+
+#introBody {
+    display: none;
+}
+
+#fullBody {
+    display: none;
+}
+
+#fullBody.active {
+    display: block;
+    color: var(--black);
+}
+
+@media (max-width: 560px) {
+    .section.banner,
+    .section.banner .row {
+        min-height: unset;
+    }
+
+    .section h1, 
+    .section p {
+        max-width: 100%;
+    }
+
+    .section .large {
+        font-size: 26px;
+    }
+
+    .section.history {
+        background-image: unset;
+    }
+
+    .section.history h2 {
+        font-size: 36px;
+    }
+
+    .section.history p {
+        width: 100%;
+    }
+
+    .section .filter {
+        flex-flow: row wrap;
+    }
+
+    .section .filter a {
+        flex: 1 0 40%;
+    }
+
+    .section.mission, 
+    .section.mission .row {
+        min-height: unset;
+    }
+
+    .section.mission {
+        background: none;
+    }
+}
