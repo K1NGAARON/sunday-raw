@@ -166,6 +166,64 @@
     text-align: left;
 }
 
+/* KEEP THESE STYLES */
+.section h2 {
+    font-size: 36px;
+}
+
+.section h2.small {
+    font-size: 30px;
+}
+
+.contact.section .row .contact-form {
+    width: 70%;
+    margin: 0;
+}
+
+.section ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section ul li {
+    line-height: 1.6;
+}
+
+.wrapper.goals .item {
+    flex: 1 0 25%;
+}
+
+.reuse-wrapper img {
+    margin-bottom: 20px;
+}
+
+.reuse-wrapper h3 {
+    color: var(--darkGrey);
+    font-weight: 400;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.section .small.left {
+    width: 50%;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.section.primary {
+    color: var(--white);
+    background-color: var(--primary);
+}
+
+.header.black .navigation .nav-item {
+    color: var(--black);
+}
+
+
 @media (max-width: 560px) {
     .section .width {
         max-width: 100%;
