@@ -462,6 +462,11 @@
     transition: var(--transition);
 }
 
+.section.contact .contact-form.transparent a {
+    color: var(--white);
+    text-decoration: underline;
+}
+
 @media (max-width: 560px) {
     .section.banner h1 {
         font-size: 36px;
@@ -470,9 +475,18 @@
 
     .section.culture p {
         font-size: 14px;
+        max-width: 100%;
     }
 
     .section.gallery .row .wrapper .item {
         flex: 1 0 40%;
+    }
+
+    .cases-timeline-wrapper {
+        margin-bottom: 500px;
+    }
+
+    .section .why-sunday-wrapper .card {
+        flex: 1 0 100%;
     }
 }
