@@ -1,16 +1,16 @@
 const target = document.querySelector('.section.content > .row > .wrapper');
 
 const content = [
-    {
-        title: 'Customer Success Belgium',
-        body: 'Als Customer Success is het jouw missie om een uitstekende service te leveren vóór, tijdens en na een deal.',
-        img: '/careers/job-openings/img/image3.jpg',
-        country: 'belgium',
-        city: 'roeselare',
-        flag: '',
-        url: '/careers/job-openings/customer-success-manager-belgium/',
-        order: '',
-    },
+    // {
+    //     title: 'Customer Success Belgium',
+    //     body: 'Als Customer Success is het jouw missie om een uitstekende service te leveren vóór, tijdens en na een deal.',
+    //     img: '/careers/job-openings/img/image3.jpg',
+    //     country: 'belgium',
+    //     city: 'roeselare',
+    //     flag: '',
+    //     url: '/careers/job-openings/customer-success-manager-belgium/',
+    //     order: '',
+    // },
     // {
     //     title: 'Account Executive Belgium',
     //     body: 'Our business grows with you. Close some interesting deals with us!',
