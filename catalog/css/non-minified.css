@@ -1,3 +1,15 @@
+.notification-banner {
+    background-color: #44D62C;
+    display: flex;
+    padding: 10px;
+}
+
+.notification-banner a {
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 700;
+}
+
 .banner.section ul {
     display: flex;
     flex-direction: column;
@@ -31,6 +43,16 @@
 
 .nav-item::before {
     background-color: var(--black);
+}
+
+.section .new-product {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    color: var(--white);
+    background-color: #44D62C;
+    padding: 5px 10px;
+    border-radius: 12px;
 }
 
 .section.catalog.banner {
