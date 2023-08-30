@@ -1,0 +1,159 @@
+.header {
+    background-color: #F5F5F5;
+    position: unset;
+}
+
+.header .row {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header .nav-item {
+    text-transform: uppercase;
+}
+
+.nav-item.btn {
+    margin-left: unset;
+}
+
+.contact-header,
+.contact-header .row {
+    min-height: unset;
+    margin: unset;
+    padding: unset;
+}
+
+.contact-header {
+    background-color: var(--primary);
+}
+
+.contact-header .row {
+    padding: 10px 80px;
+}
+
+.contact-header .row a {
+    color: var(--white);
+    font-weight: 700;
+}
+
+.contact-header .row a:hover {
+    color: var(--white);
+}
+
+.contact-header .row .wrapper {
+    gap: 30px;
+    width: fit-content;
+}
+
+.contact-header .row .wrapper .item {
+    flex: 1 0;
+    flex-direction: row;
+    width: 100%;
+}
+
+.contact-header .row .wrapper .item a {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.banner.section,
+.banner.section .row {
+    min-height: unset;
+}
+
+.section .uppercase {
+    font-size: 16px;
+    letter-spacing: unset;
+}
+
+.banner ul {
+    margin-left: 30px;
+}
+
+.banner li::marker {
+    color: var(--primary);
+}
+
+.wrapper.btn-wrapper {
+    margin-top: 20px;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.banner .wrapper .rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+}
+
+.banner .wrapper .rating .icon {
+    color: #FFD700;
+}
+
+.banner .wrapper .rating p {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.dots {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.dots .dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid var(--primary);
+}
+
+.dots .dot:hover {
+    cursor: pointer;
+}
+
+.dots .dot.active {
+    background-color: var(--primary);
+}
+
+.logos.section {
+    margin: 20px 0;
+}
+
+.logos .wrapper {
+    justify-content: center;
+    align-items: center;
+}
+
+.logos .wrapper .item img {
+    max-width: 90px;
+    transition: var(--transition);
+}
+
+.logos .wrapper .item img:hover {
+    transition: var(--transition);
+    transform: scale(1.05);
+}
+
+.section,
+.section .row {
+    min-height: unset;
+}
+
+.section.grey {
+    background-color: #F5F5F5;
+}
+
+.section.usp .wrapper .item {
+    background-color: var(--white);
+    border-radius: 20px;
+    padding: 30px;
+    gap: 10px;
+    box-shadow: var(--boxShadow);
+}
+
+.section.usp .wrapper .item img {
+    width: 70px;
+}
