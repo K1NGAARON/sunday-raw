@@ -15,10 +15,12 @@
 
 .header .nav-item {
     text-transform: uppercase;
+    color: var(--black);
 }
 
 .nav-item.btn {
     margin-left: unset;
+    color: var(--white);
 }
 
 .contact-header,
