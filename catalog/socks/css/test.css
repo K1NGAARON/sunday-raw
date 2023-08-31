@@ -356,6 +356,10 @@
     padding: 20px;
 }
 
+.clients .item .item-content .body {
+    font-style: italic;
+}
+
 .clients .item .item-content p {
     text-align: left;
 }
@@ -371,7 +375,7 @@
 .section.gallery .gallery-wrapper .item {
     justify-content: flex-end;
     overflow: hidden;
-    height: 45vh;
+    height: 50vh;
     background-position: center;
 }
 
@@ -392,5 +396,6 @@
 }
 
 .gallery .wrapper .item.fourth {
-    background-image: url('/catalog/socks/img/gallery/large2.jpg');
+    background-image: url('/catalog/socks/img/gallery/large3.jpg');
+    background-position: center 80%;
 }
