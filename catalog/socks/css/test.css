@@ -72,7 +72,8 @@
     letter-spacing: unset;
 }
 
-.banner ul {
+.banner ul,
+.contact ul {
     margin-left: 30px;
 }
 
@@ -284,6 +285,11 @@
     color: var(--black);
 }
 
+.footer .row p,
+.footer .row a {
+    font-size: 14px;
+}
+
 .faq .row:nth-child(1) {
     margin: 60px auto;
 }
@@ -307,4 +313,72 @@
 
 .download .contact-form {
     margin: 0;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.team-member img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.contact.section .team-member p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.clients .item {
+    border-radius: 20px;
+    box-shadow: var(--boxShadow);
+}
+
+.clients .item img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.clients .item .client-logo {
+    max-width: 60px;
+    border-radius: 0;
+}
+
+.clients .item .item-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.clients .item .item-content p {
+    text-align: left;
+}
+
+.clients .item .item-content .author {
+    font-weight: 700;
+}
+
+.section.gallery .gallery-wrapper .item.large {
+    flex: 1 0 55%;
+}
+
+.section.gallery .gallery-wrapper .item {
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+.section.gallery .gallery-wrapper .item img {
+    height: 100%;
+    transition: var(--transition);
+}
+
+.section.gallery .gallery-wrapper .item:hover img {
+    transform: scale(1.05);
+    transition: var(--transition);
 }
