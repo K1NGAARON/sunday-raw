@@ -205,6 +205,7 @@
 .faq .accordion-list .accordion-item .accordion-head h5 {
     font-size: 20px;
     font-weight: 700;
+    text-align: left;
     color: var(--black);
     opacity: 1;
     transition: var(--transition);
@@ -400,4 +401,58 @@
 .gallery .wrapper .item.fourth {
     background-image: url('/catalog/socks/img/gallery/large3.jpg');
     background-position: center 80%;
+}
+
+@media (max-width: 560px) {
+    .section .row {
+        margin: 20px auto;
+    }
+    
+    .contact-header .row .wrapper {
+        gap: 10px;
+    }
+
+    .section.banner p {
+        font-size: 16px;
+    }
+
+    .banner .wrapper .rating p {
+        font-size: 12px;
+    }
+
+    .banner .wrapper .rating {
+        font-size: 16px;
+    }
+
+    .logos .wrapper {
+        gap: 20px;
+    }
+
+    .logos .wrapper .item {
+        flex: 1 0 25%;
+    }
+
+    .section.usp .wrapper .item img {
+        width: 40px;
+    }
+
+    .gallery .wrapper .item.fourth {
+        background-position: 30% 100%;
+    }
+
+    .section h2 {
+        font-size: 20px;
+    }
+
+    .download.section .catalog-img {
+        display: none;
+    }
+
+    .faq .wrapper {
+        width: 100%;
+    }
+
+    .footer.section .row .col:nth-child(2) {
+        align-items: flex-start;
+    }
 }
