@@ -371,14 +371,26 @@
 .section.gallery .gallery-wrapper .item {
     justify-content: flex-end;
     overflow: hidden;
+    height: 45vh;
+    background-position: center;
 }
 
-.section.gallery .gallery-wrapper .item img {
-    height: 100%;
-    transition: var(--transition);
+.gallery .wrapper {
+    gap: 20px;
 }
 
-.section.gallery .gallery-wrapper .item:hover img {
-    transform: scale(1.05);
-    transition: var(--transition);
+.gallery .wrapper .item.first {
+    background-image: url('/catalog/socks/img/gallery/large1.jpg');
+}
+
+.gallery .wrapper .item.second {
+    background-image: url('/catalog/socks/img/gallery/small1.jpg');
+}
+
+.gallery .wrapper .item.third {
+    background-image: url('/catalog/socks/img/gallery/small2.jpg');
+}
+
+.gallery .wrapper .item.fourth {
+    background-image: url('/catalog/socks/img/gallery/large2.jpg');
 }
