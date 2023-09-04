@@ -1,3 +1,25 @@
+:root {
+    --pastel-green: #f1ffc4;
+    --pastel-blue: #c5e2e9;
+    --pastel-orange: #ffcaaf;
+}
+
+.pastel-green {
+    background-color: var(--pastel-green);
+}
+
+.pastel-blue {
+    background-color: var(--pastel-blue);
+}
+
+.pastel-orange {
+    background-color: var(--pastel-orange);
+}
+
+.col.pastel-orange {
+    padding: 20px;
+}
+
 .section.banner {
     color: var(--white);
     background-image: url('../img/placeholder.png');
