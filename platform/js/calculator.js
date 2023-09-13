@@ -1,3 +1,5 @@
+// import axios from 'axios';
+
 const emailInput = $('#formToMail [name="email"]');
 const formElement = $('#formToMail');
 const inboxElement = $('#inbox');
