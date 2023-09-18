@@ -9,7 +9,7 @@ function changeBannerImage(e) {
     } else if (e.target.id == 'image2') {
         bannerImageHolder.src = '/catalog/socks/img/banner/banner-1.jpg';
     } else if (e.target.id == 'image3') {
-        bannerImageHolder.src = '/catalog/socks/img/banner/banner-3.jpg';
+        bannerImageHolder.src = '/catalog/socks/img/banner/banner-4.jpg';
     }
 };
 
