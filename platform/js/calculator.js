@@ -10,7 +10,7 @@ const page = {
     data: {
         cost_reduction: 0,
         money_saved: 0,
-        redirectUrlAfterSuccess: '/calculator/thanks',
+        redirectUrlAfterSuccess: '/platform/thanks/',
     },
     ready: function () {
         this.events();
