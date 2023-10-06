@@ -5,3 +5,7 @@
 .section.contact .wrapper {
     align-items: flex-start;
 }
+
+.section .row {
+    max-width: 1600px!important;
+}
