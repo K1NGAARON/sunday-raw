@@ -392,10 +392,12 @@
 
 .gallery .wrapper .item.first {
     background-image: url('/catalog/hoodies/gratis-offerte/img/large1.jpg');
+    background-position: bottom;
 }
 
 .gallery .wrapper .item.second {
     background-image: url('/catalog/hoodies/gratis-offerte/img/small1.jpg');
+    background-position: 0% 70%;
 }
 
 .gallery .wrapper .item.third {
@@ -404,7 +406,7 @@
 
 .gallery .wrapper .item.fourth {
     background-image: url('/catalog/hoodies/gratis-offerte/img/large2.jpg');
-    background-position: center 80%;
+    background-position: 100% 100%;
 }
 
 @media (max-width: 560px) {
