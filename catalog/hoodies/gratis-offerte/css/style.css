@@ -455,4 +455,21 @@
     .footer.section .row .col:nth-child(2) {
         align-items: flex-start;
     }
+
+    .section.contact-header .wrapper .item:nth-of-type(1) {
+        display: none;
+    }
+
+    .section.contact-header .wrapper .item {
+        align-items: center;
+    }
+
+    .faq .accordion-list .accordion-item .accordion-head h5 {
+        font-size: 16px;
+    }
+
+    .section.contact h2 {
+        font-size: 26px;
+    }
+
 }
