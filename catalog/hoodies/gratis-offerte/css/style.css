@@ -127,7 +127,11 @@
 }
 
 .logos.section {
-    margin: 20px 0;
+    margin: 0;
+}
+
+.logos.section .row {
+    margin-top: 0;
 }
 
 .logos .wrapper {
