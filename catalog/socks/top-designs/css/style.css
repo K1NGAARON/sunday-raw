@@ -38,3 +38,9 @@
     border-bottom-right-radius: 12px;
     border-bottom-left-radius: 12px;
 }
+
+@media (max-width: 560px) {
+    .contact.section .row h2 {
+        font-size: 26px;
+    }
+}
