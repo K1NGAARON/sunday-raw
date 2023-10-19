@@ -8,9 +8,9 @@
 }
 
 .splide__list .splide__slide {
-    flex-direction: column;
+    /* flex-direction: column;
     text-align: left;
-    background-color: var(--white);
+    background-color: var(--white); */
 }
 
 .splide__list .splide__slide .splide__slide__content {
@@ -35,4 +35,6 @@
 .splide__slide img {
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
 }
