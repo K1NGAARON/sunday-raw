@@ -3,12 +3,11 @@ document.addEventListener( 'DOMContentLoaded', function() {
         heightRatio: 0.5,
         perPage    : 3,
         breakpoints: {
-            640: {
+            1000: {
                 heightRatio: 1,
                 perPage: 2,
-            },
+            }
         },
         type: 'loop',
-        
     }).mount();
 });
