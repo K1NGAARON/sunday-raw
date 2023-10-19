@@ -7,12 +7,6 @@
     gap: 40px;
 }
 
-.splide__list .splide__slide {
-    /* flex-direction: column;
-    text-align: left;
-    background-color: var(--white); */
-}
-
 .splide__list .splide__slide .splide__slide__content {
     padding: 20px;
 }
