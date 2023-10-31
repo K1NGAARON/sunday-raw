@@ -9,7 +9,6 @@ document.addEventListener( 'DOMContentLoaded', function() {
                 perPage: 2,
             }
         },
-        // rewind: true,
         type: 'loop',
         speed: 3000,
     }).mount();
