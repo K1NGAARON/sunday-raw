@@ -5,6 +5,7 @@
 
 .footer .row .socials {
     margin-top: 10px;
+    gap: 10px;
 }
 
 .footer .row p,
