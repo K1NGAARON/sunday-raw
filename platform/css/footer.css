@@ -1,3 +1,7 @@
+.header .dropdown-holder.active .dropdown {
+    font-size: 16px;
+}
+
 .footer.section .row .col:nth-child(2), 
 .footer.section .row .col:nth-child(3) {
     display: flex;
