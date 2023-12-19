@@ -20,6 +20,19 @@
     align-items: flex-start;
 }
 
+.footer .row .col .contact-section .item {
+    gap: 0;
+}
+
+.footer .socials i {
+    transition: var(--transition);
+}
+
+.footer .socials i:hover {
+    color: var(--primary);
+    transition: var(--transition);
+}
+
 @media (max-width: 560px) {
     .footer .row .col {
         flex: 1 0 100%;
