@@ -2,3 +2,38 @@
 .footer.section .row .col:nth-child(3) {
     display: flex;
 }
+
+.footer .row .socials {
+    margin-top: 20px;
+}
+
+.footer .row p,
+.footer .row a {
+    line-height: 1.6;
+}
+
+.footer .contact-form {
+    margin: 0;
+}
+
+.footer .row {
+    align-items: flex-start;
+}
+
+@media (max-width: 560px) {
+    .footer .row .col {
+        flex: 1 0 100%;
+    }
+
+    .footer .row .col.align-end {
+        align-items: flex-start;
+    }
+
+    .footer .row {
+        gap: 40px;
+    }
+
+    .section .row .col {
+        gap: 0;
+    }
+}
