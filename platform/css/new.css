@@ -124,3 +124,119 @@
 .testimonial-container .testimonial-navigation .testimonial-navigation-arrows i:hover {
     cursor: pointer;
 }
+
+.levels-wrapper {
+    width: 100%;
+    gap: 40px;
+}
+
+.levels-wrapper .item {
+    flex: 1 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.levels-wrapper .item  .item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #E9E9E9;
+    border-radius: 3px;
+}
+
+.levels-wrapper .item .item-header .item-number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.levels-wrapper .item .item-header .item-number p {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.levels-wrapper .item .item-header .item-number .level {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.levels-wrapper .item .item-body {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E9E9E9;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+.levels-wrapper .item .item-body .item-body-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.levels-wrapper .item .item-body .item-body-content-row {
+    display: flex;
+    gap: 10px;
+}
+
+.levels-wrapper .item .item-body .item-body-content-row .icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.levels-wrapper .item  .item-body .item-body-content-row .icon i {
+    color: var(--white);
+}
+
+.levels-wrapper .item.green {
+    margin-top: 60px;
+}
+
+.levels-wrapper .item.purple {
+    margin-top: 40px;
+}
+
+.levels-wrapper .item.green .item-header .item-number {
+    background: #5EBB4C10;
+}
+
+.levels-wrapper .item.green .item-header .item-number p {
+    color: #5EBB4C;
+}
+
+.levels-wrapper .item.green .item-body .item-body-content-row .icon {
+    background-color: #5EBB4C;
+}
+
+.levels-wrapper .item.purple .item-header .item-number {
+    background: #6A479A10;
+}
+
+.levels-wrapper .item.purple .item-header .item-number p {
+    color: #6A479A;
+}
+
+.levels-wrapper .item.purple .item-body .item-body-content-row .icon {
+    background-color: #6A479A;
+}
+
+.levels-wrapper .item.blue .item-header .item-number {
+    background: #4285F410;
+}
+
+.levels-wrapper .item.blue .item-header .item-number p {
+    color: #4285F4;
+}
+
+.levels-wrapper .item.blue .item-body .item-body-content-row .icon {
+    background-color: #4285F4;
+}
