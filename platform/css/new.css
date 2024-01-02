@@ -54,3 +54,22 @@
 .review.section i {
     font-size: 40px;
 }
+
+.usp-wrapper {
+    width: 100%;
+    gap: 40px;
+}
+
+.usp-wrapper .item {
+    flex: 1 0;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 12px;
+    background-color: var(--white);
+}
+
+.usp-wrapper .item img {
+    width: auto;
+    height: 50px;
+}
