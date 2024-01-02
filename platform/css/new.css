@@ -1,6 +1,10 @@
 .banner {
     color: var(--white);
     background-color: var(--blue);
+    background-image: url('/platform/img/sunday-s.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 50%;
 }
 
 .section.banner h1, .section.banner p {
