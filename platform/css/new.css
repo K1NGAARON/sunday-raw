@@ -59,6 +59,10 @@
     font-size: 40px;
 }
 
+.value.section p {
+    width: 60%;
+}
+
 .usp-wrapper {
     width: 100%;
     gap: 40px;
@@ -76,6 +80,10 @@
 .usp-wrapper .item img {
     width: auto;
     height: 50px;
+}
+
+.usp-wrapper .item p {
+    width: 100%;
 }
 
 .testimonial-container {
@@ -139,7 +147,7 @@
 
 .levels-wrapper .item  .item-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     gap: 10px;
     border: 1px solid #E9E9E9;
