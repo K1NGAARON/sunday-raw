@@ -162,6 +162,7 @@
 .levels-wrapper {
     width: 100%;
     gap: 40px;
+    position: relative;
 }
 
 .levels-wrapper .item {
@@ -277,4 +278,18 @@
 
 .levels-wrapper .item.blue .item-body .item-body-content-row .icon {
     background-color: #4285F4;
+}
+
+.contact.section .row .contact-form {
+    width: 70%;
+    margin: 0;
+}
+
+.section .arrow {
+    width: 100%;
+    max-width: 70px;
+    height: auto;
+    position: absolute;
+    top: -20px;
+    left: 30%;
 }
