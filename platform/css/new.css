@@ -19,7 +19,8 @@
     background-size: 50%;
 }
 
-.section.banner h1, .section.banner p {
+.section.banner h1, 
+.section.banner p {
     max-width: 100%;
 }
 
