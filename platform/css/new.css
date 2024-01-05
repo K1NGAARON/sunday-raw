@@ -1,3 +1,15 @@
+.section .row {
+    margin: 80px auto;
+}
+
+.section.header .row {
+    margin: unset;
+}
+
+.footer.section .row {
+    margin: 0 auto;
+}
+
 .banner {
     color: var(--white);
     background-color: var(--blue);
@@ -36,6 +48,14 @@
     margin: 0;
 }
 
+.logos.section .row {
+    margin: 40px auto;
+}
+
+.logos.section .wrapper {
+    align-items: center;
+}
+
 .review.section {
     color: var(--white);
     background-color: var(--primary);
@@ -66,6 +86,7 @@
 .usp-wrapper {
     width: 100%;
     gap: 40px;
+    margin-top: 40px;
 }
 
 .usp-wrapper .item {
@@ -169,6 +190,10 @@
 .levels-wrapper .item .item-header .item-number .level {
     font-size: 16px;
     font-weight: 400;
+}
+
+.levels-wrapper .item .item-heading p {
+    font-size: 20px;
 }
 
 .levels-wrapper .item .item-body {
