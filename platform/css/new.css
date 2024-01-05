@@ -7,7 +7,7 @@
 }
 
 .section.header .row {
-    margin: unset;
+    margin: 5px auto;
 }
 
 .footer.section .row {
@@ -342,7 +342,7 @@
     .section .row {
         gap: 40px;
     }
-    
+
     .banner .btn-wrapper {
         margin-top: 20px;
     }
