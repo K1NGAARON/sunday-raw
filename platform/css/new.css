@@ -41,12 +41,6 @@
     display: flex;
     gap: 20px;
 }
-/* 
-.banner .btn-wrapper .btn {
-    color: var(--black);
-    background-color: var(--white);
-    border-color: var(--white);
-} */
 
 .banner .btn-wrapper .btn.ghost-btn {
     color: var(--white);
