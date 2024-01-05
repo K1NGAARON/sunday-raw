@@ -339,6 +339,10 @@
 }
 
 @media (max-width: 560px) {
+    .section .row {
+        gap: 40px;
+    }
+    
     .banner .btn-wrapper {
         margin-top: 20px;
     }
