@@ -5,7 +5,7 @@ const reviews = [
         `,
         url: "",
         logo: "/platform/img/deel-logo.png",
-        img: "/platform/img/mock-up-deel.png",
+        mockup: "/platform/img/mock-up-deel.png",
     },
     {
         body: `
@@ -13,7 +13,7 @@ const reviews = [
         `,
         url: "",
         logo: "/platform/img/deel-logo.png",
-        img: "/platform/img/mock-up-deel.png",
+        mockup: "/platform/img/mock-up-deel.png",
     },
     {
         body: `
@@ -21,7 +21,7 @@ const reviews = [
         `,
         url: "",
         logo: "/platform/img/deel-logo.png",
-        img: "/platform/img/mock-up-deel.png",
+        mockup: "/platform/img/mock-up-deel.png",
     },
 ];
 
@@ -41,6 +41,7 @@ function updateTestimonial(index) {
     logoElement.src = currentReview.logo;
     bodyElement.innerHTML = currentReview.body;
     urlElement.href = currentReview.url;
+    mockElement.src = currentReview.mockup;
 }
 
 document.getElementById('next').addEventListener('click', () => {
