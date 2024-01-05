@@ -5,6 +5,7 @@ const reviews = [
         `,
         url: "",
         logo: "/platform/img/deel-logo.png",
+        img: "/platform/img/mock-up-deel.png",
     },
     {
         body: `
@@ -12,6 +13,7 @@ const reviews = [
         `,
         url: "",
         logo: "/platform/img/deel-logo.png",
+        img: "/platform/img/mock-up-deel.png",
     },
     {
         body: `
@@ -19,6 +21,7 @@ const reviews = [
         `,
         url: "",
         logo: "/platform/img/deel-logo.png",
+        img: "/platform/img/mock-up-deel.png",
     },
 ];
 
@@ -29,6 +32,7 @@ function updateTestimonial(index) {
     const logoElement = document.getElementById('logo');
     const bodyElement = document.getElementById('body');
     const urlElement = document.getElementById('url');
+    const mockElement = document.getElementById('mockup');
 
     currentIndex = (index + reviews.length) % reviews.length;
 
