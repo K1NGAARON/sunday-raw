@@ -1,18 +1,50 @@
 const reviews = [
     {
-        body: "",
+        body: `
+            “We host over 400 events globally. Sunday Wardrobe helps us to manage all logistics very easy.”
+        `,
         url: "",
-        logo :"",
+        logo: "/platform/img/deel-logo.png",
     },
     {
-        body: "",
+        body: `
+            “Body 2”
+        `,
         url: "",
-        logo :"",
+        logo: "/platform/img/deel-logo.png",
     },
     {
-        body: "",
+        body: `
+            “Body 3”
+        `,
         url: "",
-        logo :"",
+        logo: "/platform/img/deel-logo.png",
     },
 ];
 
+let currentIndex = 0;
+
+function updateTestimonial(index) {
+    const testimonialContent = document.querySelector('.testimonial-content');
+    const logoElement = document.getElementById('logo');
+    const bodyElement = document.getElementById('body');
+    const urlElement = document.getElementById('url');
+
+    currentIndex = (index + reviews.length) % reviews.length;
+
+    const currentReview = reviews[currentIndex];
+
+    logoElement.src = currentReview.logo;
+    bodyElement.innerHTML = currentReview.body;
+    urlElement.href = currentReview.url;
+}
+
+document.getElementById('next').addEventListener('click', () => {
+    updateTestimonial(currentIndex + 1);
+});
+
+document.getElementById('prev').addEventListener('click', () => {
+    updateTestimonial(currentIndex - 1);
+});
+
+updateTestimonial(currentIndex);
