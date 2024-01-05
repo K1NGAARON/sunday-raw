@@ -23,6 +23,11 @@
     background-size: 50%;
 }
 
+.section.banner .row {
+    position: unset;
+    transform: unset;
+}
+
 .section.banner h1, 
 .section.banner p {
     max-width: 100%;
@@ -36,12 +41,12 @@
     display: flex;
     gap: 20px;
 }
-
+/* 
 .banner .btn-wrapper .btn {
     color: var(--black);
     background-color: var(--white);
     border-color: var(--white);
-}
+} */
 
 .banner .btn-wrapper .btn.ghost-btn {
     color: var(--white);
@@ -59,6 +64,10 @@
 
 .logos.section .wrapper {
     align-items: center;
+}
+
+.logos .wrapper .item img {
+    max-width: 100px;
 }
 
 .review.section {
