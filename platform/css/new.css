@@ -162,6 +162,7 @@
 }
 
 .testimonial-container .testimonial-content a {
+    color: var(--primary);
     margin-top: 20px;
 }
 
