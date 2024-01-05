@@ -1,3 +1,7 @@
+.section .row h2 {
+    font-size: 36px;
+}
+
 .section .row {
     margin: 80px auto;
 }
