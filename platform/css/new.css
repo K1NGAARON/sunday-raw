@@ -293,3 +293,9 @@
     top: -20px;
     left: 30%;
 }
+
+.section .levels-wrapper-heading {
+    position: absolute;
+    color: var(--primary);
+    font-weight: 400;
+}
