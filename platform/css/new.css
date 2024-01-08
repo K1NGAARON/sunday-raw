@@ -106,6 +106,10 @@
     width: 60%;
 }
 
+.value.section a {
+    color: var(--primary);
+}
+
 .usp-wrapper {
     width: 100%;
     gap: 40px;
