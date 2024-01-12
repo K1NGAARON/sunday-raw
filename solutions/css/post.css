@@ -13,3 +13,6 @@
     font-size: 42px;
 }
 
+.section .row img {
+    border-radius: 9px;
+}
