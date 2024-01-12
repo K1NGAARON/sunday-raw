@@ -21,12 +21,14 @@ let text1 = document.getElementById('number-1');
 let text2 = document.getElementById('number-2');
 let text3 = document.getElementById('number-3');
 
+let speed = 2000
+
 let animatedSection = document.querySelector('.animated-wrapper');
 
 function load() {
-    animate(text1, 0, 19, 3000);
-    animate(text2, 0, 21, 3000);
-    animate(text3, 0, 26, 3000);
+    animate(text1, 0, 19, speed);
+    animate(text2, 0, 21, speed);
+    animate(text3, 0, 26, speed);
 }
 
 // Intersection Observer configuration
