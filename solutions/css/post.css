@@ -1,0 +1,18 @@
+.disclaimer {
+    font-style: italic;
+}
+
+.animated-wrapper {
+    width: 100%;
+    margin: 40px auto;
+}
+
+.animated-wrapper .item {
+
+}
+
+.animated-wrapper .item .animated-number,
+.animated-wrapper .item .animated-number span {
+    font-weight: 700;
+    font-size: 42px;
+}
