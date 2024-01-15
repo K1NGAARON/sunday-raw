@@ -1,3 +1,7 @@
+.section.banner {
+    min-height: 80vh;
+}
+
 .disclaimer {
   font-style: italic;
 }
