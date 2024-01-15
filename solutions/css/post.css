@@ -66,3 +66,9 @@
     opacity: 1;
     transition: var(--transition);
 }
+
+@media (max-width: 560px) {
+    .section .row .col {
+        gap: 20px;
+    }
+}
