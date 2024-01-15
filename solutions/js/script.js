@@ -51,3 +51,31 @@ const sectionObserver = new IntersectionObserver((entries) => {
 }, observerOptions);
 
 sectionObserver.observe(animatedSection);
+
+function changeReviews() {
+    const reviews = [
+        {
+            name: "Client 1",
+            review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo amet quam architecto quae atque! Id pariatur, nobis asperiores error quas delectus nisi ducimus exercitationem?",
+        },
+        {
+            name: "Client 2",
+            review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo amet quam architecto quae atque! Id pariatur, nobis asperiores error quas delectus nisi ducimus exercitationem?"
+        },
+        {
+            name: "Client 3",
+            review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo amet quam architecto quae atque! Id pariatur, nobis asperiores error quas delectus nisi ducimus exercitationem?"
+        }
+    ];
+
+    $('.dot').removeClass('active');
+    $(this).addClass('active');
+
+    const dotIndex = $('.dot').index(this);
+    const reviewContainer = $('.review-wrapper');
+
+    reviewContainer.find('.review-author').text(reviews[dotIndex].name);
+    reviewContainer.find('.review-body').text(reviews[dotIndex].review);
+};
+
+$('.dot').click(changeReviews);
