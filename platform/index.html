@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="/css/header.css">
 
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/calculator.css">
+
+    <link rel="stylesheet" href="/platform/css/new.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/branding/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/branding/favicon/favicon-32x32.png">
@@ -22,7 +23,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
     <!-- Open Graph Data -->
@@ -56,9 +57,10 @@
                 <div class="dropdown-holder">
                     <a class="nav-item dropdown-btn">Solutions<i class="fa-solid fa-chevron-down"></i></a>
                     <div class="dropdown">
-                        <a href="">Employer branding</a>
-                        <a href="">Dealer management</a>
-                        <a class="last" href="">Merchandise projects</a>
+                        <a href="/solutions/employer-branding/">Employer branding</a>
+                        <a href="/solutions/dealer-management/">Dealer management</a>
+                        <a href="/solutions/global-event-merchandise/">Global event merchandise</a>
+                        <a class="last" href="/solutions/merchandise-projects/">Merchandise projects</a>
                     </div>
                 </div>
                 <a class="nav-item" href="/platform/">Sunday Wardrobe</a>
@@ -143,307 +145,285 @@
     </div>
 </header>
 
-<div class="section full-height banner blue">
-    <div class="background-wrapper">
-        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/794400564?background=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Banner Platform page"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-    </div>
-    <div class="row flex-col">
-        <p class="uppercase">
-            Sunday Wardrobe
-        </p>
-        <h1>
-            We take over your 
-            <br>
-            global merchandise logistics.
-        </h1>
-        <ul>
-            <li>
-                We store the items for you
-            </li>
-            <li>
-                We do the fulfillment
-            </li>
-            <li>
-                We ship merchandise globally
-            </li>
-            <li>
-                100% transparency through our platform
-            </li>
-        </ul>
-        <div class="wrapper">
-            <a href="#calculator" class="btn white-btn">Calculate ROI</a>
-            <a href="#contact" class="btn ghost-btn">Book a demo</a>
-        </div>
-    </div>
-    <div class="overlay"></div>
-</div>
-
-<div class="section interested">
-    <div class="row flex-col center">
-        <h2 class="subheadline">
-            I am interested in
-        </h2>
-        <div class="wrapper">
-            <div class="item">
-                <img src="./img/icons/marketing.svg" alt="">
-                <h5>
-                    Marketing
-                </h5>
-                <p>
-                    Fairs and events, brand visibility, employer branding, … Get your branded merchandise shipped to your event and be sure to stand out.
-                </p>
-            </div>
-            <div class="item">
-                <img src="./img/icons/hr.svg" alt="">
-                <h5>
-                    Human Resources
-                </h5>
-                <p>
-                    Onboarding solutions, employee retention, team activities and get togethers, … send out your team swag all over the world to make all employees look like a team, feel even stronger connected and appreciated.
-                </p>
-            </div>
-            <div class="item">
-                <img src="./img/icons/sales.svg" alt="">
-                <h5>
-                    Sales
-                </h5>
-                <p>
-                    Targeting some specific accounts? Engage with your account by sending a prospection box to their office or even their doorstep.
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="section features">
+<div class="section banner">
     <div class="row">
         <div class="col">
-            <div class="video-wrapper side" id="videoHolder">
-                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/758670317" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
-            </div>
-        </div>
-        <div class="col">
-            <h2>
-                Features
-            </h2>
-            <div class="wrapper faq">
-                <div class="accordion-list">
-                    <div class="accordion-item">
-                        <div class="accordion-head active">
-                            <h5>
-                                Manage your digital wardrobe
-                            </h5>
-                            <div class="icon active">
-                                <i class="fa-solid fa-minus"></i>
-                            </div>
-                        </div>
-                        <div class="accordion-body active">
-                            <ul>
-                                <li>
-                                    Assemble your ideal packages
-                                </li>
-                                <li>
-                                    Monitor inventory and real time stock levels
-                                </li>
-                                <li>
-                                    Automated stock-level notifications
-                                </li>
-                                <li>
-                                    Clear dashboard overview
-                                </li>
-                                <li>
-                                    ROI calculator
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <div class="accordion-head">
-                            <h5>
-                                Warehouse management
-                            </h5>
-                            <div class="icon">
-                                <i class="fa-solid fa-plus"></i>
-                            </div>
-                        </div>
-                        <div class="accordion-body">
-                            <ul>
-                                <li>
-                                    Clean and climate controlled environment, specialized for textile
-                                </li>
-                                <li>
-                                    Insured warehousing
-                                </li>
-                                <li>
-                                    Traceable, accurate stock level
-                                </li>
-                                <li>
-                                    No stock limit
-                                </li>
-                                <li>
-                                    Automated picking with double check, 99,8% accuracy
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <div class="accordion-head">
-                            <h5>
-                                Shipping has never been easier
-                            </h5>
-                            <div class="icon">
-                                <i class="fa-solid fa-plus"></i>
-                            </div>
-                        </div>
-                        <div class="accordion-body">
-                            <ul>
-                                <li>
-                                    Send packages to individual addresses worldwide
-                                </li>
-                                <li>
-                                    Clear Track-and-trace for every shipment
-                                </li>
-                                <li>
-                                    Zero waste approach
-                                </li>
-                                <li>
-                                    Personal and human customer service
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="section sustainability">
-    <div class="background-video">
-        <div style="padding:33.61% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/794431523?background=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Sustainability - small banner"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-    </div>
-    <div class="row flex-col">
-        <h2>
-            Our green approach
-        </h2>
-        <p>
-            At Sunday, we want to be a long-term partner for our customers. Therefore, to reduce our carbon footprint, we have worked out a partnership with GoForest where we plant a tree for every 50 packages sent through the  Sunday Wardrobe. This way, you as a customer also give back to the planet.
-        </p>
-    </div>
-    <div class="overlay"></div>
-</div>
-
-<div class="section testimonial">
-    <div class="row">
-        <div class="col">
-            <p class="uppercase">
-                Customer testimonial
+            <h1>
+                Streamline & centralize your worldwide merchandise
+            </h1>
+            <p>
+                The scalable platform to organize your design, simplify orders & handle logistics
             </p>
-            <p class="author">
-                How Deliverect skyrockets their company culture globally, using the Sunday Wardrobe™
-            </p>
-            <a href="/cases/deliverect/" class="btn">
-                Read the case
-            </a>
-        </div>
-        <div class="col">
-            <div class="video-wrapper">
-                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/751583982?h=3e0886a8e4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Sunday Wardrobe&amp;trade; - Platform review by Deliverect"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="section calculator">
-    <div class="row flex-col center">
-        <h2>
-            ROI Calculator for Wardrobe users
-        </h2>
-        <div id="calculator">
-            <div class="item">
-                <h3>
-                    Calculate your savings
-                </h3>
-                <form action="">
-                    <div class="form-item">
-                        <label for="myRange">How many packages per month?</label>
-                        <input type="range" min="15" max="250" value="15" class="slider" id="myRange">
-                        <div class="output-wrapper">
-                            <div class="monthly-wrapper">
-                                <div id="output">Adjust the slider with your estimated amount of</div>
-                                <div class="packages">Packages per month</div>
-                            </div>
-                            <div class="yearly-wrapper">
-                                <div id="outputYearly" class="hidden yearly"></div>
-                                <div class="hidden yearly year">Packages per year</div>
-                            </div>
-                        </div>
-                    </div>
-        
-                    <div class="form-item checkbox">
-                        <label for="personal-note">Do you want to add a personal note?</label>
-                        <input type="checkbox" name="personal-note" id="personal-note">
-                    </div>
-        
-                    <div class="form-item checkbox">
-                        <label for="different-sizes">Do the items have different sizes?</label>
-                        <input type="checkbox" name="different-sizes" id="different-sizes">
-                    </div>
-                </form>
-            </div>
-        
-            <div class="item output">
-                <h3>
-                    Your yearly savings
-                </h3>
-                <div class="results">
-                    <div class="line-item">
-                        <div class="result">
-                            <p>
-                                Cost reduction:
-                            </p>
-                        </div>
-                        <div class="result">
-                            <span id="costHolder" class="cost"></span><span>%</span>
-                        </div>
-                    </div>
-        
-                    <div class="line-item">
-                        <div class="result">
-                            <p>
-                                Money saved:
-                            </p>
-                        </div>
-                        <div class="result">
-                            <span>€</span><span class="cost" id="moneySavedHolder"></span>
-                        </div>
-                    </div>
-                </div>
-                <form id="formToMail">
-                    <div class="formContent">
-                        <input type="text" name="name" required placeholder="Fill in your first name">
-                        <input type="email" name="email" required placeholder="Fill in your best email">
-                        <button class="primary-btn" type="submit">Send to email</button>
-                    </div>
-                </form>
-        
-                <a class="primary-btn bottom" id="inbox">
-                    Send savings breakdown to inbox
+            <div class="btn-wrapper">
+                <a href="/contact/" class="btn">
+                    Talk to us
                 </a>
             </div>
         </div>
+        <div class="col">
+            <div class="testimonial-container">
+                <div class="testimonial-content">
+                    <div class="testimonial-content-col">
+                        <img id="logo" src="/platform/img/deel-logo.png" alt="Deel logo">
+                        <p class="quote" id="body">
+                            “We host over 400 events globally. Sunday Wardrobe helps us to manage all logistics very easy.”
+                        </p>
+                        <a id="url" href="/cases/deel/">Read the case <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="testimonial-content-col">
+                        <img id="mockup" class="mockup" src="/platform/img/mock-up-deel.png" alt="">
+                    </div>
+                </div>
+                <div class="testimonial-navigation">
+                    <div class="testimonial-navigation-arrows">
+                        <i id="prev" class="fa-solid fa-arrow-left"></i>
+                        <i id="next" class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
-<div class="section contact purple" id="contact">
+<div class="section logos grey">
+    <div class="row">
+        <div class="wrapper">
+            <div class="item">
+                <img src="/img/logos/tiktok-logo.svg" alt="">
+            </div>
+            <div class="item">
+                <img src="/img/logos/google-logo.svg" alt="">
+            </div>
+            <div class="item">
+                <img src="/img/logos/mastercard-logo.svg" alt="">
+            </div>
+            <div class="item">
+                <img src="/img/logos/sumup.svg" alt="">
+            </div>
+            <div class="item">
+                <img src="/img/logos/zalando-logo.svg" alt="">
+            </div>
+            <div class="item">
+                <img src="/img/logos/getinge.svg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <div class="row flex-col align-start">
+        <h2>
+            What is it?
+        </h2>
+        <p>
+            It's a platform that makes it super easy for companies to manage & scale their 
+            <br>
+            merchandise in a time and cost saving way.
+        </p>
+        <div class="wrapper levels-wrapper">
+            <p class="levels-wrapper-heading">
+                This is done on three levels:
+            </p>
+            <img class="arrow" src="/platform/img/arrow.png" alt="">
+            <div class="item green">
+                <div class="item-header">
+                    <div class="item-number">
+                        <p>
+                            1
+                        </p>
+                        <p class="level">
+                            Level
+                        </p>
+                    </div>
+                    <div class="item-heading">
+                        <p>
+                            Unlimited merchandise design & order platform
+                        </p>
+                    </div>
+                </div>
+
+                <div class="item-body">
+                    <div class="item-body-content">
+                        <div class="item-body-content-row">
+                            <div class="icon">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <p>
+                                Sunday designs all your merchandise perfectly on brand.
+                            </p>
+                        </div>
+                        <div class="item-body-content-row">
+                            <div class="icon">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <p>
+                                All designs are shown on your order platform with tier pricing.
+                            </p>
+                        </div>
+                        <div class="item-body-content-row">
+                            <div class="icon">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <p>
+                                Consistent branding across all departments & use cases.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item purple">
+                <div class="item-header">
+                    <div class="item-number">
+                        <p>
+                            2
+                        </p>
+                        <p class="level">
+                            Level
+                        </p>
+                    </div>
+                    <div class="item-heading">
+                        <p>
+                            Simplified merchandise shop
+                        </p>
+                    </div>
+                </div>
+
+                <div class="item-body">
+                    <div class="item-body-content">
+                        <div class="item-body-content-row">
+                            <div class="icon">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <p>
+                                The webshop is user friendly and makes it possible to present products in a nice and professional way.
+                            </p>
+                        </div>
+                        <div class="item-body-content-row">
+                            <div class="icon">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <p>
+                                Collecting orders and addresses is supereasy.
+                            </p>
+                        </div>
+                        <div class="item-body-content-row">
+                            <div class="icon">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <p>
+                                Reward ambassadors through a coin/point system on the webshop.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item blue">
+                <div class="item-header">
+                    <div class="item-number">
+                        <p>
+                            3
+                        </p>
+                        <p class="level">
+                            Level
+                        </p>
+                    </div>
+                    <div class="item-heading">
+                        <p>
+                            Warehousing & shipping
+                        </p>
+                    </div>
+                </div>
+
+                <div class="item-body">
+                    <div class="item-body-content">
+                        <div class="item-body-content-row">
+                            <div class="icon">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <p>
+                                We store your merchandise safely at our warehouse.
+                            </p>
+                        </div>
+                        <div class="item-body-content-row">
+                            <div class="icon">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <p>
+                                We pick and package your merchandise boxes.
+                            </p>
+                        </div>
+                        <div class="item-body-content-row">
+                            <div class="icon">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <p>
+                                We ship your merchandise anywhere in the world. (even handling customs).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section review">
+    <div class="row flex-col center">
+        <div class="wrapper">
+            <div class="item">
+                <i class="fa-solid fa-quote-left"></i>
+                <p class="quote">
+                    "At Fast track, we've made shipping our merchandise so much easier, thanks to our collaboration with Sunday. Now, sending our products from Malta to anywhere in the world is as simple as a click. It's not only incredibly efficient but it also saves us significant costs.”
+                </p>
+                <p class="author">
+                    - Katie, Event Manager Lead at Fast Track
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="overlay"></div>
+</div>
+
+<div class="section grey value">
+    <div class="row flex-col center">
+        <h2>
+            Value proposition
+        </h2>
+        <p>
+            Supercharge your merchandise approach together with Sunday. Our team of merchandise experts is here to understand your unique needs, figure out how much we can streamline your efforts, and boost that ROI you've been dreaming of. Because making your brand shine shouldn't be complicated; it should be exciting and rewarding!
+        </p>
+        <div class="wrapper usp-wrapper">
+            <div class="item">
+                <img src="/platform/img/icons/icon1.png" alt="Icon">
+                <p>
+                    Book a call with a Sunday merchandise expert about your unique merchandise needs.
+                </p>
+                <a href="#contact">Book a call</a>
+            </div>
+            <div class="item">
+                <img src="/platform/img/icons/icon2.png" alt="Icon">
+                <p>
+                    During this conversation we examine how your merchandise approach can be optimized to increase ROI and reduce costs.
+                </p>
+                <a href="#contact">Book a call</a>
+            </div>
+            <div class="item">
+                <img src="/platform/img/icons/icon3.png" alt="Icon">
+                <p>
+                    If there's a real fit, we'll work together to determine the next steps in optimizing your merchandise.
+                </p>
+                <a href="#contact">Book a call</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section contact" id="contact">
     <div class="row">
         <div class="col">
             <h2>
-                Book a demo
+                Fill in the form or book a call
             </h2>
-        </div>
-        <div class="col">
             <div class="contact-form transparent">
                 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
                 <script>
@@ -453,12 +433,13 @@
                     formId: "79b8b417-4216-4dc1-8a18-652f6d134508"
                   });
                 </script>
-
-                <!-- Start of Meetings Embed Script -->
-                <!-- <div class="meetings-iframe-container" data-src="https://meetings.hubspot.com/niels18/wardrobe-discovery-?embed=true"></div>
-                <script type="text/javascript" src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script> -->
-                <!-- End of Meetings Embed Script -->
             </div>
+        </div>
+        <div class="col">
+            <!-- Start of Meetings Embed Script -->
+            <div class="meetings-iframe-container" data-src="https://meetings.hubspot.com/niels18/wardrobe-discovery-?embed=true"></div>
+            <script type="text/javascript" src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
+            <!-- End of Meetings Embed Script -->
         </div>
     </div>
 </div>
@@ -500,9 +481,10 @@
                     Solutions
                 </h5>
                 <ul>
-                    <li><a href="">Employer branding</a></li>
-                    <li><a href="">Dealer management</a></li>
-                    <li><a href="">Merchandise projects</a></li>
+                    <li><a href="/solutions/employer-branding/">Employer branding</a></li>
+                    <li><a href="/solutions/dealer-management/">Dealer management</a></li>
+                    <li><a href="/solutions/global-event-merchandise/">Global Event Merchandise</a></li>
+                    <li><a href="/solutions/merchandise-projects/">Merchandise projects</a></li>
                 </ul>
             </div>
 
@@ -571,7 +553,6 @@
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="/js/dist/app.js"></script>
-    <script src="./js/script.js"></script>
-    <script src="./js/calculator.js"></script>
+    <script src="/platform/js/script.js"></script>
 </body>
 </html>
