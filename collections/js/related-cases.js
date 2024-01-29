@@ -3,7 +3,7 @@ const content = [
     {
         client: 'videoland',
         title: 'A promise of awesome, sustainable fashion to Videoland',
-        body: 'As one of the largest consumer brands of RTL, Videoland's priority is building brand ambassadors internally and externally.',
+        body: "As one of the largest consumer brands of RTL, Videoland's priority is building brand ambassadors internally and externally.",
         logo: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-logo-black_lr.png',
         img: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-1024x683.jpg',
         url: 'https://teamsunday.com/en/client-cases/a-promise-of-awesome-sustainable-fashion-to-videoland/'
@@ -11,15 +11,15 @@ const content = [
     {
         client: 'videoland',
         title: 'A promise of awesome, sustainable fashion to Videoland',
-        body: 'As one of the largest consumer brands of RTL, Videoland's priority is building brand ambassadors internally and externally.',
-        logo: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-logo-black_lr.png',
+        body: "As one of the largest consumer brands of RTL, Videoland's priority is building brand ambassadors internally and externally.",
+        logo: "https://teamsunday.com/wp-content/uploads/2022/11/videoland-logo-black_lr.png",
         img: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-1024x683.jpg',
         url: 'https://teamsunday.com/en/client-cases/a-promise-of-awesome-sustainable-fashion-to-videoland/'
     },
     {
         client: 'videoland',
         title: 'A promise of awesome, sustainable fashion to Videoland',
-        body: 'As one of the largest consumer brands of RTL, Videoland's priority is building brand ambassadors internally and externally.',
+        body: "As one of the largest consumer brands of RTL, Videoland's priority is building brand ambassadors internally and externally.",
         logo: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-logo-black_lr.png',
         img: 'https://teamsunday.com/wp-content/uploads/2022/11/videoland-1024x683.jpg',
         url: 'https://teamsunday.com/en/client-cases/a-promise-of-awesome-sustainable-fashion-to-videoland/'
