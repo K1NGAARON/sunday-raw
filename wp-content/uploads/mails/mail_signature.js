@@ -464,10 +464,10 @@ const employees = {
     //     email_sunday: 'tara.mcgonagle@teamsunday.com',
     //     department: 'ME_IE',
     // },
-    'thomas.termote': {
+    'Thomas.termote': {
         name: 'Thomas Termote',
         job_function: 'Sales Development Representative',
-        email_sunday: 'thomas.termote@teamsunday.com',
+        email_sunday: 'Thomas.termote@teamsunday.com',
         department: 'ME_BE',
         telephone: '+32 (0) 479 12 19 18',
         parsed_telephone: '0032479121918',
