@@ -1,5 +1,3 @@
-// noinspection SpellCheckingInspection
-
 const selectPersonElement = $('[name="person"]');
 const inputTelephoneElement = $('[name="telephone"]');
 const hiddenParsedTelephoneElement = $('[name="parsed_telephone"]');
@@ -68,22 +66,22 @@ const employees = {
         email_sunday: 'anna.kucharska@teamsunday.com',
         department: 'ME_PL_LODZ',
     },
-    'annelien.decaestecker': {
-        name: 'Annelien Decaestecker',
-        job_function: 'Head of HR',
-        email_sunday: 'annelien.decaestecker@teamsunday.com',
-        department: 'ME_BE',
-        // telephone : '+48 (0) 512 86 35 63',
-        // parsed_telephone : '0048512863563'
-    },
-    'awet.tesfay': {
-        name: 'Awet Tesfay',
-        job_function: 'Developer',
-        email_sunday: 'awet.tesfay@teamsunday.com',
-        department: 'ME_BE',
-        telephone: '+32 (0) 467 63 38 79',
-        parsed_telephone: '0032467633879'
-    },
+    // 'annelien.decaestecker': {
+    //     name: 'Annelien Decaestecker',
+    //     job_function: 'Head of HR',
+    //     email_sunday: 'annelien.decaestecker@teamsunday.com',
+    //     department: 'ME_BE',
+    //     telephone : '+48 (0) 512 86 35 63',
+    //     parsed_telephone : '0048512863563'
+    // },
+    // 'awet.tesfay': {
+    //     name: 'Awet Tesfay',
+    //     job_function: 'Developer',
+    //     email_sunday: 'awet.tesfay@teamsunday.com',
+    //     department: 'ME_BE',
+    //     telephone: '+32 (0) 467 63 38 79',
+    //     parsed_telephone: '0032467633879'
+    // },
     'bartel.samyn': {
         name: 'Bartel Samyn',
         job_function: 'Lead IT Developer',
@@ -108,48 +106,48 @@ const employees = {
     //     telephone: '+32 (0) 493 60 53 23',
     //     parsed_telephone: '0032493605323'
     // },
-    'bram.beal': {
-        name: 'Bram Beal',
-        job_function: 'Account Executive',
-        email_sunday: 'bram.beal@teamsunday.com',
-        department: 'ME_UK',
-    },
-    'carlin.klein': {
-        name: 'Carlin Klein',
-        job_function: 'Account Executive',
-        email_sunday: 'carlin@teamsunday.com',
-        department: 'ME_NL',
-        telephone: '',
-        parsed_telephone: '',
-    },
-    'charlotte.degrande': {
-        name: 'Charlotte Degrande',
-        job_function: 'Recruiter',
-        email_sunday: 'charlotte.degrande@teamsunday.com',
-        department: 'ME_BE',
-        telephone: '+32 (0) 497 04 84 62',
-        parsed_telephone: '0032497048462'
-    },
-    'charlotte.vens': {
-        name: 'Charlotte Vens',
-        job_function: 'Sales Development Representative',
-        email_sunday: 'charlotte.vens@teamsunday.com',
-        department: 'ME_BE',
-        telephone: '+32 (0) 471 85 03 90',
-        parsed_telephone: '0032471850390'
-    },
+    // 'bram.beal': {
+    //     name: 'Bram Beal',
+    //     job_function: 'Account Executive',
+    //     email_sunday: 'bram.beal@teamsunday.com',
+    //     department: 'ME_UK',
+    // },
+    // 'carlin.klein': {
+    //     name: 'Carlin Klein',
+    //     job_function: 'Account Executive',
+    //     email_sunday: 'carlin@teamsunday.com',
+    //     department: 'ME_NL',
+    //     telephone: '',
+    //     parsed_telephone: '',
+    // },
+    // 'charlotte.degrande': {
+    //     name: 'Charlotte Degrande',
+    //     job_function: 'Recruiter',
+    //     email_sunday: 'charlotte.degrande@teamsunday.com',
+    //     department: 'ME_BE',
+    //     telephone: '+32 (0) 497 04 84 62',
+    //     parsed_telephone: '0032497048462'
+    // },
+    // 'charlotte.vens': {
+    //     name: 'Charlotte Vens',
+    //     job_function: 'Sales Development Representative',
+    //     email_sunday: 'charlotte.vens@teamsunday.com',
+    //     department: 'ME_BE',
+    //     telephone: '+32 (0) 471 85 03 90',
+    //     parsed_telephone: '0032471850390'
+    // },
     'chiara.detavernier': {
         name: 'Chiara Detavernier',
         job_function: 'Receptionist',
         email_sunday: 'chiara.detavernier@teamsunday.com',
         department: 'ME_BE',
     },
-    'clara.van.nieuwenhuyze': {
-        name: 'Clara Van Nieuwenhuyze',
-        job_function: 'Sales Development Representative',
-        email_sunday: 'clara.van.nieuwenhuyze@teamsunday.com',
-        department: 'ME_BE',
-    },
+    // 'clara.van.nieuwenhuyze': {
+    //     name: 'Clara Van Nieuwenhuyze',
+    //     job_function: 'Sales Development Representative',
+    //     email_sunday: 'clara.van.nieuwenhuyze@teamsunday.com',
+    //     department: 'ME_BE',
+    // },
     'daniel.wojcikowski': {
         name: 'Daniel Wojcikowski',
         job_function: 'Production Development Manager',
@@ -158,14 +156,14 @@ const employees = {
         telephone: '+48 (0) 512 82 53 25',
         parsed_telephone: '0048512825325',
     },
-    'daan.dragt': {
-        name: 'Daan Dragt',
-        job_function: 'Account Executive',
-        email_sunday: 'daan.dragt@teamsunday.com',
-        department: 'ME_DE',
-        telephone: '+49 (0) 176 43 21 83 46',
-        parsed_telephone: '004917643218346',
-    },
+    // 'daan.dragt': {
+    //     name: 'Daan Dragt',
+    //     job_function: 'Account Executive',
+    //     email_sunday: 'daan.dragt@teamsunday.com',
+    //     department: 'ME_DE',
+    //     telephone: '+49 (0) 176 43 21 83 46',
+    //     parsed_telephone: '004917643218346',
+    // },
     'dorothee.hespeel': {
         name: 'Dorothée Hespeel',
         job_function: 'Marketing Project Manager',
@@ -174,70 +172,70 @@ const employees = {
         telephone: '+32 (0) 474 80 62 93',
         parsed_telephone: '0032474806293'
     },
-    'eduardo.martinez': {
-        name: 'Eduardo Martinez Mugica',
-        job_function: 'Sales Development Representative',
-        email_sunday: 'eduardo.martinez@teamsunday.com',
-        department: 'ME_DE',
-    },
+    // 'eduardo.martinez': {
+    //     name: 'Eduardo Martinez Mugica',
+    //     job_function: 'Sales Development Representative',
+    //     email_sunday: 'eduardo.martinez@teamsunday.com',
+    //     department: 'ME_DE',
+    // },
     'elisa.vandendorpe': {
         name: 'Elisa Vandendorpe',
         job_function: 'Customer Success',
         email_sunday: 'elisa.vandendorpe@teamsunday.com',
         department: 'ME_BE'
     },
-    'emma.van.waes': {
-        name: 'Emma Van Waes',
-        job_function: 'Sales Development Representative',
-        email_sunday: 'emma.van.waes@teamsunday.com',
-        department: 'ME_BE'
-    },
-    'eva.deveer': {
-        name: 'Eva Deveer',
-        job_function: 'Merchandise Strategist',
-        email_sunday: 'eva.deveer@teamsunday.com',
-        department: 'ME_NL',
-        telephone: '+31 (0) 642 60 02 52',
-        parsed_telephone: '0031642600252'
-    },
+    // 'emma.van.waes': {
+    //     name: 'Emma Van Waes',
+    //     job_function: 'Sales Development Representative',
+    //     email_sunday: 'emma.van.waes@teamsunday.com',
+    //     department: 'ME_BE'
+    // },
+    // 'eva.deveer': {
+    //     name: 'Eva Deveer',
+    //     job_function: 'Merchandise Strategist',
+    //     email_sunday: 'eva.deveer@teamsunday.com',
+    //     department: 'ME_NL',
+    //     telephone: '+31 (0) 642 60 02 52',
+    //     parsed_telephone: '0031642600252'
+    // },
     'ewelina.jastrzebska': {
         name: 'Ewelina Jastrzębska',
         job_function: 'Graphic Designer',
         email_sunday: 'ewelina.jastrzebska@teamsunday.com',
         department: 'ME_PL_LODZ'
     },
-    'ezra.hoefsmit': {
-        name: 'Ezra Hoefsmit',
-        job_function: 'Account Executive',
-        email_sunday: 'ezra.hoefsmit@teamsunday.com',
-        department: 'ME_NL',
-    },
+    // 'ezra.hoefsmit': {
+    //     name: 'Ezra Hoefsmit',
+    //     job_function: 'Account Executive',
+    //     email_sunday: 'ezra.hoefsmit@teamsunday.com',
+    //     department: 'ME_NL',
+    // },
     'fabienne.vermeersch': {
         name: 'Fabienne Vermeersch',
         job_function: 'F&A Officer',
         email_sunday: 'fabienne.vermeersch@teamsunday.com',
         department: 'ME_BE'
     },
-    'goerkem.ercan': {
-        name: 'Görkem Ercan',
-        job_function: 'Account Executive',
-        email_sunday: 'goerkem.ercan@teamsunday.com',
-        department: 'ME_DE'
-    },
-    'gori.afolahan': {
-        name: 'Gori Afolahan',
-        job_function: 'Account Executive',
-        email_sunday: 'gori.afolahan@teamsunday.com',
-        department: 'ME_IE'
-    },
-    'iris.devos': {
-        name: 'Iris Devos',
-        job_function: 'Customer Success Manager',
-        email_sunday: 'iris.devos@teamsunday.com',
-        department: 'ME_BE',
-        telephone: '+32 (0) 478 77 15 70',
-        parsed_telephone: '0032478771570'
-    },
+    // 'goerkem.ercan': {
+    //     name: 'Görkem Ercan',
+    //     job_function: 'Account Executive',
+    //     email_sunday: 'goerkem.ercan@teamsunday.com',
+    //     department: 'ME_DE'
+    // },
+    // 'gori.afolahan': {
+    //     name: 'Gori Afolahan',
+    //     job_function: 'Account Executive',
+    //     email_sunday: 'gori.afolahan@teamsunday.com',
+    //     department: 'ME_IE'
+    // },
+    // 'iris.devos': {
+    //     name: 'Iris Devos',
+    //     job_function: 'Customer Success Manager',
+    //     email_sunday: 'iris.devos@teamsunday.com',
+    //     department: 'ME_BE',
+    //     telephone: '+32 (0) 478 77 15 70',
+    //     parsed_telephone: '0032478771570'
+    // },
     'iwona.borysiewicz': {
         name: 'Iwona Borysiewicz',
         job_function: 'Operations Specialist',
@@ -246,14 +244,14 @@ const employees = {
         telephone: '+48 (0) 512 79 20 92',
         parsed_telephone: '0048512792092'
     },
-    'jenifer.graessler': {
-        name: 'Jenifer Graessler',
-        job_function: 'Sales Development Representative',
-        email_sunday: 'jenifer.graessler@teamsunday.com',
-        department: 'ME_DE',
-        telephone: '+49 (0) 176 64 66 03 32',
-        parsed_telephone: '004917664660332',
-    },
+    // 'jenifer.graessler': {
+    //     name: 'Jenifer Graessler',
+    //     job_function: 'Sales Development Representative',
+    //     email_sunday: 'jenifer.graessler@teamsunday.com',
+    //     department: 'ME_DE',
+    //     telephone: '+49 (0) 176 64 66 03 32',
+    //     parsed_telephone: '004917664660332',
+    // },
     'jeroen.mullie': {
         name: 'Jeroen Mullie',
         job_function: 'Customer Success',
@@ -268,12 +266,12 @@ const employees = {
         telephone: '+48 (0) 512 75 28 52',
         parsed_telephone: '0048512752852'
     },
-    'joeri.bredenhoff': {
-        name: 'Joeri Bredenhoff',
-        job_function: 'Sales Development Representative',
-        email_sunday: 'joeri.bredenhoff@teamsunday.com',
-        department: 'ME_NL',
-    },
+    // 'joeri.bredenhoff': {
+    //     name: 'Joeri Bredenhoff',
+    //     job_function: 'Sales Development Representative',
+    //     email_sunday: 'joeri.bredenhoff@teamsunday.com',
+    //     department: 'ME_NL',
+    // },
     'justyna.chmielak': {
         name: 'Justyna Chmielak',
         job_function: 'Operations Specialist',
@@ -290,34 +288,34 @@ const employees = {
     //     telephone: '+32 (0) 472 96 51 32',
     //     parsed_telephone: '0032472965132'
     // },
-    'laura.kraft': {
-        name: 'Laura Kraft',
-        job_function: 'Account Manager',
-        email_sunday: 'laura.kraft@teamsunday.com',
-        department: 'ME_DE'
-    },
-    'kevin.hartnett': {
-        name: 'Kevin Hartnett',
-        job_function: 'Account Executive',
-        email_sunday: 'kevin.hartnett@teamsunday.com',
-        department: 'ME_IE'
-    },
-    'louis.vandommele': {
-        name: 'Louis Vandommele',
-        job_function: 'Country Manager IE',
-        email_sunday: 'louis.vandommele@teamsunday.com',
-        department: 'ME_IE',
-        telephone: '+32 (0) 495 19 84 45',
-        parsed_telephone: '0032495198445'
-    },
-    'lukas.breughe': {
-        name: 'Lukas Breughe',
-        job_function: 'R&D Specialist',
-        email_sunday: 'lukas.breughe@teamsunday.com',
-        department: 'ME_BE',
-        telephone: '+32 (0) 472 07 23 10',
-        parsed_telephone: '0032472072310'
-    },
+    // 'laura.kraft': {
+    //     name: 'Laura Kraft',
+    //     job_function: 'Account Manager',
+    //     email_sunday: 'laura.kraft@teamsunday.com',
+    //     department: 'ME_DE'
+    // },
+    // 'kevin.hartnett': {
+    //     name: 'Kevin Hartnett',
+    //     job_function: 'Account Executive',
+    //     email_sunday: 'kevin.hartnett@teamsunday.com',
+    //     department: 'ME_IE'
+    // },
+    // 'louis.vandommele': {
+    //     name: 'Louis Vandommele',
+    //     job_function: 'Country Manager IE',
+    //     email_sunday: 'louis.vandommele@teamsunday.com',
+    //     department: 'ME_IE',
+    //     telephone: '+32 (0) 495 19 84 45',
+    //     parsed_telephone: '0032495198445'
+    // },
+    // 'lukas.breughe': {
+    //     name: 'Lukas Breughe',
+    //     job_function: 'R&D Specialist',
+    //     email_sunday: 'lukas.breughe@teamsunday.com',
+    //     department: 'ME_BE',
+    //     telephone: '+32 (0) 472 07 23 10',
+    //     parsed_telephone: '0032472072310'
+    // },
     'magdalena.grzybek': {
         name: 'Magdalena Grzybek',
         job_function: 'Senior Accountant PL',
@@ -334,20 +332,20 @@ const employees = {
         telephone: '+48 (0) 512 40 92 09',
         parsed_telephone: '0048512409209',
     },
-    'matthew.smith': {
-        name: 'Matthew Smith',
-        job_function: 'Account Executive',
-        email_sunday: 'matthew.smith@teamsunday.com',
-        department: 'ME_UK',
-    },
-    'max.pierik': {
-        name: 'Max Pierik',
-        job_function: 'Account Executive',
-        email_sunday: 'max.pierik@teamsunday.com',
-        department: 'ME_NL',
-        telephone: '+31 (0) 634 39 06 15',
-        parsed_telephone: '0031634390615',
-    },
+    // 'matthew.smith': {
+    //     name: 'Matthew Smith',
+    //     job_function: 'Account Executive',
+    //     email_sunday: 'matthew.smith@teamsunday.com',
+    //     department: 'ME_UK',
+    // },
+    // 'max.pierik': {
+    //     name: 'Max Pierik',
+    //     job_function: 'Account Executive',
+    //     email_sunday: 'max.pierik@teamsunday.com',
+    //     department: 'ME_NL',
+    //     telephone: '+31 (0) 634 39 06 15',
+    //     parsed_telephone: '0031634390615',
+    // },
     'marieke.afschrift': {
         name: 'Marieke Afschrift',
         job_function: 'CFO',
@@ -386,20 +384,20 @@ const employees = {
     //     telephone: '+32 (0) 484 59 50 53',
     //     parsed_telephone: '0032484595053'
     // },
-    'neil.couhysder': {
-        name: 'Neil Couhysder',
-        job_function: 'Account Executive',
-        email_sunday: 'neil.couhysder@teamsunday.com',
-        department: 'ME_BE',
-    },
-    'nicola.neve': {
-        name: 'Nicola Neve',
-        job_function: 'Project Manager',
-        email_sunday: 'nicola.neve@teamsunday.com',
-        department: 'ME_BE',
-        telephone: '+32 (0) 495 57 15 14',
-        parsed_telephone: '0032495571514'
-    },
+    // 'neil.couhysder': {
+    //     name: 'Neil Couhysder',
+    //     job_function: 'Account Executive',
+    //     email_sunday: 'neil.couhysder@teamsunday.com',
+    //     department: 'ME_BE',
+    // },
+    // 'nicola.neve': {
+    //     name: 'Nicola Neve',
+    //     job_function: 'Project Manager',
+    //     email_sunday: 'nicola.neve@teamsunday.com',
+    //     department: 'ME_BE',
+    //     telephone: '+32 (0) 495 57 15 14',
+    //     parsed_telephone: '0032495571514'
+    // },
     'niels.vandecasteele': {
         name: 'Niels Vandecasteele',
         job_function: 'Founder / CEO',
@@ -422,12 +420,12 @@ const employees = {
         email_sunday: 'oksana.nijaradze@teamsunday.com',
         department: 'ME_PL_LODZ',
     },
-    'sam.bertrand': {
-        name: 'Sam Bertrand',
-        job_function: 'Account Executive',
-        email_sunday: 'sam.bertrand@teamsunday.com',
-        department: 'ME_BE',
-    },
+    // 'sam.bertrand': {
+    //     name: 'Sam Bertrand',
+    //     job_function: 'Account Executive',
+    //     email_sunday: 'sam.bertrand@teamsunday.com',
+    //     department: 'ME_BE',
+    // },
     'sebastiaan.maesen': {
         name: 'Sebastiaan Maesen',
         job_function: 'Country Manager DE',
@@ -436,12 +434,12 @@ const employees = {
         telephone: '+32 (0) 494 25 66 35',
         parsed_telephone: '0032494256635'
     },
-    'shay.curley': {
-        name: 'Shay Curley',
-        job_function: 'Sales Development Representative',
-        email_sunday: 'shay.curley@teamsunday.com',
-        department: 'ME_IE',
-    },
+    // 'shay.curley': {
+    //     name: 'Shay Curley',
+    //     job_function: 'Sales Development Representative',
+    //     email_sunday: 'shay.curley@teamsunday.com',
+    //     department: 'ME_IE',
+    // },
     'sofie.snauwaert': {
         name: 'Sofie Snauwaert',
         job_function: 'Business Process Manager',
@@ -492,12 +490,12 @@ const employees = {
     //     email_sunday: 'vanessa@teamsunday.com',
     //     department: 'ME_BE',
     // },
-    'william.grealy': {
-        name: 'William Grealy',
-        job_function: 'Account Executive',
-        email_sunday: 'william.grealy@teamsunday.com',
-        department: 'ME_IE',
-    },
+    // 'william.grealy': {
+    //     name: 'William Grealy',
+    //     job_function: 'Account Executive',
+    //     email_sunday: 'william.grealy@teamsunday.com',
+    //     department: 'ME_IE',
+    // },
 };
 
 const generateAllSignaturesButton = $('#generate-all-signatures-button');
