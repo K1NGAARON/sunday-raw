@@ -239,7 +239,7 @@ function createCards(e) {
             n = e.logo
               ? `<img class="logo" src="${e.logo}" alt="${e.title}">`
               : "";
-          return `
+            return `
                   <div class="card ${e.beachhead} ">
                       ${a}
                           <img src="${e.img}" alt="${e.title}">
@@ -256,7 +256,7 @@ function createCards(e) {
               `;
         })
         .join("");
-      a.innerHTML = i;
+        a.innerHTML = i;
     }
 };
 
