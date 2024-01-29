@@ -223,7 +223,8 @@ const content = [
       companysize: "",
     },
   ];
-  function createCards(e) {
+
+function createCards(e) {
     let a = document.querySelector(".section.content > .row > .wrapper");
     if ((content.reverse(), a)) {
       let i = content
@@ -257,5 +258,6 @@ const content = [
         .join("");
       a.innerHTML = i;
     }
-}
+};
+
 $(document).ready(createCards);
