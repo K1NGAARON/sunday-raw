@@ -222,12 +222,12 @@ const content = [
       beachhead: "Sales",
       companysize: "",
     },
-  ];
+];
 
 function createCards(e) {
     let a = document.querySelector(".section.content > .row > .wrapper");
     if ((content.reverse(), a)) {
-      let i = content
+        let i = content
         .map((e) => {
           let a = e.url ? `<a href="${e.url}">` : "",
             i = e.url ? "</a>" : "",
@@ -237,8 +237,8 @@ function createCards(e) {
                 : `<a class="btn" href="${e.url}">Read the case</a>`
               : "",
             n = e.logo
-              ? `<img class="logo" src="${e.logo}" alt="${e.title}">`
-              : "";
+                ? `<img class="logo" src="${e.logo}" alt="${e.title}">`
+                : "";
             return `
                   <div class="card ${e.beachhead} ">
                       ${a}
