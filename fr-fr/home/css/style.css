@@ -163,10 +163,9 @@
 
 .home.section .headline {
     color: var(--white);
-    font-size: 84px;
+    font-size: 74px;
     max-width: 65%;
 }
-
 
 /* Customer collections */
 .collections {
@@ -382,7 +381,8 @@
 .section.products .wrapper .item .content h5 {
     color: var(--white);
     font-size: 26px;
-    font-weight: 600;
+    font-weight: 700;
+    text-align: left;
 }
 
 .section.products .wrapper .item .content .btn {

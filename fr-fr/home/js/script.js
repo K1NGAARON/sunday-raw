@@ -1,7 +1,7 @@
 const usp = [
     {
       usp: "unique-design",
-      body: "Our custom designs are unique in the market: We always start from the customer's brand guidelines (logo, Pantone colors, brand vision, …). Then we help think about the objective of the clothing and who will wear it. That way, the design team can work out an appropriate custom design in a much more focused way. The team also constantly follows the latest fashion trends, which ensures that we can develop contemporary and modern concepts that will be worn with pride.",
+      body: "Nos designs personnalisés sont uniques sur le marché : nous partons toujours des directives de marque du client (logo, couleurs Pantone, vision de la marque, …). Ensuite, nous aidons à réfléchir à l'objectif des vêtements et à qui les portera. De cette manière, l'équipe de design peut travailler sur un design personnalisé de manière beaucoup plus ciblée. L'équipe suit également constamment les dernières tendances de la mode, ce qui garantit que nous pouvons développer des concepts contemporains et modernes qui seront portés avec fierté.",
       video: `
               <div class="video-wrapper side" id="videoHolder">
                   <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/778141540?h=181d56dff0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="From brand to fashion"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
@@ -10,7 +10,7 @@ const usp = [
     },
     {
       usp: "ship-worldwide",
-      body: "We noticed that many of our customers love doing creative campaigns using awesome clothing, but they hate the hassle. That's why we started working on a solution. Sunday Wardrobe™ is our SaaS-solution, making it super easy for companies to warehouse, handle and ship clothing to key stakeholders.",
+      body: "Nous avons remarqué que beaucoup de nos clients aiment réaliser des campagnes créatives en utilisant des vêtements géniaux, mais détestent les tracas. C'est pourquoi nous avons commencé à travailler sur une solution. Sunday Wardrobe™ est notre solution SAAS, rendant super facile pour les entreprises de stocker, gérer et expédier des vêtements aux parties prenantes clés. ",
       video: `
               <div class="video-wrapper side" id="videoHolder">
                   <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/758670317?h=7c50d91deb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Sunday Wardrobe&amp;trade;"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
@@ -19,7 +19,7 @@ const usp = [
     },
     {
       usp: "worldclass-service",
-      body: "Personal contact, guidance throughout the process and clear communication is what Sunday guarantees. We think along with the client and help them to choose the perfect product, finishing options and how best to use the clothing to achieve maximum ROI.",
+      body: "Un contact personnel, un accompagnement tout au long du processus et une communication claire, c'est ce que Sunday garantit. Nous réfléchissons avec le client et l'aidons à choisir le produit parfait, les options de finition et la meilleure façon d'utiliser les vêtements pour obtenir un ROI maximal.",
       video: `
               <div class="video-wrapper side" id="videoHolder">
                   <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/794577698?h=db554bdd29&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="marieke.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
@@ -51,41 +51,41 @@ const usp = [
   const beachheads = [
     {
       headline:
-        "With 10 new hires every week, they were in need of a proper onboarding.",
+        "Avec 10 nouvelles recrues chaque semaine, et donc 10 nouveaux ambassadeurs potentiels, ils avaient besoin d'une intégration appropriée.",
       image: "/cases/deliverect/img/banner-2.jpg",
       logo: "/cases/deliverect/img/logo.png",
-      body: "Deliverect, the all-in-one solution for restaurants to grow their online presence, grew 750% in the last year.",
+      body: "Deliverect, la solution tout-en-un pour les restaurants pour accroître leur présence en ligne, a connu une croissance de 750 % l'année dernière.",
       url: "/cases/deliverect/",
     },
     {
-      headline: "Personalised sports shirts as a tool in the war for talent",
+      headline: "Des maillots de sport personnalisés comme outil dans la guerre pour les talents.",
       image: "/cases/stadsbader/img/banner-2.jpg",
       logo: "/cases/stadsbader/img/logo.png",
-      body: "How to find the perfect new employees? Organise an event and let your current employees be the best ambassadors.",
+      body: "Comment trouver les parfaits nouveaux employés ? Organisez un événement et laissez vos employés actuels être les meilleurs ambassadeurs.",
       url: "/cases/stadsbader/",
     },
     {
       headline:
-        "Thanking employees for their efforts and building an employee recognition policy.",
+        "Remercier les employés pour leurs efforts et construire une politique de reconnaissance des employés.",
       image: "/cases/ion/img/ion.jpg",
       logo: "/cases/ion/img/logo.svg",
-      body: "ION knows how to motivate a team: #actION please!",
+      body: "ION sait comment motiver une équipe : #actION s'il vous plaît!",
       url: "/cases/ion/",
     },
     {
       headline:
-        "Make your brand stand out by letting your employees be your best brand ambassadors.",
+        "Faites ressortir votre marque en laissant vos employés être vos meilleurs ambassadeurs de marque.",
       image: "/cases/imens/img/banner2.jpg",
       logo: "/cases/imens/img/logo.png",
-      body: "Personalized wearables create visibility but it also boosts the team feeling.",
+      body: "Les vêtements personnalisés créent de la visibilité mais renforcent également l'esprit d'équipe.",
       url: "/cases/imens/",
     },
     {
       headline:
-        "Find out why Televic opted for business shirts fully adapted to their corporate branding.",
+        "Découvrez pourquoi Televic a opté pour des chemises d'affaires entièrement adaptées à leur image de marque.",
       image: "/cases/televic/img/banner-home.jpg",
       logo: "/cases/televic/img/logo.png",
-      body: "With other companies trying to impress future talents with a pen, Televic really wants to stand out from the crowd with their company fashion.",
+      body: "Alors que d'autres entreprises tentent d'impressionner les futurs talents avec un stylo, Televic veut vraiment se démarquer avec leur mode d'entreprise.",
       url: "/cases/televic/",
     },
   ];
