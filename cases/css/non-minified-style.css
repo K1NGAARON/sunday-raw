@@ -12,6 +12,9 @@
     min-height: fit-content;
 }
 
+a:hover {
+    cursor: pointer;
+}
 
 .section.blue h1 {
     font-size: 76px;
