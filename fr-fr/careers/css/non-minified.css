@@ -1,0 +1,492 @@
+.btn-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.section.culture,
+.section.culture .row {
+    min-height: unset;
+}
+
+.section.testimonial,
+.section.testimonial .row {
+    min-height: unset;
+}
+
+.section.culture p {
+    color: var(--black);
+    font-weight: 700;
+    max-width: 60%;
+    font-size: 22px;
+}
+
+.section.culture .bold {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.section.banner h1 {
+    font-size: 76px;
+    max-width: 50%;
+}
+
+.section.banner,
+.section.banner .row {
+    min-height: fit-content;
+    height: fit-content;
+}
+
+.section.mission-vision,
+.section.mission-vision .row {
+    min-height: unset;
+    margin: 0;
+}
+
+.section.banner .row {
+    color: var(--white);
+    z-index: 9;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+
+.section.gallery,
+.section.gallery .row {
+    min-height: unset;
+}
+
+.section.cta,
+.section.cta .row {
+    min-height: unset;
+}
+
+.section.gallery .row {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.section.gallery .wrapper {
+    flex-flow: row wrap;
+    gap: 0;
+}
+
+.section.gallery .wrapper .item {
+    flex: 1 0;
+}
+
+.mission-vision p {
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+}
+
+.mission-vision .focus {
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.section.application img {
+    margin-top: 20px;
+}
+
+.section.application .row .col {
+    align-items: center;
+}
+
+.section .uppercase {
+    color: var(--darkGrey);
+}
+
+.section .large {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.section.values,
+.section.values .row {
+    min-height: unset;
+}
+
+.section.values .row ul {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    list-style: none;
+}
+
+.section.values .row ul li {
+    flex: 1 0 40%;
+    font-size: 18px;
+}
+
+.section.values .row ul li:hover {
+    cursor: pointer;
+}
+
+.section.culture img {
+    border-radius: 30px;
+}
+
+.active {
+    font-weight: 600;
+    color: var(--black);
+}
+
+.section.values .filter {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.section.values .filter a {
+    font-size: 12px;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    border-radius: 26px;
+    padding: 5px 20px;
+    transition: var(--transition);
+}
+
+.section.values .filter a:hover {
+    cursor: pointer;
+}
+
+.section.values .filter .active {
+    color: var(--white);
+    background-color: var(--primary);
+    transition: var(--transition);
+}
+
+.section.values .wrapper {
+    gap: 60px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.section.beachhead .wrapper .item {
+    text-align: left;
+    gap: 20px;
+}
+
+.section.values .wrapper .item .large {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.section.values .wrapper .item .image {
+    border-radius: 30px;
+}
+
+.section.values .wrapper .item .client-logo {
+    max-width: 200px;
+}
+
+.section.values .wrapper .item #bodyHolder {
+    text-align: left;
+    line-height: 2;
+}
+
+.section .why-sunday-wrapper .card {
+    flex: 0 1 30%;
+    border-radius: 26px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .why-sunday-wrapper .card img {
+    border-radius: 26px;
+}
+
+.section .why-sunday-wrapper .card .overlay {
+    display: none;
+    background: var(--black);
+    border-radius: 26px;
+}
+
+.section .why-sunday-wrapper .card .card-content {
+    display: none;
+    color: var(--white);
+}
+
+.section .why-sunday-wrapper .card .card-content h5 {
+    margin-bottom: 10px;
+}
+
+.section .why-sunday-wrapper .card:hover .card-content {
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+    position: absolute;
+    z-index: 10;
+}
+
+.section .why-sunday-wrapper .card:hover .overlay {
+    display: block;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.why-sunday-wrapper {
+    margin-top: 40px;
+}
+
+.why-sunday-wrapper .card {
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 26px;
+}
+
+.why-sunday-wrapper .card img {
+    border-radius: 26px;
+}
+
+.why-sunday-wrapper .card .card-content {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    position: absolute;
+    padding: 20px;
+}
+
+.why-sunday-wrapper .card .card-content h5 {
+    margin-bottom: 10px;
+}
+
+.why-sunday-wrapper .card .card-content h5,
+.why-sunday-wrapper .card .card-content p {
+    color: var(--white);
+    text-align: center;
+}
+
+.why-sunday-wrapper .card:hover .card-content {
+    display: flex;
+}
+
+.why-sunday-wrapper .card .overlay {
+    opacity: 0;
+    background-color: var(--black);
+    border-radius: 26px;
+}
+
+.why-sunday-wrapper .card:hover .overlay {
+    opacity: 0.6;
+}
+
+.what-wrapper {
+    margin-top: 40px;
+}
+
+.what-wrapper .card {
+    padding: 20px;
+}
+
+.what-wrapper .card img {
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.what-wrapper .card h5,
+.what-wrapper .card p {
+    text-align: center;
+}
+
+.cases-timeline-wrapper h4 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+    color: var(--black);
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    text-align: center
+}
+
+.cases-timeline-wrapper h5 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 26px;
+    color: #702dbd;
+    color: var(--purple);
+    margin-bottom: 20px
+}
+
+.cases-timeline-wrapper {
+    position: relative;
+    color: #000;
+    color: var(--black);
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: 240px;
+    margin-bottom: 250px
+}
+
+.line-area {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #000;
+    background: var(--black);
+    position: absolute;
+    top: 50%
+}
+
+.cases-timeline-wrapper .timeline-area {
+    height: 100%
+}
+
+.single-item {
+    width: 7%;
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    margin-right: 40px;
+    transition: width .5s;
+    z-index: 1
+}
+
+.single-item:hover {
+    cursor: pointer
+}
+
+.single-item>.steps-toggle {
+    height: 32px;
+    display: block;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    width: 100%;
+    cursor: pointer
+}
+
+.single-item>.steps-toggle:before {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-color: #000;
+    background-color: var(--black);
+    margin: 0 auto 8px auto;
+    border-radius: 50%;
+    transition: width .5s
+}
+
+.single-item>.steps-toggle.active:before {
+    width: 32px;
+    height: 32px;
+    background-color: var(--primary);
+    background-color: var(--primary);
+    margin-top: -8px;
+    transition: width .5s
+}
+
+.cases-timeline-wrapper .timeline-body {
+    width: 60%;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--primary);
+    border: 1px solid var(--primary);
+    border-radius: 20px;
+    box-shadow: 0 7px 7px 0 rgb(34 43 55 / 15%)
+}
+
+.section.contact ol {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 20px;
+}
+
+.section.contact .wrapper {
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+    width: fit-content;
+    margin-top: 20px;
+}
+
+.section.contact .wrapper .item {
+    flex: 1 0;
+    align-items: center;
+}
+
+.section.contact .wrapper .item img {
+    border-radius: 50%;
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.section.contact .wrapper .item p {
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.contact-form.transparent .hs-button {
+    font-size: 16px;
+}
+
+.section .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section .contact-wrapper a {
+    color: var(--white);
+    transition: var(--transition);
+}
+
+.section .contact-wrapper a i {
+    margin-right: 10px;
+}
+
+.section .contact-wrapper a:hover {
+    color: var(--white);
+    text-decoration: underline;
+    transition: var(--transition);
+}
+
+.section.contact .contact-form.transparent a {
+    color: var(--white);
+    text-decoration: underline;
+}
+
+@media (max-width: 560px) {
+    .section.banner h1 {
+        font-size: 36px;
+        max-width: 100%;
+    }
+
+    .section.culture p {
+        font-size: 14px;
+        max-width: 100%;
+    }
+
+    .section.gallery .row .wrapper .item {
+        flex: 1 0 40%;
+    }
+
+    .cases-timeline-wrapper {
+        margin-bottom: 500px;
+    }
+
+    .section .why-sunday-wrapper .card {
+        flex: 1 0 100%;
+    }
+}
