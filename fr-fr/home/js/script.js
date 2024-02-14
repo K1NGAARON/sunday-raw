@@ -55,14 +55,14 @@ const usp = [
       image: "/cases/deliverect/img/banner-2.jpg",
       logo: "/cases/deliverect/img/logo.png",
       body: "Deliverect, la solution tout-en-un pour les restaurants pour accroître leur présence en ligne, a connu une croissance de 750 % l'année dernière.",
-      url: "/cases/deliverect/",
+      url: "/fr-fr/cases/deliverect/",
     },
     {
       headline: "Des maillots de sport personnalisés comme outil dans la guerre pour les talents.",
       image: "/cases/stadsbader/img/banner-2.jpg",
       logo: "/cases/stadsbader/img/logo.png",
       body: "Comment trouver les parfaits nouveaux employés ? Organisez un événement et laissez vos employés actuels être les meilleurs ambassadeurs.",
-      url: "/cases/stadsbader/",
+      url: "/fr-fr/cases/stadsbader/",
     },
     {
       headline:
@@ -70,7 +70,7 @@ const usp = [
       image: "/cases/ion/img/ion.jpg",
       logo: "/cases/ion/img/logo.svg",
       body: "ION sait comment motiver une équipe : #actION s'il vous plaît!",
-      url: "/cases/ion/",
+      url: "/fr-fr/cases/ion/",
     },
     {
       headline:
@@ -78,7 +78,7 @@ const usp = [
       image: "/cases/imens/img/banner2.jpg",
       logo: "/cases/imens/img/logo.png",
       body: "Les vêtements personnalisés créent de la visibilité mais renforcent également l'esprit d'équipe.",
-      url: "/cases/imens/",
+      url: "/fr-fr/cases/imens/",
     },
     {
       headline:
@@ -86,7 +86,7 @@ const usp = [
       image: "/cases/televic/img/banner-home.jpg",
       logo: "/cases/televic/img/logo.png",
       body: "Alors que d'autres entreprises tentent d'impressionner les futurs talents avec un stylo, Televic veut vraiment se démarquer avec leur mode d'entreprise.",
-      url: "/cases/televic/",
+      url: "/fr-fr/cases/televic/",
     },
   ];
   
