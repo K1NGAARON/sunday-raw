@@ -577,6 +577,10 @@
     display: flex;
 }
 
+.section.contact h2 {
+    font-size: 46px;
+}
+
 @media (max-width: 560px) {
     .section.catalog.banner {
         margin-top: 0;
