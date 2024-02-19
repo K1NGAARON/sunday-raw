@@ -40,8 +40,8 @@ function createCards(e) {
             i = e.url ? "</a>" : "",
             o = e.url
 				? "video" === e.beachhead
-				? `<a class="btn" href="${e.url}">Watch the video</a>`
-				: `<a class="btn" href="${e.url}">Read the case</a>`
+				? `<a class="btn" href="${e.url}">Voir la vidéo</a>`
+				: `<a class="btn" href="${e.url}">Lire le cas</a>`
 				: "",
             n = e.logo
                 ? `<img class="logo" src="${e.logo}" alt="${e.title}">`
