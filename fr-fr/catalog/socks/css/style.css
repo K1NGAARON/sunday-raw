@@ -1,0 +1,11 @@
+.case.section {
+    background-image: url('../img/john-jane-case.jpeg');
+}
+
+.section.contact .wrapper {
+    align-items: flex-start;
+}
+
+.section .row {
+    max-width: 1600px!important;
+}

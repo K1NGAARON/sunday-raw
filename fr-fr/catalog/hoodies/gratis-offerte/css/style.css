@@ -1,0 +1,484 @@
+.section h2,
+.section.contact h2 {
+    font-size: 40px;
+}
+
+.header {
+    background-color: #F5F5F5;
+    position: unset;
+}
+
+.header .row {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header .nav-item {
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.nav-item.btn {
+    margin-left: unset;
+    color: var(--white);
+}
+
+.contact-header,
+.contact-header .row {
+    min-height: unset;
+    margin: unset;
+    padding: unset;
+}
+
+.contact-header {
+    background-color: var(--primary);
+}
+
+.contact-header .row {
+    padding: 10px 80px;
+}
+
+.contact-header .row a {
+    color: var(--white);
+    font-weight: 700;
+}
+
+.contact-header .row a:hover {
+    color: var(--white);
+}
+
+.contact-header .row .wrapper {
+    gap: 30px;
+    width: fit-content;
+}
+
+.contact-header .row .wrapper .item {
+    flex: 1 0;
+    flex-direction: row;
+    width: 100%;
+}
+
+.contact-header .row .wrapper .item a {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.banner.section,
+.banner.section .row {
+    min-height: unset;
+}
+
+.section .uppercase {
+    font-size: 16px;
+    letter-spacing: unset;
+}
+
+.banner ul,
+.contact ul {
+    margin-left: 30px;
+}
+
+.banner li::marker {
+    color: var(--primary);
+}
+
+.wrapper.btn-wrapper {
+    margin-top: 20px;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.banner .wrapper .rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+}
+
+.banner .wrapper .rating .icon {
+    color: #FFD700;
+}
+
+.banner .wrapper .rating p {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.dots {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.dots .dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid var(--primary);
+}
+
+.dots .dot:hover {
+    cursor: pointer;
+}
+
+.dots .dot.active {
+    background-color: var(--primary);
+}
+
+.logos.section {
+    margin: 0;
+}
+
+.logos.section .row {
+    margin-top: 0;
+}
+
+.logos .wrapper {
+    justify-content: center;
+    align-items: center;
+}
+
+.logos .wrapper .item img {
+    max-width: 90px;
+    transition: var(--transition);
+}
+
+.logos .wrapper .item img:hover {
+    transition: var(--transition);
+    transform: scale(1.05);
+}
+
+.section,
+.section .row {
+    min-height: unset;
+}
+
+.section.grey {
+    background-color: #F5F5F5;
+}
+
+.section.usp .wrapper .item {
+    background-color: var(--white);
+    border-radius: 20px;
+    padding: 30px;
+    gap: 10px;
+    box-shadow: var(--boxShadow);
+}
+
+.section.usp .wrapper .item img {
+    width: 70px;
+}
+
+.faq.wrapper {
+    width: 80%;
+}
+
+.faq .accordion-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.faq .accordion-list .accordion-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px 20px;
+    border-radius: 12px;
+}
+
+.faq .accordion-list .accordion-item:hover {
+    cursor: pointer;
+}
+
+.faq .accordion-list .accordion-item .accordion-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--black);
+    padding-bottom: 15px;
+}
+
+.faq .accordion-list .accordion-item .accordion-head.active {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.faq .accordion-list .accordion-item .accordion-head h5 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    color: var(--black);
+    opacity: 1;
+    transition: var(--transition);
+}
+
+.faq .accordion-list .accordion-item .accordion-head.active h5 {
+    color: var(--primary);
+    transition: var(--transition);
+}
+
+.faq .accordion-list .accordion-item .accordion-head .icon {
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    display: flex;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq .accordion-list .accordion-item .accordion-head .icon:hover {
+    cursor: pointer;
+}
+
+.faq .accordion-list .accordion-item .accordion-head .icon.active {
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(90deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+.faq .accordion-list .accordion-item .accordion-head .icon .fa-minus {
+    transform: rotate(90deg);
+}
+
+.faq .accordion-list .accordion-item .accordion-body {
+    display: none;
+}
+
+.faq .accordion-list .accordion-item .accordion-body.active {
+    display: block;
+}
+
+.faq .accordion-list .accordion-item .accordion-body p {
+    font-size: 16px;
+    margin-top: 20px;
+    color: var(--black);
+    text-align: left;
+    opacity: 0.5;
+}
+
+.faq a {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.faq ol {
+    margin-top: 20px;
+    padding-left: 40px;
+}
+
+.faq li {
+    color: var(--black);
+    opacity: 0.5;
+}
+
+.faq .wrapper {
+    width: 60%;
+}
+
+.footer .row .col {
+    flex: 1 0 350px;
+}
+
+.footer.section .row .col:nth-child(2) {
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer .row a {
+    color: var(--black);
+}
+
+.footer .row p,
+.footer .row a {
+    font-size: 14px;
+}
+
+.faq .row:nth-child(1) {
+    margin: 60px auto;
+}
+
+.section.primary {
+    color: var(--white);
+    background-color: var(--primary);
+}
+
+.download.section {
+    position: relative;
+    min-height: 60vh;
+}
+
+.download.section .catalog-img {
+    position: absolute;
+    width: 50%;
+    bottom: 20px;
+    right: 20px;
+}
+
+.download .contact-form {
+    margin: 0;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.team-member img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.contact.section .team-member p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.clients .item {
+    border-radius: 20px;
+    box-shadow: var(--boxShadow);
+}
+
+.clients .item img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.clients .item .client-logo {
+    max-width: 60px;
+    border-radius: 0;
+}
+
+.clients .item .item-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.clients .item .item-content .body {
+    font-style: italic;
+}
+
+.clients .item .item-content p {
+    text-align: left;
+}
+
+.clients .item .item-content .author {
+    font-weight: 700;
+}
+
+.section.gallery .gallery-wrapper .item.large {
+    flex: 1 0 55%;
+}
+
+.section.gallery .gallery-wrapper .item {
+    justify-content: flex-end;
+    overflow: hidden;
+    height: 50vh;
+    background-position: center;
+}
+
+.gallery .wrapper {
+    gap: 20px;
+}
+
+.gallery .wrapper .item.first {
+    background-image: url('/catalog/hoodies/gratis-offerte/img/large1.jpg');
+    background-position: bottom;
+}
+
+.gallery .wrapper .item.second {
+    background-image: url('/catalog/hoodies/gratis-offerte/img/small1.jpg');
+    background-position: 0% 70%;
+}
+
+.gallery .wrapper .item.third {
+    background-image: url('/catalog/hoodies/gratis-offerte/img/small2.jpg');
+}
+
+.gallery .wrapper .item.fourth {
+    background-image: url('/catalog/hoodies/gratis-offerte/img/large2.jpg');
+    background-position: 100% 100%;
+}
+
+@media (max-width: 560px) {
+    .section .row {
+        margin: 20px auto;
+    }
+    
+    .contact-header .row .wrapper {
+        gap: 10px;
+    }
+
+    .section.banner p {
+        font-size: 16px;
+    }
+
+    .banner .wrapper .rating p {
+        font-size: 12px;
+    }
+
+    .banner .wrapper .rating {
+        font-size: 16px;
+    }
+
+    .logos .wrapper {
+        gap: 20px;
+    }
+
+    .logos .wrapper .item {
+        flex: 1 0 25%;
+    }
+
+    .section.usp .wrapper .item img {
+        width: 40px;
+    }
+
+    .gallery .wrapper .item.fourth {
+        background-position: 30% 100%;
+    }
+
+    .section h2 {
+        font-size: 20px;
+    }
+
+    .download.section .catalog-img {
+        display: none;
+    }
+
+    .faq .wrapper {
+        width: 100%;
+    }
+
+    .footer.section .row .col:nth-child(2) {
+        align-items: flex-start;
+    }
+
+    .section.contact-header .wrapper .item:nth-of-type(1) {
+        display: none;
+    }
+
+    .section.contact-header .wrapper .item {
+        align-items: center;
+    }
+
+    .faq .accordion-list .accordion-item .accordion-head h5 {
+        font-size: 16px;
+    }
+
+    .section.contact h2 {
+        font-size: 26px;
+    }
+
+    .section.banner .row .uppercase {
+        font-size: 14px;
+    }
+}
