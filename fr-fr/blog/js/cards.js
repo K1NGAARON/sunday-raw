@@ -118,6 +118,7 @@ content = [
 	// 	beachhead: "",
 	// },
 ];
+
 function createCards() {
 	for (let e = 0; e < content.length; e++) {
 		let o = `
@@ -136,7 +137,7 @@ function createCards() {
 					</a>
 				</div>
 			`;
-	target.insertAdjacentHTML("beforeend", o);
+		target.insertAdjacentHTML("beforeend", o);
 	}
 }
 $(document).ready(createCards);
