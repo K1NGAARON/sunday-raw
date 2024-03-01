@@ -1,0 +1,36 @@
+.section.blue,
+.section.blue .row {
+    min-height: 40vh;
+}
+
+.section.blue h1 {
+    font-size: 76px;
+}
+
+.section.full-height {
+    min-height: 100vh;
+    height: 100vh;
+}
+
+.logos.section,
+.logos.section .row {
+    min-height: unset;
+}
+
+.section h1 {
+    font-size: 56px;
+}
+
+.section .contact-form {
+    margin-left: 0;
+}
+
+.section .wrapper .card {
+    flex: 0 1 400px;
+}
+
+@media (max-width: 560px) {
+    .section h1 {
+        font-size: 36px;
+    }
+}
