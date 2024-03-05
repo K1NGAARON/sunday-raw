@@ -1,0 +1,16 @@
+.gallery .wrapper .item.first {
+    background-image: url('/catalog/socks/img/gallery/large1.jpg');
+}
+
+.gallery .wrapper .item.second {
+    background-image: url('/catalog/socks/img/gallery/small1.jpg');
+}
+
+.gallery .wrapper .item.third {
+    background-image: url('/catalog/socks/img/gallery/small2.jpg');
+}
+
+.gallery .wrapper .item.fourth {
+    background-image: url('/catalog/socks/img/gallery/large3.jpg');
+    background-position: center 80%;
+}
