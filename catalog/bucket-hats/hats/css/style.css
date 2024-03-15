@@ -14,3 +14,7 @@
     background-image: url('/catalog/socks/img/gallery/large3.jpg');
     background-position: center 80%;
 }
+
+.clients .item {
+    justify-content: center;
+}
