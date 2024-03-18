@@ -54,3 +54,9 @@
 .image-wrapper .item:hover .content {
     display: flex;
 }
+
+@media (max-width: 560px) {
+    .image-wrapper .item .content h3 {
+        font-size: 20px;
+    }
+}
