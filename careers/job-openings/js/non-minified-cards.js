@@ -91,6 +91,16 @@ const content = [
     //     url: '/careers/job-openings/sales-development-rep-ireland/',
     //     order: '',
     // },
+        {
+        title: 'Financial controller',
+        body: 'Je werkt nauw samen met de founders en board van het bedrijf en bent één van de belangrijkste schakels in het bewaken van de financiële gezondheid van de organisatie.',
+        img: '/careers/job-openings/img/image1.jpg',
+        country: 'belgium',
+        city: 'Roeselare',
+        flag: '',
+        url: '/careers/job-openings/financial-controller/',
+        order: '',
+    },
 ];
 
 function createCards() {
