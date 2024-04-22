@@ -29,6 +29,7 @@
     flex-direction: column;
     background-color: var(--lightGrey);
     border-radius: 26px;
+    border: 1px solid var(--primary);
     border-top: 3px solid var(--primary);
     margin-top: 20px;
     margin-bottom: 20px;
