@@ -1,16 +1,16 @@
 const target = document.querySelector('.section.content > .row > .wrapper');
 
 const content = [
-    // {
-    //     title: 'Customer Success Belgium',
-    //     body: 'Als Customer Success is het jouw missie om een uitstekende service te leveren vóór, tijdens en na een deal.',
-    //     img: '/careers/job-openings/img/image3.jpg',
-    //     country: 'belgium',
-    //     city: 'roeselare',
-    //     flag: '',
-    //     url: '/careers/job-openings/customer-success-manager-belgium/',
-    //     order: '',
-    // },
+    {
+        title: 'Customer Success Belgium',
+        body: 'Als Customer Success is het jouw missie om een uitstekende service te leveren vóór, tijdens en na een deal.',
+        img: '/careers/job-openings/img/image3.jpg',
+        country: 'belgium',
+        city: 'roeselare',
+        flag: '',
+        url: '/careers/job-openings/customer-success-manager-belgium/',
+        order: '',
+    },
     // {
     //     title: 'Account Executive Belgium',
     //     body: 'Our business grows with you. Close some interesting deals with us!',
@@ -91,16 +91,16 @@ const content = [
     //     url: '/careers/job-openings/sales-development-rep-ireland/',
     //     order: '',
     // },
-        {
-        title: 'Financial controller',
-        body: 'Je werkt nauw samen met de founders en board van het bedrijf en bent één van de belangrijkste schakels in het bewaken van de financiële gezondheid van de organisatie.',
-        img: '/careers/job-openings/img/image1.jpg',
-        country: 'belgium',
-        city: 'Roeselare',
-        flag: '',
-        url: '/careers/job-openings/financial-controller/',
-        order: '',
-    },
+    //     {
+    //     title: 'Financial controller',
+    //     body: 'Je werkt nauw samen met de founders en board van het bedrijf en bent één van de belangrijkste schakels in het bewaken van de financiële gezondheid van de organisatie.',
+    //     img: '/careers/job-openings/img/image1.jpg',
+    //     country: 'belgium',
+    //     city: 'Roeselare',
+    //     flag: '',
+    //     url: '/careers/job-openings/financial-controller/',
+    //     order: '',
+    // },
 ];
 
 function createCards() {
