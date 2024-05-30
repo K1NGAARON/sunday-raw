@@ -2,8 +2,8 @@ const target = document.querySelector('.section.content > .row > .wrapper');
 
 const content = [
     {
-        title: 'Customer Success Belgium',
-        body: 'Als Customer Success is het jouw missie om een uitstekende service te leveren vóór, tijdens en na een deal.',
+        title: 'Project manager',
+        body: 'Als Project manager is het jouw missie om een uitstekende service te leveren vóór, tijdens en na een deal.',
         img: '/careers/job-openings/img/image3.jpg',
         country: 'belgium',
         city: 'roeselare',
