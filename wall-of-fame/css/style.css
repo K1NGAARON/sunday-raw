@@ -1,0 +1,36 @@
+.section.banner {
+    min-height: 50vh;
+    background-color: var(--lightGrey);
+}
+
+.navigation .nav-item {
+    color: var(--black);
+}
+
+.gallery-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+}
+  
+.gallery-wrapper .item {
+    flex: 1 0 30%;
+    padding: 10px;
+}
+  
+.gallery-wrapper .item img {
+    border-radius: 12px;
+    width: 100%;
+}
+
+@media (max-width: 560px) {
+    .gallery-wrapper .item {
+        width: 100%;
+        flex: 1 0 100%;
+    }
+
+    .banner.section,
+    .banner.section .row {
+        height: 50vh;
+    }
+}
