@@ -3,7 +3,7 @@ const galleryWrapper = document.querySelector('#gallery');
 const reviews = []
 
 // Size of Reviews Folder (+1)
-const reviewsLength = 31;
+const reviewsLength = 71;
 
 function shuffleArray(array) {
     for (var i = array.length - 1; i > 0; i--) {
@@ -25,7 +25,7 @@ function createGalleryArray() {
         reviews.push(testimonialObject);
     };
     
-    // shuffleArray(reviews);
+    shuffleArray(reviews);
 } 
 
 function createGallery() {
