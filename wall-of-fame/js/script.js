@@ -25,7 +25,7 @@ function createGalleryArray() {
         reviews.push(testimonialObject);
     };
     
-    shuffleArray(reviews);
+    //shuffleArray(reviews);
 } 
 
 function createGallery() {
