@@ -22,10 +22,10 @@ function createGalleryArray() {
             'src' : location
         };
         
-        // reviews.push(testimonialObject);
+        reviews.push(testimonialObject);
     };
     
-    shuffleArray(reviews);
+    // shuffleArray(reviews);
 } 
 
 function createGallery() {
