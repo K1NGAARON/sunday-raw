@@ -70,127 +70,87 @@ const logoTarget = document.querySelector('#logoHolder');
 const logosArray = [
     {
         client: 'Adyen',
-        img: '/nl-nl/img/logos/adyen-logo.svg',
+        img: '/img/logos/adyen-logo.svg',
     },
     {
-        client: 'Biller',
-        img: '/nl-nl/img/logos/biller-logo.svg',
+        client: 'AirBnb',
+        img: '/img/logos/airbnb-logo.svg',
     },
     {
-        client: 'Bol.com',
-        img: '/nl-nl/img/logos/bol-logo.svg',
+        client: 'Deloitte Logo',
+        img: '/img/logos/deloitte-logo.svg',
     },
     {
-        client: 'Booking.com',
-        img: '/nl-nl/img/logos/booking-logo.svg',
+        client: 'Google Logo',
+        img: '/img/logos/google-logo.svg',
     },
     {
-        client: 'Bullhorn',
-        img: '/nl-nl/img/logos/bullhorn-logo.svg',
+        client: 'Hubspot Logo',
+        img: '/img/logos/hubspot-logo.svg',
     },
     {
-        client: 'Equans',
-        img: '/nl-nl/img/logos/equans-logo.svg',
+        client: 'Mastercard Logo',
+        img: '/img/logos/mastercard-logo.svg',
     },
     {
-        client: 'Friss',
-        img: '/nl-nl/img/logos/friss-logo.svg',
+        client: 'TikTok Logo',
+        img: '/img/logos/tiktok-logo.svg',
     },
     {
-        client: 'Fruitmasters',
-        img: '/nl-nl/img/logos/fruitmasters-logo.jpg',
+        client: 'Zalando Logo',
+        img: '/img/logos/zalando-logo.svg',
     },
     {
-        client: 'Getinge',
-        img: '/nl-nl/img/logos/getinge-logo.svg',
+        client: 'Croky Logo',
+        img: '/img/logos/croky.svg',
     },
     {
-        client: 'Goodhabitz',
-        img: '/nl-nl/img/logos/goodhabitz-logo.svg',
+        client: 'Delaware Logo',
+        img: '/img/logos/delaware.svg',
     },
     {
-        client: 'Hoyng',
-        img: '/nl-nl/img/logos/hoyng-logo.svg',
+        client: 'Getinge Logo',
+        img: '/img/logos/getinge.svg',
     },
     {
-        client: 'io',
-        img: '/nl-nl/img/logos/io-logo.svg',
+        client: 'Gorillas Logo',
+        img: '/img/logos/gorillas.svg',
     },
     {
-        client: 'Legerdesheils',
-        img: '/nl-nl/img/logos/legerdesheils-logo.svg',
+        client: 'iO Logo',
+        img: '/img/logos/io.svg',
     },
     {
-        client: 'Lekkerboats',
-        img: '/nl-nl/img/logos/lekkerboats-logo.svg',
+        client: 'Johnnie Walker Logo',
+        img: '/img/logos/johnniewalker.svg',
     },
     {
-        client: 'Moersleutel',
-        img: '/nl-nl/img/logos/moersleutel-logo.svg',
+        client: 'Oaky Logo',
+        img: '/img/logos/oaky.svg',
     },
     {
-        client: 'Newland',
-        img: '/nl-nl/img/logos/newland-logo.svg',
+        client: 'Rituals Logo',
+        img: '/img/logos/rituals.svg',
     },
     {
-        client: 'New York Pizza',
-        img: '/nl-nl/img/logos/newyorkpizza-logo.svg',
+        client: 'Salesforce Logo',
+        img: '/img/logos/salesforce.svg',
     },
     {
-        client: 'Nobel',
-        img: '/nl-nl/img/logos/nobel-logo.svg',
+        client: 'Showpad Logo',
+        img: '/img/logos/showpad.svg',
     },
     {
-        client: 'Northwave',
-        img: '/nl-nl/img/logos/northwave-logo.svg',
+        client: 'Signpost Logo',
+        img: '/img/logos/signpost.svg',
     },
     {
-        client: '/nl-nl/img/logos/oaky-logo.svg',
-        img: '/nl-nl/img/logos/oaky-logo.svg',
+        client: 'SumUp Logo',
+        img: '/img/logos/sumup.svg',
     },
     {
-        client: 'Recruitnow',
-        img: '/nl-nl/img/logos/recruitnow-logo.svg',
-    },
-    {
-        client: 'Remia',
-        img: '/nl-nl/img/logos/remia-logo.svg',
-    },
-    {
-        client: 'Rijksdienst',
-        img: '/nl-nl/img/logos/rijksdienst-logo.svg',
-    },
-    {
-        client: 'Rituals',
-        img: '/nl-nl/img/logos/rituals-logo.svg',
-    },
-    {
-        client: 'See Tickets',
-        img: '/nl-nl/img/logos/seetickets-logo.svg',
-    },
-    {
-        client: 'Top Desk',
-        img: '/nl-nl/img/logos/topdesk-logo.svg',
-    },
-    {
-        client: 'Trend',
-        img: '/nl-nl/img/logos/trend-logo.svg',
-    },
-    {
-        client: 'Videoland',
-        img: '/nl-nl/img/logos/videoland-logo.svg',
-    },
-    {
-        client: 'Visma',
-        img: '/nl-nl/img/logos/visma-logo.svg',
-    },
-    {
-        client: 'Wild',
-        img: '/nl-nl/img/logos/wild-logo.svg',
-    },
-    {
-        client: 'Young Capital',
-        img: '/nl-nl/img/logos/youngcapital-logo.svg',
+        client: 'Videoland Logo',
+        img: '/img/logos/videoland.svg',
     },
 ];
 
