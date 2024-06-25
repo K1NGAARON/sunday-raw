@@ -15,12 +15,31 @@
 
 .gallery-wrapper .item {
   flex: 1 0 30%;
-  padding: 10px;
 }
 
 .gallery-wrapper .item img {
   border-radius: 12px;
   width: 100%;
+}
+
+.gallery-wrapper {
+  width: 100%;
+  gap: 40px;
+}
+
+.gallery-wrapper .item {
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.gallery-wrapper .item:hover img {
+  transform: scale(1.10);
+  transition: var(--transition);
+}
+
+.gallery-wrapper .item img {
+  height: 100%;
+  transition: var(--transition);
 }
 
 @media (max-width: 560px) {
