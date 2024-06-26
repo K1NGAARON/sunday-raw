@@ -16,7 +16,7 @@ function shuffleArray(array) {
 
 function createGalleryArray() {
     for (let i = 1; i < reviewsLength; i++) {
-        let location = '/wall-of-fame/img/Review-' + i + '.png';
+        let location = '/wall-of-fame/img/review-' + i + '.png';
         
         let testimonialObject = {
             'src' : location
