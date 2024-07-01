@@ -13,7 +13,7 @@ const content = [
     {
         client: "TikTok",
         title: "On trend für TikTok und die Gen Z",
-        body: "Ihr wollt wissen, wie man durch zielgruppenspezifische Company Wear maximal die Loyalität der eigenen Community stärkt? TikTok macht es vor – mit Sunday.",
+        body: "Ihr wollt wissen, wie man durch zielgruppenspezifische Company Wear maximal die Loyalität der eigenen Community stärkt? TikTok macht es vor - mit Sunday.",
         logo: "/de-de/cases/tiktok/img/logo.svg",
         img: "/de-de/cases/tiktok/img/banner.jpg",
         url: "/de-de/cases/tiktok/",

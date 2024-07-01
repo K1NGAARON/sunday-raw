@@ -2,12 +2,12 @@ const values = [
     {
         value: 'Value Driven',
         title: "Clients first.",
-        body: "Unseren Kund:innen das beste Produkt am Markt zu bieten, treibt uns an. Unser Ziel ist, euch und euer Business so gut zu verstehen, dass die optimale Lösung auf der Hand liegt – bei uns bekommt ihr nichts von der Stange, sondern nachhaltige Textilien, die zu euch und eurem Unternehmen passen. Bei Sunday sind wir stolz auf das, was wir tun - denn wir liefern konsequent hochwertigste Kleidung und Accessoires, bieten persönlichen Service und innovative Software.",
+        body: "Unseren Kund:innen das beste Produkt am Markt zu bieten, treibt uns an. Unser Ziel ist, euch und euer Business so gut zu verstehen, dass die optimale Lösung auf der Hand liegt - bei uns bekommt ihr nichts von der Stange, sondern nachhaltige Textilien, die zu euch und eurem Unternehmen passen. Bei Sunday sind wir stolz auf das, was wir tun - denn wir liefern konsequent hochwertigste Kleidung und Accessoires, bieten persönlichen Service und innovative Software.",
     },
     {
         value: 'Holistic',
         title: "Bessere Arbeit für alle.",
-        body: "Der Mensch steht im Zentrum unserer Arbeit als Textilunternehmen – ob Mitarbeiter:in, Kund:in oder Geschäftspartner:in. Sunday setzt durch Fairness und Fürsorge für alle Beteiligten ein Zeichen in der Branche und steht ein für bessere Arbeitsbedingungen in der schnelllebigen Modewelt.",
+        body: "Der Mensch steht im Zentrum unserer Arbeit als Textilunternehmen - ob Mitarbeiter:in, Kund:in oder Geschäftspartner:in. Sunday setzt durch Fairness und Fürsorge für alle Beteiligten ein Zeichen in der Branche und steht ein für bessere Arbeitsbedingungen in der schnelllebigen Modewelt.",
     },
     {
         value: 'Growth',
@@ -17,7 +17,7 @@ const values = [
     {
         value: 'Worldly',
         title: "Fashion for future.",
-        body: "Für uns als Lieferant zählt immer das große Ganze: Wir haben jederzeit alles im Blick – vom Kick-Off bis zur Auslieferung. Timelines, Budgets, kurzfristige Änderungswünsche: Sunday führt die Fäden zusammen und garantiert absolute Zufriedenheit bei allen Beteiligten.",
+        body: "Für uns als Lieferant zählt immer das große Ganze: Wir haben jederzeit alles im Blick - vom Kick-Off bis zur Auslieferung. Timelines, Budgets, kurzfristige Änderungswünsche: Sunday führt die Fäden zusammen und garantiert absolute Zufriedenheit bei allen Beteiligten.",
     },
     {
         value: 'Ownership',

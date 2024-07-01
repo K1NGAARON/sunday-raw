@@ -10,7 +10,7 @@ const usp = [
     },
     {
         usp: 'ship-worldwide',
-        body: "Was uns bei Sunday inspiriert? Euer Corporate Branding. Pantone Farben und Logos, aber auch eure Vision und Kultur setzen den Rahmen für das Design eurer Corporate Fashion. Sunday liefert alles, was Textil ist: Ob edles Polo-Shirt mit filigraner Bestickung oder lässiges Base Cap, ob High-Tech-Trainingsshirt für den nächsten Marathon oder die funktionale Arbeitshose für die Kolleg:innen aus der Fertigung. Ab einer Menge von 100 Stück ist alles möglich und in ca. 8–12 Wochen versandbereit.",
+        body: "Was uns bei Sunday inspiriert? Euer Corporate Branding. Pantone Farben und Logos, aber auch eure Vision und Kultur setzen den Rahmen für das Design eurer Corporate Fashion. Sunday liefert alles, was Textil ist: Ob edles Polo-Shirt mit filigraner Bestickung oder lässiges Base Cap, ob High-Tech-Trainingsshirt für den nächsten Marathon oder die funktionale Arbeitshose für die Kolleg:innen aus der Fertigung. Ab einer Menge von 100 Stück ist alles möglich und in ca. 8-12 Wochen versandbereit.",
         video: `
             <div class="video-wrapper side" id="videoHolder">
                 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/758670317?h=7c50d91deb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Sunday Wardrobe&amp;trade;"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
@@ -19,7 +19,7 @@ const usp = [
     },
     {
         usp: 'worldclass-service',
-        body: "Als belgisches Unternehmen ist uns die persönliche Beziehung zu unseren Kunden extrem wichtig – wir glauben daran, dass die besten Ideen im Gespräch entstehen. Deshalb habt ihr im gesamten Prozess auch nur einen Ansprechpartner bei Sunday, der euch jederzeit berät und voll und ganz unsere Werte lebt: Leidenschaft, Humor und Verlässlichkeit. Ein bisschen so, wie man sich den perfekten Sonntag eben vorstellt.",
+        body: "Als belgisches Unternehmen ist uns die persönliche Beziehung zu unseren Kunden extrem wichtig - wir glauben daran, dass die besten Ideen im Gespräch entstehen. Deshalb habt ihr im gesamten Prozess auch nur einen Ansprechpartner bei Sunday, der euch jederzeit berät und voll und ganz unsere Werte lebt: Leidenschaft, Humor und Verlässlichkeit. Ein bisschen so, wie man sich den perfekten Sonntag eben vorstellt.",
         video: `
             <div class="video-wrapper side" id="videoHolder">
                 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/794577698?h=db554bdd29&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="marieke.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
@@ -64,10 +64,10 @@ const beachheads = [
         url: '/nl-nl/cases/televic/',
     },
     {
-        headline: "Kleine Geschenke erhalten die Motivation – mit Sunday erobert ihr die Herzen und die Kleiderschränke eurer Talents.",
+        headline: "Kleine Geschenke erhalten die Motivation - mit Sunday erobert ihr die Herzen und die Kleiderschränke eurer Talents.",
         image: '/cases/ion/img/ion.jpg',
         logo: '/cases/ion/img/logo.svg',
-        body: "IT-Dienstleister ION zeigt seinen Mitarbeiter:innen, wie wichtig sie sind – mit lässiger Company Wear. Und #actION!",
+        body: "IT-Dienstleister ION zeigt seinen Mitarbeiter:innen, wie wichtig sie sind - mit lässiger Company Wear. Und #actION!",
         url: '/cases/ion/',
     },
     {
