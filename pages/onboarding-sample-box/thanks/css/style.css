@@ -1,0 +1,7 @@
+.banner.section {
+    min-height: 40vh;
+}
+
+.section .call-wrapper {
+    width: 100%;
+}
