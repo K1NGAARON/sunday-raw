@@ -117,9 +117,16 @@ const target = document.querySelector(".section.content > .row > .wrapper"),
       url: "/blog/6-strategies-boost-motivation/",
       beachhead: "",
     },
+    {
+      title: "The Metrics You Need: A Complete Guide to Measuring Merchandise Impact",
+      body: "Merchandise is more than just a freebie—it's a powerful tool for driving brand awareness, building customer loyalty, and turning satisfied customers into brand ambassadors.",
+      img: "/blog/measure-merchandise-impact/img/banner.jpg",
+      url: "/blog/measure-merchandise-impact/",
+      beachhead: "",
+    }
   ];
 function createCards() {
-  for (let e = 0; e < content.length; e++) {
+  for (let e = 0; e < content.reverse().length; e++) {
     let o = `
             <div class="card ${content[e].beachhead}">
                 <a href="${content[e].url}">
