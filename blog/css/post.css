@@ -8,6 +8,7 @@
 
 .section a {
     color: var(--primary);
+    text-decoration: underline;
 }
 
 .section a:hover {
