@@ -38,6 +38,17 @@
     max-width: 60%;
 }
   
+.bold {
+    font-weight: 700;
+}
+
+ul,
+ol {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 /* Button styles */
 .section.banner .btn {
     background-color: transparent;
