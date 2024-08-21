@@ -22,6 +22,10 @@
 .section a:hover {
     cursor: pointer!important;
 }
+
+.section .italic {
+    font-style: italic;
+}
   
 /* Adjustments for full-height sections */
 .banner.section.full-height {
@@ -57,6 +61,7 @@ ol {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin: 20px 0 20px 20px;
 }
 
 /* Button styles */
