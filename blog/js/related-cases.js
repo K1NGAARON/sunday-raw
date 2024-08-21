@@ -1,48 +1,70 @@
-const target = document.querySelector(".related-content > .row > .wrapper"),
-  content = [
-    {
-      client: "videoland",
-      title: "A promise of awesome, sustainable fashion to Videoland",
-      body: "As one of the largest consumer brands of RTL, Videoland's priority is building brand ambassadors internally and externally.",
-      logo: "https://teamsunday.com/wp-content/uploads/2022/11/videoland-logo-black_lr.png",
-      img: "https://teamsunday.com/wp-content/uploads/2022/11/videoland-1024x683.jpg",
-      url: "https://teamsunday.com/en/client-cases/a-promise-of-awesome-sustainable-fashion-to-videoland/",
-    },
-    {
-      client: "videoland",
-      title: "A promise of awesome, sustainable fashion to Videoland",
-      body: "As one of the largest consumer brands of RTL, Videoland's priority is building brand ambassadors internally and externally.",
-      logo: "https://teamsunday.com/wp-content/uploads/2022/11/videoland-logo-black_lr.png",
-      img: "https://teamsunday.com/wp-content/uploads/2022/11/videoland-1024x683.jpg",
-      url: "https://teamsunday.com/en/client-cases/a-promise-of-awesome-sustainable-fashion-to-videoland/",
-    },
-    {
-      client: "videoland",
-      title: "A promise of awesome, sustainable fashion to Videoland",
-      body: "As one of the largest consumer brands of RTL, Videoland's priority is building brand ambassadors internally and externally.",
-      logo: "https://teamsunday.com/wp-content/uploads/2022/11/videoland-logo-black_lr.png",
-      img: "https://teamsunday.com/wp-content/uploads/2022/11/videoland-1024x683.jpg",
-      url: "https://teamsunday.com/en/client-cases/a-promise-of-awesome-sustainable-fashion-to-videoland/",
-    },
-  ];
-function createCards() {
-  for (let e = 0; e < content.length; e++) {
-    let o = `
-            <div class="card">
-                <img src="${content[e].img}" alt="${content[e].title}">
-                <img class="logo" src="${content[e].logo}" alt="${content[e].title}">
-                <h5>
-                    ${content[e].title}
-                </h5>
-                <p>
-                    ${content[e].body}
-                </p>
-                <a class="btn" href="${content[e].url}">
-                    Read the case
-                </a>
-            </div>
-        `;
-    target.insertAdjacentHTML("beforeend", o);
-  }
+const content = [
+  {
+      title: "The Metrics You Need: A Complete Guide to Measuring Merchandise Impact",
+      tag: "",
+      body: "Merchandise is more than just a freebie—it's a powerful tool for driving brand awareness, building customer loyalty, and turning satisfied customers into brand ambassadors.",
+      img: "/blog/measure-merchandise-impact/img/banner.jpg",
+      url: "/blog/measure-merchandise-impact/"
+  },
+  {
+      title: "14 Holiday Campaign Success Stories: How Brands Connected with Audiences",
+      tag: "",
+      body: "",
+      img: "/blog/14-holiday-success-stories/img/banner.jpg",
+      url: "/blog/14-holiday-success-stories/"
+  },
+  {
+      title: "The Ultimate guide to welcome gifts for new employees in 2025",
+      tag: "",
+      body: "",
+      img: "/blog/ultimate-guide-to-welcome-gifts-2025/img/banner.jpg",
+      url: "/blog/ultimate-guide-to-welcome-gifts-2025/"
+  },
+  {
+      title: "Mastering the Design Brief: How to Create Effective Briefings for Premium Merchandise Collections",
+      tag: "",
+      body: "",
+      img: "/blog/how-to-create-effective-merch-briefings/img/banner.jpg",
+      url: "/blog/how-to-create-effective-merch-briefings/"
+  },
+  // {
+  //     title: "",
+  //     tag: "",
+  //     body: "",
+  //     img: "/blog/",
+  //     url: "/blog/"
+  // },
+  // {
+  //     title: "",
+  //     tag: "",
+  //     body: "",
+  //     img: "/blog/",
+  //     url: "/blog/"
+  // },
+];
+
+function createCards(e) {
+  const target = document.querySelector('.related-content .wrapper');
+  const shuffledArray = content.sort((a, b) => 0.5 - Math.random());
+  const slicedArray = shuffledArray.slice(0, 3);
+  
+  const cards = slicedArray.reverse().map(item => {
+      return `
+          <div class="card ${item.tag}">
+              <img src="${item.img}" alt="${item.title}">
+              <h5>
+                  ${item.title}
+              </h5>
+              <a href="${item.url}" class="btn">
+                  Read more
+              </a>
+          </div>
+      `;
+  }).join('');
+
+  target.innerHTML = cards;
 }
-$(document).ready(createCards);
+
+$(document).ready(function() {
+  createCards();
+});
