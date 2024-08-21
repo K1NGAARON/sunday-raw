@@ -15,6 +15,10 @@
     text-decoration: none;
 }
 
+.banner a {
+    text-decoration: none;
+}
+
 .section a:hover {
     cursor: pointer!important;
 }
@@ -118,12 +122,28 @@ ol {
   
 /* Media query adjustments for smaller screens */
 @media (max-width: 560px) {
-    .section.banner {
-        min-height: unset;
+    .banner.section.full-height {
+        min-height: 30vh;
     }
   
     .banner h1,
     .banner p {
         max-width: 100%;
+    }
+
+    .section.banner .row h1 {
+        font-size: 26px!important;
+    }
+
+    .section .row h2 {
+        font-size: 22px;
+    }
+
+    .section .row h3 {
+        font-size: 18px;
+    }
+
+    .card h5 {
+        font-size: 20px;
     }
 }
