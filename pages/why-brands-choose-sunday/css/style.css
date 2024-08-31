@@ -1,0 +1,64 @@
+:root {
+    --borderRadius: 12px;
+}
+
+.navigation .nav-item {
+    color: var(--black);
+}
+
+.section h1 {
+    font-size: 60px;
+}
+
+.section h2 {
+    font-size: 40px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.section .w-60 {
+    width: 60%;
+}
+
+.contact-form {
+    width: 100%;
+}
+
+.logos-wrapper {
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+ul,
+ol {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 30px;
+}
+
+.large.bold {
+    font-size: 30px;
+}
+
+.logos.section {
+    margin: 0 auto;
+}
+
+@media (max-width: 560px) {
+    .section.banner .row {
+        padding: 30px;
+    }
+
+    .logos .wrapper .item {
+        flex: 1 0 25%;
+    }
+
+    .section .w-60,
+    .section .usp-wrapper .item p {
+        width: 100%;
+    }
+}
