@@ -70,4 +70,24 @@ ol {
     .section .usp-wrapper .item p {
         width: 100%;
     }
+
+    .section.banner p {
+        font-size: 14px;
+    }
+
+    .section h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .section h2 {
+        font-size: 24px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .large.bold {
+        font-size: 26px;
+        margin-top: 20px;
+    }
 }
