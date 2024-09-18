@@ -6,6 +6,10 @@
     color: var(--white);
 }
 
+.banner.section .row h1 {
+    font-size: 50px;
+}
+
 .section a {
     color: var(--primary);
     text-decoration: underline;
