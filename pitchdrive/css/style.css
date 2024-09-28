@@ -31,3 +31,17 @@
 .section .border-radius {
     border-radius: 12px;
 }
+
+@media (max-width: 560px) {
+    .section .row .col {
+        gap: 20px;
+    }
+
+    .banner.section .label {
+        font-size: 12px;
+    }
+
+    .section .row h2 {
+        font-size: 24px;
+    }
+}
