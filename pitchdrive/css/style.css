@@ -1,0 +1,29 @@
+.banner.section .row h1 {
+    font-size: 40px;
+}   
+
+.banner.section .label {
+    font-weight: 700;
+    color: var(--black);
+    background-color: var(--white);
+    padding: 10px 15px;
+    width: fit-content;
+    border-radius: 26px;
+}
+
+.section .row h2 {
+    font-size: 32px;
+}
+
+.section .contact-form {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.banner.section ul {
+    margin-left: 30px;
+}
+
+.section .bold {
+    font-weight: 700;
+}
