@@ -27,3 +27,7 @@
 .section .bold {
     font-weight: 700;
 }
+
+.section .border-radius {
+    border-radius: 12px;
+}
