@@ -39,6 +39,10 @@ body {
     background-color: #F7F6FF;
 }
 
+.section .row {
+    max-width: 1200px;
+}
+
 .section h1,
 .section h2,
 .section h3 {
@@ -262,6 +266,7 @@ body {
 }
 
 .section .why-outer-wrapper {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 40px;
