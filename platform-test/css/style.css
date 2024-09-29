@@ -261,6 +261,15 @@ body {
     font-size: 40px;
 }
 
+.section .why-outer-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px 60px;
+    background-color: var(--white-color);
+    border-radius: var(--border-radius);
+}
+
 .section .why-wrapper-nav {
     display: flex;
     gap: 40px;
