@@ -372,6 +372,15 @@ body {
     opacity: 0.6;
 }
 
+.features-wrapper .item {
+    gap: 20px;
+}
+
+.features-wrapper .item img {
+    width: auto;
+    height: unset;
+}
+
 
 @media (max-width: 560px) {
 
