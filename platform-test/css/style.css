@@ -57,10 +57,6 @@ body {
     font-size: 22px;
 }
 
-.section p {
-
-}
-
 .section a {
     color: var(--primary-color);
     transition: var(--transition);
@@ -77,6 +73,7 @@ body {
     flex-direction: column;
     gap: 10px;
     text-align: left;
+    margin-left: 20px;
 }
 
 .section .bold {
@@ -203,6 +200,18 @@ body {
     margin-top: 10px;
 }
 
+.platform-action {
+    background-image: url('../img/action-bg.png');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 40vh;
+}
+
+.platform-action p {
+    width: 20%;
+}
+
 .section .cta-wrapper {
     background-color: var(--pink-color);
     padding: 0 60px;
@@ -241,10 +250,6 @@ body {
     margin-bottom: 10px;
 }
 
-.section .features-wrapper .item ul {
-    margin-left: 20px;
-}
-
 .section .cta-wrapper.purple {
     background-color: var(--light-purple-color);
     padding: 30px 60px;
@@ -254,4 +259,39 @@ body {
     color: var(--white-color);
     text-align: left;
     font-size: 40px;
+}
+
+.section .why-wrapper-nav {
+    display: flex;
+    gap: 40px;
+}
+
+.section .why-wrapper-nav .nav-item {
+    color: var(--black);
+    font-size: 20px;
+    opacity: 0.6;
+    transition: var(--transition);
+}
+
+.section .why-wrapper-nav .nav-item:hover {
+    cursor: pointer;
+}
+
+.section .why-wrapper-nav .nav-item.active {
+    color: var(--black);
+    opacity: 1;
+    transition: var(--transition);
+}
+
+.section .why-wrapper .item ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+@media (max-width: 560px) {
+
 }
