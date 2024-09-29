@@ -76,11 +76,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
-
-.section ul li,
-.section ol li {
-
+    text-align: left;
 }
 
 .section .bold {
@@ -111,6 +107,10 @@ body {
 
 .section.header .navbar .nav {
     color: var(--white);
+}
+
+.section.header.active .navbar .nav {
+    color: var(--black-color);
 }
 
 .section.header .button-wrapper {
@@ -222,6 +222,27 @@ body {
 
 .section .cta-wrapper .item:nth-child(2) {
     flex: 1 0;
+}
+
+.section .features-wrapper {
+    gap: 20px;
+}
+
+.section .features-wrapper .item {
+    align-items: flex-start;
+    background-color: var(--white-color);
+    padding: 30px;
+    border-radius: var(--border-radius);
+}
+
+.section .features-wrapper .item h3,
+.section .features-wrapper .item p {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.section .features-wrapper .item ul {
+    margin-left: 20px;
 }
 
 .section .cta-wrapper.purple {
