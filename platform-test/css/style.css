@@ -265,7 +265,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding: 30px 60px;
+    padding: 60px;
     background-color: var(--white-color);
     border-radius: var(--border-radius);
 }
@@ -297,7 +297,51 @@ body {
     margin-bottom: 20px;
 }
 
+.navy-blue-bg {
+    background-color: var(--dark-blue-color);
+}
 
+.navy-blue-bg h2,
+.navy-blue-bg p {
+    color: var(--white-color);
+}
+
+.review-wrapper-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-wrapper-nav h2 {
+    text-align: left;
+}
+
+.review-wrapper-nav-arrows {
+    display: flex;
+    gap: 20px;
+}
+
+.review-wrapper-nav-arrows .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--white-color);
+    border-radius: var(--border-radius);
+    width: 40px;
+    height: 40px;
+    opacity: 0.6;
+    transition: var(--transition);
+}
+
+.review-wrapper-nav-arrows .icon:hover {
+    opacity: 1;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.review-wrapper-nav-arrows .icon i {
+    color: var(--white-color);
+}
 
 
 
