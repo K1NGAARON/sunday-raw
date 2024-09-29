@@ -455,6 +455,10 @@ body {
 }
 
 @media (max-width: 560px) {
+    .section.hero .platform-interface {
+        margin-bottom: unset;
+    }
+
     .header-col {
         flex: 1 0;
         display: flex;
