@@ -455,5 +455,42 @@ body {
 }
 
 @media (max-width: 560px) {
+    .section h1 {
+        font-size: 30px;
+    }
 
+    .section.section.hero p {
+        width: 100%;
+    }
+
+    .section .cta-wrapper .item:nth-child(1) {
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .section .cta-wrapper .item:nth-child(2) {
+        display: none;
+    }
+
+    .section .why-wrapper-nav {
+        gap: 10px;
+    }
+
+    .section .why-wrapper-nav .nav-item {
+        font-size: 16px;
+    }
+
+    .platform-action p {
+        width: 100%;
+    }
+
+    .section .cta-wrapper.purple {
+        padding: 30px;
+    }
+
+    .footer .footer-wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
