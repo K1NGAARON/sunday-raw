@@ -390,14 +390,31 @@ body {
 /* FOOTER STYLES */
 .footer {
     background-color: transparent;
+    padding: 0;
+}
+
+.footer .row {
+    padding: 60px;
 }
 
 .footer .socials-wrapper {
     margin-top: 20px;
+    gap: 10px;
+}
+
+.footer .socials-wrapper .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--black-color);
+    border-radius: 50%;
+    font-size: 16px;
 }
 
 .footer .socials-wrapper .icon i {
-    color: var(--primary);
+    color: var(--black-color);
     transition: var(--transition);
 }
 
@@ -416,6 +433,16 @@ body {
 
 .footer .footer-wrapper .nav a {
     color: var(--black);
+}
+
+.footer .footer-wrapper a,
+.footer .footer-wrapper p {
+    font-size: 14px;
+    text-align: left;
+}
+
+.footer .logo {
+    width: 125px;
 }
 
 @media (max-width: 560px) {
