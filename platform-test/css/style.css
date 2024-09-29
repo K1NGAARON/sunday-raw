@@ -1,0 +1,56 @@
+:root {
+    --white-color: #ffffff;
+    --black-color: #333332;
+    --primary-color: #752BC9;
+    --yellow-color: #FEEA02;
+    --dark-blue-color: #1C1B40;
+    --pink-color: #FF6192;
+    --light-purple-color: #8B80F8;
+
+}
+
+/* HEADER STYLES */
+.section.header {
+    display: flex;
+}
+
+.section.header .container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+}
+
+.section.header .navbar {
+    display: flex;
+    gap: 40px;
+}
+
+.section.header .navbar .nav {
+    color: var(--white);
+}
+
+.section.header .button-wrapper {
+    margin-left: auto;
+}
+
+/* BUTTON STYLES */
+.btn.dark-blue-btn {
+    color: var(--white-color);
+    background-color: var(--dark-blue-color);
+}
+
+.btn.yellow-btn {
+    color: var(--black-color);
+    background-color: var(--yellow-color);
+}
+
+.btn.white-btn {
+    color: var(--black-color);
+    background-color: var(--white-color);
+}
+
+.section.hero {
+    background-color: var(--primary-color);
+}
