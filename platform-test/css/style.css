@@ -121,36 +121,39 @@ body {
 .btn.dark-blue-btn {
     color: var(--white-color);
     background-color: var(--dark-blue-color);
-    border-color: var(--dark-blue-color);
+    border: 1px solid var(--dark-blue-color);
 }
 
 .btn.dark-blue-btn:hover {
+    color: var(--white-color);
     background-color: var(--dark-blue-color-hover);
-    border-color: var(--dark-blue-color-hover);
+    border: 1px solid var(--dark-blue-color-hover);
     transform: unset;
 }
 
 .btn.yellow-btn {
     color: var(--black-color);
     background-color: var(--yellow-color);
-    border-color: var(--yellow-color);
+    border: 1px solid var(--yellow-color);
 }
 
 .btn.yellow-btn:hover {
+    color: var(--black-color);
     background-color: var(--yellow-color-hover);
-    border-color: var(--yellow-color-hover);
+    border: 1px solid var(--yellow-color-hover);
     transform: unset;
 }
 
 .btn.white-btn {
     color: var(--black-color);
     background-color: var(--white-color);
-    border-color: var(--white-color);
+    border: 1px solid var(--white-color);
 }
 
 .btn.white-btn:hover {
+    color: var(--black-color);
     background-color: var(--white-color-hover);
-    border-color: var(--white-color-hover);
+    border: 1px solid var(--white-color-hover);
     transform: unset;
 }
 
@@ -219,4 +222,15 @@ body {
 
 .section .cta-wrapper .item:nth-child(2) {
     flex: 1 0;
+}
+
+.section .cta-wrapper.purple {
+    background-color: var(--light-purple-color);
+    padding: 30px 60px;
+}
+
+.section .cta-wrapper.purple h2 {
+    color: var(--white-color);
+    text-align: left;
+    font-size: 40px;
 }
