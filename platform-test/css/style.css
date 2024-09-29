@@ -455,6 +455,31 @@ body {
 }
 
 @media (max-width: 560px) {
+    .header-col {
+        flex: 1 0;
+        display: flex;
+    }
+
+    .small-menu-content .nav {
+        color: var(--black-color);
+    }
+
+    .small-menu-content .btn {
+        color: var(--white-color);
+        margin-top: 10px;
+    }
+
+    .header-col .icon {
+        font-size: 30px;
+        margin-left: auto;
+        transition: var(--transition);
+    }
+
+    .header-col .icon:hover {
+        cursor: pointer;
+        transition: var(--transition);
+    }
+
     .section h1 {
         font-size: 30px;
     }
