@@ -557,4 +557,12 @@ body {
     .review-wrapper .item {
         flex-direction: column;
     }
+
+    .section .row {
+        margin: 40px auto;
+    }
+
+    .section .cta-wrapper.purple h2 {
+        font-size: 26px;
+    } 
 }
