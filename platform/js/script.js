@@ -1,55 +1,57 @@
-const reviews = [
-    {
-        body: `
-            “We host over 400 events globally. Sunday Wardrobe helps us to manage all logistics very easy.”
-        `,
-        url: "/cases/deel/",
-        logo: "/platform/img/deel-logo.png",
-        mockup: "/platform/img/mock-up-deel.png",
-    },
-    {
-        body: `
-            “Automating customer referrals: sending 800 “Thank-you” boxes to new customers every month.”
-        `,
-        url: "/cases/zolar/",
-        logo: "/cases/zolar/img/zolar-logo.png",
-        mockup: "/platform/img/zolar-mock.png",
-    },
-    {
-        body: `
-            “Introducing a user-friendly internal webshop didn't only streamline our merchandise activities but also increased employee participation and satisfaction.”
-        `,
-        url: "/cases/pgs/",
-        logo: "/cases/pgs/img/pgs-logo.png",
-        mockup: "/platform/img/pgs-mock.png",
-    },
-];
+$(document).ready(function () {
+    const content = {
+        1: {
+            heading: "Streamline your entire merchandise lifecycle:",
+            image: "./img/image-1.jpg",
+            listItems: [
+                "<span class='bold'>Order status & history</span> Follow your orders easily in the platform.",
+                "<span class='bold'>Reorder overview</span> See all your branded products in one easy-to-reorder overview.",
+                "<span class='bold'>Inventory tracking</span> Keep real-time tabs on stock levels. Organize your company-wide merchandise in virtual department 'closets'.",
+                "<span class='bold'>Save recipients & addresses</span> Save preferred sizes and delivery addresses for your recipients.",
+                "<span class='bold'>Group orders</span> Set up company group order campaigns to save time and money."
+            ]
+        },
+        2: {
+            heading: "Make informed decisions with actionable insights:",
+            image: "./img/image-2.jpg",
+            listItems: [
+                "<span class='bold'>Keep track of your merch</span> Monitor who receives what merchandise in what campaign.",
+                "<span class='bold'>Engagement analytics</span> Track how your merchandise is performing in the real world.",
+                "<span class='bold'>Wearability statistics</span> Get live feedback on the wearing frequency of your items.",
+                "<span class='bold'>Merchandise impressions</span> Understand the reach and visibility of your branded items.",
+                "<span class='bold'>Track ambassadors</span> Discover your real brand ambassadors and activate them."
+            ]
+        },
+        3: {
+            heading: "Optimize your merchandise distribution:",
+            image: "./img/image-3.jpg",
+            listItems: [
+                "<span class='bold'>Global logistics</span> Coordinate shipping and handling across multiple regions effortlessly. Our platform takes care of customs.",
+                "<span class='bold'>Redeem campaigns</span> Set up beautiful campaigns to offer recipients a choice and gather their information for delivery.",
+                "<span class='bold'>Event campaigns</span> Send merchandise in bulk to your next event and track all prospects in the platform.",
+                "<span class='bold'>Your merchandise store</span> We assist you in setting up a custom shop for employees, customers or fans, allowing them to make purchases using coins or real money.",
+                "<span class='bold'>World class support</span> Our team of merchandise and logistics experts is ready to assist you with any issues that arise."
+            ]
+        }
+    };
 
-let currentIndex = 0;
+    // Handle nav-item click
+    $('.why-wrapper-nav .nav-item').click(function () {
+        $('.why-wrapper-nav .nav-item').removeClass('active');
+        $(this).addClass('active');
 
-function updateTestimonial(index) {
-    const testimonialContent = document.querySelector('.testimonial-content');
-    const logoElement = document.getElementById('logo');
-    const bodyElement = document.getElementById('body');
-    const urlElement = document.getElementById('url');
-    const mockElement = document.getElementById('mockup');
+        // Get the index of the clicked item (1, 2, or 3)
+        const index = $('.why-wrapper-nav .nav-item').index(this) + 1;
 
-    currentIndex = (index + reviews.length) % reviews.length;
+        $('.why-wrapper h3').text(content[index].heading);
 
-    const currentReview = reviews[currentIndex];
+        $('.why-wrapper .why-wrapper-image').attr('src', content[index].image);
 
-    logoElement.src = currentReview.logo;
-    bodyElement.innerHTML = currentReview.body;
-    urlElement.href = currentReview.url;
-    mockElement.src = currentReview.mockup;
-}
-
-document.getElementById('next').addEventListener('click', () => {
-    updateTestimonial(currentIndex + 1);
+        // Change the list items
+        const list = $('.why-wrapper ul');
+        list.empty(); // Clear current list items
+        content[index].listItems.forEach(function (item) {
+            list.append('<li>' + item + '</li>');
+        });
+    });
 });
-
-document.getElementById('prev').addEventListener('click', () => {
-    updateTestimonial(currentIndex - 1);
-});
-
-updateTestimonial(currentIndex);
