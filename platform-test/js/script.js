@@ -2,7 +2,7 @@ $(document).ready(function () {
     const content = {
         1: {
             heading: "Streamline your entire merchandise lifecycle:",
-            image: "path/to/image1.jpg",
+            image: "./img/image-1.jpg",
             listItems: [
                 "<span class='bold'>Order status & history</span> Follow your orders easily in the platform.",
                 "<span class='bold'>Reorder overview</span> See all your branded products in one easy-to-reorder overview.",
@@ -13,7 +13,7 @@ $(document).ready(function () {
         },
         2: {
             heading: "Make informed decisions with actionable insights:",
-            image: "path/to/image2.jpg",
+            image: "./img/image-2.jpg",
             listItems: [
                 "<span class='bold'>Keep track of your merch</span> Monitor who receives what merchandise in what campaign.",
                 "<span class='bold'>Engagement analytics</span> Track how your merchandise is performing in the real world.",
@@ -24,7 +24,7 @@ $(document).ready(function () {
         },
         3: {
             heading: "Optimize your merchandise distribution:",
-            image: "path/to/image3.jpg",
+            image: "./img/image-3.jpg",
             listItems: [
                 "<span class='bold'>Global logistics</span> Coordinate shipping and handling across multiple regions effortlessly. Our platform takes care of customs.",
                 "<span class='bold'>Redeem campaigns</span> Set up beautiful campaigns to offer recipients a choice and gather their information for delivery.",
