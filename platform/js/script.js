@@ -35,21 +35,18 @@ $(document).ready(function () {
         }
     };
 
-    // Handle nav-item click
     $('.why-wrapper-nav .nav-item').click(function () {
         $('.why-wrapper-nav .nav-item').removeClass('active');
         $(this).addClass('active');
 
-        // Get the index of the clicked item (1, 2, or 3)
         const index = $('.why-wrapper-nav .nav-item').index(this) + 1;
 
         $('.why-wrapper h3').text(content[index].heading);
 
         $('.why-wrapper .why-wrapper-image').attr('src', content[index].image);
 
-        // Change the list items
         const list = $('.why-wrapper ul');
-        list.empty(); // Clear current list items
+        list.empty();
         content[index].listItems.forEach(function (item) {
             list.append('<li>' + item + '</li>');
         });
