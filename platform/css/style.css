@@ -110,8 +110,12 @@ body {
     gap: 40px;
 }
 
-.section.header .navbar .nav {
-    color: var(--white);
+.navigation .nav-item:hover {
+    color: var(--white-color);
+}
+
+.header.active .navigation .nav-item:hover {
+    color: var(--black-color);
 }
 
 .section.header.active .navbar .nav {
@@ -483,6 +487,10 @@ body {
 
 .footer .logo {
     width: 125px;
+}
+
+.footer .row a, .footer .row p, .footer .row h5 {
+    color: var(--black-color);
 }
 
 @media (max-width: 560px) {
