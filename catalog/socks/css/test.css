@@ -85,22 +85,23 @@
 
 .wrapper.btn-wrapper {
     margin-top: 20px;
+    margin-bottom: 20px;
     gap: 20px;
     justify-content: flex-start;
 }
 
-.banner .wrapper .rating {
+.banner .rating {
     display: flex;
     align-items: center;
     gap: 5px;
     font-size: 20px;
 }
 
-.banner .wrapper .rating .icon {
+.banner .rating .icon {
     color: #FFD700;
 }
 
-.banner .wrapper .rating p {
+.banner .rating p {
     font-weight: 700;
     font-size: 16px;
 }
@@ -164,6 +165,10 @@
 
 .section.usp .wrapper .item img {
     width: 70px;
+}
+
+.section.usp .wrapper .item a {
+    color: var(--primary);
 }
 
 .faq.wrapper {
@@ -416,11 +421,11 @@
         font-size: 16px;
     }
 
-    .banner .wrapper .rating p {
+    .banner .rating p {
         font-size: 12px;
     }
 
-    .banner .wrapper .rating {
+    .banner .rating {
         font-size: 16px;
     }
 
