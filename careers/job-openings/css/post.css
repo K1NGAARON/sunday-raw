@@ -91,6 +91,11 @@
     font-weight: 600;
 }
 
+.section ul .bold {
+    font-size: unset;
+    font-weight: 700;
+}
+
 .section .container {
     width: 100%;
     margin: 20px auto;
