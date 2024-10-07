@@ -18,7 +18,7 @@ const content = [
         country: 'belgium',
         city: 'roeselare',
         flag: '',
-        url: '/careers/job-openings/project-manager/',
+        url: '/careers/job-openings/customer-success-manager/',
         order: '',
     },
     // {
