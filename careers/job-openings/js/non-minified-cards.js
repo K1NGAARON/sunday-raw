@@ -11,6 +11,16 @@ const content = [
         url: '/careers/job-openings/project-manager/',
         order: '',
     },
+    {
+        title: 'Customer success manager',
+        body: 'Als Customer Succes Manager is het jouw missie om een uitstekende klantbeleving te verzorgen.',
+        img: '/careers/job-openings/img/image7.jpg',
+        country: 'belgium',
+        city: 'roeselare',
+        flag: '',
+        url: '/careers/job-openings/project-manager/',
+        order: '',
+    },
     // {
     //     title: 'Account Executive Belgium',
     //     body: 'Our business grows with you. Close some interesting deals with us!',
