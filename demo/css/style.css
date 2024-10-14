@@ -1,0 +1,50 @@
+.section h3 {
+    text-align: left;
+}
+
+.section.dark-blue {
+    background-color: var(--dark-blue-color);
+}
+
+.section.dark-blue p {
+    color: var(--white-color);
+}
+
+.logos-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.logos-wrapper .item {
+    flex: 1 0 15%;
+    display: flex;
+}
+
+.logos-wrapper .item img {
+    width: 100%;
+    max-width: 100px;
+}
+
+.book_a_meeting_form.contact-form {
+    padding: 30px;
+    background-color: var(--white-color);
+    border-radius: var(--border-radius);
+}
+
+.book_a_meeting_form.contact-form .cta {
+    color: var(--pink-color);
+    text-align: center;
+}
+
+.green-list-items li::marker {
+    color: var(--green-color);
+}
+
+@media (max-width: 560px) {
+    .logos-wrapper .item {
+        flex: 1 0 40%;
+    }
+}
