@@ -617,4 +617,13 @@ body {
     .section .cta-wrapper.purple h2 {
         font-size: 26px;
     } 
+
+    .section .cta-wrapper p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section .row .col {
+        gap: 20px;
+    }
 }

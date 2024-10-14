@@ -351,6 +351,11 @@
     font-weight: 400;
 }
 
+
+img.border-radius {
+    border-radius: var(--border-radius);
+}
+
 @media (max-width: 560px) {
     .section .row {
         gap: 40px;
