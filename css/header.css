@@ -41,6 +41,7 @@
 .header .btn-wrapper .white-btn {
     color: var(--black);
     background-color: var(--white);
+    border-color: var(--white);
 }
 
 .header .btn-wrapper .white-btn:hover {
@@ -50,6 +51,7 @@
 .header.active .btn-wrapper .white-btn {
     color: var(--white);
     background-color: var(--black);
+    border-color: var(--black);
 }
 
 .header.active .btn-wrapper .white-btn:hover {
