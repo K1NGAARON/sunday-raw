@@ -33,19 +33,28 @@
 }
 
 .header .btn-wrapper {
-
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
 }
 
 .header .btn-wrapper .white-btn {
-
+    color: var(--black);
+    background-color: var(--white);
 }
 
 .header .btn-wrapper .white-btn:hover {
-
+    color: var(--black);
 }
 
 .header.active .btn-wrapper .white-btn {
+    color: var(--white);
+    background-color: var(--black);
+}
 
+.header.active .btn-wrapper .white-btn:hover {
+    color: var(--white);
+    background-color: var(--black);
 }
 
 .header .row {
