@@ -249,6 +249,12 @@ body {
     background-color: var(--primary-color);
 }
 
+.cta-wrapper .contact-form h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
 .bg-primary h2,
 .bg-primary h3,
 .bg-primary p {
