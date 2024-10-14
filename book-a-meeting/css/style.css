@@ -241,7 +241,7 @@ body {
 
 .section .cta-wrapper {
     background-color: var(--dark-blue-color);
-    padding: 0 60px;
+    padding: 60px;
     border-radius: var(--border-radius);
 }
 
@@ -536,6 +536,10 @@ body {
     padding: 10px;
     border-radius: 50%;
     background-color: var(--white-color);
+}
+
+.cta-wrapper img {
+    width: 200px;
 }
 
 @media (max-width: 560px) {
