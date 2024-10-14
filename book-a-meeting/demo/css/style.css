@@ -1,0 +1,19 @@
+.section.hero.gradient h1, .section.hero p {
+    color: var(--white-color);
+}
+
+.header .navigation .nav-item {
+    color: var(--white-color);
+}
+
+.header .nav-item::before {
+    background-color: var(--white-color);
+}
+
+.header.active .navigation .nav-item {
+    color: var(--black-color);
+}
+
+.header.active .nav-item::before {
+    background-color: var(--black-color);
+}
