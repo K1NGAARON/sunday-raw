@@ -48,6 +48,11 @@
     color: var(--black);
 }
 
+.header.product-header .btn-wrapper .white-btn {
+    color: var(--white);
+    background-color: var(--black);
+}
+
 .header.active .btn-wrapper .white-btn {
     color: var(--white);
     background-color: var(--black);
