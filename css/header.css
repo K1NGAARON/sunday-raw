@@ -32,6 +32,22 @@
     color: var(--white);
 }
 
+.header .btn-wrapper {
+
+}
+
+.header .btn-wrapper .white-btn {
+
+}
+
+.header .btn-wrapper .white-btn:hover {
+
+}
+
+.header.active .btn-wrapper .white-btn {
+
+}
+
 .header .row {
     margin: 5px auto;
     padding: 10px 80px;

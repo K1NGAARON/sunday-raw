@@ -43,6 +43,23 @@
     color: var(--green-color);
 }
 
+.green-list-items {
+    list-style: none; /* Remove the default bullets */
+}
+
+.green-list-items li {
+    position: relative;
+    padding-left: 20px; /* Add space for the checkmark */
+}
+
+.green-list-items li::before {
+    content: '✔'; /* Unicode checkmark */
+    color: green; /* You can change the color if needed */
+    position: absolute;
+    left: 0;
+}
+
+
 @media (max-width: 560px) {
     .logos-wrapper .item {
         flex: 1 0 40%;
