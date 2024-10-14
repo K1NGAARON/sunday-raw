@@ -167,16 +167,9 @@ body {
     transform: unset;
 }
 
-
 /* PAGE SPECIFIC STYLES */
-
 .section.hero {
-    /* background-color: var(--primary-color); */
     margin-bottom: 100px;
-}
-
-.section.hero.gradient {
-    /* background: linear-gradient(90deg, var(--primary-color), var(--primary-color-hover)); */
 }
 
 .demo-section.section .row h2 {
