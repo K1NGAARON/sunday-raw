@@ -1,102 +1,54 @@
-const offices = [
-    {
-        country: 'Belgium',
-        city: 'Roeselare',
-        flag: './img/flag/be-flag.png',
-        location: 'Krommebeekpark 21',
-        postal: '8800 Roeselare',
-        img: './img/offices/roeselare.jpg'
-    },
-    {
-        country: 'Netherlands',
-        city: 'Amsterdam',
-        flag: './img/flag/nl-flag.png',
-        location: 'Joop Geesinkweg 641',
-        postal: '1114 AB Amsterdam',
-        img: './img/offices/amsterdam.jpg'
-    },
-    {
-        country: 'Germany',
-        city: 'Berlin',
-        flag: './img/flag/de-flag.png',
-        location: 'Lohmühlenstraße 65',
-        postal: '12435 Berlin',
-        img: './img/offices/berlin-office.jpg'
-    },
-    {
-        country: 'Poland',
-        city: 'Łódź',
-        flag: './img/flag/pl-flag.png',
-        location: 'ul. Gdańska 126/128',
-        postal: '90-520 Łódź',
-        img: './img/offices/lodz.jpg'
-    },
-    {
-        country: 'Ireland',
-        city: 'Dublin',
-        flag: './img/flag/ie-flag.png',
-        location: 'Custom House Quay',
-        postal: 'CHQ Dublin',
-        img: './img/offices/dublin.jpg'
-    },
-    {
-        country: 'United Kingdom',
-        city: 'London',
-        flag: './img/flag/uk-flag.png',
-        location: 'BLCC Club Quarters, 8 Northumberland Avenue',
-        postal: 'London WC2N 5BY',
-        img: './img/offices/london.jpg'
-    }
-];
+$(document).ready(function () {
+    const content = {
+        1: {
+            heading: "Streamline your entire merchandise lifecycle:",
+            image: "./img/image-1.jpg",
+            listItems: [
+                "<span class='bold'>Order status & history</span> <br>Follow your orders easily in the platform.",
+                "<span class='bold'>Reorder overview</span> <br>See all your branded products in one easy-to-reorder overview.",
+                "<span class='bold'>Inventory tracking</span> <br>Keep real-time tabs on stock levels. Organize your company-wide merchandise in virtual department 'closets'.",
+                "<span class='bold'>Save recipients & addresses</span> <br>Save preferred sizes and delivery addresses for your recipients.",
+                "<span class='bold'>Group orders</span> <br>Set up company group order campaigns to save time and money."
+            ]
+        },
+        2: {
+            heading: "Make informed decisions with actionable insights:",
+            image: "./img/image-2.jpg",
+            listItems: [
+                "<span class='bold'>Keep track of your merch</span> <br>Monitor who receives what merchandise in what campaign.",
+                "<span class='bold'>Engagement analytics</span> <br>Track how your merchandise is performing in the real world.",
+                "<span class='bold'>Wearability statistics</span> <br>Get live feedback on the wearing frequency of your items.",
+                "<span class='bold'>Merchandise impressions</span> <br>Understand the reach and visibility of your branded items.",
+                "<span class='bold'>Track ambassadors</span> <br>Discover your real brand ambassadors and activate them."
+            ]
+        },
+        3: {
+            heading: "Optimize your merchandise distribution:",
+            image: "./img/image-3.jpg",
+            listItems: [
+                "<span class='bold'>Global logistics</span> <br>Coordinate shipping and handling across multiple regions effortlessly. Our platform takes care of customs.",
+                "<span class='bold'>Redeem campaigns</span> <br>Set up beautiful campaigns to offer recipients a choice and gather their information for delivery.",
+                "<span class='bold'>Event campaigns</span> <br>Send merchandise in bulk to your next event and track all prospects in the platform.",
+                "<span class='bold'>Your merchandise store</span> <br>We assist you in setting up a custom shop for employees, customers or fans, allowing them to make purchases using coins or real money.",
+                "<span class='bold'>World class support</span> <br>Our team of merchandise and logistics experts is ready to assist you with any issues that arise."
+            ]
+        }
+    };
 
-function filterOffice(e) {
-    $('.office').removeClass('active');
-    $(this).addClass('active');
-    let selectedOffice = document.querySelector('.office.active').id;
-    
-    let imageHolder = document.querySelector('#officeIMGHolder');
-    let flagHolder = document.querySelector('#flag');
-    let countryHolder = document.querySelector('#country');
-    let addressHolder = document.querySelector('#location');
-    let postalHolder = document.querySelector('#postal');
-        
-    if (selectedOffice === 'roeselare') {
-        $(imageHolder).attr('src', `${offices[0].img}`);
-        $(flagHolder).attr('src', `${offices[0].flag}`);
-        $(countryHolder).text(`${offices[0].country}`);
-        $(addressHolder).text(`${offices[0].location}`);
-        $(postalHolder).text(`${offices[0].postal}`);
-    } else if (selectedOffice === 'amsterdam') {
-        $(imageHolder).attr('src', `${offices[1].img}`);
-        $(flagHolder).attr('src', `${offices[1].flag}`);
-        $(countryHolder).text(`${offices[1].country}`);
-        $(addressHolder).text(`${offices[1].location}`);
-        $(postalHolder).text(`${offices[1].postal}`);
-    } else if (selectedOffice === 'dublin') {
-        $(imageHolder).attr('src', `${offices[4].img}`);
-        $(flagHolder).attr('src', `${offices[4].flag}`);
-        $(countryHolder).text(`${offices[4].country}`);
-        $(addressHolder).text(`${offices[4].location}`);
-        $(postalHolder).text(`${offices[4].postal}`);
-    } else if (selectedOffice === 'london') {
-        $(imageHolder).attr('src', `${offices[5].img}`);
-        $(flagHolder).attr('src', `${offices[5].flag}`);
-        $(countryHolder).text(`${offices[5].country}`);
-        $(addressHolder).text(`${offices[5].location}`);
-        $(postalHolder).text(`${offices[5].postal}`);
-    } else if (selectedOffice === 'berlin') {
-        $(imageHolder).attr('src', `${offices[2].img}`);
-        $(flagHolder).attr('src', `${offices[2].flag}`);
-        $(countryHolder).text(`${offices[2].country}`);
-        $(addressHolder).text(`${offices[2].location}`);
-        $(postalHolder).text(`${offices[2].postal}`);
-    } else if (selectedOffice === 'lodz') {
-        $(imageHolder).attr('src', `${offices[3].img}`);
-        $(flagHolder).attr('src', `${offices[3].flag}`);
-        $(countryHolder).text(`${offices[3].country}`);
-        $(addressHolder).text(`${offices[3].location}`);
-        $(postalHolder).text(`${offices[3].postal}`);
-    }
-};
+    $('.why-wrapper-nav .nav-item').click(function () {
+        $('.why-wrapper-nav .nav-item').removeClass('active');
+        $(this).addClass('active');
 
-$('.office').click(filterOffice);
+        const index = $('.why-wrapper-nav .nav-item').index(this) + 1;
+
+        $('.why-wrapper h3').text(content[index].heading);
+
+        $('.why-wrapper .why-wrapper-image').attr('src', content[index].image);
+
+        const list = $('.why-wrapper ul');
+        list.empty();
+        content[index].listItems.forEach(function (item) {
+            list.append('<li>' + item + '</li>');
+        });
+    });
+});
