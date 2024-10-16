@@ -128,6 +128,97 @@ ol {
 .section img {
     margin: 20px auto;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+@font-face {
+    font-family: 'MorangaLight';
+    src: url('/assets/font/MorangaLight/font.woff') format('woff2'),
+         url('/assets/font/MorangaLight/font.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --black-color: #333332;
+    --white-color: #ffffff;
+    --white-color-hover: #F2F2F2;
+    --primary-color: #752BC9;
+    --primary-color-hover: #9D58D6;
+    --yellow-color: #FEEA02;
+    --yellow-color-hover: #FFF44C;
+    --dark-blue-color: #1C1B40;
+    --dark-blue-color-hover: #3F3D6A;
+    --pink-color: #FF6192;
+    --light-purple-color: #8B80F8;
+    --green-color: #0CCA02;
+
+    --heading-font-family: "MorangaLight", sans-serif; 
+    --body-font-family: "Inter", sans-serif;
+
+    --border-radius: 20px;
+}
+
+/* GENERAL STYLES */
+* {
+    font-family: var(--body-font-family);
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #F7F6FF;
+}
+
+.section .row {
+    max-width: 1400px;
+}
+
+.section h1,
+.section h2,
+.section h3 {
+    font-family: var(--heading-font-family);
+}
+
+.section h1 {
+    font-size: 56px;
+}
+
+.section h2 {
+    font-size: 42px;
+}
+
+.section h3 {
+    font-size: 22px;
+}
+
+.section a {
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+
+.section a:hover {
+    color: var(--primary-color-hover);
+    transition: var(--transition);
+}
+
+.section ul,
+.section ol {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.section .bold {
+    font-weight: 700;
+}
+
+.wrapper .item .btn {
+    margin-top: unset;
+}
   
 /* Media query adjustments for smaller screens */
 @media (max-width: 560px) {
