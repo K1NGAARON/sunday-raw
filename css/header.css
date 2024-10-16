@@ -68,6 +68,7 @@
     margin: 5px auto;
     padding: 10px 80px;
     justify-content: flex-start;
+    gap: 20px;
 }
 
 .header .topnav-content-sm {
