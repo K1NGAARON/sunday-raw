@@ -96,9 +96,13 @@ ol {
     align-items: center;
 }
   
+.section.content .row {
+    background-color: var(--white);
+}
+
 /* Container styles */
 .section .container {
-    background-color: var(--white);
+    /* background-color: var(--white); */
     padding: 40px;
 }
   
@@ -182,11 +186,11 @@ body {
 }
 
 .section h1 {
-    font-size: 56px;
+    font-size: 42px;
 }
 
 .section h2 {
-    font-size: 42px;
+    font-size: 36px;
 }
 
 .section h3 {
