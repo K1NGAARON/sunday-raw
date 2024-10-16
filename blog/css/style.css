@@ -78,6 +78,10 @@ body {
     transition: var(--transition);
 }
 
+.btn-wrapper .btn {
+    text-decoration: none;
+}
+
 .section ul,
 .section ol {
     display: flex;

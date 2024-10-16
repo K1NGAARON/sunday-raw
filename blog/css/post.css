@@ -175,6 +175,10 @@ body {
     background-color: #F7F6FF;
 }
 
+.btn-wrapper .btn {
+    text-decoration: none;
+}
+
 .section .row {
     max-width: 1400px;
 }
