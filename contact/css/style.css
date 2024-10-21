@@ -594,6 +594,9 @@ body {
     width: 200px;
 }
 
+.contact-wrapper-item.underline a {
+    text-decoration: underline;
+}
 
 @media (max-width: 560px) {
     .section.hero .platform-interface {
