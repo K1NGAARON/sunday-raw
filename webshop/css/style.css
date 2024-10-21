@@ -46,6 +46,10 @@
     border-radius: 50%;
 }
 
+.section .features-wrapper .item {
+    background-color: transparent;
+}
+
 @media (max-width: 560px) {
     .section .cta-wrapper.purple p {
         width: 100%;
