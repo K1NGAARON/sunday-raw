@@ -306,6 +306,13 @@ content = [
 	url: "/blog/5-ways-to-maximize-the-impact-of-your-merch-launch/",
 	beachhead: "",
 },
+{
+	title: "7 Custom merchandise webshops you’ll want for your brand",
+	body: "",
+	img: "/blog/7-custom-merch-shops-inspiration/img/banner.jpg",
+	url: "/blog/7-custom-merch-shops-inspiration/",
+	beachhead: "",
+},
 // {
 // 	title: "",
 // 	body: "",
