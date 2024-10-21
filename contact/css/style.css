@@ -50,6 +50,11 @@
     display: flex;
     gap: 10px;
     align-items: center;
+    margin-bottom: 10px;
+}
+
+.wa-contact img {
+    max-width: 150px;
 }
 
 .contact-wrapper-item .icon-wrapper {
