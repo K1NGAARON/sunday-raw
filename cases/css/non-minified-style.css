@@ -1,19 +1,68 @@
-.section.blue .row {
-    z-index: 9;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -40%);
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+@font-face {
+    font-family: 'MorangaLight';
+    src: url('/assets/font/MorangaLight/font.woff') format('woff2'),
+         url('/assets/font/MorangaLight/font.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
-.section.blue,
-.section.blue .row {
-    height: fit-content;
-    min-height: fit-content;
+:root {
+    --black-color: #333332;
+    --white-color: #ffffff;
+    --white-color-hover: #F2F2F2;
+    --primary-color: #752BC9;
+    --primary-color-hover: #9D58D6;
+    --yellow-color: #FEEA02;
+    --yellow-color-hover: #FFF44C;
+    --dark-blue-color: #1C1B40;
+    --dark-blue-color-hover: #3F3D6A;
+    --pink-color: #FF6192;
+    --light-purple-color: #8B80F8;
+    --green-color: #0CCA02;
+
+    --heading-font-family: "MorangaLight", sans-serif; 
+    --body-font-family: "Inter", sans-serif;
+
+    --border-radius: 20px;
 }
 
 a:hover {
     cursor: pointer;
+}
+
+
+/* BUTTON STYLES */
+.btn.dark-blue-btn {
+    color: var(--white-color);
+    background-color: var(--dark-blue-color);
+    border: 1px solid var(--dark-blue-color);
+  }
+  
+  .btn.dark-blue-btn:hover {
+    color: var(--white-color);
+    background-color: var(--dark-blue-color-hover);
+    border: 1px solid var(--dark-blue-color-hover);
+    transform: unset;
+  }
+  
+  .btn.yellow-btn {
+    color: var(--black-color);
+    background-color: var(--yellow-color);
+    border: 1px solid var(--yellow-color);
+  }
+  
+  .btn.yellow-btn:hover {
+    color: var(--black-color);
+    background-color: var(--yellow-color-hover);
+    border: 1px solid var(--yellow-color-hover);
+    transform: unset;
+  }
+
+.case_overview_page,
+.case_overview_page .row {
+    height: 50vh;
 }
 
 .section.blue h1 {
