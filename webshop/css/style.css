@@ -51,7 +51,23 @@
 }
 
 @media (max-width: 560px) {
+    .shops-wrapper .item {
+        flex: 1 0 40%;
+    }
+
+    .shops-wrapper .item img {
+        border-radius: 10px;
+    }
+
+    .section .cta-wrapper.purple h2 {
+        width: 100%;
+    }
+
     .section .cta-wrapper.purple p {
         width: 100%;
+    }
+
+    .section .row .col {
+        gap: 20px;
     }
 }
