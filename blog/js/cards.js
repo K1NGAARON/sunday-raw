@@ -325,7 +325,7 @@ function createCards() {
 						  ${e.title}
 					  </h5>
   
-					  <a class="btn" href="${e.url}">
+					  <a class="btn dark-blue-btn" href="${e.url}">
 						  Read the blog
 					  </a>
 				  </a>
