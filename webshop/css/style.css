@@ -51,6 +51,10 @@
 }
 
 @media (max-width: 560px) {
+    .section .row h2 {
+        font-size: 30px;
+    }
+
     .shops-wrapper .item {
         flex: 1 0 40%;
     }
