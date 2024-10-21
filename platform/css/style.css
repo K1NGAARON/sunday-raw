@@ -194,7 +194,7 @@ body {
     color: var(--white-color);
 }
 
-.section.section.hero p {
+.section.hero p {
     width: 60%;
 }
 
@@ -527,7 +527,7 @@ body {
         font-size: 30px;
     }
 
-    .section.section.hero p {
+    .section.hero p {
         width: 100%;
     }
 

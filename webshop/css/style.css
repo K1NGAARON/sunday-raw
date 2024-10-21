@@ -1,0 +1,53 @@
+.section.hero {
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: contain;
+}
+
+.section.hero p {
+    width: 100%;
+}
+
+.section .cta-wrapper .item:nth-child(1) {
+    align-items: center;
+}
+
+.section .row.shops-row {
+    margin-bottom: 0;
+}
+
+.shops-wrapper {
+    gap: 20px;
+    align-items: flex-end;
+}
+
+.shops-wrapper .item {
+    flex: 1 0;
+}
+
+.section .cta-wrapper.purple h2 {
+    text-align: center;
+}
+
+.section .cta-wrapper.purple p {
+    color: var(--white);
+    width: 60%;
+    margin: 0 auto;
+}
+
+.features-wrapper .icon-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8E7F4;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+@media (max-width: 560px) {
+    .section .cta-wrapper.purple p {
+        width: 100%;
+    }
+}
